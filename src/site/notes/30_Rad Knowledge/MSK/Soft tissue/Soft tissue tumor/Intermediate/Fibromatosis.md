@@ -22,10 +22,10 @@ ___
 - “**Fascial tail**” / aponeurotic extension can be seen (not exclusive)
 
 ## Main subtypes
-- **Desmoid-type (deep fibromatosis)**: abdominal wall, mesentery, extra-abdominal (shoulder girdle, thigh, pelvic muscles)![Desmoid-type fibromatosis_1.png](/img/user/99_assets_Private/Desmoid-type%20fibromatosis_1.png)
+- **Desmoid-type (deep fibromatosis)**: abdominal wall, mesentery, extra-abdominal (shoulder girdle, thigh, pelvic muscles)
 - **Palmar fibromatosis (Dupuytren)**: palmar aponeurosis → nodules/cords, finger flexion contracture
-  ![Palmar fibromatosis_1.png|450](/img/user/99_assets_Private/Palmar%20fibromatosis_1.png)
-- **Plantar fibromatosis (Ledderhose)**: medial plantar fascia nodules![Plantar fibromatosis_1.png](/img/user/99_assets_Private/Plantar%20fibromatosis_1.png)
+  
+- **Plantar fibromatosis (Ledderhose)**: medial plantar fascia nodules
 - (Less exam-relevant but common): infantile/juvenile variants exist
 
 ## Top differentials

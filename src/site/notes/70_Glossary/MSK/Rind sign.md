@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/70-glossary/msk/rind-sign/"}
 ---
 
-![Rind sign.png](/img/user/99_assets_Private/Rind%20sign.png)
+
 > [!summary] Definition
 > Thick, relatively uniform **sclerotic shell** of reactive bone surrounding a **medullary lesion**, classically seen in **monostotic fibrous dysplasia of the proximal femur**.
 
