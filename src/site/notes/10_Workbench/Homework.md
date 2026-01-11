@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10-workbench/homework/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"Homework.md","permalink":"/homework/","tags":["gardenEntry"]}
 ---
 
 ## Neuro

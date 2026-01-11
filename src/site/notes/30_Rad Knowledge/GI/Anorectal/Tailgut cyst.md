@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-rad-knowledge/gi/anorectal/tailgut-cyst/","tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"]}
+{"dg-publish":true,"dg-path":"Rad/GI/Anorectal/Tailgut cyst.md","permalink":"/rad/gi/anorectal/tailgut-cyst/","tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"]}
 ---
 
 ## Overview
