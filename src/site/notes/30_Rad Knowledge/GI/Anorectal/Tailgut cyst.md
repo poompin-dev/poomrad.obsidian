@@ -14,7 +14,7 @@
 - Predominantly middle-aged females (female:male 3–5:1)
 - Age at presentation 30–60 years (can present from infancy to elderly)
 - Extremely rare overall
-
+___
 ## Key radiological manifestations
 
 ### CT
@@ -39,6 +39,7 @@
 > [!tip] Classic appearance
 > Multicystic presacral mass with thin septa, no rectal communication, and variable T1 hyperintensity due to mucin → highly suggestive of tailgut cyst.
 
+___
 ## Differential diagnosis
 
 | Diagnosis                          | Key differentiators                                      |
