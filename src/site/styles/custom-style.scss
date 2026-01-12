@@ -1,52 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
+/* ----------------------------
+   Global knobs
+---------------------------- */
 :root{
-  --content-max: 920px;
-}
+  /* reading column */
+  --dg-content-max-width: 920px;
+  --dg-content-font-size: 18px;
+  --dg-content-line-height: 1.6;
 
-/* Layout */
-body{
-  /* kill reserved spaces */
-  --dg-content-margin-top: 0px !important;
-  --dg-content-margin-top-mobile: 0px !important;
-  --dg-sidebar-top: 0px !important;
+  /* right sidebar (TOC/backlinks/graph) */
+  --dg-sidebar-max-width: 260px;
 
   /* remove filetree column */
-  --dg-filetree-width: 0px !important;
-  --dg-filetree-min-width: 0px !important;
-  --dg-filetree-gap: 0px !important;
+  --dg-filetree-width: 0px;
+  --dg-filetree-min-width: 0px;
+  --dg-filetree-gap: 0px;
 
-  /* typography vars */
+  /* kill top reserved spacing */
+  --dg-content-margin-top: 0px;
+  --dg-content-margin-top-mobile: 0px;
+  --dg-sidebar-top: 0px;
+
+  /* layout maths */
+  --rhs-width: var(--dg-sidebar-max-width);
+  --layout-gap: 32px;
+  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 40px);
+}
+
+/* Typography */
+body{
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   font-family: var(--font-text);
 }
+h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
+code, pre{ font-family: var(--font-monospace); }
+table, code, pre{ font-variant-numeric: tabular-nums; }
 
-/* Centre the reading column */
+/* Make header align with the centred layout */
+header{
+  max-width: var(--layout-max) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-sizing: border-box !important;
+}
+
+/* Centre the combined layout (content + right sidebar)
+   This targets the outer wrapper that contains header + main + right sidebar. */
+@media (min-width: 1200px){
+  body :where(div,section):has(header):has(main):has(.right-sidebar),
+  body :where(div,section):has(header):has(main):has(.sidebar-right){
+    max-width: var(--layout-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* Reading column: keep it visually nice */
 main,
-.content,
-.page-content,
-.markdown-content,
 article{
-  max-width: var(--content-max) !important;
-  width: 100% !important;
+  max-width: var(--dg-content-max-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
   box-sizing: border-box !important;
 
-  /* fallback readability even if dg vars aren’t used everywhere */
-  font-size: 18px !important;
-  line-height: 1.6 !important;
+  font-size: var(--dg-content-font-size) !important;
+  line-height: var(--dg-content-line-height) !important;
 }
 
-/* Right sidebar width (TOC/backlinks) */
+/* Right sidebar width */
 .right-sidebar,
 .sidebar-right{
-  width: 260px !important;
+  width: var(--rhs-width) !important;
 }
 
 /* Title styling */
@@ -60,31 +95,3 @@ main h1:first-child,
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
-
-/* Headings + code */
-h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
-code, pre{ font-family: var(--font-monospace); }
-table, code, pre{ font-variant-numeric: tabular-nums; }
-
-:root{
-  --rhs-width: 260px;
-  --layout-gap: 32px;
-  --layout-max: calc(var(--content-max) + var(--rhs-width) + var(--layout-gap) + 40px);
-}
-
-/* Centre the combined layout (content + right sidebar) */
-@media (min-width: 1200px){
-  body > *:has(main):has(.right-sidebar),
-  body > *:has(article):has(.right-sidebar){
-    max-width: var(--layout-max) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-/* Keep sidebar width consistent with the variable */
-.right-sidebar,
-.sidebar-right{
-  width: var(--rhs-width) !important;
-}
-
