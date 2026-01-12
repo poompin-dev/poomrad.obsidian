@@ -51,14 +51,7 @@ Well-defined lytic lesion
 | E        | Eosinophilic Granuloma               |
 | L        | Lymphoma / Leukemia                  |
 | T        | Trauma / TB                          |
-### Osseous sequestrum
 
-| Differential                       | Comment                               |
-| ---------------------------------- | ------------------------------------- |
-| Osteomyelitis (subacute - chronic) | Most common                           |
-| Lymphoma                           | Rare but possible                     |
-| EG                                 | - May rarely form sequestrum<br>- Ped |
-- [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoid osteoma\|Osteoid osteoma]]: central nidus may mimic sequestrum
 ---
 ## Diagnostic Tips
 - Vertebra plana in child → EG until proven otherwise
