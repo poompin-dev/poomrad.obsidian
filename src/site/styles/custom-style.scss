@@ -1,140 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
-/* =========================================================
-   Best-result version of your approach
-   Key fixes:
-   1) Put DG vars on body (theme often sets them on body)
-   2) Do NOT style all <header> (note title is also <header>)
-   3) Keep your centred "frame" using :has(), but restrict it
-========================================================= */
-
 /* ----------------------------
-   Global knobs (set on body so it wins)
+   Global knobs
 ---------------------------- */
-body{
+:root{
   /* reading column */
-  --dg-content-max-width: 920px !important;
-  --dg-content-font-size: 18px !important;
-  --dg-content-line-height: 1.6 !important;
+  --dg-content-max-width: 920px;
+  --dg-content-font-size: 18px;
+  --dg-content-line-height: 1.6;
 
   /* right sidebar (TOC/backlinks/graph) */
-  --dg-sidebar-max-width: 260px !important;
+  --dg-sidebar-max-width: 260px;
 
   /* remove filetree column */
-  --dg-filetree-width: 0px !important;
-  --dg-filetree-min-width: 0px !important;
-  --dg-filetree-gap: 0px !important;
-  --dg-filetree-padding: 0px !important;
+  --dg-filetree-width: 0px;
+  --dg-filetree-min-width: 0px;
+  --dg-filetree-gap: 0px;
 
   /* kill top reserved spacing */
-  --dg-content-margin-top: 0px !important;
-  --dg-content-margin-top-mobile: 0px !important;
-  --dg-sidebar-top: 0px !important;
+  --dg-content-margin-top: 0px;
+  --dg-content-margin-top-mobile: 0px;
+  --dg-sidebar-top: 0px;
 
-  /* layout maths (custom) */
+  /* layout maths */
   --rhs-width: var(--dg-sidebar-max-width);
   --layout-gap: 32px;
-  --frame-pad: 20px;
-  --frame-top: 40px;
+  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 40px);
+}
 
-  --layout-max: calc(
-    var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + (var(--frame-pad) * 2)
-  );
-
-  /* Typography vars */
+/* Typography */
+body{
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   font-family: var(--font-text);
 }
-
-/* Typography */
 h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
 
-/* Paragraph rhythm (site-safe selector) */
-main p,
-article p{
-  margin: 0.75em 0;
-}
-
-/* ----------------------------
-   Header alignment (SITE header only)
-   Note: your note title uses <header> too, so do not target plain "header"
----------------------------- */
-header:has(nav),
-header:has(.nav),
-header:has(.navbar){
+/* Make header align with the centred layout */
+header{
   max-width: var(--layout-max) !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: var(--frame-pad) !important;
-  padding-right: var(--frame-pad) !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   box-sizing: border-box !important;
 }
 
-/* ----------------------------
-   Centre the combined frame (content + right sidebar)
-   Restrict the wrapper match so it does not latch onto the note header
----------------------------- */
+/* Centre the combined layout (content + right sidebar)
+   This targets the outer wrapper that contains header + main + right sidebar. */
 @media (min-width: 1200px){
-  body :where(div,section)
-    :has(> header:has(nav), > header:has(.nav), > header:has(.navbar))
-    :has(> main)
-    :has(.right-sidebar, .sidebar-right){
+  body :where(div,section):has(header):has(main):has(.right-sidebar),
+  body :where(div,section):has(header):has(main):has(.sidebar-right){
     max-width: var(--layout-max) !important;
     margin-left: auto !important;
     margin-right: auto !important;
-
-    padding-top: var(--frame-top) !important;
-    padding-left: var(--frame-pad) !important;
-    padding-right: var(--frame-pad) !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     box-sizing: border-box !important;
   }
 }
 
-/* ----------------------------
-   Reading column
----------------------------- */
+/* Reading column: keep it visually nice */
 main,
-article{
-  font-size: var(--dg-content-font-size) !important;
-  line-height: var(--dg-content-line-height) !important;
-}
-
-/* Keep the note content column readable */
 article{
   max-width: var(--dg-content-max-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
-
-  padding-left: var(--frame-pad) !important;
-  padding-right: var(--frame-pad) !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   box-sizing: border-box !important;
+
+  font-size: var(--dg-content-font-size) !important;
+  line-height: var(--dg-content-line-height) !important;
 }
 
-/* ----------------------------
-   Right sidebar width
----------------------------- */
+/* Right sidebar width */
 .right-sidebar,
 .sidebar-right{
   width: var(--rhs-width) !important;
-  max-width: var(--rhs-width) !important;
 }
 
-/* ----------------------------
-   Title styling (note title)
-   Use your existing selectors, but keep them separate from site header rules
----------------------------- */
+/* Title styling */
 main h1:first-child,
 .page-title,
 .note-title{
   font-size: 2.3rem !important;
   line-height: 1.15 !important;
   font-weight: 800 !important;
-  margin: 0 0 0 0 !important;
+  margin: 0 0 0.75rem 0 !important;
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
