@@ -1,3 +1,25 @@
+:root{
+  --content-max: 920px; /* try 860-1050px */
+}
+
+main,
+.content,
+.page-content,
+.markdown-content,
+article{
+  max-width: var(--content-max) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-sizing: border-box !important;
+}
+.right-sidebar,
+.sidebar-right{
+  width: 260px !important; /* try 220-320px */
+}
+
 body {
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
