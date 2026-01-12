@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","hemato","neoplasm"]}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","hemato","neoplasm","myeloma","bone-tumor"]}
 ---
 
-part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders]]
+part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
 ## Clinical
 - most common manifesting symptoms are:
 	- Fatigue (often from normocytic normochromic anemia due to marrow infiltration)
