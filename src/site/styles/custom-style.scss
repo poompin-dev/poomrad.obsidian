@@ -95,3 +95,12 @@ main h1:first-child,
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
+/* Reduce the default top padding of the main note content */
+body{
+  --dg-content-padding-top: 16px !important;   /* was 90px */
+}
+
+/* If it still sticks, force the element itself */
+main.content.cm-s-obsidian{
+  padding-top: var(--dg-content-padding-top) !important;
+}
