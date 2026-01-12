@@ -65,3 +65,26 @@ main h1:first-child,
 h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
+
+:root{
+  --rhs-width: 260px;
+  --layout-gap: 32px;
+  --layout-max: calc(var(--content-max) + var(--rhs-width) + var(--layout-gap) + 40px);
+}
+
+/* Centre the combined layout (content + right sidebar) */
+@media (min-width: 1200px){
+  body > *:has(main):has(.right-sidebar),
+  body > *:has(article):has(.right-sidebar){
+    max-width: var(--layout-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* Keep sidebar width consistent with the variable */
+.right-sidebar,
+.sidebar-right{
+  width: var(--rhs-width) !important;
+}
+
