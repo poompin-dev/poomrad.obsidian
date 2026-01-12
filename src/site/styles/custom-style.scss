@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* ============================
-   Digital Garden overrides
-   Put this file in: src/site/styles/user/
+   1) Digital Garden variables
+   Set on body (not :root)
 ============================ */
-
-/* Set DG variables on body (this is what the template expects) */
 body{
-  /* reading column */
+  /* content */
   --dg-content-max-width: 920px !important;
   --dg-content-font-size: 18px !important;
   --dg-content-line-height: 1.6 !important;
 
-  /* right sidebar (TOC/backlinks/graph) */
+  /* right sidebar */
   --dg-sidebar-max-width: 260px !important;
   --dg-sidebar-gap: 32px !important;
   --dg-sidebar-top: 0px !important;
+
+  /* kill reserved top spacing */
+  --dg-content-margin-top: 0px !important;
+  --dg-content-margin-top-mobile: 0px !important;
 
   /* remove filetree column */
   --dg-filetree-width: 0px !important;
@@ -23,11 +25,7 @@ body{
   --dg-filetree-gap: 0px !important;
   --dg-filetree-padding: 0px !important;
 
-  /* kill top reserved spacing */
-  --dg-content-margin-top: 0px !important;
-  --dg-content-margin-top-mobile: 0px !important;
-
-  /* Typography */
+  /* fonts */
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -39,78 +37,104 @@ h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
 
-/* paragraph spacing */
-main p,
-article p{
+/* Paragraph rhythm */
+.cm-s-obsidian p,
+.markdown-preview-view p{
   margin: 0.75em 0;
 }
 
 /* ============================
-   Frame centring (content + RHS)
-   Keep your "more centred" feel without :has()
+   2) Centre the whole frame (content + RHS)
+   Use :has(), but target the page wrapper
+   Avoid targeting "header" because note title uses <header>
 ============================ */
 
-/* Layout maths (local custom vars) */
+/* frame knobs */
 body{
   --frame-side-padding: 20px;
-  --frame-extra: calc(var(--frame-side-padding) * 2);
+  --frame-top-padding: 32px;
+
+  /* total frame width = content + gap + rhs + some breathing room */
   --layout-max: calc(
     var(--dg-content-max-width) +
-    var(--dg-sidebar-max-width) +
     var(--dg-sidebar-gap) +
-    var(--frame-extra)
+    var(--dg-sidebar-max-width) +
+    (var(--frame-side-padding) * 2)
   );
 }
 
-/* Keep header background full width, centre header contents */
-header{
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-header > *{
-  max-width: var(--layout-max) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: var(--frame-side-padding) !important;
-  padding-right: var(--frame-side-padding) !important;
-  box-sizing: border-box !important;
+/* This tries to grab the top-level wrapper that contains main + the RHS */
+@media (min-width: 1200px){
+  body > :where(div,section):has(main):has(.right-sidebar, .sidebar-right){
+    max-width: var(--layout-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-top: var(--frame-top-padding) !important;
+    padding-left: var(--frame-side-padding) !important;
+    padding-right: var(--frame-side-padding) !important;
+
+    box-sizing: border-box !important;
+  }
 }
 
-/* Centre the combined frame at desktop */
+/* If your template puts the RHS inside main (some setups do), this helps too */
 @media (min-width: 1200px){
-  main{
+  main:has(.right-sidebar, .sidebar-right){
     max-width: var(--layout-max) !important;
     margin-left: auto !important;
     margin-right: auto !important;
 
     padding-left: var(--frame-side-padding) !important;
     padding-right: var(--frame-side-padding) !important;
-    box-sizing: border-box !important;
-  }
 
-  /* prevent double-centring */
-  article{
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    box-sizing: border-box !important;
   }
 }
 
-/* Reading column styling */
+/* ============================
+   3) Reading column
+   Keep readable width and typography
+============================ */
+main,
 article{
-  max-width: var(--dg-content-max-width) !important;
   font-size: var(--dg-content-font-size) !important;
   line-height: var(--dg-content-line-height) !important;
+}
+
+article{
+  max-width: var(--dg-content-max-width) !important;
   box-sizing: border-box !important;
 }
 
-/* Title styling */
-main h1:first-child,
-.page-title,
-.note-title{
+/* ============================
+   4) Right sidebar width
+============================ */
+.right-sidebar,
+.sidebar-right{
+  width: var(--dg-sidebar-max-width) !important;
+  max-width: var(--dg-sidebar-max-width) !important;
+}
+
+/* ============================
+   5) Note title styling (THIS is your <header> snippet)
+   Scope it so we style only the note header, not navbars
+============================ */
+.cm-s-obsidian > header > h1[data-note-icon],
+header > h1[data-note-icon]{
   font-size: 2.3rem !important;
   line-height: 1.15 !important;
   font-weight: 800 !important;
-  margin: 0 0 0 0 !important;
+  margin: 0 !important;
+}
+
+.cm-s-obsidian > header,
+header:has(> h1[data-note-icon]){
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
+}
+
+/* optional: tighten meta block spacing */
+header:has(> h1[data-note-icon]) .header-meta{
+  margin-top: 0.35rem !important;
 }
