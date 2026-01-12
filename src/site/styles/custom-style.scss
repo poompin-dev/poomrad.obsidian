@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
-/* Put this in src/site/styles/user/your-file.scss for strongest override */
-body{
+/* ============================
+   Global knobs
+============================ */
+:root{
   /* reading column */
   --dg-content-max-width: 920px;
   --dg-content-font-size: 18px;
@@ -9,8 +11,7 @@ body{
 
   /* right sidebar (TOC/backlinks/graph) */
   --dg-sidebar-max-width: 260px;
-  --dg-sidebar-gap: 32px; /* use the built-in gap variable */
-  --dg-sidebar-top: 0px;
+  --dg-sidebar-gap: 32px;
 
   /* remove filetree column */
   --dg-filetree-width: 0px;
@@ -21,8 +22,24 @@ body{
   /* kill top reserved spacing */
   --dg-content-margin-top: 0px;
   --dg-content-margin-top-mobile: 0px;
+  --dg-content-padding-top: 30px;
+  --dg-sidebar-padding-top: 30px;
 
-  /* typography */
+  /* centre the whole frame (content + rhs) */
+  --frame-side-padding: 20px;
+  --frame-extra: calc(var(--frame-side-padding) * 2);
+  --layout-max: calc(
+    var(--dg-content-max-width) +
+    var(--dg-sidebar-max-width) +
+    var(--dg-sidebar-gap) +
+    var(--frame-extra)
+  );
+}
+
+/* ============================
+   Typography
+============================ */
+body{
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -34,17 +51,86 @@ h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
 
-/* paragraph spacing (avoid Obsidian-app-only selectors if you can) */
-main p, article p{ margin: 0.75em 0; }
+/* paragraph spacing */
+main p,
+article p{
+  margin: 0.75em 0;
+}
 
-/* Title styling */
+/* ============================
+   Header alignment (keep background full width, centre header contents)
+============================ */
+header{
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Centre whatever sits directly inside header */
+header > *{
+  max-width: var(--layout-max) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: var(--frame-side-padding) !important;
+  padding-right: var(--frame-side-padding) !important;
+  box-sizing: border-box !important;
+}
+
+/* ============================
+   Centre the combined layout frame (content + right sidebar)
+   No :has(), less fragile
+============================ */
+@media (min-width: 1200px){
+  main{
+    max-width: var(--layout-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-left: var(--frame-side-padding) !important;
+    padding-right: var(--frame-side-padding) !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Prevent double-centring */
+  article{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* ============================
+   Reading column styling
+============================ */
+article{
+  max-width: var(--dg-content-max-width) !important;
+
+  font-size: var(--dg-content-font-size) !important;
+  line-height: var(--dg-content-line-height) !important;
+}
+
+/* If your theme uses a different content wrapper, this helps too */
+main article{
+  box-sizing: border-box !important;
+}
+
+/* ============================
+   Right sidebar width
+============================ */
+.right-sidebar,
+.sidebar-right{
+  width: var(--dg-sidebar-max-width) !important;
+  max-width: var(--dg-sidebar-max-width) !important;
+}
+
+/* ============================
+   Title styling
+============================ */
 main h1:first-child,
 .page-title,
 .note-title{
-  font-size: 2.3rem;
-  line-height: 1.15;
-  font-weight: 800;
-  margin: 0 0 0 0;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12));
+  font-size: 2.3rem !important;
+  line-height: 1.15 !important;
+  font-weight: 800 !important;
+  margin: 0 0 0 0 !important;
+  padding-bottom: 0.75rem !important;
+  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
