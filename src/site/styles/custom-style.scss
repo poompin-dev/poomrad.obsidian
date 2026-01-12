@@ -5,7 +5,19 @@ body {
    ***/
   --dg-content-margin-top: 16px !important;
   --dg-content-margin-top-mobile: 12px !important;
+  --dg-sidebar-top: 16px !important;
   --dg-filetree-width: 0px !important;
   --dg-filetree-min-width: 0px !important;
   --dg-filetree-gap: 0px !important;
+}
+
+main h1:first-child,
+.page-title,
+.note-title{
+  font-size: 2.1rem !important;
+  line-height: 1.15 !important;
+  font-weight: 700 !important;
+  margin: 0 0 0.75rem 0 !important;
+  padding-bottom: 0.5rem !important;
+  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
