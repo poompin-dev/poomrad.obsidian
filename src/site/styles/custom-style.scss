@@ -3,12 +3,9 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
-    --dg-filetree-min-width: 0px;
+  --dg-content-margin-top: 16px !important;
+  --dg-content-margin-top-mobile: 12px !important;
+  --dg-filetree-width: 0px !important;
+  --dg-filetree-min-width: 0px !important;
+  --dg-filetree-gap: 0px !important;
 }
