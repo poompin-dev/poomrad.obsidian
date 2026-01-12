@@ -23,7 +23,7 @@ ___
 - ≤2 = Geographic borders that
 	- 1 = well-defined
 		- 1A = with sclerotic rim
-		- 2A = without sclerotic rim
+		- 1B = without sclerotic rim
 	- 2 = ill-defined
 - Key changes from [[30_Rad Knowledge/MSK/Bone/Insight/Lodwick classification (original)\|original]] → modified:
 	- IC → 2 (geographic, ill-defined)
