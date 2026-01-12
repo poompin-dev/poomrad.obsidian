@@ -1,7 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
+
 :root{
-  --content-max: 920px; /* try 860-1050px */
+  --content-max: 920px;
 }
 
+/* Layout */
+body{
+  /* kill reserved spaces */
+  --dg-content-margin-top: 0px !important;
+  --dg-content-margin-top-mobile: 0px !important;
+  --dg-sidebar-top: 0px !important;
+
+  /* remove filetree column */
+  --dg-filetree-width: 0px !important;
+  --dg-filetree-min-width: 0px !important;
+  --dg-filetree-gap: 0px !important;
+
+  /* typography vars */
+  --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+  font-family: var(--font-text);
+}
+
+/* Centre the reading column */
 main,
 .content,
 .page-content,
@@ -14,25 +37,19 @@ article{
   padding-left: 20px !important;
   padding-right: 20px !important;
   box-sizing: border-box !important;
+
+  /* fallback readability even if dg vars aren’t used everywhere */
+  font-size: 18px !important;
+  line-height: 1.6 !important;
 }
+
+/* Right sidebar width (TOC/backlinks) */
 .right-sidebar,
 .sidebar-right{
-  width: 260px !important; /* try 220-320px */
+  width: 260px !important;
 }
 
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-  --dg-content-margin-top: 0px !important;
-  --dg-content-margin-top-mobile: 0px !important;
-  --dg-sidebar-top: 0px !important;
-  --dg-filetree-width: 0px !important;
-  --dg-filetree-min-width: 0px !important;
-  --dg-filetree-gap: 0px !important;
-}
-
+/* Title styling */
 main h1:first-child,
 .page-title,
 .note-title{
@@ -43,3 +60,8 @@ main h1:first-child,
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
+
+/* Headings + code */
+h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
+code, pre{ font-family: var(--font-monospace); }
+table, code, pre{ font-variant-numeric: tabular-nums; }
