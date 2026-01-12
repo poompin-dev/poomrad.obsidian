@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
-/* ----------------------------
-   Global knobs
----------------------------- */
-:root{
+/* Put this in src/site/styles/user/your-file.scss for strongest override */
+body{
   /* reading column */
   --dg-content-max-width: 920px;
   --dg-content-font-size: 18px;
@@ -11,93 +9,42 @@
 
   /* right sidebar (TOC/backlinks/graph) */
   --dg-sidebar-max-width: 260px;
+  --dg-sidebar-gap: 32px; /* use the built-in gap variable */
+  --dg-sidebar-top: 0px;
 
   /* remove filetree column */
   --dg-filetree-width: 0px;
   --dg-filetree-min-width: 0px;
   --dg-filetree-gap: 0px;
+  --dg-filetree-padding: 0px;
 
   /* kill top reserved spacing */
   --dg-content-margin-top: 0px;
   --dg-content-margin-top-mobile: 0px;
-  --dg-sidebar-top: 0px;
 
-  /* layout maths */
-  --rhs-width: var(--dg-sidebar-max-width);
-  --layout-gap: 32px;
-  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 40px);
-}
-
-/* Typography */
-body{
+  /* typography */
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   font-family: var(--font-text);
 }
+
 h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
 
-body .markdown-preview-view p{
-  margin: 0.75em 0;
-}
-
-/* Make header align with the centred layout */
-header{
-  max-width: var(--layout-max) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  box-sizing: border-box !important;
-}
-
-/* Centre the combined layout (content + right sidebar)
-   This targets the outer wrapper that contains header + main + right sidebar. */
-@media (min-width: 1200px){
-  body :where(div,section):has(header):has(main):has(.right-sidebar),
-  body :where(div,section):has(header):has(main):has(.sidebar-right){
-    max-width: var(--layout-max) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-top: 40px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    box-sizing: border-box !important;
-  }
-}
-
-/* Reading column: keep it visually nice */
-main,
-article{
-  max-width: var(--dg-content-max-width) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  box-sizing: border-box !important;
-
-  font-size: var(--dg-content-font-size) !important;
-  line-height: var(--dg-content-line-height) !important;
-}
-
-/* Right sidebar width */
-.right-sidebar,
-.sidebar-right{
-  width: var(--rhs-width) !important;
-}
+/* paragraph spacing (avoid Obsidian-app-only selectors if you can) */
+main p, article p{ margin: 0.75em 0; }
 
 /* Title styling */
 main h1:first-child,
 .page-title,
 .note-title{
-  font-size: 2.3rem !important;
-  line-height: 1.15 !important;
-  font-weight: 800 !important;
-  margin: 0 0 0rem 0 !important;
-  padding-bottom: 0.75rem !important;
-  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
+  font-size: 2.3rem;
+  line-height: 1.15;
+  font-weight: 800;
+  margin: 0 0 0 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12));
 }
