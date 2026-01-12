@@ -40,6 +40,10 @@ h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
 table, code, pre{ font-variant-numeric: tabular-nums; }
 
+body .markdown-preview-view p{
+  margin: 0.75em 0;
+}
+
 /* Make header align with the centred layout */
 header{
   max-width: var(--layout-max) !important;
@@ -58,6 +62,7 @@ header{
     max-width: var(--layout-max) !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    padding-top: 40px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
     box-sizing: border-box !important;
@@ -70,6 +75,7 @@ article{
   max-width: var(--dg-content-max-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  
   padding-left: 20px !important;
   padding-right: 20px !important;
   box-sizing: border-box !important;
@@ -91,7 +97,7 @@ main h1:first-child,
   font-size: 2.3rem !important;
   line-height: 1.15 !important;
   font-weight: 800 !important;
-  margin: 0 0 0.75rem 0 !important;
+  margin: 0 0 0rem 0 !important;
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
