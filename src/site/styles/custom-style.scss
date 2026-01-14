@@ -368,26 +368,21 @@ body table thead th {
 /* ----------------------------
    10. Hide "Homepage" from Backlinks
 ---------------------------- */
-/* 1. Hide the specific link text "Homepage" */
-/* We check if the link ends in "Homepage" or "Homepage.html" */
-.backlinks a[href$="Homepage"],
-.backlinks a[href$="Homepage.html"] {
+/* 1. Hide the list item (bullet point) that contains the "/" link */
+.backlinks li:has(a[href="/"]) {
   display: none !important;
 }
 
-/* 2. Hide the bullet point for that specific link only */
-/* We use the direct child selector (>) to make sure we don't accidentally 
-   target a parent container that holds ALL the links. */
-.backlinks li:has(> a[href$="Homepage"]),
-.backlinks li:has(> a[href$="Homepage.html"]) {
+/* 2. Backup: Hide the list item if it points explicitly to "Homepage" */
+.backlinks li:has(a[href$="Homepage"]) {
   display: none !important;
 }
 
-/* 3. Emergency Backup: If your homepage is named "index" */
-.backlinks li:has(> a[href$="index"]),
-.backlinks li:has(> a[href$="index.html"]) {
+/* 3. Safety: If the link is naked (no list), just hide the link itself */
+.backlinks a[href="/"] {
   display: none !important;
 }
+
 /* ----------------------------
    11. Custom Text Selection
 ---------------------------- */
