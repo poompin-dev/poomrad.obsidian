@@ -102,7 +102,11 @@ main.content.cm-s-obsidian{
 /* =========================================
    PART 2: VISUAL IMPROVEMENTS (ADD THESE)
    ========================================= */
-
+/* Tighten the gap for lists under headings */
+.dataview.list-view-ul {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 /* ----------------------------
    1. Refined Typography & Readability (UPDATED)
 ---------------------------- */
@@ -365,18 +369,31 @@ body table thead th {
 /* ----------------------------
    9. Dataview Table Reset
 ---------------------------- */
-/* This overrides the "Medical Table" rules specifically for Dataview 
-   so your filenames don't get squashed or cut off. */
-
-.dataview.table-view-table td:first-child {
-  width: auto !important;       /* Allow column to expand */
-  white-space: normal !important; /* Allow text to wrap */
-  font-weight: 500 !important;  /* Less heavy than the medical codes */
-  color: var(--interactive-accent) !important; /* Make links blue again */
+/* Reset the entire table layout for Dataview */
+.dataview.table-view-table {
+  width: 100% !important;
+  table-layout: fixed !important; /* This gives us control over column widths */
 }
 
-.dataview.table-view-table thead tr {
-  border-bottom: 1px solid var(--background-modifier-border) !important;
+/* First Column (Note Name): Give it breathing room (e.g., 60% of width) */
+.dataview.table-view-table td:first-child {
+  width: 60% !important; 
+  white-space: normal !important;
+  font-weight: 500 !important;
+  color: var(--interactive-accent) !important;
+}
+
+/* Second Column (Tags): Give it the remaining space (40%) */
+.dataview.table-view-table td:last-child {
+  width: 40% !important;
+  white-space: normal !important; /* Allows tags to wrap naturally, not stack 1-by-1 */
+  vertical-align: middle !important; /* Centers them nicely */
+}
+
+/* Ensure the tags themselves flow correctly */
+.dataview.table-view-table .tag {
+  display: inline-block !important; /* Sit side-by-side */
+  margin-bottom: 4px !important;
 }
 /* ----------------------------
    10. Tag Styling (Pills)
