@@ -1,7 +1,6 @@
 <footer class="custom-footer">
   <div class="footer-content">
-    <p>© <span id="year-display"></span> Dr. SFRad </p>
-    
+    <p>© <span id="year-display"></span> Dr.SFRad</p>
     <p class="footer-sub">
       Built with <a href="https://github.com/oleeskild/obsidian-digital-garden">Digital Garden</a>
     </p>
@@ -9,16 +8,33 @@
 </footer>
 
 <script>
-  // This tiny script runs on the user's browser to get the real current year
   document.getElementById("year-display").innerText = new Date().getFullYear();
 </script>
 
 <style>
+/* 1. The Container (The Background Band) */
 .custom-footer {
+  /* This block forces the footer to span the full viewport width */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  
+  /* Visuals */
   margin-top: 80px; 
-  padding: 40px 20px;
+  padding: 40px 0; /* Remove side padding here, we add it to content instead */
   background: var(--background-secondary);
   border-top: 1px solid var(--background-modifier-border);
+}
+
+/* 2. The Content (The Text) */
+.footer-content {
+  /* This keeps the text aligned with your paragraphs above */
+  max-width: var(--layout-max); /* Matches your site's text width */
+  margin: 0 auto; /* Centers the block */
+  padding: 0 20px; /* Prevents text from touching edge on mobile */
   text-align: center;
 }
 
