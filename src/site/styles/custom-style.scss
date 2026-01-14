@@ -109,7 +109,7 @@ main.content.cm-s-obsidian{
 
 /* Limit text width for better reading */
 main p, main ul, main ol {
-  max-width: 70ch;
+  max-width: 85ch;
   margin-right: auto; 
 }
 
@@ -257,3 +257,25 @@ tbody tr:hover {
   /* OR keep a very subtle guide line if preferred: */
   /* background-color: rgba(0,0,0,0.02); */
 }
+/* ----------------------------
+   7. Remove Zebra Striping & Fix Backgrounds
+---------------------------- */
+
+/* Force all rows to have the same background (removes alternating colors) */
+table tr:nth-child(even),
+table tr:nth-child(odd) {
+  background-color: transparent !important;
+}
+
+/* Ensure the header row also blends in */
+thead tr {
+  background-color: transparent !important;
+}
+
+/* Optional: If you want the First Column ("Feature") to have a subtle background 
+   to distinct it from the data, uncomment the lines below. 
+   Otherwise, leave it transparent for a super clean look. */
+/* td:first-child {
+  background-color: var(--background-primary-alt); 
+} 
+*/
