@@ -1,37 +1,80 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasms/Granular cell tumour.md","permalink":"/rad/multisystem/neoplasms/granular-cell-tumour/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasms/Granular cell tumour.md","permalink":"/rad/multisystem/neoplasms/granular-cell-tumour/","tags":["Radiology/Breast","Radiology/MSK","Radiology/HeadNeck","Pathology/Benign","Diagnosis/Mimics"]}
 ---
 
+> [!summary] Key Concept
+> 
+> A benign neural sheath tumour (Schwann cell origin) that is a major "malignancy mimic" on imaging.
+> 
+> - **Classic location:** Tongue (most common).
+>     
+> - **Classic Trap:** Breast mass that looks essentially identical to invasive carcinoma (spiculated, shadowing).
+>     
+> - **Key Path:** S-100 positive, **PAS-positive**.
+>     
 
-> [!summary]
-> Usually **benign Schwann-cell tumour** composed of granular eosinophilic cells; can occur almost anywhere but classically **tongue/head & neck**, also **breast**, **skin/subcutis**, **GI**, **tracheobronchial/larynx**. Imaging pitfall = **mimics malignancy**.
+## Clinical Context
+- **Demographics:** Adults (30–50s), F > M (2:1), predilection for **Black** populations.    
+- **Presentation:** Painless, firm, slow-growing nodule.
+- **Sites:**
+    - **Head & Neck:** >50% (Tongue is #1).
+    - **Breast:** ~5–8% (often mimics CA).
+    - **MSK:** Subcutaneous tissues, often follows superficial nerves.
+- **Prognosis:** usually benign (<2% malignant), but **locally infiltrative** $\rightarrow$ high recurrence rate if not widely excised.
 
-A typically benign peripheral nerve sheath tumour that often looks **more aggressive than it is** on imaging.
-___
-## Imaging features
-### Breast
-Often assessed as BI-RADS 5; contributes to 5% false-positive rate
-- **Mammogram:** 
-	- Irregular or **spiculated** solitary mass ± architectural distortion.
-	- Usually lack calcifications.
-	- More frequent in upper inner breast, near chest wall.
-- **US:** hypoechoic, irregular/ill-defined, posterior shadowing; may be taller-than-wide → can look like carcinoma.
-- **MRI:** variable enhancement (often irregular); not reliably benign-appearing.
-- Tip: may be superficial/within dermis–subcutis or along **Cooper ligaments**; can tether skin.
-#### Differentials
-- **Breast carcinoma** (main mimic): imaging overlaps → **tissue diagnosis** needed.
-- **Fat necrosis / radial scar** (spiculated distortion): correlate with history; still often needs biopsy.
-- **[[30_Rad Knowledge/MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis\|Fibromatosis]] / scar** (shadowing mass).
-### Head & neck
-- Often small submucosal nodule; imaging non-specific.
-- Can be **multifocal** in aerodigestive tract (rare).
-### Airway
-- Endobronchial polypoid lesion → focal obstruction/atelectasis/post-obstructive change.
-- Ddx with: **Papilloma / carcinoid** tumours
-___
-## Trivia
-- Origin: **Schwann cell**, typically **S-100 positive** (path factoid).
-- Common site: **tongue**; breast GCT is a classic “benign-but-spiculated” trap.
-- **Malignant transformation is rare** but recognised (think: rapid growth, size increase, invasion/metastasis).
-- Slight **female** predominance with predilection for **Black** population.
-- Not to be confused with [[30_Rad Knowledge/Neuro/Brain/Sellar region/Granular cell tumour of the pituitary region\|granular cell tumour of the pituitary region]].
+---
+## Imaging Features
+
+### 1. Breast (The Great Mimicker)
+_Often misdiagnosed as BI-RADS 4C/5._
+- **Mammogram:**
+    - High-density, irregular mass.
+    - **Spiculated** margins (infiltrative growth).
+    - Does **NOT** typically calcify (unlike many carcinomas).
+    - _Location:_ Often **superficial** / subcutaneous (supraclavicular nerve territory) or upper inner quadrant.
+- **Ultrasound:**
+    - Hypoechoic, irregular, **posterior acoustic shadowing**.
+    - Halo of hyperechogenicity (desmoplastic reaction).
+    - _Taller-than-wide_ orientation is common.
+- **MRI:**
+    - **Morphology:** Spiculated/irregular.
+    - **Kinetics:** Type II (plateau) or Type III (washout) curves $\rightarrow$ overlaps with malignancy.
+
+### 2. MSK / Soft Tissue (Head & Neck)
+- **CT:**
+    - Isoattenuating to muscle.
+    - Enhances moderately (can be homogeneous or heterogeneous).
+- **MRI (High Yield):**
+    - **T1:** Isointense to muscle.
+    - **T2:** **Hypointense** or isointense to muscle (due to granular cytoplasm/high cellularity).
+        - _Note:_ Most soft tissue tumours are T2 bright. If it's **T2 dark/iso**, think: Granular cell tumour, Fibromatosis, Giant Cell Tumour of Tendon Sheath (GCTTS), or clear cell sarcoma.
+    - **Peripheral Rim:** May show a hyperintense rim on T2 (capsule/pseudocapsule).
+    - **Enhancement:** Homogeneous avid enhancement.
+
+---
+## Pathology & Management
+### Histology
+- **Origin:** Schwann cells of peripheral nerves.
+- **Microscopy:** Large polygonal cells with **granular eosinophilic cytoplasm**.
+- **Stains:**
+    - **S-100:** Positive (neural origin).
+    - **PAS:** Positive (diastase-resistant granules)—_classic exam discriminator_.
+    - **CD68:** Positive (lysosomes).
+### Management
+- **Biopsy is essential:** Imaging cannot differentiate from carcinoma.
+- **Surgery:** **Wide Local Excision (WLE)**.
+    - _Why?_ Margins are infiltrative. Simple enucleation leads to a 20–30% recurrence rate.
+
+---
+## Differential Diagnosis
+
+> [!tip] Differential Strategy
+> 
+> If in the Breast: It mimics Invasive Ductal Carcinoma (IDC).
+> 
+> If in the Tongue: It mimics Squamous Cell Carcinoma (SCC).
+
+1. **Invasive Breast Carcinoma:** Indistinguishable on imaging; Ca++ makes carcinoma more likely.
+2. **Fat Necrosis:** Usually history of trauma; MRI T1 fat signal helps.
+3. **Desmoid Type Fibromatosis:** Also T2 dark/iso and infiltrative, but usually chest wall/muscular origin rather than intraparenchymal breast.
+4. **Schwannoma:** Usually T2 bright, well-circumscribed (not spiculated).
