@@ -77,7 +77,6 @@ ___
 - [[30_Rad Knowledge/MSK/Soft tissue/Soft tissue tumor/Sarcoma/FNCLCC grading of soft tissue sarcomas\|FNCLCC grading of soft tissue sarcomas]]
 - [[30_Rad Knowledge/MSK/Soft tissue/Malformation/Focal gigantism\|Focal gigantism]]
 - [[30_Rad Knowledge/Ped/Developmental/Foregut duplication cysts\|Foregut duplication cysts]]
-- [[30_Rad Knowledge/MSK/Bone/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumor\|Giant cell tumor]]
 - [[30_Rad Knowledge/Neuro/Head and neck/Skull base/Glomus jugulare tumour\|Glomus jugulare tumour]]
 - [[30_Rad Knowledge/Neuro/Head and neck/Ear and temporal bone/Glomus tympanicum\|Glomus tympanicum]]
