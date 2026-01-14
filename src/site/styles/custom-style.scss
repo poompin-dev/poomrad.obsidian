@@ -370,76 +370,60 @@ body table thead th {
    9. Dataview Table Reset
 ---------------------------- */
 /* Force the table to use fixed widths so columns don't collapse */
+/* 1. Force the Table Layout */
 .dataview.table-view-table {
   width: 100% !important;
-  table-layout: fixed !important; 
+  table-layout: fixed !important;
   border-collapse: collapse !important;
 }
 
-/* 1. Note Name Column (60% Width) */
-.dataview.table-view-table td:first-child {
+/* 2. Column Widths */
+.dataview.table-view-table td:first-child { /* Note Name */
   width: 60% !important;
-  white-space: normal !important; /* Allow text to wrap */
-  font-weight: 500 !important;
-  color: var(--interactive-accent) !important;
-  padding: 8px 12px !important;
+  white-space: normal !important;
 }
 
-/* 2. Tags Column (40% Width) */
-.dataview.table-view-table td:last-child {
+.dataview.table-view-table td:last-child { /* Tags Column */
   width: 40% !important;
-  white-space: normal !important; /* CRITICAL: Allows tags to flow sideways */
   vertical-align: top !important;
   padding: 8px 12px !important;
 }
 
-/* 3. Style the Tags (The Pill Look) */
+/* 3. FLATTEN THE LIST (Critical Step) */
+/* This targets the invisible list container holding your tags */
+.dataview.table-view-table td ul {
+  list-style: none !important; /* Remove bullet points */
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;    /* Use Flexbox */
+  flex-wrap: wrap !important;  /* Allow wrapping to next line if many tags */
+  gap: 6px !important;         /* Space between tags */
+}
+
+/* 4. The Tag Styling (Pill) */
+/* Target the list item or the tag link itself */
+.dataview.table-view-table .tag, 
+.dataview.table-view-table li {
+  display: inline-block !important;
+  white-space: nowrap !important;
+}
+
+/* Make the actual tag link look like a pill */
 .dataview.table-view-table .tag {
-  display: inline-block !important; /* Sit side-by-side, not stacked */
-  margin: 0 4px 4px 0 !important;   /* Tiny gap between pills */
-  padding: 2px 8px !important;
-  border-radius: 12px !important;
   background-color: var(--background-secondary) !important;
   color: var(--text-muted) !important;
-  font-size: 0.8em !important;
-  text-decoration: none !important;
+  font-size: 0.75em !important;
+  font-family: var(--font-monospace) !important;
+  padding: 2px 10px !important;
+  border-radius: 12px !important;
   border: 1px solid var(--background-modifier-border) !important;
-}
-
-/* Optional: Hover state for tags */
-.dataview.table-view-table .tag:hover {
-  border-color: var(--interactive-accent) !important;
-  color: var(--interactive-accent) !important;
-}
-/* ----------------------------
-   10. Tag Styling (Pills)
----------------------------- */
-
-/* Target tags specifically inside Dataview tables */
-.dataview.table-view-table .tag {
-  background-color: var(--background-secondary);
-  color: var(--text-muted);
-  font-family: var(--font-monospace); /* Technical look */
-  font-size: 0.75em;
-  font-weight: 600;
   text-decoration: none !important;
-  padding: 2px 8px;
-  border-radius: 12px; /* Fully rounded pill shape */
-  border: 1px solid var(--background-modifier-border);
-  display: inline-block;
-  margin: 0 4px 4px 0; /* Spacing if you have multiple tags */
-  transition: all 0.2s ease;
+  line-height: 1.4 !important;
 }
 
-/* Hover effect for tags */
+/* Hover Effect */
 .dataview.table-view-table .tag:hover {
-  background-color: var(--interactive-accent);
-  color: white;
-  border-color: var(--interactive-accent);
-}
-
-/* Hide the hash symbol '#' if you want a super clean look.
-   Remove this part if you prefer keeping the # */
-.dataview.table-view-table .tag {
-  text-decoration: none;
+  background-color: var(--interactive-accent) !important;
+  color: white !important;
+  border-color: var(--interactive-accent) !important;
 }
