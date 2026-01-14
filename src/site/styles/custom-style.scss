@@ -369,31 +369,47 @@ body table thead th {
 /* ----------------------------
    9. Dataview Table Reset
 ---------------------------- */
-/* Reset the entire table layout for Dataview */
+/* Force the table to use fixed widths so columns don't collapse */
 .dataview.table-view-table {
   width: 100% !important;
-  table-layout: fixed !important; /* This gives us control over column widths */
+  table-layout: fixed !important; 
+  border-collapse: collapse !important;
 }
 
-/* First Column (Note Name): Give it breathing room (e.g., 60% of width) */
+/* 1. Note Name Column (60% Width) */
 .dataview.table-view-table td:first-child {
-  width: 60% !important; 
-  white-space: normal !important;
+  width: 60% !important;
+  white-space: normal !important; /* Allow text to wrap */
   font-weight: 500 !important;
   color: var(--interactive-accent) !important;
+  padding: 8px 12px !important;
 }
 
-/* Second Column (Tags): Give it the remaining space (40%) */
+/* 2. Tags Column (40% Width) */
 .dataview.table-view-table td:last-child {
   width: 40% !important;
-  white-space: normal !important; /* Allows tags to wrap naturally, not stack 1-by-1 */
-  vertical-align: middle !important; /* Centers them nicely */
+  white-space: normal !important; /* CRITICAL: Allows tags to flow sideways */
+  vertical-align: top !important;
+  padding: 8px 12px !important;
 }
 
-/* Ensure the tags themselves flow correctly */
+/* 3. Style the Tags (The Pill Look) */
 .dataview.table-view-table .tag {
-  display: inline-block !important; /* Sit side-by-side */
-  margin-bottom: 4px !important;
+  display: inline-block !important; /* Sit side-by-side, not stacked */
+  margin: 0 4px 4px 0 !important;   /* Tiny gap between pills */
+  padding: 2px 8px !important;
+  border-radius: 12px !important;
+  background-color: var(--background-secondary) !important;
+  color: var(--text-muted) !important;
+  font-size: 0.8em !important;
+  text-decoration: none !important;
+  border: 1px solid var(--background-modifier-border) !important;
+}
+
+/* Optional: Hover state for tags */
+.dataview.table-view-table .tag:hover {
+  border-color: var(--interactive-accent) !important;
+  color: var(--interactive-accent) !important;
 }
 /* ----------------------------
    10. Tag Styling (Pills)
