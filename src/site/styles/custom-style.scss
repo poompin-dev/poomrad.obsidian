@@ -103,18 +103,28 @@ main.content.cm-s-obsidian{
    PART 2: VISUAL IMPROVEMENTS (ADD THESE)
    ========================================= */
 
-/* 1. Refined Typography & Readability */
-/* Limit text width for better reading (approx 75 chars) but keep container wide for images */
+/* ----------------------------
+   1. Refined Typography & Readability (UPDATED)
+---------------------------- */
+
+/* Limit text width for better reading */
 main p, main ul, main ol {
   max-width: 70ch;
   margin-right: auto; 
 }
 
-/* Add breathing room between headings */
+/* General spacing for MOST headings (tighter) */
 main h1, main h2, main h3 {
-  margin-top: 2em !important;
+  margin-top: 1.2em !important; /* Reduced from 2em to 1.2em */
   margin-bottom: 0.75em !important;
-  letter-spacing: -0.02em; 
+  color: var(--text-normal);
+  letter-spacing: -0.02em;
+}
+
+/* Specific rule: Give ONLY the first H2 extra breathing room
+   This creates that nice separation from the tags/title without breaking the flow later. */
+main h2:first-of-type {
+  margin-top: 2.5em !important;
 }
 
 /* 2. Modern Link Styling */
