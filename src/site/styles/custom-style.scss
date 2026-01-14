@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
-/* ----------------------------
-   Global knobs
----------------------------- */
+/* =========================================
+   PART 1: YOUR ORIGINAL LAYOUT (DO NOT TOUCH)
+   ========================================= */
+
 :root{
   /* reading column */
   --dg-content-max-width: 920px;
@@ -35,6 +36,8 @@ body{
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   font-family: var(--font-text);
+  /* Reduce the default top padding of the main note content */
+  --dg-content-padding-top: 16px !important; 
 }
 h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
 code, pre{ font-family: var(--font-monospace); }
@@ -50,8 +53,7 @@ header{
   box-sizing: border-box !important;
 }
 
-/* Centre the combined layout (content + right sidebar)
-   This targets the outer wrapper that contains header + main + right sidebar. */
+/* Centre the combined layout (content + right sidebar) */
 @media (min-width: 1200px){
   body :where(div,section):has(header):has(main):has(.right-sidebar),
   body :where(div,section):has(header):has(main):has(.sidebar-right){
@@ -65,8 +67,7 @@ header{
 }
 
 /* Reading column: keep it visually nice */
-main,
-article{
+main, article{
   max-width: var(--dg-content-max-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -79,15 +80,12 @@ article{
 }
 
 /* Right sidebar width */
-.right-sidebar,
-.sidebar-right{
+.right-sidebar, .sidebar-right{
   width: var(--rhs-width) !important;
 }
 
 /* Title styling */
-main h1:first-child,
-.page-title,
-.note-title{
+main h1:first-child, .page-title, .note-title{
   font-size: 2.3rem !important;
   line-height: 1.15 !important;
   font-weight: 800 !important;
@@ -95,82 +93,67 @@ main h1:first-child,
   padding-bottom: 0.75rem !important;
   border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
 }
-/* Reduce the default top padding of the main note content */
-body{
-  --dg-content-padding-top: 16px !important;   /* was 90px */
-}
 
 /* If it still sticks, force the element itself */
 main.content.cm-s-obsidian{
   padding-top: var(--dg-content-padding-top) !important;
 }
 
-/* ----------------------------
-   1. Refined Typography & Readability
----------------------------- */
-/* Limit text width for better reading experience (approx 75 characters per line) 
-   while keeping the container wide for tables/images */
+/* =========================================
+   PART 2: VISUAL IMPROVEMENTS (ADD THESE)
+   ========================================= */
+
+/* 1. Refined Typography & Readability */
+/* Limit text width for better reading (approx 75 chars) but keep container wide for images */
 main p, main ul, main ol {
   max-width: 70ch;
   margin-right: auto; 
-  /* If you want it centered: margin-left: auto; */
 }
 
 /* Add breathing room between headings */
 main h1, main h2, main h3 {
   margin-top: 2em !important;
   margin-bottom: 0.75em !important;
-  color: var(--text-normal);
-  letter-spacing: -0.02em; /* Tighter tracking looks more modern */
+  letter-spacing: -0.02em; 
 }
 
-/* ----------------------------
-   2. Modern Link Styling
----------------------------- */
-/* A subtle underline that thickens on hover */
+/* 2. Modern Link Styling */
 a.internal-link, a.external-link {
   text-decoration: none !important;
-  color: var(--interactive-accent, #2eaadc); /* Fallback blue if var missing */
+  color: var(--interactive-accent, #2eaadc); 
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease-in-out;
   font-weight: 500;
 }
 
 a.internal-link:hover, a.external-link:hover {
-  background-color: rgba(46, 170, 220, 0.1); /* Subtle highlight */
+  background-color: rgba(46, 170, 220, 0.1); 
   border-bottom: 2px solid var(--interactive-accent, #2eaadc);
   border-radius: 4px;
   padding: 0 4px;
   margin: 0 -4px;
 }
 
-/* ----------------------------
-   3. Polish Code Blocks
----------------------------- */
-/* Make code blocks look like a sleek editor */
+/* 3. Polish Code Blocks */
 pre, code {
   background-color: var(--background-primary-alt, #f5f5f5);
   border-radius: 6px;
   font-size: 0.9em;
 }
 
-/* Block code container */
 pre {
   padding: 1rem !important;
   border: 1px solid var(--background-modifier-border, #ddd);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
-/* Inline code styling */
 :not(pre) > code {
-  color: #d73a49; /* Standard syntax red/pink */
+  color: #d73a49; 
   background: rgba(135, 131, 120, 0.15);
   padding: 0.2em 0.4em;
 }
 
-/* ----------------------------
-   4. Elegant Blockquotes & Callouts
----------------------------- */
+/* 4. Elegant Blockquotes */
 blockquote {
   border-left: 4px solid var(--interactive-accent, #2eaadc) !important;
   background: var(--background-secondary, #f9f9f9);
@@ -181,22 +164,21 @@ blockquote {
   color: var(--text-muted, #666);
 }
 
-/* ----------------------------
-   5. UI Polish (Images & Tables)
----------------------------- */
+/* 5. UI Polish (Images & Tables) */
 img {
-  border-radius: 8px; /* Soft corners for images */
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Lift images off the page */
+  border-radius: 8px; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); 
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-/* Clean tables */
 table {
   border-collapse: collapse;
   margin: 1.5em 0;
   width: 100%;
   font-size: 0.95em;
   border-radius: 8px;
-  overflow: hidden; /* For rounded corners on the table */
+  overflow: hidden; 
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
