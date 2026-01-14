@@ -1,0 +1,52 @@
+<nav class="custom-nav">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">Dr. Radiologist</a>
+    <div class="nav-links">
+      <a href="/" class="nav-item">Home</a>
+      <a href="/all-notes" class="nav-item">All Notes</a>
+      <a href="/about" class="nav-item">About</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+/* Clean, Medical-grade Navbar */
+.custom-nav {
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 12px 20px;
+  margin-bottom: 30px; /* Pushes content down so it doesn't overlap */
+}
+
+.nav-container {
+  max-width: var(--layout-max); /* Aligns with your text content */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: var(--text-normal);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95em;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: var(--interactive-accent); /* Turns blue on hover */
+}
+</style>
