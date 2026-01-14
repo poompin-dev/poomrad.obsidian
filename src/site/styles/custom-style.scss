@@ -258,24 +258,26 @@ tbody tr:hover {
   /* background-color: rgba(0,0,0,0.02); */
 }
 /* ----------------------------
-   7. Remove Zebra Striping & Fix Backgrounds
+   7. NUCLEAR Table Fixes (Zebra & Hover)
 ---------------------------- */
 
-/* Force all rows to have the same background (removes alternating colors) */
-table tr:nth-child(even),
-table tr:nth-child(odd) {
+/* 1. Kill Zebra Striping (Targeting body increases priority over theme) */
+body table tr,
+body table tr:nth-child(even),
+body table tr:nth-child(odd),
+body table td {
+  background: transparent !important;
   background-color: transparent !important;
+  box-shadow: none !important;
 }
 
-/* Ensure the header row also blends in */
-thead tr {
-  background-color: transparent !important;
+/* 2. Fix Hover (Must target the CELLS inside the hovered row) */
+body table tbody tr:hover td {
+  background-color: rgba(120, 120, 120, 0.1) !important; /* Visible dark-mode friendly hover */
 }
 
-/* Optional: If you want the First Column ("Feature") to have a subtle background 
-   to distinct it from the data, uncomment the lines below. 
-   Otherwise, leave it transparent for a super clean look. */
-/* td:first-child {
-  background-color: var(--background-primary-alt); 
-} 
-*/
+/* 3. Ensure Header is clean */
+body table thead tr, 
+body table thead th {
+  background: transparent !important;
+}
