@@ -394,3 +394,10 @@ body table thead th {
 .backlinks > div:has(a[href="/"]) {
   display: none !important;
 }
+/* ----------------------------
+   11. Custom Text Selection
+---------------------------- */
+::selection {
+  background-color: rgba(46, 170, 220, 0.3); /* Your accent blue, transparent */
+  color: inherit;
+}
