@@ -1,72 +1,110 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Systemic infection/Brucellosis.md","permalink":"/rad/multisystem/systemic-infection/brucellosis/","tags":["infectious","zoonosis","msk","spine","spondylodiscitis","granulomatous"]}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Systemic infection/Brucellosis.md","permalink":"/rad/multisystem/systemic-infection/brucellosis/","tags":["Infection","Radiology/MSK","Radiology/Neuro","Radiology/Abdo"]}
 ---
 
-## Epidemiology & Clinical Context
-- Zoonotic infection (Brucella melitensis > abortus > suis > canis)
-- Endemic: Mediterranean basin, Middle East, Latin America, parts of Africa/Asia
-- Musculoskeletal involvement: 20–60% of systemic cases (most common chronic complication)
-- Osteoarticular disease often the dominant or isolated manifestation in chronic/recent infection
-___
-## Key Radiological Manifestations
+## Clinical & Epidemiological Context
 
-### Spinal Involvement (Brucella Spondylodiscitis)
-- Most frequent and characteristic osteoarticular site (30–50% of MSK cases)
-- Preference: Lumbar > thoracic > cervical
-- Classic pattern: **Focal (proliferative) type**
-	- Early involvement of anterior superior vertebral corner (Pedro Pons sign): erosive lesion with reactive sclerosis and osteophyte formation ("parrot-beak" or "kissing" osteophytes)
-	- Relative preservation of intervertebral disc height (vs. pyogenic/TB)
-	- Intradiscal gas possible (distinguishes from TB)
-	- Paravertebral soft-tissue masses/abscesses: typically small, well-circumscribed, non-cold (enhance avidly)
-- MRI (modality of choice):
-	- T1: hypointense endplates/disc
-	- T2/STIR: hyperintense disc + bone marrow edema (endplates ± vertebral body)
-	- Post-contrast: avid enhancement of disc, endplates, paravertebral/epidural collections
-	- Epidural/phlegmon component milder than pyogenic
-- CT: excellent for bony detail (erosions, sclerosis, osteophytes, intradiscal gas)
-### Sacroiliitis
-- Common (up to 30% of osteoarticular cases), often early
-- Unilateral > bilateral
-- CT/MRI:
-	- Joint space widening, subchondral sclerosis/erosions
-	- Bone marrow edema (STIR hyperintense)
-	- Periarticular soft-tissue swelling, occasional small collections
-### Peripheral Joints & Entheses
-- Mono- or oligoarthritis (knee > hip > shoulder > ankle)
-- Effusion ± synovitis; rarely destructive
-- Enthesitis possible (similar to seronegative spondyloarthropathy pattern)
-### Other Skeletal Sites
-- Osteomyelitis (long bones, sternoclavicular joint) – rare
-- Bursitis, tenosynovitis
-### Hepatosplenic Involvement
-- Hepatosplenomegaly (common in acute phase)
-- Multiple small hypoechoic/hypodense lesions (US/CT) → microabscesses or granulomas
-- Chronic phase: punctate calcifications (classic "calcified granulomas")
-### Pulmonary Involvement (Rare, <10%)
-- Non-specific: lobar pneumonia, nodules, miliary pattern, hilar/mediastinal lymphadenopathy, pleural effusion
-### Genitourinary
-- Epididymo-orchitis (common in males): US → enlarged, heterogeneous testis/epididymis ± hypoechoic foci/abscess
-### Neurobrucellosis (Rare but Serious)
-- Meningitis, meningoencephalitis, myelitis
-- MRI: leptomeningeal ± pachymeningeal enhancement, white-matter hyperintensities, vascular complications (stroke-like)
-___
-## Differential Diagnosis (Spine Focus)
-| Feature                  | Brucellosis                  | Tuberculous Spondylitis      | Pyogenic Spondylodiscitis   | Degenerative/Modic Changes |
-|--------------------------|------------------------------|------------------------------|-----------------------------|----------------------------|
-| Disc height preservation | ++                           | – (early loss)               | – (rapid loss)              | Variable                   |
-| Vertebral destruction    | Mild                         | Severe, gibbus common        | Moderate–severe             | None                       |
-| Paravertebral abscess    | Small, well-defined, enhancing | Large, cold abscess         | Large, phlegmonous          | None                       |
-| Anterior corner erosion + osteophytes | Classic (Pedro Pons)     | Rare                         | Rare                        | Possible (but no STIR edema) |
-| Intradiscal gas          | Possible                     | Rare                         | Rare                        | No                         |
-| Bone marrow edema pattern| Endplate + anterior body     | Multifocal, wedge collapse   | Diffuse                     | Modic type-specific        |
+> **Key Concept:** A granulomatous zoonosis that acts as a "Great Mimicker" of Tuberculosis and Sarcoidosis.
 
-## Imaging Approach
-- Suspected spinal involvement → MRI with contrast (highest sensitivity for early discitis/osteomyelitis)
-- Sacroiliitis → MRI pelvis or CT if MRI contraindicated
-- Abdominal screening → US or contrast CT
-- Follow-up: resolution of enhancement/edema slower than pyogenic; calcification may persist
-## Pearls
-- Brucellosis often mimics TB but is less destructive and more proliferative
-- Combination of focal anterior erosions + preserved disc + small enhancing paravertebral collection = highly suggestive in endemic area
-- Serology (Rose Bengal, SAT, ELISA) + imaging → avoids unnecessary biopsy in classic cases
-- Chronic calcified hepatic/splenic granulomas are a late hallmark
+* **Pathogen:** *Brucella* spp. (*B. melitensis* is the most virulent).
+* **Thailand/SE Asia Relevance:**
+    * Endemic in goat/cattle farming regions.
+    * **The Diagnostic Trap:** Clinically indistinguishable from **Tuberculosis (TB)** without imaging/serology. Misdiagnosis leads to inappropriate anti-TB therapy.
+* **Clinical Triad:** Undulant fever + Arthralgia + Hepatosplenomegaly.
+
+---
+## 1. Spinal Brucellosis (Brucellar Spondylitis)
+*The most common osteoarticular manifestation (~50%).*
+### Distribution
+* **Region:** Lumbar (L4-L5) > Thoracic > Cervical.
+* **Pattern:** Typically involves **two contiguous vertebrae** and the intervening disc.
+### Imaging Morphology: The "Pedro Pons" Sign
+The radiological hallmark is the **anterosuperior vertebral corner lesion**.
+* **Radiography/CT:**
+    * **Pedro Pons Sign:** Focal erosion of the anterosuperior vertebral endplate.
+    * **Reactive Sclerosis:** Significant bony sclerosis surrounding the erosion (more prominent than in TB).
+    * **Osteophytes:** "Parrot-beak" or bridging osteophytes develop early (an attempt at healing).
+    * **Intradiscal Gas:** Vacuum phenomenon may occur due to **ischemic necrosis** of the disc (rare in TB/Pyogenic, where proteolytic enzymes cause liquefaction).
+### MRI Findings (Gold Standard)
+* **T1:** Hypointense disc and adjacent vertebral bodies.
+* **T2/STIR:**
+    * **Disc:** Hyperintense (morphology often preserved longer than in pyogenic infection).
+    * **Bone Marrow:** Diffuse edema in the involved vertebrae.
+    * **Abscesses:**
+        * **Morphology:** Unlike the large, flowing "cold abscess" of TB, Brucella abscesses are **small, spherical, and focal**.
+        * **Location:** Usually limited to the level of the lesion (paravertebral).
+        * **Enhancement:** Homogeneous or thick peripheral enhancement.
+* **Epidural extension:** Common but usually causes less cord compression than TB.
+
+---
+## 2. Sacroiliitis (High Yield MSK)
+*Often overlooked but highly specific when present with fever.*
+* **Frequency:** High prevalence (up to 40–50% of osteoarticular cases).
+* **Laterality:** Typically **unilateral** (crucial differentiation from Spondyloarthropathies like Ankylosing Spondylitis, which are bilateral/symmetric).
+* **Imaging:**
+    * Blurring of articular margins.
+    * Joint space widening (early) $\rightarrow$ narrowing/ankylosis (late).
+    * **Pearl:** Unilateral sacroiliitis in a patient with fever $\rightarrow$ **Think Brucella.**
+
+---
+## 3. Neurobrucellosis
+*Rare (<5%) but a high-yield exam topic due to mimicry.*
+### Patterns of Involvement
+1.  **Meningitis (Most Common):** Thickening and enhancement of the **basal meninges** (mimics TB, Fungal, or Sarcoidosis).
+2.  **White Matter Changes:**
+    * Multiple T2/FLAIR hyperintensities in periventricular white matter.
+    * **The Mimic:** Can appear identical to **Multiple Sclerosis (MS)**, **ADEM**, or **Neuro-Behçet's**.
+3.  **Vascular:** Arteritis leading to lacunar infarcts or venous sinus thrombosis.
+4.  **Cranial Nerves:** Enhancement of CN VIII (Sensorineural hearing loss).
+
+---
+## 4. Hepatosplenic Brucellosis
+*Hepatosplenomegaly is the most common radiographic finding overall.*
+* **Acute:** Non-specific hepatosplenomegaly.
+* **Chronic (Brucelloma):**
+    * **"Bull's Eye" Lesion:** Central calcification with a surrounding hypodense halo (CT) or hypointense rim (MRI).
+    * **Snowflake Calcification:** Diffuse, flocculent calcifications in the spleen/liver (late stage).
+
+---
+## 5. Scrotal/Genitourinary
+* **Brucellar Orchiepididymitis:**
+    * Usually unilateral enlargement.
+    * **US:** Heterogeneous echotexture, thickened epididymis, +/- testicular abscess.
+    * **Note:** Indistinguishable from standard bacterial epididymo-orchitis on imaging alone; requires clinical correlation.
+
+---
+## Differential Diagnosis: The "Thailand Trap" (TB vs. Brucella)
+*In Thailand, distinguishing these two is the primary diagnostic challenge.*
+
+| Feature | Brucellosis | Tuberculous Spondylitis (Pott's) | Pyogenic Spondylitis |
+| :--- | :--- | :--- | :--- |
+| **Destruction** | **Milder.** Architecture often preserved. | **Severe.** Vertebral collapse (Gibbus) is common. | Moderate to severe (rapid). |
+| **Osteophytes** | **Prominent/Early.** "Parrot Beaks". | Mild or late stage only. | Minimal. |
+| **Abscess** | **Small**, focal, spherical. | **Large**, "cold", sub-ligamentous spread. | Large, phlegmonous, ill-defined. |
+| **Disc Height** | Often preserved until late. | Loss of disc height (late). | Rapid destruction/loss. |
+| **Sclerosis** | **Prominent** reactive sclerosis. | Minimal early; sclerosis = healing. | Variable. |
+| **Specific Sign** | **Pedro Pons Sign** (Anterosuperior erosion). | Sub-ligamentous spread. | Diffuse endplate destruction. |
+
+---
+## Guidelines & Management (NICE / RCR / Thai Context)
+
+### Diagnostic Pathway
+1.  **Suspect:** Back pain + Fever + Animal exposure/Unpasteurized dairy.
+2.  **First Line:** MRI Spine (contrast essential).
+3.  **Confirmation:**
+    * **Serology is King:** Standard Agglutination Test (SAT) > 1:160.
+    * **Biopsy Caution:** **Avoid if possible.** If serology is positive, biopsy is contraindicated due to aerosolization risk to lab staff (**Level 3 Biohazard**).
+
+### Thai Guideline Nuance
+* In equivocal cases (TB vs. Brucella):
+    * Assess for concomitant pulmonary findings (favor TB).
+    * Look for "Snowflake" splenic calcifications (favor Brucella).
+    * **Do not** start empiric anti-TB treatment solely based on spinal granulomas without ruling out Brucella.
+
+___
+### Radiological Pearls
+
+> [!TIP]
+> * **The Hallmark:** Anterosuperior erosion + Sclerosis + Osteophytes = **Pedro Pons Sign**.
+> * **The Mimic:** White matter lesions + Fever + Back pain $\rightarrow$ **Neurobrucellosis** (Not MS).
+> * **The Negative:** Brucella rarely causes the massive gibbus deformity seen in TB.
