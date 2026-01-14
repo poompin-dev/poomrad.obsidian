@@ -1,15 +1,21 @@
 <footer class="custom-footer">
   <div class="footer-content">
-    <p>© {{ currentYear }} {{ siteTitle }}</p>
+    <p>© <span id="year-display"></span> Dr. SFRad </p>
+    
     <p class="footer-sub">
       Built with <a href="https://github.com/oleeskild/obsidian-digital-garden">Digital Garden</a>
     </p>
   </div>
 </footer>
 
+<script>
+  // This tiny script runs on the user's browser to get the real current year
+  document.getElementById("year-display").innerText = new Date().getFullYear();
+</script>
+
 <style>
 .custom-footer {
-  margin-top: 80px; /* Big gap above footer */
+  margin-top: 80px; 
   padding: 40px 20px;
   background: var(--background-secondary);
   border-top: 1px solid var(--background-modifier-border);
