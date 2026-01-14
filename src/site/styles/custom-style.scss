@@ -361,3 +361,20 @@ body table thead th {
 .callout[data-callout="danger"] .callout-title {
   color: #dc2626; /* Dark red text */
 }
+
+/* ----------------------------
+   9. Dataview Table Reset
+---------------------------- */
+/* This overrides the "Medical Table" rules specifically for Dataview 
+   so your filenames don't get squashed or cut off. */
+
+.dataview.table-view-table td:first-child {
+  width: auto !important;       /* Allow column to expand */
+  white-space: normal !important; /* Allow text to wrap */
+  font-weight: 500 !important;  /* Less heavy than the medical codes */
+  color: var(--interactive-accent) !important; /* Make links blue again */
+}
+
+.dataview.table-view-table thead tr {
+  border-bottom: 1px solid var(--background-modifier-border) !important;
+}
