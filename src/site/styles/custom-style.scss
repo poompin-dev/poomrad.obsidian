@@ -203,3 +203,64 @@ td {
   padding: 12px;
   border-bottom: 1px solid var(--background-modifier-border, #eee);
 }
+
+/* ----------------------------
+   6. Medical Journal Table Styling
+---------------------------- */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 2em 0;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden; /* Keeps corners rounded */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border); /* Outer border only */
+}
+
+/* Header: Clean and authoritative */
+thead tr {
+  background-color: var(--background-secondary); /* Softer grey */
+  border-bottom: 2px solid var(--interactive-accent, #2eaadc); /* Accent line */
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 16px;
+  border: none !important; /* Remove individual cell borders in header */
+}
+
+/* Body: Remove vertical lines, focus on horizontal flow */
+td {
+  padding: 16px;
+  vertical-align: top; /* Critical for description lists */
+  border-bottom: 1px solid var(--background-modifier-border);
+  border-left: none !important;
+  border-right: none !important;
+  line-height: 1.5;
+}
+
+/* Specific Tweak: The "Type" column (1A, 1B, etc.) */
+/* Makes it look like a distinct code/tag */
+td:first-child {
+  font-family: var(--font-monospace); 
+  font-weight: 700;
+  color: var(--interactive-accent, #2eaadc);
+  width: 1%; /* Shrinks column to fit content */
+  white-space: nowrap; /* Prevents "1A" from breaking */
+}
+
+/* Interaction: Highlight row on hover to help tracking */
+tbody tr:hover {
+  background-color: rgba(46, 170, 220, 0.04); 
+}
+
+/* Remove bottom border from the very last row for a clean look */
+tbody tr:last-child td {
+  border-bottom: none;
+}
