@@ -104,3 +104,110 @@ body{
 main.content.cm-s-obsidian{
   padding-top: var(--dg-content-padding-top) !important;
 }
+
+/* ----------------------------
+   1. Refined Typography & Readability
+---------------------------- */
+/* Limit text width for better reading experience (approx 75 characters per line) 
+   while keeping the container wide for tables/images */
+main p, main ul, main ol {
+  max-width: 70ch;
+  margin-right: auto; 
+  /* If you want it centered: margin-left: auto; */
+}
+
+/* Add breathing room between headings */
+main h1, main h2, main h3 {
+  margin-top: 2em !important;
+  margin-bottom: 0.75em !important;
+  color: var(--text-normal);
+  letter-spacing: -0.02em; /* Tighter tracking looks more modern */
+}
+
+/* ----------------------------
+   2. Modern Link Styling
+---------------------------- */
+/* A subtle underline that thickens on hover */
+a.internal-link, a.external-link {
+  text-decoration: none !important;
+  color: var(--interactive-accent, #2eaadc); /* Fallback blue if var missing */
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+a.internal-link:hover, a.external-link:hover {
+  background-color: rgba(46, 170, 220, 0.1); /* Subtle highlight */
+  border-bottom: 2px solid var(--interactive-accent, #2eaadc);
+  border-radius: 4px;
+  padding: 0 4px;
+  margin: 0 -4px;
+}
+
+/* ----------------------------
+   3. Polish Code Blocks
+---------------------------- */
+/* Make code blocks look like a sleek editor */
+pre, code {
+  background-color: var(--background-primary-alt, #f5f5f5);
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+/* Block code container */
+pre {
+  padding: 1rem !important;
+  border: 1px solid var(--background-modifier-border, #ddd);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Inline code styling */
+:not(pre) > code {
+  color: #d73a49; /* Standard syntax red/pink */
+  background: rgba(135, 131, 120, 0.15);
+  padding: 0.2em 0.4em;
+}
+
+/* ----------------------------
+   4. Elegant Blockquotes & Callouts
+---------------------------- */
+blockquote {
+  border-left: 4px solid var(--interactive-accent, #2eaadc) !important;
+  background: var(--background-secondary, #f9f9f9);
+  margin: 1.5em 0 !important;
+  padding: 1em 1.5em !important;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text-muted, #666);
+}
+
+/* ----------------------------
+   5. UI Polish (Images & Tables)
+---------------------------- */
+img {
+  border-radius: 8px; /* Soft corners for images */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Lift images off the page */
+}
+
+/* Clean tables */
+table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  width: 100%;
+  font-size: 0.95em;
+  border-radius: 8px;
+  overflow: hidden; /* For rounded corners on the table */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: var(--background-secondary, #f0f0f0);
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--background-modifier-border, #eee);
+}
