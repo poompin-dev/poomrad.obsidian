@@ -378,3 +378,35 @@ body table thead th {
 .dataview.table-view-table thead tr {
   border-bottom: 1px solid var(--background-modifier-border) !important;
 }
+/* ----------------------------
+   10. Tag Styling (Pills)
+---------------------------- */
+
+/* Target tags specifically inside Dataview tables */
+.dataview.table-view-table .tag {
+  background-color: var(--background-secondary);
+  color: var(--text-muted);
+  font-family: var(--font-monospace); /* Technical look */
+  font-size: 0.75em;
+  font-weight: 600;
+  text-decoration: none !important;
+  padding: 2px 8px;
+  border-radius: 12px; /* Fully rounded pill shape */
+  border: 1px solid var(--background-modifier-border);
+  display: inline-block;
+  margin: 0 4px 4px 0; /* Spacing if you have multiple tags */
+  transition: all 0.2s ease;
+}
+
+/* Hover effect for tags */
+.dataview.table-view-table .tag:hover {
+  background-color: var(--interactive-accent);
+  color: white;
+  border-color: var(--interactive-accent);
+}
+
+/* Hide the hash symbol '#' if you want a super clean look.
+   Remove this part if you prefer keeping the # */
+.dataview.table-view-table .tag {
+  text-decoration: none;
+}
