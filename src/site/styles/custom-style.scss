@@ -368,30 +368,24 @@ body table thead th {
 /* ----------------------------
    10. Hide "Homepage" from Backlinks
 ---------------------------- */
-
-/* This uses :has() to find any list item or container in the backlinks 
-   that points to "Homepage" (or "index") and hides it completely.
-*/
-
-/* 1. Target the Right Sidebar Backlinks section */
-.backlinks a[href="Homepage"],
-.backlinks a[href="homepage"],
-.backlinks a[href="/"],
-.backlinks a[href="index"] {
+/* 1. Hide the specific link text "Homepage" */
+/* We check if the link ends in "Homepage" or "Homepage.html" */
+.backlinks a[href$="Homepage"],
+.backlinks a[href$="Homepage.html"] {
   display: none !important;
 }
 
-/* 2. Clean up the container/bullet/icon around it */
-/* If the link is inside a list item (li), hide the whole list item */
-.backlinks li:has(a[href="Homepage"]),
-.backlinks li:has(a[href="/"]),
-.backlinks li:has(a[href="index"]) {
+/* 2. Hide the bullet point for that specific link only */
+/* We use the direct child selector (>) to make sure we don't accidentally 
+   target a parent container that holds ALL the links. */
+.backlinks li:has(> a[href$="Homepage"]),
+.backlinks li:has(> a[href$="Homepage.html"]) {
   display: none !important;
 }
 
-/* 3. If it's a div wrapper (common in some themes), hide that too */
-.backlinks > div:has(a[href="Homepage"]),
-.backlinks > div:has(a[href="/"]) {
+/* 3. Emergency Backup: If your homepage is named "index" */
+.backlinks li:has(> a[href$="index"]),
+.backlinks li:has(> a[href$="index.html"]) {
   display: none !important;
 }
 /* ----------------------------
