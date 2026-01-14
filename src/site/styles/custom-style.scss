@@ -281,3 +281,83 @@ body table thead tr,
 body table thead th {
   background: transparent !important;
 }
+/* ----------------------------
+   8. "Clinical Card" Callouts (Replacing Obsidian Style)
+---------------------------- */
+
+/* Base Container: Soft, rounded, no heavy borders */
+.callout {
+  background-color: var(--background-secondary) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 8px !important;
+  padding: 16px 20px !important;
+  margin: 1.5em 0 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02); /* Very subtle lift */
+}
+
+/* The Title Row: Clean and bold */
+.callout-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px; /* Space between title and text */
+}
+
+/* The Content: Regular text, slightly smaller */
+.callout-content {
+  font-family: var(--font-text);
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: var(--text-normal);
+}
+
+/* Hide the default heavy icons if you want a cleaner look. 
+   Or keep them but make them smaller/subtle (below). */
+.callout-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+}
+
+/* --- COLOR THEMES (Medical Context) --- */
+
+/* 1. "Note" or "Info" -> The Standard Clinical Blue */
+/* Usage: > [!INFO] or > [!NOTE] */
+.callout[data-callout="info"], 
+.callout[data-callout="note"] {
+  background-color: rgba(46, 170, 220, 0.05) !important; /* Very faint blue */
+  border-color: rgba(46, 170, 220, 0.3) !important;
+}
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="note"] .callout-title {
+  color: #2eaadc; /* Your accent blue */
+}
+
+/* 2. "Tip" -> The Clinical Pearl (Green/Teal) */
+/* Usage: > [!TIP] or > [!example] */
+.callout[data-callout="tip"],
+.callout[data-callout="example"] {
+  background-color: rgba(52, 211, 153, 0.08) !important; /* Minty green */
+  border-color: rgba(52, 211, 153, 0.4) !important;
+}
+.callout[data-callout="tip"] .callout-title,
+.callout[data-callout="example"] .callout-title {
+  color: #059669; /* Darker green text */
+}
+
+/* 3. "Warning" -> The Diagnostic Trap (Orange/Red) */
+/* Usage: > [!WARNING] or > [!danger] */
+.callout[data-callout="warning"],
+.callout[data-callout="danger"], 
+.callout[data-callout="missing"] {
+  background-color: rgba(248, 113, 113, 0.08) !important; /* Soft red */
+  border-color: rgba(248, 113, 113, 0.3) !important;
+}
+.callout[data-callout="warning"] .callout-title,
+.callout[data-callout="danger"] .callout-title {
+  color: #dc2626; /* Dark red text */
+}
