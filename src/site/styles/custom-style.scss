@@ -351,42 +351,59 @@ body table tbody tr:hover td {
     display: none !important;
 }
 /* =========================================
-   PART 7: IPAD & TABLET CENTERING (NUCLEAR OPTION)
+   PART 7: IPAD & TABLET UNIFIED ALIGNMENT
    ========================================= */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
-    /* 1. RESET THE GRID: Force the whole page to be one block */
-    body {
-        display: block !important;
-        grid-template-columns: 1fr !important; /* Kill the 3-column layout */
+    /* 1. THE MATH FIX: Redefine "Max Width" for iPad */
+    /* This tricks the Footer and Navbar into matching the content width */
+    :root {
+        --layout-max: 90vw !important; /* Was calculated for desktop, now 90% of screen */
     }
 
-    /* 2. HIDE SIDEBARS (Completely remove them from flow) */
+    /* 2. BODY LAYOUT: Kill the Grid / Sidebars */
+    body {
+        display: block !important;
+        grid-template-columns: 1fr !important;
+    }
     .file-tree-column, .right-sidebar, .sidebar-right {
         display: none !important;
     }
 
-    /* 3. CENTER THE CONTENT */
+    /* 3. CENTER THE MAIN CONTENT */
     main, .content, .markdown-preview-view {
-        /* Reset any "float" or grid positioning */
         position: static !important;
         margin-left: auto !important;
         margin-right: auto !important;
         float: none !important;
         
-        /* Force a centered width */
-        width: 90% !important; 
-        max-width: 900px !important;
-        
-        /* Ensure padding is balanced */
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        /* Match the variable we set above */
+        width: 90vw !important; 
+        max-width: 900px !important; /* Cap it so it doesn't get too wide on Pro tablets */
+        padding: 0 !important;
     }
     
-    /* 4. Fix the Navbar to match */
-    header, nav {
-        width: 90% !important;
+    /* 4. NAVBAR ALIGNMENT FIX */
+    /* Force the navbar's inner container to center */
+    nav, .navbar, .navbar-inner {
+        width: 100% !important; /* Background full width */
+    }
+    
+    /* Target the direct children of the nav (Search bar, Title, etc.) */
+    nav > div, .navbar > div {
+        width: 90vw !important;
         max-width: 900px !important;
-        margin: 0 auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* 5. FOOTER ALIGNMENT FIX */
+    /* Since we updated --layout-max above, the footer might fix itself, 
+       but we force it here to be safe. */
+    .footer-content {
+        width: 90vw !important;
+        max-width: 900px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
