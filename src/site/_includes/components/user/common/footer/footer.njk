@@ -8,59 +8,73 @@
 </footer>
 
 <script>
-  document.getElementById("year-display").innerText = new Date().getFullYear();
+  const yearSpan = document.getElementById("year-display");
+  if(yearSpan) {
+    yearSpan.innerText = new Date().getFullYear();
+  }
 </script>
 
 <style>
 /* =========================================
-   THE "GRID" FIX (Robust Layout)
+   FINAL LAYOUT FIX (Corrected Variables)
    ========================================= */
 
-/* 1. BODY: The Master Container */
+/* 1. BODY: The Master Grid */
 body {
     display: grid !important;
-    grid-template-rows: 1fr auto !important; /* Row 1: Content (grows), Row 2: Footer (fitted) */
+    grid-template-rows: 1fr auto !important; /* Row 1: Content, Row 2: Footer */
     min-height: 100vh !important;
-    height: auto !important;       /* Allow it to grow infinitely */
     margin: 0 !important;
     padding: 0 !important;
-    overflow-y: auto !important;   /* FORCE SCROLL: The fix for your stuck page */
-    overflow-x: hidden !important; /* Prevent side-scroll */
+    overflow-y: auto !important;   /* Scroll enabled */
+    overflow-x: hidden !important; /* No horizontal scroll */
 }
 
-/* 2. THE WRAPPER (Content + Sidebar) */
-/* This sits in the first grid row and stretches */
+/* 2. PAGE WRAPPER: The Flex Row */
+/* Holds [Main Content] + [Sidebar] */
 .page-wrapper {
     width: 100%;
-    max-width: 100%;
-    display: flex !important;     /* Keep Sidebar next to Content */
-    flex-direction: row !important; 
-    justify-content: center;
-    align-items: flex-start;      /* Align to top */
+    /* Use the global layout max width for the wrapper, NOT the text column */
+    max-width: var(--layout-max, 1400px); 
+    margin: 0 auto; /* Center the whole group */
+    
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center; /* Keep them centered on screen */
+    align-items: flex-start;
+    
+    /* Gap between text and sidebar */
+    gap: var(--layout-gap, 40px);
 }
 
-/* 3. MAIN CONTENT */
+/* 3. MAIN CONTENT (The Fix) */
 main.content {
     margin-top: 0 !important;
-    padding-top: 60px !important; /* Space for Navbar */
+    padding-top: 60px !important;
+    
+    /* FLEX LOGIC: Grow to fill space, but shrink if needed */
+    flex: 1 1 auto !important;
     width: 100% !important;
-    max-width: var(--layout-max) !important;
-    flex: 1; /* Let it shrink/grow */
+    
+    /* CRITICAL FIX: Use 'dg-content-max-width' (Text only), NOT 'layout-max' (Text+Sidebar) */
+    max-width: var(--dg-content-max-width, 900px) !important;
 }
 
 /* 4. THE FOOTER */
 .custom-footer {
-    grid-row: 2; /* Sit explicitly in the second row */
+    grid-row: 2 !important; /* Lock to bottom row */
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 40px 0 !important;
+    margin-top: 4rem !important;
     z-index: 10;
 }
 
 .footer-content {
     width: 100%;
-    max-width: var(--layout-max);
+    /* Footer text aligns with the main text column width */
+    max-width: var(--dg-content-max-width, 900px);
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -69,17 +83,19 @@ main.content {
 }
 
 /* 5. MOBILE & TABLET RESPONSIVENESS */
-/* When screen is small, stack the sidebar underneath */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1199px) {
+    /* Stack Sidebar under Content */
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
+        gap: 20px;
     }
     
-    /* Ensure main content doesn't get squashed */
+    /* Allow text to be slightly wider on tablets */
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
+        max-width: 100% !important; 
     }
 }
 
