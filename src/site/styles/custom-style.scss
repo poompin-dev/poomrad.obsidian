@@ -368,19 +368,11 @@ body table thead th {
 /* ----------------------------
    10. Hide "Homepage" from Backlinks
 ---------------------------- */
-/* 1. Hide the list item (bullet point) that contains the "/" link */
-.backlinks li:has(a[href="/"]) {
-  display: none !important;
-}
-
-/* 2. Backup: Hide the list item if it points explicitly to "Homepage" */
-.backlinks li:has(a[href$="Homepage"]) {
-  display: none !important;
-}
-
-/* 3. Safety: If the link is naked (no list), just hide the link itself */
-.backlinks a[href="/"] {
-  display: none !important;
+/* Hide the backlink list item that points to the homepage */
+.backlink-list .tree-item-self:has(a[href="/"]),
+.backlinks a[href="/"],
+.backlinks a[href="/index"] {
+    display: none !important;
 }
 
 /* ----------------------------
