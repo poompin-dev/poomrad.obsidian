@@ -12,69 +12,66 @@
 </script>
 
 <style>
-/* 1. THE FOOTER (Breakout Logic) */
-.custom-footer {
-    /* FORCE FULL WIDTH (The Magic) */
-    width: 100vw !important; 
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+/* 1. RESET THE PAGE LAYOUT (The Holy Grail Fix) */
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    overflow-x: hidden !important; /* Safety for mobile */
+}
 
-    /* Spacing */
-    margin-top: 4rem !important; /* Push away from content */
-    padding: 30px 0;
+/* 2. MAKE MAIN CONTENT GROW */
+/* This forces the content to take up all available space, 
+   pushing the footer to the bottom naturally. */
+main.content {
+    flex: 1 0 auto !important;
+    width: 100% !important;
+    max-width: var(--layout-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 60px !important; /* Space for Navbar */
+}
+
+/* 3. THE FOOTER (Simplified) */
+.custom-footer {
+    /* No more crazy calculations */
+    width: 100% !important;
+    flex-shrink: 0 !important; /* Don't let it squish */
     
     /* Visuals */
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
+    margin-top: 4rem !important;
+    padding: 40px 0 !important;
     z-index: 10;
 }
 
-/* 2. THE INNER CONTENT (Re-align Text) */
+/* 4. INNER CONTENT (Centered) */
 .footer-content {
-    /* Bring text back to the center column */
     width: 100%;
-    max-width: var(--layout-max); /* Matches your note width */
-    margin: 0 auto;
+    max-width: var(--layout-max);
+    margin: 0 auto; /* Center in the footer strip */
     padding: 0 20px;
     
-    /* Flex alignment */
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
-/* 3. TEXT STYLING */
+/* Text Styles */
 .footer-content p {
     margin: 0;
     color: var(--text-muted);
     font-family: var(--font-ui);
     font-size: 0.9em;
-    line-height: 1.5;
 }
-
 .footer-sub {
     font-size: 0.85em !important;
     opacity: 0.6;
     margin-top: 8px !important;
-}
-
-.custom-footer a {
-    color: var(--text-muted);
-    text-decoration: underline;
-    text-decoration-style: dotted;
-}
-.custom-footer a:hover {
-    color: var(--interactive-accent);
-}
-
-/* 4. SCROLLBAR SAFETY */
-/* Prevents horizontal scrollbar on Windows due to 100vw */
-body {
-    overflow-x: hidden;
 }
 </style>
