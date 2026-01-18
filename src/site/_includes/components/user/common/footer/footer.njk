@@ -16,34 +16,32 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT FIX (Corrected Variables)
+   FINAL LAYOUT FIX (Margin Reset)
    ========================================= */
 
 /* 1. BODY: The Master Grid */
 body {
     display: grid !important;
-    grid-template-rows: 1fr auto !important; /* Row 1: Content, Row 2: Footer */
+    grid-template-rows: 1fr auto !important; 
     min-height: 100vh !important;
     margin: 0 !important;
     padding: 0 !important;
-    overflow-y: auto !important;   /* Scroll enabled */
-    overflow-x: hidden !important; /* No horizontal scroll */
+    overflow-y: auto !important;   
+    overflow-x: hidden !important; 
 }
 
 /* 2. PAGE WRAPPER: The Flex Row */
-/* Holds [Main Content] + [Sidebar] */
 .page-wrapper {
     width: 100%;
-    /* Use the global layout max width for the wrapper, NOT the text column */
+    /* This defines the total width of Text + Sidebar */
     max-width: var(--layout-max, 1400px); 
-    margin: 0 auto; /* Center the whole group */
+    margin: 0 auto; /* Centers the wrapper itself on screen */
     
     display: flex !important;
     flex-direction: row !important;
-    justify-content: center; /* Keep them centered on screen */
+    justify-content: center; /* Centers the content group */
     align-items: flex-start;
     
-    /* Gap between text and sidebar */
     gap: var(--layout-gap, 40px);
 }
 
@@ -52,17 +50,20 @@ main.content {
     margin-top: 0 !important;
     padding-top: 60px !important;
     
-    /* FLEX LOGIC: Grow to fill space, but shrink if needed */
+    /* CRITICAL FIX: Force margins to zero so it doesn't drift right */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
     flex: 1 1 auto !important;
     width: 100% !important;
     
-    /* CRITICAL FIX: Use 'dg-content-max-width' (Text only), NOT 'layout-max' (Text+Sidebar) */
+    /* Restrict text width so sidebar fits */
     max-width: var(--dg-content-max-width, 900px) !important;
 }
 
 /* 4. THE FOOTER */
 .custom-footer {
-    grid-row: 2 !important; /* Lock to bottom row */
+    grid-row: 2 !important; 
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
@@ -73,7 +74,6 @@ main.content {
 
 .footer-content {
     width: 100%;
-    /* Footer text aligns with the main text column width */
     max-width: var(--dg-content-max-width, 900px);
     margin: 0 auto;
     text-align: center;
@@ -84,14 +84,12 @@ main.content {
 
 /* 5. MOBILE & TABLET RESPONSIVENESS */
 @media screen and (max-width: 1199px) {
-    /* Stack Sidebar under Content */
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
         gap: 20px;
     }
     
-    /* Allow text to be slightly wider on tablets */
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
