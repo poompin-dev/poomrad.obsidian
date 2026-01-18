@@ -1,32 +1,3 @@
-I hear you. The side-by-side layout is struggling on laptops because there just isn't enough width to fit "Text + Gap + Sidebar" comfortably. Forcing the **"Mobile Logic" (Stacked View)** on these screens is the perfect solution—it's cleaner, centered, and readable.
-
-Here is the 2-part fix:
-
-1. **`note.njk`**: Puts the logo back at the end of your content (where you liked it).
-2. **`footer.njk`**: Removes the logo from the footer AND forces the "Stacked View" on everything smaller than a huge desktop (**1400px**).
-
----
-
-### Step 1: Put the Logo back in `note.njk`
-
-Open **`src/site/_includes/layouts/note.njk`**.
-Insert this code inside the `<main>` tag, just before the closing `</main>`.
-
-```html
-          {{ content | hideDataview | taggify | link | safe }}
-
-          <div style="display: flex; justify-content: center; margin-top: 60px; margin-bottom: -20px; opacity: 0.5;">
-            <img src="/favicon.svg" alt="End of note" style="width: 60px; height: 60px;">
-          </div>
-          
-        </main>
-
-```
-
----
-
-### Step 2: Fix the Footer & Layout (The "Mobile Logic" Switch)
-
 This updated CSS removes the logo from the footer strip and changes the **Breakpoint** to `1400px`.
 
 * **Screens < 1400px (Laptops/Tablets/Mobile):** You get the **Stacked View** (Centered Text + Sidebar underneath). No more wonky alignment.
