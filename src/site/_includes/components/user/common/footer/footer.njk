@@ -12,36 +12,45 @@
 </script>
 
 <style>
-/* 1. SETUP THE PAGE */
+/* 1. SETUP THE PAGE (The Stage) */
 body {
     position: relative;
     min-height: 100vh;
-    padding-bottom: 140px !important; 
+    /* REMOVED: padding-bottom is no longer needed because the footer takes up real space now */
+    padding-bottom: 0 !important; 
     box-sizing: border-box;
+    
+    /* Ensure the body flexes so footer can be pushed down */
+    display: flex;
+    flex-direction: column;
 }
 
-/* 2. THE FOOTER CONTAINER */
+/* 2. THE FOOTER (Natural Flow) */
 .custom-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    /* CHANGED: From absolute to relative. 
+       Now it sits naturally AFTER the content, not on top of it. */
+    position: relative; 
     width: 100%;
     height: auto;
+    
+    /* Push it to the bottom if the page is short */
+    margin-top: auto; 
+    
+    /* Visuals */
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 30px 0;
-    z-index: 9999;
+    z-index: 10; /* Lower z-index so it doesn't fight the navbar */
 }
 
-/* 3. THE INNER CONTENT BOX */
+/* 3. THE INNER CONTENT */
 .footer-content {
-    /* Use the same width logic as your main content so it aligns perfectly */
     width: 100%;
     max-width: var(--layout-max);
-    margin: 0 auto; /* Centers the box on the screen */
+    margin: 0 auto;
     padding: 0 20px;
     
-    /* FORCE CENTERING OF CHILDREN */
+    /* FORCE CENTERING */
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -49,16 +58,14 @@ body {
     text-align: center;
 }
 
-/* 4. THE TEXT (The Fix) */
+/* 4. TEXT STYLING */
 .footer-content p {
     margin: 0;
     color: var(--text-muted);
     font-family: var(--font-ui);
     font-size: 0.9em;
     line-height: 1.5;
-    
-    /* FORCE CENTER (Overrides theme defaults) */
-    text-align: center !important; 
+    text-align: center !important;
     width: 100%;
 }
 
