@@ -351,40 +351,7 @@ body table tbody tr:hover td {
     display: none !important;
 }
 /* =========================================
-   PART 7: IPAD & TABLET UNIFIED ALIGNMENT (Cleaned)
-   ========================================= */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    
-    /* 1. THE MATH FIX */
-    :root {
-        --layout-max: 90vw !important; 
-    }
-
-    /* 2. BODY LAYOUT: Kill the Grid */
-    body {
-        display: block !important;
-        grid-template-columns: 1fr !important;
-    }
-    .file-tree-column, .right-sidebar, .sidebar-right {
-        display: none !important;
-    }
-
-    /* 3. CENTER THE MAIN CONTENT */
-    main, .content, .markdown-preview-view {
-        position: static !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        float: none !important;
-        width: 90vw !important; 
-        max-width: 900px !important; 
-        padding: 0 !important;
-    }
-    
-    /* REMOVED: Redundant Navbar/Footer constraints here. 
-       We will handle them globally in Part 8/9. */
-}
-/* =========================================
-   PART 8: SMART NAVBAR (COMPLETE)
+   PART 7: SMART NAVBAR (COMPLETE)
    ========================================= */
 
 /* 1. THE STRIP (Background & Animation Base) */
@@ -469,37 +436,5 @@ body {
     /* Scale down the logo slightly on mobile */
     .navbar-brand {
         font-size: 1.5em !important;
-    }
-}
-/* =========================================
-   PART 9: UNIVERSAL FOOTER ALIGNMENT
-   ========================================= */
-
-/* The Background Strip */
-.footer, footer {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    background: var(--background-secondary) !important; /* Ensure bg colour exists */
-}
-
-/* The Content Container */
-.footer-content, footer > div {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    
-    /* Match the Navbar/Body width logic */
-    width: 100% !important;
-    max-width: var(--layout-max) !important;
-    padding: 20px 20px !important;
-}
-
-/* Mobile/Tablet Alignment for Footer */
-@media screen and (max-width: 1199px) {
-    .footer-content, footer > div {
-        width: 90vw !important;
-        max-width: 900px !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
 }
