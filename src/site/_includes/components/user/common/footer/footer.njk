@@ -12,45 +12,35 @@
 </script>
 
 <style>
-/* 1. SETUP THE PAGE (The Stage) */
-body {
-    position: relative;
-    min-height: 100vh;
-    /* REMOVED: padding-bottom is no longer needed because the footer takes up real space now */
-    padding-bottom: 0 !important; 
-    box-sizing: border-box;
-    
-    /* Ensure the body flexes so footer can be pushed down */
-    display: flex;
-    flex-direction: column;
-}
-
-/* 2. THE FOOTER (Natural Flow) */
+/* 1. THE FOOTER (Breakout Logic) */
 .custom-footer {
-    /* CHANGED: From absolute to relative. 
-       Now it sits naturally AFTER the content, not on top of it. */
-    position: relative; 
-    width: 100%;
-    height: auto;
-    
-    /* Push it to the bottom if the page is short */
-    margin-top: auto; 
+    /* FORCE FULL WIDTH (The Magic) */
+    width: 100vw !important; 
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    /* Spacing */
+    margin-top: 4rem !important; /* Push away from content */
+    padding: 30px 0;
     
     /* Visuals */
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    padding: 30px 0;
-    z-index: 10; /* Lower z-index so it doesn't fight the navbar */
+    z-index: 10;
 }
 
-/* 3. THE INNER CONTENT */
+/* 2. THE INNER CONTENT (Re-align Text) */
 .footer-content {
+    /* Bring text back to the center column */
     width: 100%;
-    max-width: var(--layout-max);
+    max-width: var(--layout-max); /* Matches your note width */
     margin: 0 auto;
     padding: 0 20px;
     
-    /* FORCE CENTERING */
+    /* Flex alignment */
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -58,15 +48,13 @@ body {
     text-align: center;
 }
 
-/* 4. TEXT STYLING */
+/* 3. TEXT STYLING */
 .footer-content p {
     margin: 0;
     color: var(--text-muted);
     font-family: var(--font-ui);
     font-size: 0.9em;
     line-height: 1.5;
-    text-align: center !important;
-    width: 100%;
 }
 
 .footer-sub {
@@ -82,5 +70,11 @@ body {
 }
 .custom-footer a:hover {
     color: var(--interactive-accent);
+}
+
+/* 4. SCROLLBAR SAFETY */
+/* Prevents horizontal scrollbar on Windows due to 100vw */
+body {
+    overflow-x: hidden;
 }
 </style>
