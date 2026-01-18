@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* =========================================
-   PART 1: NUCLEAR FONT OVERRIDE (BODY TEXT FIX)
+   PART 1: NUCLEAR FONT OVERRIDE (SOURCE SANS 3)
    ========================================= */
 :root {
   /* --- LAYOUT GEOMETRY --- */
@@ -16,16 +16,17 @@
   --dg-content-padding-top: 40px !important; 
 
   /* --- TYPOGRAPHY ENGINE --- */
-  --font-clinical: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* The "Textbook" Stack */
+  --font-editorial: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
   /* Force variables */
-  --font-text: var(--font-clinical) !important;
-  --font-heading: var(--font-clinical) !important;
-  --font-body: var(--font-clinical) !important;
+  --font-text: var(--font-editorial) !important;
+  --font-heading: var(--font-editorial) !important;
+  --font-body: var(--font-editorial) !important;
 
-  /* Sizing */
-  --dg-content-font-size: 18px; 
+  /* Sizing: Bumped to 19px because Source Sans is naturally smaller */
+  --dg-content-font-size: 19px; 
   --dg-content-line-height: 1.6;
   
   /* Colors */
@@ -37,19 +38,19 @@
 
 /* 1. The Container Override */
 body, main, .markdown-rendered, .markdown-preview-view {
-  font-family: var(--font-clinical) !important;
+  font-family: var(--font-editorial) !important;
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
 }
 
 /* 2. THE FIX: Target text elements DIRECTLY */
 p, li, ul, ol, dl, blockquote, table, td, th, span {
-    font-family: var(--font-clinical) !important;
+    font-family: var(--font-editorial) !important;
 }
 
 /* 3. Keep Headers Distinct */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-clinical) !important;
+  font-family: var(--font-editorial) !important;
 }
 
 /* 4. Keep Code Distinct */
