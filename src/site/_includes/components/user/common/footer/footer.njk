@@ -14,17 +14,20 @@
 <style>
 /* 1. The Container (The Background Band) */
 .custom-footer {
-  /* This block forces the footer to span the full viewport width */
+  /* ... (keep your width/position settings same as before) ... */
   width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  
+   
   /* Visuals */
   margin-top: 80px; 
-  padding: 40px 0; /* Remove side padding here, we add it to content instead */
+  
+  /* CHANGE THIS LINE: */
+  padding: 40px 0 10px 0; /* Top: 40px, Right: 0, Bottom: 10px, Left: 0 */
+  
   background: var(--background-secondary);
   border-top: 1px solid var(--background-modifier-border);
 }
