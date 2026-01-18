@@ -365,18 +365,9 @@ body table thead th {
 .callout[data-callout="danger"] .callout-title {
   color: #dc2626; /* Dark red text */
 }
-/* ----------------------------
-   10. Hide "Homepage" from Backlinks
----------------------------- */
-/* Hide the backlink list item that points to the homepage */
-.backlink-list .tree-item-self:has(a[href="/"]),
-.backlinks a[href="/"],
-.backlinks a[href="/index"] {
-    display: none !important;
-}
 
 /* ----------------------------
-   11. Custom Text Selection
+   10. Custom Text Selection
 ---------------------------- */
 ::selection {
   background-color: rgba(46, 170, 220, 0.3); /* Your accent blue, transparent */
