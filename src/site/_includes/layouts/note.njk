@@ -55,7 +55,9 @@
           </header>
           
           {{ content | hideDataview | taggify | link | replace('<table', '<div class="table-wide"><table') | replace('</table>', '</table></div>') | safe}}
-          
+          <div style="display: flex; justify-content: center; margin-top: 40px; margin-bottom: 20px; opacity: 0.5;">
+            <img src="/favicon.svg" alt="End of note" style="width: 40px; height: 40px;">
+          </div>
         </main>
 
         {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
