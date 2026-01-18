@@ -82,27 +82,51 @@ main.content {
     align-items: center;
 }
 
-/* 5. MOBILE & TABLET RESPONSIVENESS (The Fix) */
-/* Covers iPad Pro, iPad Mini Landscape, etc. */
+/* =========================================
+   MOBILE & TABLET RESPONSIVENESS (Refined)
+   ========================================= */
 @media screen and (max-width: 1199px) {
+    
+    /* 1. STACK THE LAYOUT */
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
-        gap: 20px;
+        gap: 40px; /* Give space between Text and Sidebar */
         padding-top: 80px !important; 
     }
     
+    /* 2. TEXT COLUMN: Floating Center */
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
-        
-        /* IPAD FIX: Reset margins to AUTO so it floats in the center */
         margin-left: auto !important;
         margin-right: auto !important;
-        
-        /* Ensure it doesn't get stuck at a fixed width */
         width: 100% !important;
         max-width: 900px !important; 
+    }
+
+    /* 3. THE RIGHT SIDEBAR (RSB) MAKEOVER */
+    /* When pushed to bottom, turn it into a "Related" card */
+    .right-sidebar, .sidebar {
+        width: 100% !important;
+        max-width: 860px !important; /* Slightly narrower than text for a "card" look */
+        
+        /* Box Styling */
+        margin-top: 20px !important;
+        padding: 30px !important;
+        background-color: rgba(255, 255, 255, 0.03); /* Subtle background */
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 12px;
+        
+        /* Reset Alignment */
+        display: block !important;
+        position: static !important;
+        text-align: left !important; /* Easy to read list */
+    }
+
+    /* 4. HIDE GRAPH ON MOBILE (Optional: usually too cramped) */
+    .graph-view-container {
+        display: none !important;
     }
 }
 
