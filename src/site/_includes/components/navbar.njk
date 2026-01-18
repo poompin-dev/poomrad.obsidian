@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" id="smart-navbar">
     <div class="navbar-inner">
         <a href="/" class="navbar-brand">
             {% if settings.dgShowInlineTitle === true %}
@@ -7,36 +7,39 @@
                 <span style="font-weight:800;">SFRad</span>
             {% endif %}
         </a>
-
-        <button class="nav-toggle" aria-label="open navigation">
-            <span class="hamburger"></span>
-        </button>
-
+        
         <div class="navbar-menu">
             {% for note in collections.gardenEntry %}
-                {# Only show if it has 'navbar' tag #}
                 {% if 'navbar' in note.data.tags %}
                     <a href="{{ note.url }}" class="navbar-item">{{ note.data.title or note.fileSlug }}</a>
                 {% endif %}
             {% endfor %}
-            
             {% if settings.dgEnableSearch === true %}
-                <div class="navbar-search-mobile">
+                <div class="navbar-search-desktop">
                     {% include "components/searchButton.njk" %}
                 </div>
             {% endif %}
-        </div>
-        
-        <div class="navbar-search-desktop">
-             {% include "components/searchButton.njk" %}
         </div>
     </div>
 </nav>
 
 <script>
-    // Simple toggle logic
-    document.querySelector('.nav-toggle').addEventListener('click', function() {
-        this.classList.toggle('is-active');
-        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    /* SMART SCROLL LOGIC */
+    let lastScrollY = window.scrollY;
+    const navbar = document.getElementById("smart-navbar");
+
+    window.addEventListener("scroll", () => {
+        const currentScrollY = window.scrollY;
+        
+        // 1. If scrolling DOWN and we are not at the very top: HIDE IT
+        if (currentScrollY > lastScrollY && currentScrollY > 50) {
+            navbar.classList.add("navbar-hidden");
+        } 
+        // 2. If scrolling UP: SHOW IT
+        else {
+            navbar.classList.remove("navbar-hidden");
+        }
+        
+        lastScrollY = currentScrollY;
     });
 </script>
