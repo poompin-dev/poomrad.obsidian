@@ -139,13 +139,15 @@ pre {
 /* Blockquotes */
 blockquote {
   border-left: 4px solid var(--interactive-accent) !important;
-  background: var(--background-secondary, #f9f9f9);
   margin: 1.5em 0 !important;
   padding: 1em 1.5em !important;
   border-radius: 0 8px 8px 0;
   font-style: italic;
   color: var(--text-muted, #666);
 }
+/* THE "LIFTED" BACKGROUND */
+  background: rgba(255, 255, 255, 0.03) !important; 
+  border: 1px solid var(--background-modifier-border); /* consistent with tables */
 
 /* Selection Color */
 ::selection {
@@ -159,18 +161,15 @@ blockquote {
 
 /* Base Table Reset */
 table {
-  border-collapse: collapse;
-  margin: 2em 0;
-  width: 100%;
-  font-size: 0.95em;
-  border: none;
-  box-shadow: none;
-}
-
-/* Headers */
-thead tr {
-  background-color: transparent !important;
-  border-bottom: 2px solid var(--text-muted);
+  /* ... your existing settings ... */
+  border-collapse: separate; /* Required for border-radius to work */
+  border-spacing: 0;
+  
+  /* THE "LIFTED" BACKGROUND */
+  background-color: rgba(255, 255, 255, 0.025); /* 2.5% White overlay */
+  border: 1px solid var(--background-modifier-border); /* Subtle border definition */
+  border-radius: 8px; /* Rounded card look */
+  overflow: hidden; /* Clips the corners */
 }
 
 th {
