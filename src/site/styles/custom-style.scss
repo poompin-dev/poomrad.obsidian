@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* =========================================
-   PART 1: CORE LAYOUT & VARIABLES
+   PART 1: CORE LAYOUT & VARIABLES (RESTORED FONTS)
    ========================================= */
 :root {
   /* Layout Dimensions */
@@ -16,10 +16,11 @@
   --dg-sidebar-top: 0px;
   --dg-content-padding-top: 16px !important;
 
-  /* Typography */
-  --font-text: "Inter", "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
-  --font-heading: "Inter", "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
-  --font-monospace: "JetBrains Mono", monospace;
+  /* Typography - REVERTED TO YOUR PREFERENCE */
+  --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  
   --dg-content-font-size: 18px;
   --dg-content-line-height: 1.6;
   
@@ -27,6 +28,14 @@
   --interactive-accent: #2eaadc; /* Your Blue */
   --interactive-accent-faint: rgba(46, 170, 220, 0.1);
 }
+
+body {
+  font-family: var(--font-text);
+  color: var(--text-normal);
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+code, pre, table { font-variant-numeric: tabular-nums; }
 
 body {
   font-family: var(--font-text);
