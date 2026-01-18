@@ -342,35 +342,34 @@ body table tbody tr:hover td {
     display: none !important;
 }
 /* =========================================
-   PART 6: FOOTER RESCUE
+   PART 6: FOOTER RESCUE (SAFE MODE)
    ========================================= */
 footer, .footer {
-    /* 1. Break out of the centered layout */
-    width: 100vw !important;
-    position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
+    /* 1. Reset geometry (Undo the hacks) */
+    width: 100% !important;
+    max-width: 100% !important;
+    position: static !important;
+    margin: 4rem auto 2rem auto !important;
     
-    /* 2. visual reset */
-    background-color: var(--background-secondary) !important; /* Ensure solid background */
+    /* 2. Visual Polish */
     text-align: center !important;
-    padding: 2rem 0 !important;
-    margin-top: 4rem !important; /* Push it down from content */
+    background: transparent !important; /* Remove background color so no "cut off" bars appear */
+    border-top: 1px solid var(--background-modifier-border); /* Subtle line to separate it */
+    padding-top: 2rem !important;
     
-    /* 3. Font discipline (Use the UI font, slightly smaller) */
+    /* 3. Typography */
     font-family: var(--font-editorial) !important;
     font-size: 0.85em !important;
     color: var(--text-muted) !important;
 }
 
-/* Ensure links in footer don't look weird */
+/* Link styling */
 footer a, .footer a {
     color: var(--text-muted) !important;
-    text-decoration: underline;
-    font-weight: normal !important;
+    text-decoration: none !important;
+    border-bottom: 1px dotted var(--text-muted);
 }
 footer a:hover, .footer a:hover {
     color: var(--interactive-accent) !important;
+    border-bottom-color: var(--interactive-accent);
 }
