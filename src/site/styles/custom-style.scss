@@ -409,41 +409,67 @@ body table tbody tr:hover td {
 }
 
 /* =========================================
-   PART 8: SMART NAVBAR (SCROLL & HIDE)
+   PART 8: SMART NAVBAR (UNIVERSAL ALIGNMENT FIX)
    ========================================= */
 
-/* 1. Make the Navbar Stick to the Glass */
+/* 1. THE STRIP (Background) */
 .navbar {
     position: fixed !important; /* Float above everything */
     top: 0;
     left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure it's on top of images */
+    right: 0; /* Use Left+Right=0 instead of Width=100% to prevent scrollbar bugs */
+    height: 60px;
+    z-index: 1000;
     
-    /* Smooth Slide Transition */
-    transition: transform 0.3s ease-in-out;
-    background-color: var(--background-secondary); /* Ensure it's not transparent */
+    background-color: var(--background-secondary);
     border-bottom: 1px solid var(--background-modifier-border);
+    transition: transform 0.3s ease-in-out;
+    
+    /* Force centering of the inner container */
+    display: flex;
+    justify-content: center;
 }
 
-/* 2. The "Hidden" State (Triggered by JS) */
+/* 2. THE CONTENT (Logo & Links) */
+.navbar-inner {
+    /* LOCK TO LAYOUT: Use the exact same variable as your main content */
+    width: 100% !important;
+    max-width: var(--layout-max) !important; 
+    
+    /* Center it */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    /* Match the padding of your content so the lines touch perfectly */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Fill the 60px height */
+}
+
+/* 3. BODY PADDING (The "Anti-Overlap" Zone) */
+/* This pushes your H1 title down so it doesn't hide behind the bar */
+body {
+    padding-top: 60px !important; 
+}
+
+/* 4. THE ANIMATION (Slide Up) */
 .navbar-hidden {
-    transform: translateY(-100%); /* Slide UP out of view */
+    transform: translateY(-100%);
     box-shadow: none;
 }
 
-/* 3. COMPENSATION FOR FIXED HEADER 
-   Since the navbar is now "floating", the text will jump up behind it. 
-   We need to add permanent padding to the body to prevent this. */
-body {
-    padding-top: 60px !important; /* Adjust this number to match your navbar height */
-}
-
-/* 4. Ensure iPad/Mobile width is still safe (From previous fix) */
+/* 5. IPAD & TABLET OVERRIDE */
+/* Since we redefined --layout-max in Part 7, the navbar will now AUTOMATICALLY 
+   fix itself on iPad. We just need to ensure padding matches the 90vw look. */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .navbar-inner {
-        width: 90vw !important;
-        margin: 0 auto !important;
+        width: 90vw !important; /* Match the body content width */
+        max-width: 900px !important;
+        padding-left: 0 !important; /* Remove padding to align flush with text */
+        padding-right: 0 !important;
     }
 }
