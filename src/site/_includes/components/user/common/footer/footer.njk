@@ -12,43 +12,48 @@
 </script>
 
 <style>
-/* 1. The Container */
-.custom-footer {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  
-  /* HEIGHT CONTROLS - Adjusted */
-  margin-top: 40px;       /* Reduced from 80px to pull it closer to content */
-  padding-top: 20px;      /* Reduced from 40px */
-  padding-bottom: 20px;   /* Reduced from 40px to Kill the Gap */
-  
-  background: var(--background-secondary);
-  border-top: 1px solid var(--background-modifier-border);
+/* 1. Set the Stage (The Body) */
+/* We make the body the reference point for the footer */
+body {
+    position: relative;       /* Footer will position relative to this */
+    min-height: 100vh;        /* Ensure body is always at least full screen */
+    padding-bottom: 120px !important; /* CRITICAL: Adds empty space at bottom so text doesn't hide behind footer */
+    box-sizing: border-box;
 }
 
-/* 2. The Content */
+/* 2. The Footer (Breakout Mode) */
+.custom-footer {
+    position: absolute;       /* Ignore the plugin's container limits */
+    bottom: 0;                /* Stick to the very bottom of the page */
+    left: 0;                  /* Start from the far left */
+    width: 100%;              /* Span the full width */
+    
+    /* Visuals */
+    height: auto;
+    padding: 20px 0;
+    background: var(--background-secondary);
+    border-top: 1px solid var(--background-modifier-border);
+    z-index: 1000;            /* Ensure it sits on top of anything else */
+}
+
+/* 3. The Content */
 .footer-content {
-  max-width: var(--layout-max);
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
+    max-width: var(--layout-max);
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .footer-content p {
-  margin: 0;
-  color: var(--text-muted);
-  font-size: 0.9em;
-  line-height: 1.2; /* Tights up the text lines */
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: 1.2;
 }
 
 .footer-sub {
-  font-size: 0.8em !important;
-  opacity: 0.7;
-  margin-top: 5px !important; /* Small gap between title and "Built with" */
-  margin-bottom: 0 !important; /* ENSURE no extra space below */
+    font-size: 0.8em !important;
+    opacity: 0.7;
+    margin-top: 5px !important;
 }
 </style>
