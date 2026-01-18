@@ -12,48 +12,58 @@
 </script>
 
 <style>
-/* 1. Set the Stage (The Body) */
-/* We make the body the reference point for the footer */
+/* 1. SETUP THE PAGE (The Stage) */
+/* We force the body to leave room at the bottom so content doesn't get hidden */
 body {
-    position: relative;       /* Footer will position relative to this */
-    min-height: 100vh;        /* Ensure body is always at least full screen */
-    padding-bottom: 120px !important; /* CRITICAL: Adds empty space at bottom so text doesn't hide behind footer */
+    position: relative;        /* The Anchor */
+    min-height: 100vh;         /* Always full screen */
+    padding-bottom: 140px !important; /* CRITICAL: Must be taller than the footer height! */
     box-sizing: border-box;
 }
 
-/* 2. The Footer (Breakout Mode) */
+/* 2. THE FOOTER (The Actor) */
 .custom-footer {
-    position: absolute;       /* Ignore the plugin's container limits */
-    bottom: 0;                /* Stick to the very bottom of the page */
-    left: 0;                  /* Start from the far left */
-    width: 100%;              /* Span the full width */
+    position: absolute;        /* Ignore layout flow (Flex/Grid) */
+    bottom: 0;                 /* Stick to the bottom of the body */
+    left: 0;                   /* Start at the far left edge */
+    width: 100%;               /* Span the full screen width */
+    height: auto;              /* Let content define height */
     
-    /* Visuals */
-    height: auto;
-    padding: 20px 0;
-    background: var(--background-secondary);
+    /* VISUALS */
+    background-color: var(--background-secondary); /* Your desired Dark BG */
     border-top: 1px solid var(--background-modifier-border);
-    z-index: 1000;            /* Ensure it sits on top of anything else */
+    padding: 30px 0;
+    z-index: 9999;             /* Sit on top of everything */
+    text-align: center;
 }
 
-/* 3. The Content */
+/* 3. THE CONTENT (Center it nicely) */
 .footer-content {
-    max-width: var(--layout-max);
+    max-width: var(--layout-max); /* Match your site's max width */
     margin: 0 auto;
     padding: 0 20px;
-    text-align: center;
 }
 
 .footer-content p {
     margin: 0;
     color: var(--text-muted);
+    font-family: var(--font-ui);
     font-size: 0.9em;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .footer-sub {
     font-size: 0.8em !important;
-    opacity: 0.7;
-    margin-top: 5px !important;
+    opacity: 0.6;
+    margin-top: 8px !important;
+}
+
+.custom-footer a {
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.custom-footer a:hover {
+    color: var(--interactive-accent);
 }
 </style>
