@@ -20,11 +20,11 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}">
-      <header>
-      {% if settings.dgShowInlineTitle === true %}
-        <h1>{{ noteTitle  }}</h1>
-      {% endif %}
+   <main class="content cm-s-obsidian {{contentClasses}}" style="padding-top: 0 !important; margin-top: 0 !important;">
+  <header style="margin-top: 0 !important; padding-top: 0 !important; margin-bottom: 0.8rem !important;">
+  {% if settings.dgShowInlineTitle === true %}
+    <h1 style="margin-top: 0 !important; padding-top: 0 !important;">{{ noteTitle  }}</h1>
+  {% endif %}
 
       <div class="header-meta">
         {% if settings.dgShowTags === true and tags %}
