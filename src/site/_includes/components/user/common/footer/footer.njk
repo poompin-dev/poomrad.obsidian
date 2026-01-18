@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   STRATEGY: SLIM SIDEBAR FOR 1400px
+   FINAL LAYOUT: "STACKED" + "GHOST" + "SEPARATOR"
    ========================================= */
 
 /* 1. BODY RESET */
@@ -32,8 +32,7 @@ body {
 }
 
 /* =========================================
-   A. GLOBAL DEFAULT (Mobile/Tablet/Small Laptop)
-   "Stacked View"
+   A. GLOBAL DEFAULT (Stacked View)
    ========================================= */
 .page-wrapper {
     display: flex !important;
@@ -66,6 +65,7 @@ main.content {
     height: auto !important;
 }
 
+/* --- THE CARD STYLING --- */
 .right-sidebar .backlinks, 
 .right-sidebar .toc-container,
 .sidebar .backlinks,
@@ -75,37 +75,67 @@ main.content {
     border: 1px solid var(--background-modifier-border) !important;
     border-radius: 12px !important;
     padding: 25px 30px !important;
-    margin-top: 40px !important;
+    
+    /* GAP SETTING: Push the box down to make room for the line */
+    margin-top: 60px !important;
     margin-bottom: 20px !important;
+    
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left !important;
+    
+    /* Required for positioning the line */
+    position: relative !important; 
+}
+
+/* --- THE BREAKLINE (SEPARATOR) --- */
+/* This draws a line above the box in stacked view */
+.right-sidebar .backlinks::before, 
+.sidebar .backlinks::before {
+    content: "";
+    display: block;
+    position: absolute;
+    
+    /* Position: 30px above the box */
+    top: -30px; 
+    left: 50%;
+    transform: translateX(-50%); /* Center it */
+    
+    /* Size & Color */
+    width: 120px; 
+    height: 1px;
+    background-color: var(--text-muted);
+    opacity: 0.3;
 }
 
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   B. THE 1400px FIX (Ghost Sidebar)
+   B. WIDE VIEW FIX (>1380px) - NOW STICKY!
    ========================================= */
-
-/* Trigger slightly earlier than 1400 to prevent glitches */
 @media screen and (min-width: 1380px) {
     
     .right-sidebar, .sidebar {
-        position: absolute !important;
-        top: 80px !important; 
+        /* FIXED: This makes it stick to the screen while you scroll */
+        position: fixed !important; 
         
-        /* MATH: Center (50%) + Half Text (450px) + Gap (20px) */
-        left: calc(50% + 470px) !important; 
-        
-        /* SLIMMER SIDEBAR */
+        top: 100px !important; /* Start slightly lower than navbar */
+        left: calc(50% + 470px) !important; /* Keep the Ghost Column position */
         width: 220px !important; 
+        
+        /* SCROLLABLE: If backlinks are long, scroll INSIDE the sidebar */
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        
+        /* Hide scrollbar for cleaner look (optional) */
+        scrollbar-width: none; 
         
         margin: 0 !important;
         background: transparent !important;
         border: none !important;
+        z-index: 100 !important; /* Ensure it floats above other things */
     }
 
-    /* Reset inner card styles for transparency */
+    /* Reset Cards to Transparent */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -116,12 +146,15 @@ main.content {
         padding: 0 !important;
         margin: 0 !important;
         margin-bottom: 30px !important;
-        
-        /* Smaller font for the slim sidebar */
         font-size: 0.9em !important;
     }
     
-    /* Make the titles smaller too */
+    /* HIDE THE BREAKLINE IN WIDE MODE */
+    .right-sidebar .backlinks::before, 
+    .sidebar .backlinks::before {
+        content: none !important; 
+    }
+    
     .right-sidebar .sidebar-title {
         font-size: 1.0em !important;
     }
