@@ -383,9 +383,8 @@ body table tbody tr:hover td {
     /* REMOVED: Redundant Navbar/Footer constraints here. 
        We will handle them globally in Part 8/9. */
 }
-
 /* =========================================
-   PART 8: SMART NAVBAR (Alignment + Animation)
+   PART 8: SMART NAVBAR (COMPLETE)
    ========================================= */
 
 /* 1. THE STRIP (Background & Animation Base) */
@@ -410,13 +409,12 @@ body table tbody tr:hover td {
 }
 
 /* 2. THE HIDDEN STATE (Triggered by Scroll) */
-/* When the script adds this class, the bar slides up */
 .navbar-hidden {
     transform: translateY(-100%);
     box-shadow: none;
 }
 
-/* 3. THE CONTENT (Logo & Links) */
+/* 3. THE CONTENT CONTAINER (Logo & Links) */
 .navbar-inner {
     /* LOCK TO LAYOUT: Matches your text column width */
     width: 100% !important;
@@ -436,19 +434,41 @@ body table tbody tr:hover td {
     height: 100%; 
 }
 
-/* 4. BODY PADDING (Prevents overlap) */
+/* 4. SITE NAME STYLIZE (The Logo) */
+.navbar-brand {
+    font-family: var(--font-base) !important; /* Ensure it uses the nuclear font */
+    font-size: 1.8em !important;   /* Big */
+    font-weight: 800 !important;   /* Bold */
+    letter-spacing: -0.03em;       /* Tight */
+    line-height: 1;
+    
+    /* Ensure it stays vertically centered */
+    display: flex;
+    align-items: center;
+    
+    /* Make it stand out slightly */
+    color: var(--text-normal) !important;
+    text-decoration: none !important;
+}
+
+/* 5. BODY PADDING (Prevents overlap) */
 body {
     padding-top: 60px !important; 
 }
 
-/* 5. MOBILE & TABLET OVERRIDES */
+/* 6. MOBILE & TABLET OVERRIDES */
 @media screen and (max-width: 1199px) {
+    /* Match the 90vw content width */
     .navbar-inner {
-        /* On mobile/tablet, switch to the 90vw width */
         width: 90vw !important; 
         max-width: 900px !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+    
+    /* Scale down the logo slightly on mobile */
+    .navbar-brand {
+        font-size: 1.5em !important;
     }
 }
 /* =========================================
