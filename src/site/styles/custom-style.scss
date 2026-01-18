@@ -41,67 +41,69 @@ body {
 }
 
 /* =========================================
-   PART 3: PRO TYPOGRAPHY & GAP DESIGN (TIGHTENED)
+   PART 3: RAW DENSITY (NO BORDERS, MINIMAL GAPS)
    ========================================= */
 
-/* --- HEADINGS: The Anchor Points --- */
+/* --- HEADINGS: Pure Text, No Decorations --- */
 
 main h1 {
     font-family: var(--font-base); 
-    font-size: 2.5em !important;
+    font-size: 2.3em !important;
     font-weight: 800 !important;
     letter-spacing: -0.03em !important;
     color: var(--text-header);
-    margin-bottom: 1.2rem !important; /* Slightly tighter */
-    padding-bottom: 1rem !important;
-    border-bottom: 2px solid var(--background-modifier-border) !important;
+    
+    /* TIGHT & CLEAN */
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0 !important; /* No padding */
+    border: none !important;      /* No line */
 }
 
 main h2 {
-    font-size: 1.75em !important;
+    font-size: 1.6em !important;
     font-weight: 700 !important;
     letter-spacing: -0.02em;
     color: var(--text-header);
     
-    /* GAP DESIGN: Adjusted from 3.5em -> 2.0em */
-    margin-top: 2.0em !important; 
-    margin-bottom: 0.6em !important;
+    /* THE NUKE: Bare minimum spacing */
+    margin-top: 0.8em !important; 
+    margin-bottom: 0.3em !important;
     
-    /* Divider line */
-    padding-top: 0.5em; /* Closer to the line */
-    border-top: 1px solid rgba(255,255,255,0.05); 
+    /* NO LINES */
+    padding-top: 0 !important; 
+    border: none !important; 
 }
 
-/* Remove the top border for the VERY first H2 */
+/* Redundant safety for first H2 */
 main h2:first-of-type {
-    border-top: none;
-    margin-top: 1.5em !important;
+    margin-top: 0.5em !important;
 }
 
 main h3 {
-    font-size: 1.35em !important;
+    font-size: 1.25em !important;
     font-weight: 600 !important;
     color: var(--text-header);
     
-    /* Adjusted from 2.5em -> 1.6em */
-    margin-top: 1.6em !important;
-    margin-bottom: 0.5em !important;
+    /* TIGHT */
+    margin-top: 0.8em !important;
+    margin-bottom: 0.3em !important;
 }
 
 main h4, main h5 {
     font-weight: 600;
-    margin-top: 1.4em !important;
-    margin-bottom: 0.4em !important;
+    margin-top: 0.8em !important;
+    margin-bottom: 0.2em !important;
     color: var(--text-muted);
     text-transform: uppercase;
     font-size: 0.85em;
     letter-spacing: 0.05em;
 }
 
-/* --- BODY TEXT: The Flow --- */
+/* --- BODY TEXT --- */
 
 p {
-    margin-bottom: 1.5em; 
+    /* Standard paragraph break only */
+    margin-bottom: 1em; 
     max-width: 80ch;      
 }
 
@@ -110,21 +112,21 @@ strong, b {
     color: #fff; 
 }
 
-/* --- LIST HYGIENE (You liked this, keeping it) --- */
+/* --- LISTS --- */
 
 ul, ol {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     padding-left: 1.5em;
 }
 
 li {
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.2em; /* Super tight list items */
     padding-left: 0.3em;
 }
 
 li > ul, li > ol {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 ul > li::marker {
@@ -151,8 +153,8 @@ a.internal-link:hover, a.external-link:hover {
 /* --- BLOCKQUOTES --- */
 blockquote {
     border-left: 3px solid var(--interactive-accent) !important;
-    margin: 2em 0 !important;
-    padding: 1.2em 1.5em !important;
+    margin: 1.2em 0 !important; 
+    padding: 0.8em 1.2em !important; /* Tighter padding */
     border-radius: 6px;
     font-style: normal; 
     font-size: 0.95em;
