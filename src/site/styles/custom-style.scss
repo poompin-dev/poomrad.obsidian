@@ -211,32 +211,42 @@ body table tbody tr:hover td {
   background-color: rgba(120, 120, 120, 0.05) !important;
 }
 
-/* === BREAKOUT TABLE WRAPPER (Mobile & Desktop) === */
-
-/* Mobile Default */
+/* === SYMMETRICAL TABLE EXPANSION === */
 .table-wide {
-    width: 100%;
-    overflow-x: auto;
+    /* 1. Logic: Standard width + Left Gap + Right Gap */
+    /* This fills the 32px gap on the right and matches it on the left for symmetry */
+    width: calc(100% + (2 * var(--layout-gap, 32px))); 
+    
+    /* 2. Pull it left by one gap-width to center it perfectly */
+    margin-left: calc(-1 * var(--layout-gap, 32px));
+    
+    /* 3. Scroll mechanics */
     display: block;
-    margin-bottom: 1em;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    /* 4. Visual Polish: Bottom spacing & rounded corners */
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    
+    /* 5. Optional: Scroll Hints (Shadows appear when scrolling is needed) */
+    background: 
+        linear-gradient(to right, var(--background-primary) 30%, rgba(255,255,255,0)),
+        linear-gradient(to right, rgba(255,255,255,0), var(--background-primary) 70%) 0 100%,
+        radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.2), rgba(0,0,0,0)),
+        radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+    background-position: 0 0, 100% 0, 0 0, 100% 0;
+    background-attachment: local, local, scroll, scroll;
 }
 
-/* Desktop Expansion */
-@media (min-width: 1000px) {
-    .table-wide {
-        width: 90vw;
-        margin-left: calc(50% - 45vw);
-        margin-right: calc(50% - 45vw);
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .table-wide table {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1400px; 
-    }
+/* Ensure the inner table respects the container */
+.table-wide table {
+    width: 100%;
+    /* Ensure columns don't get crushed too small */
+    min-width: 600px; 
+    margin: 0;
 }
 
 
