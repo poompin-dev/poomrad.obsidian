@@ -1,62 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* =========================================
-   PART 1: YOUR ORIGINAL LAYOUT (DO NOT TOUCH)
+   PART 1: CORE LAYOUT & VARIABLES
    ========================================= */
-
-:root{
-  /* reading column */
+:root {
+  /* Layout Dimensions */
   --dg-content-max-width: 920px;
-  --dg-content-font-size: 18px;
-  --dg-content-line-height: 1.6;
-
-  /* right sidebar (TOC/backlinks/graph) */
   --dg-sidebar-max-width: 260px;
-
-  /* remove filetree column */
-  --dg-filetree-width: 0px;
-  --dg-filetree-min-width: 0px;
-  --dg-filetree-gap: 0px;
-
-  /* kill top reserved spacing */
-  --dg-content-margin-top: 0px;
-  --dg-content-margin-top-mobile: 0px;
-  --dg-sidebar-top: 0px;
-
-  /* layout maths */
   --rhs-width: var(--dg-sidebar-max-width);
   --layout-gap: 32px;
   --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 40px);
+  
+  /* Vertical Rhythm */
+  --dg-content-margin-top: 0px;
+  --dg-sidebar-top: 0px;
+  --dg-content-padding-top: 16px !important;
+
+  /* Typography */
+  --font-text: "Inter", "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
+  --font-heading: "Inter", "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
+  --font-monospace: "JetBrains Mono", monospace;
+  --dg-content-font-size: 18px;
+  --dg-content-line-height: 1.6;
+  
+  /* Colors */
+  --interactive-accent: #2eaadc; /* Your Blue */
+  --interactive-accent-faint: rgba(46, 170, 220, 0.1);
 }
 
-/* Typography */
-body{
-  --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-
+body {
   font-family: var(--font-text);
-  /* Reduce the default top padding of the main note content */
-  --dg-content-padding-top: 16px !important; 
-}
-h1,h2,h3,h4,h5,h6{ font-family: var(--font-heading); }
-code, pre{ font-family: var(--font-monospace); }
-table, code, pre{ font-variant-numeric: tabular-nums; }
-
-/* Make header align with the centred layout */
-header{
-  max-width: var(--layout-max) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  box-sizing: border-box !important;
+  color: var(--text-normal);
 }
 
-/* Centre the combined layout (content + right sidebar) */
-@media (min-width: 1200px){
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+code, pre, table { font-variant-numeric: tabular-nums; }
+
+/* =========================================
+   PART 2: LAYOUT ENGINES
+   ========================================= */
+
+/* Center the Layout on Desktop */
+@media (min-width: 1200px) {
   body :where(div,section):has(header):has(main):has(.right-sidebar),
-  body :where(div,section):has(header):has(main):has(.sidebar-right){
+  header {
     max-width: var(--layout-max) !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -66,110 +53,86 @@ header{
   }
 }
 
-/* Reading column: keep it visually nice */
-main, article{
+/* Reading Column Limits */
+main, article {
   max-width: var(--dg-content-max-width) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  box-sizing: border-box !important;
-
+  margin: 0 auto !important;
   font-size: var(--dg-content-font-size) !important;
   line-height: var(--dg-content-line-height) !important;
 }
 
-/* Right sidebar width */
-.right-sidebar, .sidebar-right{
+/* Limit Line Length for Readability */
+main p, main ul, main ol {
+  max-width: 85ch; 
+}
+
+/* Sidebar Sizing */
+.right-sidebar, .sidebar-right {
   width: var(--rhs-width) !important;
 }
 
-/* Title styling */
-main h1:first-child, .page-title, .note-title{
+/* Hide Filetree (as per your original request) */
+.file-tree-column { display: none !important; }
+
+
+/* =========================================
+   PART 3: TYPOGRAPHY & ELEMENTS
+   ========================================= */
+
+/* Headings */
+main h1:first-child, .page-title {
   font-size: 2.3rem !important;
   line-height: 1.15 !important;
   font-weight: 800 !important;
   margin: 0 0 0.75rem 0 !important;
   padding-bottom: 0.75rem !important;
-  border-bottom: 1px solid var(--background-modifier-border, rgba(0,0,0,0.12)) !important;
+  border-bottom: 1px solid var(--background-modifier-border) !important;
 }
 
-/* If it still sticks, force the element itself */
-main.content.cm-s-obsidian{
-  padding-top: var(--dg-content-padding-top) !important;
-}
-
-/* =========================================
-   PART 2: VISUAL IMPROVEMENTS (ADD THESE)
-   ========================================= */
-/* Tighten the gap for lists under headings */
-.dataview.list-view-ul {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-/* ----------------------------
-   1. Refined Typography & Readability (UPDATED)
----------------------------- */
-
-/* Limit text width for better reading */
-main p, main ul, main ol {
-  max-width: 85ch;
-  margin-right: auto; 
-}
-
-/* General spacing for MOST headings (tighter) */
-main h1, main h2, main h3 {
-  margin-top: 1.2em !important; /* Reduced from 2em to 1.2em */
+main h2, main h3 {
+  margin-top: 1.2em !important;
   margin-bottom: 0.75em !important;
-  color: var(--text-normal);
   letter-spacing: -0.02em;
 }
 
-/* Specific rule: Give ONLY the first H2 extra breathing room
-   This creates that nice separation from the tags/title without breaking the flow later. */
+/* Give the first H2 breathing room */
 main h2:first-of-type {
   margin-top: 2.5em !important;
 }
 
-/* 2. Modern Link Styling */
+/* Links */
 a.internal-link, a.external-link {
   text-decoration: none !important;
-  color: var(--interactive-accent, #2eaadc); 
+  color: var(--interactive-accent);
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease-in-out;
   font-weight: 500;
 }
 
 a.internal-link:hover, a.external-link:hover {
-  background-color: rgba(46, 170, 220, 0.1); 
-  border-bottom: 2px solid var(--interactive-accent, #2eaadc);
+  background-color: var(--interactive-accent-faint);
+  border-bottom: 2px solid var(--interactive-accent);
   border-radius: 4px;
-  padding: 0 4px;
-  margin: 0 -4px;
 }
 
-/* 3. Polish Code Blocks */
-pre, code {
+/* Code Blocks */
+pre {
   background-color: var(--background-primary-alt, #f5f5f5);
+  padding: 1rem !important;
+  border: 1px solid var(--background-modifier-border);
   border-radius: 6px;
   font-size: 0.9em;
 }
-
-pre {
-  padding: 1rem !important;
-  border: 1px solid var(--background-modifier-border, #ddd);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-}
-
 :not(pre) > code {
-  color: #d73a49; 
+  color: #d73a49;
   background: rgba(135, 131, 120, 0.15);
   padding: 0.2em 0.4em;
+  border-radius: 4px;
 }
 
-/* 4. Elegant Blockquotes */
+/* Blockquotes */
 blockquote {
-  border-left: 4px solid var(--interactive-accent, #2eaadc) !important;
+  border-left: 4px solid var(--interactive-accent) !important;
   background: var(--background-secondary, #f9f9f9);
   margin: 1.5em 0 !important;
   padding: 1em 1.5em !important;
@@ -178,205 +141,70 @@ blockquote {
   color: var(--text-muted, #666);
 }
 
-/* 5. UI Polish (Images & Tables) */
-img {
-  border-radius: 8px; 
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); 
-  margin-top: 1em;
-  margin-bottom: 1em;
+/* Selection Color */
+::selection {
+  background-color: rgba(46, 170, 220, 0.3);
+  color: inherit;
 }
 
-table {
-  border-collapse: collapse;
-  margin: 1.5em 0;
-  width: 100%;
-  font-size: 0.95em;
-  border-radius: 8px;
-  overflow: hidden; 
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-}
+/* =========================================
+   PART 4: MEDICAL TABLES (Consolidated)
+   ========================================= */
 
-th {
-  background-color: var(--background-secondary, #f0f0f0);
-  font-weight: 600;
-  text-align: left;
-  padding: 12px;
-}
-
-td {
-  padding: 12px;
-  border-bottom: 1px solid var(--background-modifier-border, #eee);
-}
-
-/* ----------------------------
-   6. Medical Journal Table Styling
----------------------------- */
+/* Base Table Reset */
 table {
   border-collapse: collapse;
   margin: 2em 0;
   width: 100%;
-  border-radius: 0; /* flattened for cleaner look */
-  /* Remove the box shadow and outer border for a cleaner, minimal look */
-  box-shadow: none;
+  font-size: 0.95em;
   border: none;
+  box-shadow: none;
 }
 
-/* Header: Clean, text-only with a strong separator */
+/* Headers */
 thead tr {
-  background-color: transparent !important; /* No ugly grey bar */
-  border-bottom: 2px solid var(--text-muted); /* Strong line separates header */
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--text-muted);
 }
 
 th {
   text-transform: uppercase;
   font-size: 0.85em;
   font-weight: 700;
-  color: var(--text-muted); /* Slightly softer than pure black */
-  padding: 12px 16px 12px 0; /* Align left, remove left padding */
+  color: var(--text-muted);
+  padding: 12px 16px 12px 0;
   text-align: left;
   border: none !important;
+  background: transparent !important;
 }
 
-/* Body: Clean rows */
+/* Cells */
 td {
-  padding: 16px 16px 16px 0; /* Align left, remove left padding */
+  padding: 16px 16px 16px 0;
   vertical-align: top;
   border-bottom: 1px solid var(--background-modifier-border);
   line-height: 1.6;
+  background: transparent !important;
 }
 
-/* Fix the First Column: No blue, no weird font */
+/* First Column Emphasis */
 td:first-child {
-  font-family: var(--font-text) !important; /* Matches your body text */
-  font-weight: 700; /* Bold to differentiate, but not ugly */
-  color: var(--text-normal); /* Standard text color, NOT link blue */
-  width: 1%; /* Keep it tight */
-  white-space: nowrap;
-  padding-right: 24px; /* distinct gap between "Type" and "Description" */
-}
-
-/* Interaction: Subtle hover to help reading long rows */
-tbody tr:hover {
-  background-color: transparent; /* Disable hover if you want 100% static */
-  /* OR keep a very subtle guide line if preferred: */
-  /* background-color: rgba(0,0,0,0.02); */
-}
-/* ----------------------------
-   7. NUCLEAR Table Fixes (Zebra & Hover)
----------------------------- */
-
-/* 1. Kill Zebra Striping (Targeting body increases priority over theme) */
-body table tr,
-body table tr:nth-child(even),
-body table tr:nth-child(odd),
-body table td {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-/* 2. Fix Hover (Must target the CELLS inside the hovered row) */
-body table tbody tr:hover td {
-  background-color: rgba(120, 120, 120, 0.1) !important; /* Visible dark-mode friendly hover */
-}
-
-/* 3. Ensure Header is clean */
-body table thead tr, 
-body table thead th {
-  background: transparent !important;
-}
-/* ----------------------------
-   8. "Clinical Card" Callouts (Replacing Obsidian Style)
----------------------------- */
-
-/* Base Container: Soft, rounded, no heavy borders */
-.callout {
-  background-color: var(--background-secondary) !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  border-radius: 8px !important;
-  padding: 16px 20px !important;
-  margin: 1.5em 0 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02); /* Very subtle lift */
-}
-
-/* The Title Row: Clean and bold */
-.callout-title {
-  font-family: var(--font-heading);
+  font-family: var(--font-text) !important;
   font-weight: 700;
-  font-size: 0.95em;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 8px; /* Space between title and text */
-}
-
-/* The Content: Regular text, slightly smaller */
-.callout-content {
-  font-family: var(--font-text);
-  font-size: 0.95em;
-  line-height: 1.6;
   color: var(--text-normal);
+  width: 1%; /* Tight fit */
+  white-space: nowrap;
+  padding-right: 24px;
 }
 
-/* Hide the default heavy icons if you want a cleaner look. 
-   Or keep them but make them smaller/subtle (below). */
-.callout-icon {
-  width: 18px;
-  height: 18px;
-  opacity: 0.7;
+/* Hover Interaction */
+body table tbody tr:hover td {
+  background-color: rgba(120, 120, 120, 0.05) !important;
 }
 
-/* --- COLOR THEMES (Medical Context) --- */
+/* === BREAKOUT TABLE WRAPPER (Mobile & Desktop) === */
 
-/* 1. "Note" or "Info" -> The Standard Clinical Blue */
-/* Usage: > [!INFO] or > [!NOTE] */
-.callout[data-callout="info"], 
-.callout[data-callout="note"] {
-  background-color: rgba(46, 170, 220, 0.05) !important; /* Very faint blue */
-  border-color: rgba(46, 170, 220, 0.3) !important;
-}
-.callout[data-callout="info"] .callout-title,
-.callout[data-callout="note"] .callout-title {
-  color: #2eaadc; /* Your accent blue */
-}
-
-/* 2. "Tip" -> The Clinical Pearl (Green/Teal) */
-/* Usage: > [!TIP] or > [!example] */
-.callout[data-callout="tip"],
-.callout[data-callout="example"] {
-  background-color: rgba(52, 211, 153, 0.08) !important; /* Minty green */
-  border-color: rgba(52, 211, 153, 0.4) !important;
-}
-.callout[data-callout="tip"] .callout-title,
-.callout[data-callout="example"] .callout-title {
-  color: #059669; /* Darker green text */
-}
-
-/* 3. "Warning" -> The Diagnostic Trap (Orange/Red) */
-/* Usage: > [!WARNING] or > [!danger] */
-.callout[data-callout="warning"],
-.callout[data-callout="danger"], 
-.callout[data-callout="missing"] {
-  background-color: rgba(248, 113, 113, 0.08) !important; /* Soft red */
-  border-color: rgba(248, 113, 113, 0.3) !important;
-}
-.callout[data-callout="warning"] .callout-title,
-.callout[data-callout="danger"] .callout-title {
-  color: #dc2626; /* Dark red text */
-}
-
-/* ----------------------------
-   10. Custom Text Selection
----------------------------- */
-::selection {
-  background-color: rgba(46, 170, 220, 0.3); /* Your accent blue, transparent */
-  color: inherit;
-}
-
-/* BREAKOUT TABLE STYLES */
-
-/* Mobile: Scrollable inside the body */
+/* Mobile Default */
 .table-wide {
     width: 100%;
     overflow-x: auto;
@@ -384,21 +212,79 @@ body table thead th {
     margin-bottom: 1em;
 }
 
-/* Desktop: Break out of the container to 90% of screen width */
+/* Desktop Expansion */
 @media (min-width: 1000px) {
     .table-wide {
-        width: 90vw;            /* Take up 90% of the viewport width */
-        margin-left: calc(50% - 45vw); /* Center it relative to the viewport */
+        width: 90vw;
+        margin-left: calc(50% - 45vw);
         margin-right: calc(50% - 45vw);
         position: relative;
         left: 50%;
-        transform: translateX(-50%); /* Ensure perfect centering */
+        transform: translateX(-50%);
     }
     
-    /* Optional: Center the table text/content itself */
     .table-wide table {
         margin: 0 auto;
         width: 100%;
-        max-width: 1400px; /* Don't let it get TOO crazy wide on ultrawide monitors */
+        max-width: 1400px; 
     }
+}
+
+
+/* =========================================
+   PART 5: CLINICAL CALLOUTS
+   ========================================= */
+
+.callout {
+  background-color: var(--background-secondary) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 8px !important;
+  padding: 16px 20px !important;
+  margin: 1.5em 0 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.callout-title {
+  font-weight: 700;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+/* BLUE: Info/Note */
+.callout[data-callout="info"], .callout[data-callout="note"] {
+  background-color: rgba(46, 170, 220, 0.05) !important;
+  border-color: rgba(46, 170, 220, 0.3) !important;
+}
+.callout[data-callout="info"] .callout-title, .callout[data-callout="note"] .callout-title {
+  color: #2eaadc;
+}
+
+/* GREEN: Tip/Example */
+.callout[data-callout="tip"], .callout[data-callout="example"] {
+  background-color: rgba(52, 211, 153, 0.08) !important;
+  border-color: rgba(52, 211, 153, 0.4) !important;
+}
+.callout[data-callout="tip"] .callout-title, .callout[data-callout="example"] .callout-title {
+  color: #059669;
+}
+
+/* RED: Warning/Danger */
+.callout[data-callout="warning"], .callout[data-callout="danger"] {
+  background-color: rgba(248, 113, 113, 0.08) !important;
+  border-color: rgba(248, 113, 113, 0.3) !important;
+}
+.callout[data-callout="warning"] .callout-title, .callout[data-callout="danger"] .callout-title {
+  color: #dc2626;
+}
+
+/* FORCE HIDE the specific homepage link glitches (from earlier conversation) */
+.backlinks a[href="/"], 
+.backlinks a[href="/index"],
+.backlinks a.internal-link[href="/"],
+.backlinks li:has(a[href="/"]) {
+    display: none !important;
 }
