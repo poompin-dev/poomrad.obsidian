@@ -350,3 +350,43 @@ body table tbody tr:hover td {
 .backlinks li:has(a[href="/"]) {
     display: none !important;
 }
+/* =========================================
+   PART 7: IPAD & TABLET CENTERING (NUCLEAR OPTION)
+   ========================================= */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    /* 1. RESET THE GRID: Force the whole page to be one block */
+    body {
+        display: block !important;
+        grid-template-columns: 1fr !important; /* Kill the 3-column layout */
+    }
+
+    /* 2. HIDE SIDEBARS (Completely remove them from flow) */
+    .file-tree-column, .right-sidebar, .sidebar-right {
+        display: none !important;
+    }
+
+    /* 3. CENTER THE CONTENT */
+    main, .content, .markdown-preview-view {
+        /* Reset any "float" or grid positioning */
+        position: static !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+        
+        /* Force a centered width */
+        width: 90% !important; 
+        max-width: 900px !important;
+        
+        /* Ensure padding is balanced */
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    /* 4. Fix the Navbar to match */
+    header, nav {
+        width: 90% !important;
+        max-width: 900px !important;
+        margin: 0 auto !important;
+    }
+}
