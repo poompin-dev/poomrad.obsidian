@@ -16,10 +16,10 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT FIX (Margin Reset)
+   FINAL LAYOUT: ADDING THE GAP
    ========================================= */
 
-/* 1. BODY: The Master Grid */
+/* 1. BODY */
 body {
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
@@ -30,34 +30,36 @@ body {
     overflow-x: hidden !important; 
 }
 
-/* 2. PAGE WRAPPER: The Flex Row */
+/* 2. PAGE WRAPPER (The Fix) */
 .page-wrapper {
     width: 100%;
-    /* This defines the total width of Text + Sidebar */
     max-width: var(--layout-max, 1400px); 
-    margin: 0 auto; /* Centers the wrapper itself on screen */
+    margin: 0 auto; 
+    
+    /* ADDING THE GAP HERE */
+    /* 60px (Navbar height) + 40px (Gap) = 100px */
+    padding-top: 100px !important; 
     
     display: flex !important;
     flex-direction: row !important;
-    justify-content: center; /* Centers the content group */
+    justify-content: center; 
     align-items: flex-start;
     
     gap: var(--layout-gap, 40px);
 }
 
-/* 3. MAIN CONTENT (The Fix) */
+/* 3. MAIN CONTENT */
 main.content {
     margin-top: 0 !important;
-    padding-top: 60px !important;
     
-    /* CRITICAL FIX: Force margins to zero so it doesn't drift right */
+    /* REMOVED PADDING (Handled by wrapper now) */
+    padding-top: 0 !important; 
+    
     margin-left: 0 !important;
     margin-right: 0 !important;
     
     flex: 1 1 auto !important;
     width: 100% !important;
-    
-    /* Restrict text width so sidebar fits */
     max-width: var(--dg-content-max-width, 900px) !important;
 }
 
@@ -88,6 +90,8 @@ main.content {
         flex-direction: column !important;
         align-items: center !important;
         gap: 20px;
+        /* Slightly smaller gap on mobile if you want */
+        padding-top: 80px !important; 
     }
     
     main.content {
