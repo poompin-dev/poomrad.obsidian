@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   MASTER LAYOUT: "MOBILE LOGIC" PRIORITY
+   STRATEGY: SLIM SIDEBAR FOR 1400px
    ========================================= */
 
 /* 1. BODY RESET */
@@ -28,35 +28,110 @@ body {
     padding: 0 !important;
     overflow-y: auto !important;   
     overflow-x: hidden !important; 
+    position: relative !important;
 }
 
-/* 2. PAGE WRAPPER (Desktop Default - Only seen on HUGE screens) */
+/* =========================================
+   A. GLOBAL DEFAULT (Mobile/Tablet/Small Laptop)
+   "Stacked View"
+   ========================================= */
 .page-wrapper {
-    width: 100%;
-    max-width: var(--layout-max, 1400px); 
-    margin: 0 auto; 
-    padding-top: 100px !important; 
-    
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: center; 
-    align-items: flex-start;
-    
-    gap: var(--layout-gap, 40px);
+    flex-direction: column !important; 
+    align-items: center !important;    
+    width: 100%;
+    margin: 0 auto; 
+    padding-top: 80px !important;      
+    position: relative !important;     
 }
 
-/* 3. MAIN CONTENT (Desktop Default) */
 main.content {
-    margin-top: 0 !important;
-    padding-top: 0 !important; 
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    flex: 1 1 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px !important;
     width: 100% !important;
     max-width: var(--dg-content-max-width, 900px) !important;
+    flex: 1 1 auto !important;
 }
 
-/* 4. FOOTER STYLING (Clean, No Logo) */
+.right-sidebar, .sidebar {
+    margin: 0 auto !important;
+    width: 90% !important;
+    max-width: 800px !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    display: block !important;
+    position: static !important; 
+    height: auto !important;
+}
+
+.right-sidebar .backlinks, 
+.right-sidebar .toc-container,
+.sidebar .backlinks,
+.sidebar .toc-container {
+    display: block !important;
+    background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
+    border: 1px solid var(--background-modifier-border) !important;
+    border-radius: 12px !important;
+    padding: 25px 30px !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left !important;
+}
+
+.graph-view-container { display: none !important; }
+
+/* =========================================
+   B. THE 1400px FIX (Ghost Sidebar)
+   ========================================= */
+
+/* Trigger slightly earlier than 1400 to prevent glitches */
+@media screen and (min-width: 1380px) {
+    
+    .right-sidebar, .sidebar {
+        position: absolute !important;
+        top: 80px !important; 
+        
+        /* MATH: Center (50%) + Half Text (450px) + Gap (20px) */
+        left: calc(50% + 470px) !important; 
+        
+        /* SLIMMER SIDEBAR */
+        width: 220px !important; 
+        
+        margin: 0 !important;
+        background: transparent !important;
+        border: none !important;
+    }
+
+    /* Reset inner card styles for transparency */
+    .right-sidebar .backlinks, 
+    .right-sidebar .toc-container,
+    .sidebar .backlinks,
+    .sidebar .toc-container {
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-bottom: 30px !important;
+        
+        /* Smaller font for the slim sidebar */
+        font-size: 0.9em !important;
+    }
+    
+    /* Make the titles smaller too */
+    .right-sidebar .sidebar-title {
+        font-size: 1.0em !important;
+    }
+    
+    .graph-view-container { display: block !important; }
+}
+
+/* =========================================
+   FOOTER STYLING
+   ========================================= */
 .custom-footer {
     grid-row: 2 !important; 
     width: 100% !important;
@@ -75,71 +150,6 @@ main.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* 5. THE "MOBILE LOGIC" ENFORCER */
-/* Triggers on Laptops (1400px) and below */
-@media screen and (max-width: 1400px) {
-    
-    /* STACK EVERYTHING VERTICALLY */
-    .page-wrapper {
-        flex-direction: column !important;
-        align-items: center !important;
-        padding-top: 80px !important; 
-        gap: 0; 
-    }
-    
-    /* UNLOCK MAIN TEXT CENTER ALIGNMENT */
-    main.content {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-        
-        /* Auto margins = Floating Center */
-        margin-left: auto !important;
-        margin-right: auto !important;
-        
-        width: 100% !important;
-        max-width: 900px !important; 
-    }
-
-    /* INVISIBLE SIDEBAR CONTAINER */
-    .right-sidebar, .sidebar {
-        margin: 0 auto !important;
-        width: 90% !important;
-        max-width: 800px !important;
-        background: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        padding: 0 !important;
-        display: block !important;
-        position: static !important;
-        height: auto !important;
-    }
-
-    /* VISIBLE CARDS (Backlinks/TOC) */
-    .right-sidebar .backlinks, 
-    .right-sidebar .toc-container,
-    .sidebar .backlinks,
-    .sidebar .toc-container {
-        display: block !important;
-        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
-        border: 1px solid var(--background-modifier-border) !important;
-        border-radius: 12px !important;
-        padding: 25px 30px !important;
-        margin-top: 40px !important;
-        margin-bottom: 20px !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        text-align: left !important;
-    }
-
-    .graph-view-container { display: none !important; }
-    
-    .right-sidebar .sidebar-title {
-        margin-top: 0 !important;
-        font-size: 1.1em !important;
-        font-weight: 600 !important;
-        opacity: 0.8;
-    }
 }
 
 /* Typography */
