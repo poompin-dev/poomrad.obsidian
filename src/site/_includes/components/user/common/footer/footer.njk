@@ -1,5 +1,8 @@
 <footer class="custom-footer">
   <div class="footer-content">
+    
+    <img src="/favicon.svg" alt="End of note" class="footer-logo">
+    
     <p>© <span id="year-display"></span> Dr.SFRad</p>
     <p class="footer-sub">
       Built with <a href="https://github.com/oleeskild/obsidian-digital-garden">Digital Garden</a>
@@ -16,10 +19,10 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT: iPad Landscape Fix
+   MASTER LAYOUT FIX (Aligned & Debloated)
    ========================================= */
 
-/* 1. BODY */
+/* 1. BODY RESET */
 body {
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
@@ -30,13 +33,11 @@ body {
     overflow-x: hidden !important; 
 }
 
-/* 2. PAGE WRAPPER */
+/* 2. PAGE WRAPPER (Desktop Default) */
 .page-wrapper {
     width: 100%;
     max-width: var(--layout-max, 1400px); 
     margin: 0 auto; 
-    
-    /* Gap for Navbar */
     padding-top: 100px !important; 
     
     display: flex !important;
@@ -47,12 +48,12 @@ body {
     gap: var(--layout-gap, 40px);
 }
 
-/* 3. MAIN CONTENT (Desktop Defaults) */
+/* 3. MAIN CONTENT (Desktop Default) */
 main.content {
     margin-top: 0 !important;
     padding-top: 0 !important; 
     
-    /* DESKTOP: Lock to left/center via Flexbox */
+    /* Force Left alignment relative to the wrapper center */
     margin-left: 0 !important;
     margin-right: 0 !important;
     
@@ -61,14 +62,16 @@ main.content {
     max-width: var(--dg-content-max-width, 900px) !important;
 }
 
-/* 4. THE FOOTER */
+/* 4. FOOTER STYLING */
 .custom-footer {
     grid-row: 2 !important; 
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 40px 0 !important;
-    margin-top: 4rem !important;
+    
+    /* Reduce this to bring it closer to content */
+    margin-top: 2rem !important; 
     z-index: 10;
 }
 
@@ -82,72 +85,72 @@ main.content {
     align-items: center;
 }
 
-/* =========================================
-   MOBILE & TABLET RESPONSIVENESS (Safe "No-Empty-Box" Fix)
-   ========================================= */
-@media screen and (max-width: 1199px) {
+/* NEW LOGO STYLING */
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px; /* Space between logo and text */
+    opacity: 0.5;
+}
+
+/* 5. RESPONSIVENESS (The "Wonky Zone" Fix) */
+/* RAISED BREAKPOINT: Triggers "Mobile Mode" sooner (at 1350px) */
+/* This ensures Laptops get the nice centered view instead of broken side-by-side */
+@media screen and (max-width: 1350px) {
     
-    /* 1. STACK THE LAYOUT */
+    /* STACK EVERYTHING VERTICALLY */
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
         padding-top: 80px !important; 
-        gap: 0; /* Remove gap here, we add it to the box below */
+        gap: 0; 
     }
     
-    /* 2. MAIN TEXT */
+    /* UNLOCK MAIN TEXT CENTER ALIGNMENT */
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
+        
+        /* Auto margins = Floating Center */
         margin-left: auto !important;
         margin-right: auto !important;
+        
         width: 100% !important;
         max-width: 900px !important; 
     }
 
-    /* 3. THE SIDEBAR WRAPPER (Invisible) */
-    /* We make the container transparent so it never shows an empty box */
+    /* THE INVISIBLE SIDEBAR CONTAINER */
     .right-sidebar, .sidebar {
         margin: 0 auto !important;
         width: 90% !important;
         max-width: 800px !important;
-        
-        /* Remove visual styles from the parent */
         background: transparent !important;
         border: none !important;
         box-shadow: none !important;
         padding: 0 !important;
-        
         display: block !important;
         position: static !important;
         height: auto !important;
     }
 
-    /* 4. THE CONTENT BOXES (Visible only if they exist) */
-    /* We apply the "Card" look to the inner divs (Backlinks/TOC) */
+    /* THE VISIBLE CARDS (Backlinks/TOC) */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
     .sidebar .toc-container {
         display: block !important;
-        
-        /* The "Card" Look */
         background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
         border: 1px solid var(--background-modifier-border) !important;
         border-radius: 12px !important;
         padding: 25px 30px !important;
-        
-        /* Spacing */
-        margin-top: 40px !important; /* The gap between Text and Box */
+        margin-top: 40px !important;
         margin-bottom: 20px !important;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         text-align: left !important;
     }
 
-    /* Hide the graph view on mobile to save space */
     .graph-view-container { display: none !important; }
     
-    /* Title Tweaks */
     .right-sidebar .sidebar-title {
         margin-top: 0 !important;
         font-size: 1.1em !important;
