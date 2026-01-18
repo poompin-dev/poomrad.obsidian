@@ -13,64 +13,52 @@
 
 <style>
 /* =========================================
-   THE NUCLEAR FIX
+   THE "ABSOLUTE" FIX (Layout Safe)
    ========================================= */
 
-/* 1. BODY RESET: Prevent Horizontal Scroll & Vertical Stacking */
+/* 1. PREPARE THE PAGE (The Container) */
 body {
-    display: block !important;       /* Kills the "Flex Column" bug */
-    overflow-x: hidden !important;   /* CRITICAL: Hides the scrollbar caused by the wide footer */
-    width: 100% !important;
-    position: relative !important;
+    position: relative !important;   /* Creates the coordinate system for the footer */
+    min-height: 100vh !important;    /* Ensures page is at least as tall as screen */
+    padding-bottom: 12rem !important; /* CRITICAL: Reserves space at bottom so footer doesn't cover text */
+    overflow-x: hidden;              /* Prevents scrollbar from 100% width */
 }
 
-/* 2. MAIN TEXT: Force Centering */
-/* This grabs your article and shoves it to the middle */
-main.content, .markdown-preview-view {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
-    
-    /* Ensure it matches your preferred reading width */
-    width: 100% !important;
-    max-width: var(--layout-max) !important; 
-    
-    /* Spacing fixes */
-    padding-top: 40px !important;
-}
-
-/* 3. FOOTER: Force Full Viewport Width (The Breakout) */
+/* 2. THE FOOTER (Taken OUT of the flow) */
 .custom-footer {
-    /* This calculation forces the element to be exactly as wide as the screen */
-    width: 100vw !important; 
+    position: absolute !important;   /* Removes it from the flex/grid layout entirely */
+    bottom: 0 !important;            /* Pins it to the very bottom */
+    left: 0 !important;              /* Pins it to the left edge */
     
-    /* This pulls it out of any centered container */
-    position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
+    width: 100% !important;          /* Forces full width */
+    height: 12rem !important;        /* Fixed height (matches body padding above) */
     
-    /* Visuals */
+    /* Alignment & Visuals */
+    display: flex;
+    align-items: center;             /* Vertically center the content */
+    justify-content: center;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    margin-top: 5rem !important;
-    padding: 40px 0 !important;
-    z-index: 10;
+    z-index: 100;
 }
 
-/* 4. FOOTER CONTENT: Re-align to Match Text */
+/* 3. CENTER THE MAIN TEXT (The specific fix you asked for) */
+/* This ensures the middle column stays in the middle */
+main.content, .markdown-preview-view {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    /* Ensure it doesn't get too wide or too narrow */
+    width: 100% !important;
+    max-width: var(--layout-max, 900px) !important; 
+}
+
+/* 4. FOOTER CONTENT */
 .footer-content {
     width: 100%;
-    max-width: var(--layout-max); /* Same width as your main text */
-    margin: 0 auto;               /* Center it inside the wide strip */
-    padding: 0 20px;
-    
+    max-width: var(--layout-max, 900px);
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0 20px;
 }
 
 /* Typography */
@@ -78,10 +66,11 @@ main.content, .markdown-preview-view {
     margin: 0;
     color: var(--text-muted);
     font-size: 0.9em;
+    line-height: 1.6;
 }
 .footer-sub {
     font-size: 0.85em !important;
     opacity: 0.6;
-    margin-top: 8px !important;
+    margin-top: 4px;
 }
 </style>
