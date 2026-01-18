@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 
         {# 3. The Object #}
         {
-            "id": "{{ note.url }}",
+            "url": "{{ note.url }}",
             "title": {{ note.data.title | default(note.fileSlug) | dump | safe }},
             "content": {{ note.templateContent | striptags(true) | dump | safe }},
             "tags": {{ note.data.tags | dump | safe }}
