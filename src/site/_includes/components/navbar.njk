@@ -1,22 +1,42 @@
-{%if settings.dgHomeLink === true%}
-    <nav class="navbar">
-        <div class="navbar-inner">
-            <a href="/" style="text-decoration: none;">
-                {% if meta.siteLogoPath %}
-                    <img class="site-logo" src="{{meta.siteLogoPath}}" alt="{{meta.siteName}}">
-                {% else %}
-                    <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a href="/" class="navbar-brand">
+            {% if settings.dgShowInlineTitle === true %}
+                {{meta.siteName}}
+            {% else %}
+                <span style="font-weight:800;">SFRad</span>
+            {% endif %}
+        </a>
+
+        <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <div class="navbar-menu">
+            {% for note in collections.gardenEntry %}
+                {# Only show if it has 'navbar' tag #}
+                {% if 'navbar' in note.data.tags %}
+                    <a href="{{ note.url }}" class="navbar-item">{{ note.data.title or note.fileSlug }}</a>
                 {% endif %}
-            </a>
+            {% endfor %}
+            
+            {% if settings.dgEnableSearch === true %}
+                <div class="navbar-search-mobile">
+                    {% include "components/searchButton.njk" %}
+                </div>
+            {% endif %}
         </div>
-        {% if settings.dgEnableSearch === true%}
-            {% include "components/searchButton.njk" %}
-        {%endif%}
-    </nav>
-    {%else%}
-    <div class="empty-navbar" >
-        {% if settings.dgEnableSearch === true%}
-            {% include "components/searchButton.njk" %}
-        {%endif%}
+        
+        <div class="navbar-search-desktop">
+             {% include "components/searchButton.njk" %}
+        </div>
     </div>
-{%endif%}
+</nav>
+
+<script>
+    // Simple toggle logic
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+        this.classList.toggle('is-active');
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    });
+</script>
