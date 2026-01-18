@@ -13,52 +13,51 @@
 
 <style>
 /* =========================================
-   THE ARCHITECTURAL FIX
+   THE "GRID" FIX (Robust Layout)
    ========================================= */
 
-/* 1. THE BODY (Vertical Stack) */
-/* We tell the body to stack items: Header, Wrapper, Footer */
+/* 1. BODY: The Master Container */
 body {
-    display: flex !important;
-    flex-direction: column !important;
+    display: grid !important;
+    grid-template-rows: 1fr auto !important; /* Row 1: Content (grows), Row 2: Footer (fitted) */
     min-height: 100vh !important;
+    height: auto !important;       /* Allow it to grow infinitely */
     margin: 0 !important;
+    padding: 0 !important;
+    overflow-y: auto !important;   /* FORCE SCROLL: The fix for your stuck page */
+    overflow-x: hidden !important; /* Prevent side-scroll */
 }
 
-/* 2. THE NEW WRAPPER (Horizontal Row) */
-/* This restores your side-by-side layout (Content | Sidebar) */
-/* It also 'grows' to push the footer down */
+/* 2. THE WRAPPER (Content + Sidebar) */
+/* This sits in the first grid row and stretches */
 .page-wrapper {
-    display: flex !important;
-    flex-direction: row !important; /* Keep sidebars on the side! */
-    flex: 1 0 auto !important;      /* Fill all available vertical space */
     width: 100%;
-    justify-content: center;        /* Keep content centered */
+    max-width: 100%;
+    display: flex !important;     /* Keep Sidebar next to Content */
+    flex-direction: row !important; 
+    justify-content: center;
+    align-items: flex-start;      /* Align to top */
 }
 
-/* 3. MAIN CONTENT ADJUSTMENT */
-/* Ensure it plays nice inside the wrapper */
+/* 3. MAIN CONTENT */
 main.content {
     margin-top: 0 !important;
-    padding-top: 40px !important;
+    padding-top: 60px !important; /* Space for Navbar */
     width: 100% !important;
     max-width: var(--layout-max) !important;
+    flex: 1; /* Let it shrink/grow */
 }
 
-/* 4. THE FOOTER (Natural Flow) */
+/* 4. THE FOOTER */
 .custom-footer {
-    /* No hacks needed. It just sits at the bottom now. */
+    grid-row: 2; /* Sit explicitly in the second row */
     width: 100% !important;
-    flex-shrink: 0 !important;      /* Prevent squishing */
-    
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    margin-top: 4rem !important;
-    padding: 30px 0 !important;
+    padding: 40px 0 !important;
     z-index: 10;
 }
 
-/* 5. FOOTER CONTENT */
 .footer-content {
     width: 100%;
     max-width: var(--layout-max);
@@ -69,12 +68,18 @@ main.content {
     align-items: center;
 }
 
-/* 6. MOBILE RESPONSIVENESS */
-/* On small screens, stack the wrapper content vertically */
+/* 5. MOBILE & TABLET RESPONSIVENESS */
+/* When screen is small, stack the sidebar underneath */
 @media screen and (max-width: 1000px) {
     .page-wrapper {
         flex-direction: column !important;
-        align-items: center;
+        align-items: center !important;
+    }
+    
+    /* Ensure main content doesn't get squashed */
+    main.content {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 
