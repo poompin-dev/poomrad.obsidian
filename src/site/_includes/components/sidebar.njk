@@ -25,30 +25,41 @@
 
                   {%endif%}
 
-                        {%if settings.dgShowBacklinks === true %}
-                              {%if settings.dgShowBacklinks === true %}
-                              <div class="backlinks">
-                                    <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
-                                          <div class="backlink-list">
-                                          {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
-                                          {%- if currentNode -%}
-                                                {%- if currentNode.backLinks.length === 0 -%}
-                                                      <div class="backlink-card">
-                                                            <span class="no-backlinks-message">{{ meta.uiStrings.noBacklinksMessage }}</span>
-                                                      </div>
-                                                {%- endif -%}
-                                                {%- for backlink in currentNode.backLinks -%}
-                                                      {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
-                                                      <div class="backlink-card">
-                                                            {%- if not meta.noteIconsSettings.backlinks -%}<i  data-lucide="link"></i> {%- endif -%}<a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">{{graph.nodes[backlink].title}}</a>
-                                                      </div>
-                                                      {%- endif -%}
-                                                {%- endfor -%}
-                                          {%- endif -%}
-                                    </div>
-                              </div>
-                        {%endif%}
-                  {%endif%}
+                      {%if settings.dgShowBacklinks === true %}
+    {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
+    
+    {# --- 1. PRE-CALCULATE: Check if we have any valid backlinks first --- #}
+    {%- set hasValidBacklinks = false -%}
+    {%- if currentNode -%}
+        {%- for backlink in currentNode.backLinks -%}
+            {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                {%- set hasValidBacklinks = true -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+
+    {# --- 2. RENDER: Only show the section if we found valid links --- #}
+    {%- if hasValidBacklinks -%}
+        <div class="backlinks">
+            <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
+            <div class="backlink-list">
+                {%- for backlink in currentNode.backLinks -%}
+                    {# Re-apply the filter to render the items #}
+                    {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                        <div class="backlink-card">
+                            {%- if not meta.noteIconsSettings.backlinks -%}
+                                <i data-lucide="link"></i> 
+                            {%- endif -%}
+                            <a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">
+                                {{graph.nodes[backlink].title}}
+                            </a>
+                        </div>
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
+        </div>
+    {%- endif -%}
+{%endif%}
                   {% for imp in dynamics.sidebar.bottom %}
                         {% include imp %}
                   {% endfor %}
