@@ -351,17 +351,16 @@ body table tbody tr:hover td {
     display: none !important;
 }
 /* =========================================
-   PART 7: IPAD & TABLET UNIFIED ALIGNMENT
+   PART 7: IPAD & TABLET UNIFIED ALIGNMENT (Cleaned)
    ========================================= */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
-    /* 1. THE MATH FIX: Redefine "Max Width" for iPad */
-    /* This tricks the Footer and Navbar into matching the content width */
+    /* 1. THE MATH FIX */
     :root {
-        --layout-max: 90vw !important; /* Was calculated for desktop, now 90% of screen */
+        --layout-max: 90vw !important; 
     }
 
-    /* 2. BODY LAYOUT: Kill the Grid / Sidebars */
+    /* 2. BODY LAYOUT: Kill the Grid */
     body {
         display: block !important;
         grid-template-columns: 1fr !important;
@@ -376,121 +375,111 @@ body table tbody tr:hover td {
         margin-left: auto !important;
         margin-right: auto !important;
         float: none !important;
-        
-        /* Match the variable we set above */
         width: 90vw !important; 
-        max-width: 900px !important; /* Cap it so it doesn't get too wide on Pro tablets */
+        max-width: 900px !important; 
         padding: 0 !important;
     }
     
-    /* 4. NAVBAR ALIGNMENT FIX */
-    /* Force the navbar's inner container to center */
-    nav, .navbar, .navbar-inner {
-        width: 100% !important; /* Background full width */
-    }
-    
-    /* Target the direct children of the nav (Search bar, Title, etc.) */
-    nav > div, .navbar > div {
-        width: 90vw !important;
-        max-width: 900px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    /* 5. FOOTER ALIGNMENT FIX */
-    /* Since we updated --layout-max above, the footer might fix itself, 
-       but we force it here to be safe. */
-    .footer-content {
-        width: 90vw !important;
-        max-width: 900px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
+    /* REMOVED: Redundant Navbar/Footer constraints here. 
+       We will handle them globally in Part 8/9. */
 }
 
 /* =========================================
-   PART 8: SMART NAVBAR (UNIVERSAL ALIGNMENT FIX)
+   PART 8: SMART NAVBAR (Alignment + Animation)
    ========================================= */
 
-/* 1. THE STRIP (Background) */
+/* 1. THE STRIP (Background & Animation Base) */
 .navbar {
     position: fixed !important; /* Float above everything */
     top: 0;
     left: 0;
-    right: 0; /* Use Left+Right=0 instead of Width=100% to prevent scrollbar bugs */
+    width: 100% !important; /* Edge-to-edge background */
     height: 60px;
     z-index: 1000;
     
     background-color: var(--background-secondary);
     border-bottom: 1px solid var(--background-modifier-border);
-    transition: transform 0.3s ease-in-out;
     
-    /* Force centering of the inner container */
+    /* Flex logic to center the inner container */
     display: flex;
     justify-content: center;
+
+    /* --- ANIMATION LOGIC --- */
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0); /* Default state: Visible */
 }
 
-/* 2. THE CONTENT (Logo & Links) */
+/* 2. THE HIDDEN STATE (Triggered by Scroll) */
+/* When the script adds this class, the bar slides up */
+.navbar-hidden {
+    transform: translateY(-100%);
+    box-shadow: none;
+}
+
+/* 3. THE CONTENT (Logo & Links) */
 .navbar-inner {
-    /* LOCK TO LAYOUT: Use the exact same variable as your main content */
+    /* LOCK TO LAYOUT: Matches your text column width */
     width: 100% !important;
     max-width: var(--layout-max) !important; 
     
-    /* Center it */
+    /* Center the content */
     margin-left: auto !important;
     margin-right: auto !important;
     
-    /* Match the padding of your content so the lines touch perfectly */
+    /* Text Padding */
     padding-left: 20px !important;
     padding-right: 20px !important;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%; /* Fill the 60px height */
+    height: 100%; 
 }
 
-/* 3. BODY PADDING (The "Anti-Overlap" Zone) */
-/* This pushes your H1 title down so it doesn't hide behind the bar */
+/* 4. BODY PADDING (Prevents overlap) */
 body {
     padding-top: 60px !important; 
 }
 
-/* 4. THE ANIMATION (Slide Up) */
-.navbar-hidden {
-    transform: translateY(-100%);
-    box-shadow: none;
-}
-
-/* 5. IPAD & TABLET OVERRIDE */
-/* Since we redefined --layout-max in Part 7, the navbar will now AUTOMATICALLY 
-   fix itself on iPad. We just need to ensure padding matches the 90vw look. */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+/* 5. MOBILE & TABLET OVERRIDES */
+@media screen and (max-width: 1199px) {
     .navbar-inner {
-        width: 90vw !important; /* Match the body content width */
+        /* On mobile/tablet, switch to the 90vw width */
+        width: 90vw !important; 
         max-width: 900px !important;
-        padding-left: 0 !important; /* Remove padding to align flush with text */
+        padding-left: 0 !important;
         padding-right: 0 !important;
     }
 }
+/* =========================================
+   PART 9: UNIVERSAL FOOTER ALIGNMENT
+   ========================================= */
 
-.navbar-brand {
-    font-size: 1.8em !important;   /* Big */
-    font-weight: 800 !important;   /* Bold */
-    letter-spacing: -0.03em;       /* Tight */
-    line-height: 1;
-    
-    /* Ensure it stays vertically centered */
-    display: flex;
-    align-items: center;
-    
-    /* Optional: Make it slightly brighter than normal text */
-    color: var(--text-normal) !important;
+/* The Background Strip */
+.footer, footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    background: var(--background-secondary) !important; /* Ensure bg colour exists */
 }
 
-/* Mobile Adjustment */
-@media screen and (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.5em !important;
+/* The Content Container */
+.footer-content, footer > div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    /* Match the Navbar/Body width logic */
+    width: 100% !important;
+    max-width: var(--layout-max) !important;
+    padding: 20px 20px !important;
+}
+
+/* Mobile/Tablet Alignment for Footer */
+@media screen and (max-width: 1199px) {
+    .footer-content, footer > div {
+        width: 90vw !important;
+        max-width: 900px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
