@@ -407,3 +407,97 @@ body table tbody tr:hover td {
         margin-right: auto !important;
     }
 }
+
+/* =========================================
+   PART 8: COLLAPSIBLE NAVBAR (HAMBURGER)
+   ========================================= */
+
+/* 1. Base Styles (Desktop Default) */
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: var(--layout-max); /* Aligns with your content */
+    margin: 0 auto;
+}
+
+.nav-toggle {
+    display: none; /* Hidden on desktop */
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-search-mobile {
+    display: none; /* Hide mobile search on desktop */
+}
+
+/* 2. THE BREAKPOINT (Triggers on iPad Portrait & Mobile) */
+@media screen and (max-width: 1024px) {
+
+    /* Show the hamburger button */
+    .nav-toggle {
+        display: block;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 1002;
+    }
+    
+    /* Draw the Hamburger Icon using CSS */
+    .hamburger, .hamburger::before, .hamburger::after {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: var(--text-normal);
+        position: relative;
+        transition: transform 0.3s;
+    }
+    .hamburger::before, .hamburger::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+    .hamburger::before { top: -8px; }
+    .hamburger::after { top: 8px; }
+
+    /* Animate to "X" when open */
+    .nav-toggle.is-active .hamburger { background: transparent; }
+    .nav-toggle.is-active .hamburger::before { transform: rotate(45deg); top: 0; }
+    .nav-toggle.is-active .hamburger::after { transform: rotate(-45deg); top: 0; }
+
+    /* The Dropdown Menu (Hidden by default) */
+    .navbar-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Slide out of view */
+        width: 70%;   /* Cover 70% of screen */
+        height: 100vh;
+        background: var(--background-secondary);
+        border-left: 1px solid var(--background-modifier-border);
+        flex-direction: column;
+        justify-content: center;
+        transition: right 0.3s ease-in-out;
+        z-index: 1001;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+    }
+
+    /* The "Open" State */
+    .navbar-menu.is-active {
+        right: 0; /* Slide in */
+    }
+    
+    .navbar-item {
+        font-size: 1.2em;
+        padding: 15px 0;
+    }
+
+    /* Handle Search Bar positioning */
+    .navbar-search-desktop { display: none; }
+    .navbar-search-mobile { display: block; margin-top: 20px; }
+}
