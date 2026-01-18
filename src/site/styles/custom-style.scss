@@ -473,17 +473,22 @@ body {
         padding-right: 0 !important;
     }
 }
+
 .navbar-brand {
-    font-size: 1.8em !important; /* Was ~1em, now almost double */
-    letter-spacing: -0.03em;     /* Tighten spacing for a "Logo" feel */
-    line-height: 1;              /* Prevent it from stretching the navbar height */
+    font-size: 1.8em !important;   /* Big */
+    font-weight: 800 !important;   /* Bold */
+    letter-spacing: -0.03em;       /* Tight */
+    line-height: 1;
     
-    /* Optional: Ensure it stays vertically centered */
+    /* Ensure it stays vertically centered */
     display: flex;
     align-items: center;
+    
+    /* Optional: Make it slightly brighter than normal text */
+    color: var(--text-normal) !important;
 }
 
-/* On mobile, maybe scale it down slightly so it doesn't crowd the screen */
+/* Mobile Adjustment */
 @media screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.5em !important;
