@@ -2,12 +2,23 @@
 permalink: /searchIndex.json
 eleventyExcludeFromCollections: true
 ---
-[{%- for note in collections.note if note.url != "/" and note.data.search != false -%}
-{
-		"title": {% if post.data.title %}{{post.data.title | jsonify | safe }}{% else %}{{post.fileSlug | jsonify | safe }}{% endif %},
-		"date":"{{ post.date }}",
-		"url":"{{ post.url }}",
-		"content": {{ post.templateContent | striptags(true) | link | jsonify | safe  }},
-		"tags": [{{post.templateContent | link | searchableTags | safe }} {% if post.data.tags %}{% for tag in post.data.tags %}"{{tag|validJson}}"{% if not loop.last %},{% endif %}{% endfor %}{% endif %}]
-}{% if not loop.last %},{% endif %}
-{% endfor %}]
+[
+{%- set firstItem = true -%}
+{%- for note in collections.note -%}
+    {# 1. The Logic: Filter out Homepage and 'search: false' #}
+    {%- if note.url != "/" and note.data.search != false -%}
+        
+        {# 2. The Comma Fix: Only print comma if it's NOT the first valid item #}
+        {%- if not firstItem -%},{%- endif -%}
+        {%- set firstItem = false -%}
+
+        {# 3. The Object #}
+        {
+            "id": "{{ note.url }}",
+            "title": {{ note.data.title | default(note.fileSlug) | json | safe }},
+            "content": {{ note.templateContent | striptags(true) | json | safe }},
+            "tags": {{ note.data.tags | json | safe }}
+        }
+    {%- endif -%}
+{%- endfor -%}
+]
