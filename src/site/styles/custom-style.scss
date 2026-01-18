@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* =========================================
-   PART 1: CORE LAYOUT & VARIABLES (RESTORED FONTS)
+   PART 1: WIDER GEOMETRY & VARIABLES
    ========================================= */
 :root {
-  /* Layout Dimensions */
+  /* 1. Layout Dimensions */
   --dg-content-max-width: 920px;
   --dg-sidebar-max-width: 260px;
+  
+  /* [CHANGED] PUSH SIDEBAR RIGHT: Increased gap from 32px -> 64px */
+  --layout-gap: 64px; 
+  
   --rhs-width: var(--dg-sidebar-max-width);
-  --layout-gap: 32px;
-  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 40px);
+  
+  /* [CHANGED] Allow the container to grow wider to fit the new gap */
+  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 80px);
   
   /* Vertical Rhythm */
   --dg-content-margin-top: 0px;
   --dg-sidebar-top: 0px;
   --dg-content-padding-top: 16px !important;
 
-  /* Typography - REVERTED TO YOUR PREFERENCE */
+  /* Typography (Original Stack) */
   --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -25,17 +30,9 @@
   --dg-content-line-height: 1.6;
   
   /* Colors */
-  --interactive-accent: #2eaadc; /* Your Blue */
+  --interactive-accent: #2eaadc;
   --interactive-accent-faint: rgba(46, 170, 220, 0.1);
 }
-
-body {
-  font-family: var(--font-text);
-  color: var(--text-normal);
-}
-
-h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
-code, pre, table { font-variant-numeric: tabular-nums; }
 
 body {
   font-family: var(--font-text);
@@ -215,10 +212,10 @@ body table tbody tr:hover td {
 .table-wide {
     /* 1. Logic: Standard width + Left Gap + Right Gap */
     /* This fills the 32px gap on the right and matches it on the left for symmetry */
-    width: calc(100% + (2 * var(--layout-gap, 32px))); 
+    width: calc(100% + (2 * var(--layout-gap, 64px))); 
     
     /* 2. Pull it left by one gap-width to center it perfectly */
-    margin-left: calc(-1 * var(--layout-gap, 32px));
+    margin-left: calc(-1 * var(--layout-gap, 64px));
     
     /* 3. Scroll mechanics */
     display: block;
