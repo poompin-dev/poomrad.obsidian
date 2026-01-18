@@ -12,49 +12,76 @@
 </script>
 
 <style>
-/* 1. EMERGENCY RESET: Stop the body from flexing */
-/* This restores the sidebar/main layout to normal */
+/* =========================================
+   THE NUCLEAR FIX
+   ========================================= */
+
+/* 1. BODY RESET: Prevent Horizontal Scroll & Vertical Stacking */
 body {
-    display: block !important;
-    position: relative;
+    display: block !important;       /* Kills the "Flex Column" bug */
+    overflow-x: hidden !important;   /* CRITICAL: Hides the scrollbar caused by the wide footer */
+    width: 100% !important;
+    position: relative !important;
 }
 
-/* 2. FORCE TEXT CENTERING */
-/* This grabs the main text column and locks it to the middle */
+/* 2. MAIN TEXT: Force Centering */
+/* This grabs your article and shoves it to the middle */
 main.content, .markdown-preview-view {
+    display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    float: none !important; /* Prevents it from drifting left */
+    float: none !important;
     
-    /* Ensure it respects your width settings */
-    max-width: var(--layout-max) !important;
+    /* Ensure it matches your preferred reading width */
     width: 100% !important;
+    max-width: var(--layout-max) !important; 
     
-    /* Restore top spacing so it doesn't hide behind navbar */
-    padding-top: 40px !important; 
+    /* Spacing fixes */
+    padding-top: 40px !important;
 }
 
-/* 3. FOOTER (Simplified) */
-/* We stop the '100vw' hack for now to ensure stability. 
-   It will just sit safely at the bottom. */
+/* 3. FOOTER: Force Full Viewport Width (The Breakout) */
 .custom-footer {
-    width: 100%;
-    margin-top: 5rem !important; /* Push it down away from text */
-    padding: 30px 0;
+    /* This calculation forces the element to be exactly as wide as the screen */
+    width: 100vw !important; 
     
+    /* This pulls it out of any centered container */
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    
+    /* Visuals */
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    text-align: center;
+    margin-top: 5rem !important;
+    padding: 40px 0 !important;
+    z-index: 10;
 }
 
+/* 4. FOOTER CONTENT: Re-align to Match Text */
 .footer-content {
-    margin: 0 auto;
-    max-width: var(--layout-max);
+    width: 100%;
+    max-width: var(--layout-max); /* Same width as your main text */
+    margin: 0 auto;               /* Center it inside the wide strip */
+    padding: 0 20px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Typography */
 .footer-content p {
+    margin: 0;
     color: var(--text-muted);
     font-size: 0.9em;
-    margin: 0;
+}
+.footer-sub {
+    font-size: 0.85em !important;
+    opacity: 0.6;
+    margin-top: 8px !important;
 }
 </style>
