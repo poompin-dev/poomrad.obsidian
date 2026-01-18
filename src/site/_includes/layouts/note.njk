@@ -1,6 +1,3 @@
----
-permalink: "notes/{{ page.fileSlug | slugify }}/"
----
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
@@ -14,6 +11,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
+    
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}
@@ -67,7 +65,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
+      
       {{ content | hideDataview | taggify | link | replace('<table', '<div class="table-wide"><table') | replace('</table>', '</table></div>') | safe}}
+      
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -85,12 +85,16 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
+    
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
+
+    {% include "components/footer.njk" %}
+
     {%include "components/lucideIcons.njk"%}
     {% if contentClasses and "canvas-page" in contentClasses %}
       {%include "components/canvasScript.njk"%}
