@@ -1,6 +1,9 @@
 <nav class="navbar" id="smart-navbar">
     <div class="navbar-inner">
-        <a href="/" class="navbar-brand">
+        <a href="/" class="navbar-brand" style="display: flex; align-items: center; gap: 10px;">
+            
+            <img src="/favicon.svg" alt="" style="height: 1.2em; width: 1.2em; object-fit: contain;">
+
             {% if settings.dgShowInlineTitle === true %}
                 {{meta.siteName}}
             {% else %}
