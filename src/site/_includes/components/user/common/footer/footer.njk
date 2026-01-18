@@ -1,8 +1,42 @@
+I hear you. The side-by-side layout is struggling on laptops because there just isn't enough width to fit "Text + Gap + Sidebar" comfortably. Forcing the **"Mobile Logic" (Stacked View)** on these screens is the perfect solution—it's cleaner, centered, and readable.
+
+Here is the 2-part fix:
+
+1. **`note.njk`**: Puts the logo back at the end of your content (where you liked it).
+2. **`footer.njk`**: Removes the logo from the footer AND forces the "Stacked View" on everything smaller than a huge desktop (**1400px**).
+
+---
+
+### Step 1: Put the Logo back in `note.njk`
+
+Open **`src/site/_includes/layouts/note.njk`**.
+Insert this code inside the `<main>` tag, just before the closing `</main>`.
+
+```html
+          {{ content | hideDataview | taggify | link | safe }}
+
+          <div style="display: flex; justify-content: center; margin-top: 60px; margin-bottom: -20px; opacity: 0.5;">
+            <img src="/favicon.svg" alt="End of note" style="width: 60px; height: 60px;">
+          </div>
+          
+        </main>
+
+```
+
+---
+
+### Step 2: Fix the Footer & Layout (The "Mobile Logic" Switch)
+
+This updated CSS removes the logo from the footer strip and changes the **Breakpoint** to `1400px`.
+
+* **Screens < 1400px (Laptops/Tablets/Mobile):** You get the **Stacked View** (Centered Text + Sidebar underneath). No more wonky alignment.
+* **Screens > 1400px (Desktops):** You get the **Side-by-Side View**.
+
+Replace the entire content of **`src/site/_includes/components/user/common/footer/footer.njk`**:
+
+```html
 <footer class="custom-footer">
   <div class="footer-content">
-    
-    <img src="/favicon.svg" alt="End of note" class="footer-logo">
-    
     <p>© <span id="year-display"></span> Dr.SFRad</p>
     <p class="footer-sub">
       Built with <a href="https://github.com/oleeskild/obsidian-digital-garden">Digital Garden</a>
@@ -19,7 +53,7 @@
 
 <style>
 /* =========================================
-   MASTER LAYOUT FIX (Aligned & Debloated)
+   MASTER LAYOUT: "MOBILE LOGIC" PRIORITY
    ========================================= */
 
 /* 1. BODY RESET */
@@ -33,7 +67,7 @@ body {
     overflow-x: hidden !important; 
 }
 
-/* 2. PAGE WRAPPER (Desktop Default) */
+/* 2. PAGE WRAPPER (Desktop Default - Only seen on HUGE screens) */
 .page-wrapper {
     width: 100%;
     max-width: var(--layout-max, 1400px); 
@@ -52,25 +86,20 @@ body {
 main.content {
     margin-top: 0 !important;
     padding-top: 0 !important; 
-    
-    /* Force Left alignment relative to the wrapper center */
     margin-left: 0 !important;
     margin-right: 0 !important;
-    
     flex: 1 1 auto !important;
     width: 100% !important;
     max-width: var(--dg-content-max-width, 900px) !important;
 }
 
-/* 4. FOOTER STYLING */
+/* 4. FOOTER STYLING (Clean, No Logo) */
 .custom-footer {
     grid-row: 2 !important; 
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 40px 0 !important;
-    
-    /* Reduce this to bring it closer to content */
     margin-top: 2rem !important; 
     z-index: 10;
 }
@@ -85,18 +114,9 @@ main.content {
     align-items: center;
 }
 
-/* NEW LOGO STYLING */
-.footer-logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px; /* Space between logo and text */
-    opacity: 0.5;
-}
-
-/* 5. RESPONSIVENESS (The "Wonky Zone" Fix) */
-/* RAISED BREAKPOINT: Triggers "Mobile Mode" sooner (at 1350px) */
-/* This ensures Laptops get the nice centered view instead of broken side-by-side */
-@media screen and (max-width: 1350px) {
+/* 5. THE "MOBILE LOGIC" ENFORCER */
+/* Triggers on Laptops (1400px) and below */
+@media screen and (max-width: 1400px) {
     
     /* STACK EVERYTHING VERTICALLY */
     .page-wrapper {
@@ -119,7 +139,7 @@ main.content {
         max-width: 900px !important; 
     }
 
-    /* THE INVISIBLE SIDEBAR CONTAINER */
+    /* INVISIBLE SIDEBAR CONTAINER */
     .right-sidebar, .sidebar {
         margin: 0 auto !important;
         width: 90% !important;
@@ -133,7 +153,7 @@ main.content {
         height: auto !important;
     }
 
-    /* THE VISIBLE CARDS (Backlinks/TOC) */
+    /* VISIBLE CARDS (Backlinks/TOC) */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -171,3 +191,5 @@ main.content {
     margin-top: 8px !important;
 }
 </style>
+
+```
