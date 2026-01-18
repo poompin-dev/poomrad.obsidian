@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT: ADDING THE GAP
+   FINAL LAYOUT: iPad Landscape Fix
    ========================================= */
 
 /* 1. BODY */
@@ -30,14 +30,13 @@ body {
     overflow-x: hidden !important; 
 }
 
-/* 2. PAGE WRAPPER (The Fix) */
+/* 2. PAGE WRAPPER */
 .page-wrapper {
     width: 100%;
     max-width: var(--layout-max, 1400px); 
     margin: 0 auto; 
     
-    /* ADDING THE GAP HERE */
-    /* 60px (Navbar height) + 40px (Gap) = 100px */
+    /* Gap for Navbar */
     padding-top: 100px !important; 
     
     display: flex !important;
@@ -48,13 +47,12 @@ body {
     gap: var(--layout-gap, 40px);
 }
 
-/* 3. MAIN CONTENT */
+/* 3. MAIN CONTENT (Desktop Defaults) */
 main.content {
     margin-top: 0 !important;
-    
-    /* REMOVED PADDING (Handled by wrapper now) */
     padding-top: 0 !important; 
     
+    /* DESKTOP: Lock to left/center via Flexbox */
     margin-left: 0 !important;
     margin-right: 0 !important;
     
@@ -84,20 +82,27 @@ main.content {
     align-items: center;
 }
 
-/* 5. MOBILE & TABLET RESPONSIVENESS */
+/* 5. MOBILE & TABLET RESPONSIVENESS (The Fix) */
+/* Covers iPad Pro, iPad Mini Landscape, etc. */
 @media screen and (max-width: 1199px) {
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
         gap: 20px;
-        /* Slightly smaller gap on mobile if you want */
         padding-top: 80px !important; 
     }
     
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
-        max-width: 100% !important; 
+        
+        /* IPAD FIX: Reset margins to AUTO so it floats in the center */
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+        /* Ensure it doesn't get stuck at a fixed width */
+        width: 100% !important;
+        max-width: 900px !important; 
     }
 }
 
