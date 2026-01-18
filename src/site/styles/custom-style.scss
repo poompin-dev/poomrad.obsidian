@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* =========================================
-   PART 1: NUCLEAR FONT OVERRIDE & LAYOUT
+   PART 1: NUCLEAR FONT OVERRIDE (BODY TEXT FIX)
    ========================================= */
 :root {
   /* --- LAYOUT GEOMETRY --- */
@@ -15,20 +15,17 @@
   --dg-sidebar-top: 0px;
   --dg-content-padding-top: 40px !important; 
 
-  /* --- TYPOGRAPHY ENGINE (THE FIX) --- */
-  /* We define the stack once... */
+  /* --- TYPOGRAPHY ENGINE --- */
   --font-clinical: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  /* ...and FORCE it into every variable the theme uses */
+  /* Force variables */
   --font-text: var(--font-clinical) !important;
   --font-heading: var(--font-clinical) !important;
-  --font-ui: var(--font-clinical) !important;
   --font-body: var(--font-clinical) !important;
-  --font-base: var(--font-clinical) !important; /* Just to be safe */
 
   /* Sizing */
-  --dg-content-font-size: 18px; /* 18px is perfect for IBM Plex */
+  --dg-content-font-size: 18px; 
   --dg-content-line-height: 1.6;
   
   /* Colors */
@@ -36,20 +33,26 @@
   --interactive-accent-faint: rgba(46, 170, 220, 0.1);
   --text-header: #EAEAEA; 
   --text-body: #CFCFCF;   
-  --text-muted: #888888;
 }
 
-/* Force the body and main containers to obey */
+/* 1. The Container Override */
 body, main, .markdown-rendered, .markdown-preview-view {
-  font-family: var(--font-text) !important;
+  font-family: var(--font-clinical) !important;
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading) !important;
+/* 2. THE FIX: Target text elements DIRECTLY */
+p, li, ul, ol, dl, blockquote, table, td, th, span {
+    font-family: var(--font-clinical) !important;
 }
 
+/* 3. Keep Headers Distinct */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-clinical) !important;
+}
+
+/* 4. Keep Code Distinct */
 code, pre {
   font-family: var(--font-mono) !important;
 }
