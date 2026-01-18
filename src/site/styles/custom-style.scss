@@ -341,35 +341,3 @@ body table tbody tr:hover td {
 .backlinks li:has(a[href="/"]) {
     display: none !important;
 }
-/* =========================================
-   PART 6: FOOTER RESCUE (SAFE MODE)
-   ========================================= */
-footer, .footer {
-    /* 1. Reset geometry (Undo the hacks) */
-    width: 100% !important;
-    max-width: 100% !important;
-    position: static !important;
-    margin: 4rem auto 2rem auto !important;
-    
-    /* 2. Visual Polish */
-    text-align: center !important;
-    background: transparent !important; /* Remove background color so no "cut off" bars appear */
-    border-top: 1px solid var(--background-modifier-border); /* Subtle line to separate it */
-    padding-top: 2rem !important;
-    
-    /* 3. Typography */
-    font-family: var(--font-editorial) !important;
-    font-size: 0.85em !important;
-    color: var(--text-muted) !important;
-}
-
-/* Link styling */
-footer a, .footer a {
-    color: var(--text-muted) !important;
-    text-decoration: none !important;
-    border-bottom: 1px dotted var(--text-muted);
-}
-footer a:hover, .footer a:hover {
-    color: var(--interactive-accent) !important;
-    border-bottom-color: var(--interactive-accent);
-}
