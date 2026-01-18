@@ -13,52 +13,69 @@
 
 <style>
 /* =========================================
-   THE "ABSOLUTE" FIX (Layout Safe)
+   THE ARCHITECTURAL FIX
    ========================================= */
 
-/* 1. PREPARE THE PAGE (The Container) */
+/* 1. THE BODY (Vertical Stack) */
+/* We tell the body to stack items: Header, Wrapper, Footer */
 body {
-    position: relative !important;   /* Creates the coordinate system for the footer */
-    min-height: 100vh !important;    /* Ensures page is at least as tall as screen */
-    padding-bottom: 12rem !important; /* CRITICAL: Reserves space at bottom so footer doesn't cover text */
-    overflow-x: hidden;              /* Prevents scrollbar from 100% width */
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
 }
 
-/* 2. THE FOOTER (Taken OUT of the flow) */
+/* 2. THE NEW WRAPPER (Horizontal Row) */
+/* This restores your side-by-side layout (Content | Sidebar) */
+/* It also 'grows' to push the footer down */
+.page-wrapper {
+    display: flex !important;
+    flex-direction: row !important; /* Keep sidebars on the side! */
+    flex: 1 0 auto !important;      /* Fill all available vertical space */
+    width: 100%;
+    justify-content: center;        /* Keep content centered */
+}
+
+/* 3. MAIN CONTENT ADJUSTMENT */
+/* Ensure it plays nice inside the wrapper */
+main.content {
+    margin-top: 0 !important;
+    padding-top: 40px !important;
+    width: 100% !important;
+    max-width: var(--layout-max) !important;
+}
+
+/* 4. THE FOOTER (Natural Flow) */
 .custom-footer {
-    position: absolute !important;   /* Removes it from the flex/grid layout entirely */
-    bottom: 0 !important;            /* Pins it to the very bottom */
-    left: 0 !important;              /* Pins it to the left edge */
+    /* No hacks needed. It just sits at the bottom now. */
+    width: 100% !important;
+    flex-shrink: 0 !important;      /* Prevent squishing */
     
-    width: 100% !important;          /* Forces full width */
-    height: 12rem !important;        /* Fixed height (matches body padding above) */
-    
-    /* Alignment & Visuals */
-    display: flex;
-    align-items: center;             /* Vertically center the content */
-    justify-content: center;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    z-index: 100;
+    margin-top: 4rem !important;
+    padding: 30px 0 !important;
+    z-index: 10;
 }
 
-/* 3. CENTER THE MAIN TEXT (The specific fix you asked for) */
-/* This ensures the middle column stays in the middle */
-main.content, .markdown-preview-view {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    
-    /* Ensure it doesn't get too wide or too narrow */
-    width: 100% !important;
-    max-width: var(--layout-max, 900px) !important; 
-}
-
-/* 4. FOOTER CONTENT */
+/* 5. FOOTER CONTENT */
 .footer-content {
     width: 100%;
-    max-width: var(--layout-max, 900px);
+    max-width: var(--layout-max);
+    margin: 0 auto;
     text-align: center;
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 6. MOBILE RESPONSIVENESS */
+/* On small screens, stack the wrapper content vertically */
+@media screen and (max-width: 1000px) {
+    .page-wrapper {
+        flex-direction: column !important;
+        align-items: center;
+    }
 }
 
 /* Typography */
@@ -66,11 +83,10 @@ main.content, .markdown-preview-view {
     margin: 0;
     color: var(--text-muted);
     font-size: 0.9em;
-    line-height: 1.6;
 }
 .footer-sub {
     font-size: 0.85em !important;
     opacity: 0.6;
-    margin-top: 4px;
+    margin-top: 8px !important;
 }
 </style>
