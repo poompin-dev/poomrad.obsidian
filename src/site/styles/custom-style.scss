@@ -41,18 +41,18 @@ body {
 }
 
 /* =========================================
-   PART 3: PRO TYPOGRAPHY & GAP DESIGN
+   PART 3: PRO TYPOGRAPHY & GAP DESIGN (TIGHTENED)
    ========================================= */
 
 /* --- HEADINGS: The Anchor Points --- */
 
 main h1 {
-    font-family: var(--font-base); /* Use Inter for headers too */
+    font-family: var(--font-base); 
     font-size: 2.5em !important;
     font-weight: 800 !important;
     letter-spacing: -0.03em !important;
     color: var(--text-header);
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.2rem !important; /* Slightly tighter */
     padding-bottom: 1rem !important;
     border-bottom: 2px solid var(--background-modifier-border) !important;
 }
@@ -63,33 +63,35 @@ main h2 {
     letter-spacing: -0.02em;
     color: var(--text-header);
     
-    /* GAP DESIGN: Massive break before new section */
-    margin-top: 3.5em !important; 
-    margin-bottom: 0.75em !important;
+    /* GAP DESIGN: Adjusted from 3.5em -> 2.0em */
+    margin-top: 2.0em !important; 
+    margin-bottom: 0.6em !important;
     
-    /* Subtle divider line above H2s */
-    padding-top: 1em; 
+    /* Divider line */
+    padding-top: 0.5em; /* Closer to the line */
     border-top: 1px solid rgba(255,255,255,0.05); 
 }
 
 /* Remove the top border for the VERY first H2 */
 main h2:first-of-type {
     border-top: none;
-    margin-top: 2em !important;
+    margin-top: 1.5em !important;
 }
 
 main h3 {
     font-size: 1.35em !important;
     font-weight: 600 !important;
     color: var(--text-header);
-    margin-top: 2.5em !important;
+    
+    /* Adjusted from 2.5em -> 1.6em */
+    margin-top: 1.6em !important;
     margin-bottom: 0.5em !important;
 }
 
 main h4, main h5 {
     font-weight: 600;
-    margin-top: 1.5em !important;
-    margin-bottom: 0.5em !important;
+    margin-top: 1.4em !important;
+    margin-bottom: 0.4em !important;
     color: var(--text-muted);
     text-transform: uppercase;
     font-size: 0.85em;
@@ -99,7 +101,7 @@ main h4, main h5 {
 /* --- BODY TEXT: The Flow --- */
 
 p {
-    margin-bottom: 1.6em; 
+    margin-bottom: 1.5em; 
     max-width: 80ch;      
 }
 
@@ -108,7 +110,7 @@ strong, b {
     color: #fff; 
 }
 
-/* --- LIST HYGIENE --- */
+/* --- LIST HYGIENE (You liked this, keeping it) --- */
 
 ul, ol {
     margin-bottom: 1.5em;
@@ -116,7 +118,7 @@ ul, ol {
 }
 
 li {
-    margin-bottom: 0.5em; /* Slightly tighter for English lists */
+    margin-bottom: 0.5em; 
     padding-left: 0.3em;
 }
 
@@ -156,11 +158,9 @@ blockquote {
     font-size: 0.95em;
     color: var(--text-normal);
     
-    /* Lifted Background */
     background: rgba(255, 255, 255, 0.03) !important;
     border: 1px solid var(--background-modifier-border);
 }
-
 /* =========================================
    PART 4: MEDICAL TABLES (Consolidated)
    ========================================= */
