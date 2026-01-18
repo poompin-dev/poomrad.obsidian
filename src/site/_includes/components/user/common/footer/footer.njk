@@ -83,7 +83,7 @@ main.content {
 }
 
 /* =========================================
-   MOBILE & TABLET RESPONSIVENESS (Refined)
+   MOBILE & TABLET RESPONSIVENESS (Smart Hide)
    ========================================= */
 @media screen and (max-width: 1199px) {
     
@@ -91,11 +91,11 @@ main.content {
     .page-wrapper {
         flex-direction: column !important;
         align-items: center !important;
-        gap: 40px; /* Give space between Text and Sidebar */
         padding-top: 80px !important; 
+        gap: 40px; 
     }
     
-    /* 2. TEXT COLUMN: Floating Center */
+    /* 2. MAIN TEXT */
     main.content {
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -105,29 +105,46 @@ main.content {
         max-width: 900px !important; 
     }
 
-    /* 3. THE RIGHT SIDEBAR (RSB) MAKEOVER */
-    /* When pushed to bottom, turn it into a "Related" card */
+    /* 3. THE BACKLINKS CARD */
     .right-sidebar, .sidebar {
-        width: 100% !important;
-        max-width: 860px !important; /* Slightly narrower than text for a "card" look */
-        
-        /* Box Styling */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin: 0 auto !important;
         margin-top: 20px !important;
-        padding: 30px !important;
-        background-color: rgba(255, 255, 255, 0.03); /* Subtle background */
+        
+        width: 90% !important;
+        max-width: 800px !important;
+        
+        padding: 25px 30px !important;
+        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03));
         border: 1px solid var(--background-modifier-border);
         border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         
-        /* Reset Alignment */
         display: block !important;
         position: static !important;
-        text-align: left !important; /* Easy to read list */
+        text-align: left !important;
+        height: auto !important;
     }
 
-    /* 4. HIDE GRAPH ON MOBILE (Optional: usually too cramped) */
-    .graph-view-container {
+    /* 4. THE MAGIC TRICK (Hide if empty) */
+    /* This rule says: "If the sidebar does NOT have any <li> items, hide it." */
+    .right-sidebar:not(:has(li)), .sidebar:not(:has(li)) {
         display: none !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
+
+    /* Adjust Title */
+    .right-sidebar .sidebar-title {
+        margin-top: 0 !important;
+        font-size: 1.1em !important;
+        font-weight: 600 !important;
+        opacity: 0.8;
+    }
+    
+    .graph-view-container { display: none !important; }
 }
 
 /* Typography */
