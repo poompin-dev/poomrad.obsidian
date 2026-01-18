@@ -1,158 +1,164 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* =========================================
-   PART 1: WIDER GEOMETRY & VARIABLES
+   PART 1: CORE LAYOUT & VARIABLES (ENGLISH ACADEMIC)
    ========================================= */
 :root {
-  /* 1. Layout Dimensions */
-  --dg-content-max-width: 920px;
-  --dg-sidebar-max-width: 260px;
-  
-  /* [CHANGED] PUSH SIDEBAR RIGHT: Increased gap from 32px -> 64px */
+  /* --- LAYOUT GEOMETRY --- */
+  --dg-content-max-width: 900px;
+  --dg-sidebar-max-width: 280px;
   --layout-gap: 96px; 
-  
   --rhs-width: var(--dg-sidebar-max-width);
-  
-  /* [CHANGED] Allow the container to grow wider to fit the new gap */
   --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 80px);
   
-  /* Vertical Rhythm */
   --dg-content-margin-top: 0px;
   --dg-sidebar-top: 0px;
-  --dg-content-padding-top: 16px !important;
+  --dg-content-padding-top: 40px !important; 
 
-  /* Typography (Original Stack) */
-  --font-text: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  --font-heading: "Inter","IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  --font-monospace: "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  
-  --dg-content-font-size: 18px;
-  --dg-content-line-height: 1.6;
+  /* --- TYPOGRAPHY ENGINE --- */
+  /* Stack: Pure English Premium Stack */
+  --font-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Sizing */
+  --dg-content-font-size: 19px; 
+  --dg-content-line-height: 1.65; /* Tightened from 1.75 (better for English) */
   
   /* Colors */
   --interactive-accent: #2eaadc;
   --interactive-accent-faint: rgba(46, 170, 220, 0.1);
+  --text-header: #EAEAEA; 
+  --text-body: #CFCFCF;   
+  --text-muted: #888888;
 }
 
 body {
-  font-family: var(--font-text);
-  color: var(--text-normal);
+  font-family: var(--font-base);
+  color: var(--text-body);
+  /* "Kerning" - makes Inter look cleaner */
+  font-feature-settings: "cv11", "ss01"; 
+  -webkit-font-smoothing: antialiased;
 }
-
-h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
-code, pre, table { font-variant-numeric: tabular-nums; }
 
 /* =========================================
-   PART 2: LAYOUT ENGINES
+   PART 3: PRO TYPOGRAPHY & GAP DESIGN
    ========================================= */
 
-/* Center the Layout on Desktop */
-@media (min-width: 1200px) {
-  body :where(div,section):has(header):has(main):has(.right-sidebar),
-  header {
-    max-width: var(--layout-max) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    box-sizing: border-box !important;
-  }
+/* --- HEADINGS: The Anchor Points --- */
+
+main h1 {
+    font-family: var(--font-base); /* Use Inter for headers too */
+    font-size: 2.5em !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.03em !important;
+    color: var(--text-header);
+    margin-bottom: 1.5rem !important;
+    padding-bottom: 1rem !important;
+    border-bottom: 2px solid var(--background-modifier-border) !important;
 }
 
-/* Reading Column Limits */
-main, article {
-  max-width: var(--dg-content-max-width) !important;
-  margin: 0 auto !important;
-  font-size: var(--dg-content-font-size) !important;
-  line-height: var(--dg-content-line-height) !important;
+main h2 {
+    font-size: 1.75em !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+    color: var(--text-header);
+    
+    /* GAP DESIGN: Massive break before new section */
+    margin-top: 3.5em !important; 
+    margin-bottom: 0.75em !important;
+    
+    /* Subtle divider line above H2s */
+    padding-top: 1em; 
+    border-top: 1px solid rgba(255,255,255,0.05); 
 }
 
-/* Limit Line Length for Readability */
-main p, main ul, main ol {
-  max-width: 85ch; 
-}
-
-/* Sidebar Sizing */
-.right-sidebar, .sidebar-right {
-  width: var(--rhs-width) !important;
-}
-
-/* Hide Filetree (as per your original request) */
-.file-tree-column { display: none !important; }
-
-
-/* =========================================
-   PART 3: TYPOGRAPHY & ELEMENTS
-   ========================================= */
-
-/* Headings */
-main h1:first-child, .page-title {
-  font-size: 2.3rem !important;
-  line-height: 1.15 !important;
-  font-weight: 800 !important;
-  margin: 0 0 0.75rem 0 !important;
-  padding-bottom: 0.75rem !important;
-  border-bottom: 1px solid var(--background-modifier-border) !important;
-}
-
-main h2, main h3 {
-  margin-top: 1.2em !important;
-  margin-bottom: 0.75em !important;
-  letter-spacing: -0.02em;
-}
-
-/* Give the first H2 breathing room */
+/* Remove the top border for the VERY first H2 */
 main h2:first-of-type {
-  margin-top: 2.5em !important;
+    border-top: none;
+    margin-top: 2em !important;
 }
 
-/* Links */
+main h3 {
+    font-size: 1.35em !important;
+    font-weight: 600 !important;
+    color: var(--text-header);
+    margin-top: 2.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+main h4, main h5 {
+    font-weight: 600;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.5em !important;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+}
+
+/* --- BODY TEXT: The Flow --- */
+
+p {
+    margin-bottom: 1.6em; 
+    max-width: 80ch;      
+}
+
+strong, b {
+    font-weight: 700;
+    color: #fff; 
+}
+
+/* --- LIST HYGIENE --- */
+
+ul, ol {
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em; /* Slightly tighter for English lists */
+    padding-left: 0.3em;
+}
+
+li > ul, li > ol {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+ul > li::marker {
+    color: var(--interactive-accent); 
+}
+
+/* --- LINKS --- */
 a.internal-link, a.external-link {
-  text-decoration: none !important;
-  color: var(--interactive-accent);
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease-in-out;
-  font-weight: 500;
+    color: var(--interactive-accent);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(46, 170, 220, 0.3);
+    transition: all 0.15s ease-out;
 }
 
 a.internal-link:hover, a.external-link:hover {
-  background-color: var(--interactive-accent-faint);
-  border-bottom: 2px solid var(--interactive-accent);
-  border-radius: 4px;
+    background: var(--interactive-accent-faint);
+    border-bottom-color: var(--interactive-accent);
+    color: #fff;
+    border-radius: 4px;
+    padding: 0 4px;
+    margin: 0 -4px;
 }
 
-/* Code Blocks */
-pre {
-  background-color: var(--background-primary-alt, #f5f5f5);
-  padding: 1rem !important;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 6px;
-  font-size: 0.9em;
-}
-:not(pre) > code {
-  color: #d73a49;
-  background: rgba(135, 131, 120, 0.15);
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-}
-
-/* Blockquotes */
+/* --- BLOCKQUOTES --- */
 blockquote {
-  border-left: 4px solid var(--interactive-accent) !important;
-  margin: 1.5em 0 !important;
-  padding: 1em 1.5em !important;
-  border-radius: 0 8px 8px 0;
-  font-style: italic;
-  color: var(--text-muted, #666);
-  
-  /* MOVED INSIDE: */
-  background: rgba(255, 255, 255, 0.03) !important; 
-  border: 1px solid var(--background-modifier-border); 
-}
-/* Selection Color */
-::selection {
-  background-color: rgba(46, 170, 220, 0.3);
-  color: inherit;
+    border-left: 3px solid var(--interactive-accent) !important;
+    margin: 2em 0 !important;
+    padding: 1.2em 1.5em !important;
+    border-radius: 6px;
+    font-style: normal; 
+    font-size: 0.95em;
+    color: var(--text-normal);
+    
+    /* Lifted Background */
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid var(--background-modifier-border);
 }
 
 /* =========================================
