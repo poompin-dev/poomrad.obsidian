@@ -12,32 +12,29 @@
 </script>
 
 <style>
-/* 1. The Container (The Background Band) */
+/* 1. The Container */
 .custom-footer {
-  /* ... (keep your width/position settings same as before) ... */
   width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-   
-  /* Visuals */
-  margin-top: 80px; 
   
-  /* CHANGE THIS LINE: */
-  padding: 40px 0 10px 0; /* Top: 40px, Right: 0, Bottom: 10px, Left: 0 */
+  /* HEIGHT CONTROLS - Adjusted */
+  margin-top: 40px;       /* Reduced from 80px to pull it closer to content */
+  padding-top: 20px;      /* Reduced from 40px */
+  padding-bottom: 20px;   /* Reduced from 40px to Kill the Gap */
   
   background: var(--background-secondary);
   border-top: 1px solid var(--background-modifier-border);
 }
 
-/* 2. The Content (The Text) */
+/* 2. The Content */
 .footer-content {
-  /* This keeps the text aligned with your paragraphs above */
-  max-width: var(--layout-max); /* Matches your site's text width */
-  margin: 0 auto; /* Centers the block */
-  padding: 0 20px; /* Prevents text from touching edge on mobile */
+  max-width: var(--layout-max);
+  margin: 0 auto;
+  padding: 0 20px;
   text-align: center;
 }
 
@@ -45,11 +42,13 @@
   margin: 0;
   color: var(--text-muted);
   font-size: 0.9em;
+  line-height: 1.2; /* Tights up the text lines */
 }
 
 .footer-sub {
   font-size: 0.8em !important;
   opacity: 0.7;
-  margin-top: 8px !important;
+  margin-top: 5px !important; /* Small gap between title and "Built with" */
+  margin-bottom: 0 !important; /* ENSURE no extra space below */
 }
 </style>
