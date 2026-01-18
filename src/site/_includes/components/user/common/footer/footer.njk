@@ -83,7 +83,7 @@ main.content {
 }
 
 /* =========================================
-   MOBILE & TABLET RESPONSIVENESS (Smart Hide)
+   MOBILE & TABLET RESPONSIVENESS (Safe "No-Empty-Box" Fix)
    ========================================= */
 @media screen and (max-width: 1199px) {
     
@@ -92,7 +92,7 @@ main.content {
         flex-direction: column !important;
         align-items: center !important;
         padding-top: 80px !important; 
-        gap: 40px; 
+        gap: 0; /* Remove gap here, we add it to the box below */
     }
     
     /* 2. MAIN TEXT */
@@ -105,46 +105,55 @@ main.content {
         max-width: 900px !important; 
     }
 
-    /* 3. THE BACKLINKS CARD */
+    /* 3. THE SIDEBAR WRAPPER (Invisible) */
+    /* We make the container transparent so it never shows an empty box */
     .right-sidebar, .sidebar {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
         margin: 0 auto !important;
-        margin-top: 20px !important;
-        
         width: 90% !important;
         max-width: 800px !important;
         
-        padding: 25px 30px !important;
-        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03));
-        border: 1px solid var(--background-modifier-border);
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        /* Remove visual styles from the parent */
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
         
         display: block !important;
         position: static !important;
-        text-align: left !important;
         height: auto !important;
     }
 
-    /* 4. THE MAGIC TRICK (Hide if empty) */
-    /* This rule says: "If the sidebar does NOT have any <li> items, hide it." */
-    .right-sidebar:not(:has(li)), .sidebar:not(:has(li)) {
-        display: none !important;
-        border: none !important;
-        padding: 0 !important;
-        margin: 0 !important;
+    /* 4. THE CONTENT BOXES (Visible only if they exist) */
+    /* We apply the "Card" look to the inner divs (Backlinks/TOC) */
+    .right-sidebar .backlinks, 
+    .right-sidebar .toc-container,
+    .sidebar .backlinks,
+    .sidebar .toc-container {
+        display: block !important;
+        
+        /* The "Card" Look */
+        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
+        border: 1px solid var(--background-modifier-border) !important;
+        border-radius: 12px !important;
+        padding: 25px 30px !important;
+        
+        /* Spacing */
+        margin-top: 40px !important; /* The gap between Text and Box */
+        margin-bottom: 20px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: left !important;
     }
 
-    /* Adjust Title */
+    /* Hide the graph view on mobile to save space */
+    .graph-view-container { display: none !important; }
+    
+    /* Title Tweaks */
     .right-sidebar .sidebar-title {
         margin-top: 0 !important;
         font-size: 1.1em !important;
         font-weight: 600 !important;
         opacity: 0.8;
     }
-    
-    .graph-view-container { display: none !important; }
 }
 
 /* Typography */
