@@ -208,25 +208,32 @@ body table tbody tr:hover td {
   background-color: rgba(120, 120, 120, 0.05) !important;
 }
 
-/* === SYMMETRICAL TABLE EXPANSION === */
+/* === SMART DYNAMIC TABLE WRAPPER === */
 .table-wide {
-    /* 1. Logic: Standard width + Left Gap + Right Gap */
-    /* This fills the 32px gap on the right and matches it on the left for symmetry */
-    width: calc(100% + (2 * var(--layout-gap, 64px))); 
-    
-    /* 2. Pull it left by one gap-width to center it perfectly */
-    margin-left: calc(-1 * var(--layout-gap, 64px));
-    
-    /* 3. Scroll mechanics */
     display: block;
+    
+    /* 1. SIZING LOGIC */
+    /* Shrink to fit content, BUT... */
+    width: fit-content; 
+    /* ...never be smaller than the text column (keeps alignment clean)... */
+    min-width: 100%;    
+    /* ...and never grow past the sidebar/margins */
+    max-width: calc(100% + (2 * var(--layout-gap, 96px))); 
+    
+    /* 2. CENTERING MAGIC */
+    /* This centers the wrapper relative to the text column regardless of its width */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0; /* Reset the old margins */
+    
+    /* 3. SCROLL & POLISH */
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    
-    /* 4. Visual Polish: Bottom spacing & rounded corners */
     margin-bottom: 1.5em;
     border-radius: 8px;
     
-    /* 5. Optional: Scroll Hints (Shadows appear when scrolling is needed) */
+    /* Scroll Shadows (Subtle hint when scrolling is active) */
     background: 
         linear-gradient(to right, var(--background-primary) 30%, rgba(255,255,255,0)),
         linear-gradient(to right, rgba(255,255,255,0), var(--background-primary) 70%) 0 100%,
@@ -238,12 +245,13 @@ body table tbody tr:hover td {
     background-attachment: local, local, scroll, scroll;
 }
 
-/* Ensure the inner table respects the container */
+/* 4. INNER TABLE LOGIC */
 .table-wide table {
-    width: 100%;
-    /* Ensure columns don't get crushed too small */
-    min-width: 600px; 
-    margin: 0;
+    /* Let the table shrink! Don't force 100% width if data is small */
+    width: auto; 
+    /* But allow it to grow if needed */
+    max-width: 100%; 
+    margin: 0; 
 }
 
 
