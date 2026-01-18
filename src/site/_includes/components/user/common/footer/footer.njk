@@ -12,66 +12,49 @@
 </script>
 
 <style>
-/* 1. RESET THE PAGE LAYOUT (The Holy Grail Fix) */
+/* 1. EMERGENCY RESET: Stop the body from flexing */
+/* This restores the sidebar/main layout to normal */
 body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
-    overflow-x: hidden !important; /* Safety for mobile */
+    display: block !important;
+    position: relative;
 }
 
-/* 2. MAKE MAIN CONTENT GROW */
-/* This forces the content to take up all available space, 
-   pushing the footer to the bottom naturally. */
-main.content {
-    flex: 1 0 auto !important;
-    width: 100% !important;
-    max-width: var(--layout-max) !important;
+/* 2. FORCE TEXT CENTERING */
+/* This grabs the main text column and locks it to the middle */
+main.content, .markdown-preview-view {
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-top: 60px !important; /* Space for Navbar */
+    float: none !important; /* Prevents it from drifting left */
+    
+    /* Ensure it respects your width settings */
+    max-width: var(--layout-max) !important;
+    width: 100% !important;
+    
+    /* Restore top spacing so it doesn't hide behind navbar */
+    padding-top: 40px !important; 
 }
 
-/* 3. THE FOOTER (Simplified) */
+/* 3. FOOTER (Simplified) */
+/* We stop the '100vw' hack for now to ensure stability. 
+   It will just sit safely at the bottom. */
 .custom-footer {
-    /* No more crazy calculations */
-    width: 100% !important;
-    flex-shrink: 0 !important; /* Don't let it squish */
+    width: 100%;
+    margin-top: 5rem !important; /* Push it down away from text */
+    padding: 30px 0;
     
-    /* Visuals */
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
-    margin-top: 4rem !important;
-    padding: 40px 0 !important;
-    z-index: 10;
-}
-
-/* 4. INNER CONTENT (Centered) */
-.footer-content {
-    width: 100%;
-    max-width: var(--layout-max);
-    margin: 0 auto; /* Center in the footer strip */
-    padding: 0 20px;
-    
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* Text Styles */
-.footer-content p {
-    margin: 0;
-    color: var(--text-muted);
-    font-family: var(--font-ui);
-    font-size: 0.9em;
+.footer-content {
+    margin: 0 auto;
+    max-width: var(--layout-max);
 }
-.footer-sub {
-    font-size: 0.85em !important;
-    opacity: 0.6;
-    margin-top: 8px !important;
+
+.footer-content p {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    margin: 0;
 }
 </style>
