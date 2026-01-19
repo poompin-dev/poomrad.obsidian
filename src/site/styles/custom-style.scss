@@ -1,22 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* =========================================
-   PART 1: NUCLEAR FONT OVERRIDE (SOURCE SANS 3)
+   PART 1: THE CORE VARIABLES (AESTHETICS ONLY)
    ========================================= */
 :root {
-  /* --- LAYOUT GEOMETRY --- */
-  --dg-content-max-width: 900px;
-  --dg-sidebar-max-width: 280px;
-  --layout-gap: 96px; 
-  --rhs-width: var(--dg-sidebar-max-width);
-  --layout-max: calc(var(--dg-content-max-width) + var(--rhs-width) + var(--layout-gap) + 80px);
-  
-  --dg-content-margin-top: 0px;
-  --dg-sidebar-top: 0px;
-  --dg-content-padding-top: 10px !important; 
-
   /* --- TYPOGRAPHY ENGINE --- */
-  /* The "Textbook" Stack */
   --font-editorial: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
@@ -25,9 +13,11 @@
   --font-heading: var(--font-editorial) !important;
   --font-body: var(--font-editorial) !important;
 
-  /* Sizing: Bumped to 19px because Source Sans is naturally smaller */
+  /* Sizing */
   --dg-content-font-size: 19px; 
-  --dg-content-line-height: 1.6;
+  
+  /* TIGHTER LINE HEIGHT (Was 1.6) */
+  --dg-content-line-height: 1.5; 
   
   /* Colors */
   --interactive-accent: #2eaadc;
@@ -36,6 +26,10 @@
   --text-body: #CFCFCF;   
 }
 
+/* =========================================
+   PART 2: NUCLEAR FONT OVERRIDE
+   ========================================= */
+
 /* 1. The Container Override */
 body, main, .markdown-rendered, .markdown-preview-view {
   font-family: var(--font-editorial) !important;
@@ -43,7 +37,7 @@ body, main, .markdown-rendered, .markdown-preview-view {
   -webkit-font-smoothing: antialiased;
 }
 
-/* 2. THE FIX: Target text elements DIRECTLY */
+/* 2. Target text elements DIRECTLY */
 p, li, ul, ol, dl, blockquote, table, td, th, span {
     font-family: var(--font-editorial) !important;
 }
@@ -59,78 +53,15 @@ code, pre {
 }
 
 /* =========================================
-   PART 3: RAW DENSITY (NO BORDERS, MINIMAL GAPS)
+   PART 3: TYPOGRAPHY & DENSITY
    ========================================= */
 
-/* CRUSH THE CONTAINER GAP */
-main header {
-    margin-bottom: 0.5rem !important; /* Reduces gap between Title and Body */
-    padding-bottom: 0 !important;
-    margin-top: 0 !important;
-}
+/* ... Headings stay the same ... */
 
-/* --- HEADINGS: Pure Text, No Decorations --- */
-
-main h1 {
-    font-family: var(--font-base); 
-    font-size: 2.3em !important;
-    font-weight: 800 !important;
-    letter-spacing: -0.03em !important;
-    color: var(--text-header);
-    
-    /* TIGHT & CLEAN */
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    margin-bottom: 0.5rem !important;
-    padding-bottom: 0 !important; /* No padding */
-    border: none !important;      /* No line */
-}
-
-main h2 {
-    font-size: 1.6em !important;
-    font-weight: 700 !important;
-    letter-spacing: -0.02em;
-    color: var(--text-header);
-    
-    /* THE NUKE: Bare minimum spacing */
-    margin-top: 0.8em !important; 
-    margin-bottom: 0.3em !important;
-    
-    /* NO LINES */
-    padding-top: 0 !important; 
-    border: none !important; 
-}
-
-/* Redundant safety for first H2 */
-main h2:first-of-type {
-    margin-top: 0.5em !important;
-}
-
-main h3 {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: var(--text-header);
-    
-    /* TIGHT */
-    margin-top: 0.8em !important;
-    margin-bottom: 0.3em !important;
-}
-
-main h4, main h5 {
-    font-weight: 600;
-    margin-top: 0.8em !important;
-    margin-bottom: 0.2em !important;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    font-size: 0.85em;
-    letter-spacing: 0.05em;
-}
-
-/* --- BODY TEXT --- */
-
+/* BODY TEXT */
 p {
-    /* Standard paragraph break only */
-    margin-bottom: 1em; 
+    /* TIGHTER PARAGRAPH GAP (Was 1em) */
+    margin-bottom: 0.8em; 
     max-width: 80ch;      
 }
 
@@ -139,28 +70,30 @@ strong, b {
     color: #fff; 
 }
 
-/* --- LISTS --- */
-
+/* LISTS (The "Same Listing" Fix) */
 ul, ol {
-    margin-bottom: 1em;
+    margin-bottom: 0.8em; /* Matches paragraph gap */
     padding-left: 1.5em;
 }
 
 li {
-    margin-bottom: 0.2em; /* Super tight list items */
+    /* ULTRA TIGHT LIST ITEMS (Was 0.2em) */
+    /* This makes bullet points feel like a single block */
+    margin-bottom: 0.05em; 
     padding-left: 0.3em;
 }
 
+/* Space between a bullet and a nested sub-list */
 li > ul, li > ol {
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 
 ul > li::marker {
     color: var(--interactive-accent); 
 }
 
-/* --- LINKS --- */
+/* LINKS */
 a.internal-link, a.external-link {
     color: var(--interactive-accent);
     text-decoration: none;
@@ -177,11 +110,11 @@ a.internal-link:hover, a.external-link:hover {
     margin: 0 -4px;
 }
 
-/* --- BLOCKQUOTES --- */
+/* BLOCKQUOTES */
 blockquote {
     border-left: 3px solid var(--interactive-accent) !important;
-    margin: 1.2em 0 !important; 
-    padding: 0.8em 1.2em !important; /* Tighter padding */
+    margin: 1.5em 0 !important; 
+    padding: 1em 1.5em !important;
     border-radius: 6px;
     font-style: normal; 
     font-size: 0.95em;
@@ -190,25 +123,24 @@ blockquote {
     background: rgba(255, 255, 255, 0.03) !important;
     border: 1px solid var(--background-modifier-border);
 }
+
 /* =========================================
-   PART 4: MEDICAL TABLES (Consolidated)
+   PART 4: MEDICAL TABLES
    ========================================= */
 
-/* Base Table Reset */
 table {
-  /* ... your existing settings ... */
-  border-collapse: separate; /* Required for border-radius to work */
+  border-collapse: separate; 
   border-spacing: 0;
-  
-  /* THE "LIFTED" BACKGROUND */
-  background-color: rgba(255, 255, 255, 0.025); /* 2.5% White overlay */
-  border: 1px solid var(--background-modifier-border); /* Subtle border definition */
-  border-radius: 8px; /* Rounded card look */
-  overflow: hidden; /* Clips the corners */
+  background-color: rgba(255, 255, 255, 0.025); 
+  border: 1px solid var(--background-modifier-border); 
+  border-radius: 8px; 
+  overflow: hidden; 
+  margin-bottom: 1.5em;
+  width: 100%; /* Default to full width */
 }
 
 thead tr {
-  background-color: rgba(0, 0, 0, 0.2) !important; /* 20% Black overlay */
+  background-color: rgba(0, 0, 0, 0.2) !important; 
   border-bottom: 1px solid var(--background-modifier-border);
 }
 
@@ -217,82 +149,31 @@ th {
   font-size: 0.85em;
   font-weight: 700;
   color: var(--text-muted);
-  padding: 12px 16px 12px 0;
+  padding: 12px 16px 12px 16px; /* Added left padding */
   text-align: left;
   border: none !important;
   background: transparent !important;
 }
 
-/* Cells */
 td {
-  padding: 16px 16px 16px 0;
+  padding: 16px 16px 16px 16px; /* Added left padding */
   vertical-align: top;
   border-bottom: 1px solid var(--background-modifier-border);
   line-height: 1.6;
   background: transparent !important;
 }
 
-/* First Column Emphasis */
 td:first-child {
   font-family: var(--font-text) !important;
   font-weight: 700;
   color: var(--text-normal);
-  width: 1%; /* Tight fit */
-  white-space: nowrap;
-  padding-right: 24px;
+  /* Removed fixed width so it flows naturally */
 }
 
 /* Hover Interaction */
 body table tbody tr:hover td {
   background-color: rgba(120, 120, 120, 0.05) !important;
 }
-
-/* === SMART DYNAMIC TABLE WRAPPER === */
-.table-wide {
-    display: block;
-    
-    /* 1. SIZING LOGIC */
-    /* Shrink to fit content, BUT... */
-    width: fit-content; 
-    /* ...never be smaller than the text column (keeps alignment clean)... */
-    min-width: 100%;    
-    /* ...and never grow past the sidebar/margins */
-    max-width: calc(100% + (2 * var(--layout-gap, 96px))); 
-    
-    /* 2. CENTERING MAGIC */
-    /* This centers the wrapper relative to the text column regardless of its width */
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: 0; /* Reset the old margins */
-    
-    /* 3. SCROLL & POLISH */
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 1.5em;
-    border-radius: 8px;
-    
-    /* Scroll Shadows (Subtle hint when scrolling is active) */
-    background: 
-        linear-gradient(to right, var(--background-primary) 30%, rgba(255,255,255,0)),
-        linear-gradient(to right, rgba(255,255,255,0), var(--background-primary) 70%) 0 100%,
-        radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.2), rgba(0,0,0,0)),
-        radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
-    background-repeat: no-repeat;
-    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
-    background-position: 0 0, 100% 0, 0 0, 100% 0;
-    background-attachment: local, local, scroll, scroll;
-}
-
-/* 4. INNER TABLE LOGIC */
-.table-wide table {
-    /* Let the table shrink! Don't force 100% width if data is small */
-    width: auto; 
-    /* But allow it to grow if needed */
-    max-width: 100%; 
-    margin: 0; 
-}
-
 
 /* =========================================
    PART 5: CLINICAL CALLOUTS
@@ -343,98 +224,22 @@ body table tbody tr:hover td {
   color: #dc2626;
 }
 
-/* FORCE HIDE the specific homepage link glitches (from earlier conversation) */
+/* =========================================
+   PART 6: UTILITY & CLEANUP
+   ========================================= */
+
+/* Hide specific internal link glitches */
 .backlinks a[href="/"], 
 .backlinks a[href="/index"],
 .backlinks a.internal-link[href="/"],
 .backlinks li:has(a[href="/"]) {
     display: none !important;
 }
-/* =========================================
-   PART 7: SMART NAVBAR (COMPLETE)
-   ========================================= */
 
-/* 1. THE STRIP (Background & Animation Base) */
-.navbar {
-    position: fixed !important; /* Float above everything */
-    top: 0;
-    left: 0;
-    width: 100% !important; /* Edge-to-edge background */
-    height: 60px;
-    z-index: 1000;
-    
-    background-color: var(--background-secondary);
-    border-bottom: 1px solid var(--background-modifier-border);
-    
-    /* Flex logic to center the inner container */
-    display: flex;
-    justify-content: center;
-
-    /* --- ANIMATION LOGIC --- */
-    transition: transform 0.3s ease-in-out;
-    transform: translateY(0); /* Default state: Visible */
-}
-
-/* 2. THE HIDDEN STATE (Triggered by Scroll) */
-.navbar-hidden {
-    transform: translateY(-100%);
-    box-shadow: none;
-}
-
-/* 3. THE CONTENT CONTAINER (Logo & Links) */
-.navbar-inner {
-    /* LOCK TO LAYOUT: Matches your text column width */
-    width: 100% !important;
-    max-width: var(--layout-max) !important; 
-    
-    /* Center the content */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    
-    /* Text Padding */
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; 
-}
-
-/* 4. SITE NAME STYLIZE (The Logo) */
-.navbar-brand {
-    font-family: var(--font-base) !important; /* Ensure it uses the nuclear font */
-    font-size: 1.8em !important;   /* Big */
-    font-weight: 800 !important;   /* Bold */
-    letter-spacing: -0.03em;       /* Tight */
-    line-height: 1;
-    
-    /* Ensure it stays vertically centered */
-    display: flex;
-    align-items: center;
-    
-    /* Make it stand out slightly */
-    color: var(--text-normal) !important;
-    text-decoration: none !important;
-}
-
-/* 5. BODY PADDING (Prevents overlap) */
-body {
-    padding-top: 60px !important; 
-}
-
-/* 6. MOBILE & TABLET OVERRIDES */
-@media screen and (max-width: 1199px) {
-    /* Match the 90vw content width */
-    .navbar-inner {
-        width: 90vw !important; 
-        max-width: 900px !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    
-    /* Scale down the logo slightly on mobile */
-    .navbar-brand {
-        font-size: 1.5em !important;
-    }
+/* Center images by default */
+img {
+    display: block;
+    margin: 2em auto;
+    max-width: 100%;
+    border-radius: 4px;
 }
