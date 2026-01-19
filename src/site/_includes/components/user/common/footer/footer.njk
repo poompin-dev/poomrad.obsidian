@@ -78,24 +78,31 @@ main.content {
    5. SIDEBAR (Mobile/Tablet/Stacked)
    ========================================= */
 aside, .sidebar, .right-sidebar {
-    /* FIX: Stop using fit-content here. Just fill the screen safely. */
-    width: 95% !important;
-    max-width: 1200px !important; /* Cap it for wide tablets */
-    margin: 0 auto !important;    /* Perfectly centered */
-    
-    /* Height Logic */
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-    
+    /* RESET: Force it back into the page flow */
+    position: static !important;
     display: block !important;
-    position: static !important; 
     background: transparent !important;
     border: none !important;
+    
+    /* WIDTH LOGIC: 
+       1. Match the content width (usually 900px) so it aligns with text.
+       2. Use 'min' to ensure it never exceeds 95% of the screen on tiny phones.
+    */
+    width: 100% !important;
+    max-width: var(--dg-content-max-width, 900px) !important;
+    
+    /* CENTERING: 
+       The margin auto is crucial here. 
+       We add margin-top to separate it from the content. 
+    */
+    margin: 40px auto 20px auto !important;
     padding: 0 !important;
+    
+    /* SAFEGUARD: Prevent horizontal scrollbars */
+    box-sizing: border-box !important;
 }
 
-/* Inner Layout */
+/* Inner Layout reset */
 .sidebar-container, .backlinks, .toc, .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
