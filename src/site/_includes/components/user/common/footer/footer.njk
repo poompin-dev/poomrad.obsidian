@@ -63,10 +63,20 @@ main.content {
 }
 
 /* =========================================
-   2. HIDE SEPARATORS
+   2. HIDE SEPARATORS (FIXED)
    ========================================= */
-.stacked-separator, hr {
+/* Only hide the plugin's stack separators, NOT actual markdown <hr> */
+.stacked-separator {
     display: none !important;
+}
+
+/* OPTIONAL: Make sure content breaklines are visible and styled nicely */
+main.content hr {
+    display: block !important;
+    border: none !important;
+    border-top: 2px solid var(--background-modifier-border) !important;
+    margin: 30px 0 !important;
+    opacity: 1 !important;
 }
 
 /* =========================================
