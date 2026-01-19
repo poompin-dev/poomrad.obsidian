@@ -56,7 +56,7 @@ body {
 
 main.content {
     width: 100% !important;
-    max-width: 900px !important;
+    max-width: 800px !important;
     margin: 0 auto !important;
     padding: 0 20px !important;
     overflow: visible !important;
@@ -160,10 +160,12 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
         display: block !important;
         position: fixed !important;
         top: 100px !important;
-        left: calc(50% + 470px) !important;
+        
+        /* CALCULATION: (800px / 2) + 20px gap = 420px */
+        left: calc(50% + 420px) !important; /* <--- CHANGED from 470px */
+        
         width: fit-content !important;
         max-width: 400px !important;
-        /* Scroll ONLY the sidebar if it gets too tall */
         max-height: 80vh !important;
         overflow-y: auto !important;
     }
