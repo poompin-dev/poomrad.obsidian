@@ -16,26 +16,41 @@
 
 <style>
 /* =========================================
-   1. CRITICAL SCROLL FIX
+   1. MOUSE WHEEL UNLOCK (The Fix)
    ========================================= */
-/* Reset html/body to standard web scrolling behavior */
-html, body {
-    height: auto !important;
-    min-height: 100vh !important;
-    overflow-y: auto !important; /* Allow scroll */
-    overflow-x: hidden !important;
-    margin: 0 !important;
-    padding: 0 !important;
+
+/* HTML: The ONLY element allowed to have a scrollbar */
+html {
+    height: 100% !important;
+    overflow-y: scroll !important; /* Force vertical scrollbar */
+    overflow-x: hidden !important; 
     background-color: var(--background-primary) !important;
 }
 
-/* Ensure the wrapper doesn't lock the height */
-.page-wrapper {
-    height: auto !important;
-    min-height: 100vh !important;
-    overflow: visible !important;
+/* BODY: Must grow naturally. NEVER set overflow here. */
+body {
+    position: relative !important;
     display: flex !important;
     flex-direction: column !important;
+    min-height: 100vh !important;
+    height: auto !important;       /* Allow infinite growth */
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    /* CRITICAL: Unlock the wheel */
+    overflow: visible !important;  
+    background-color: var(--background-primary) !important;
+}
+
+/* WRAPPER: Just a container, no scrolling logic */
+.page-wrapper {
+    flex: 1 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;  /* No scroll trap here */
     padding-top: 80px !important;
 }
 
