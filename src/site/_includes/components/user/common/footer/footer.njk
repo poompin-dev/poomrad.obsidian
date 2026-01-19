@@ -89,13 +89,18 @@ main.content {
 aside, 
 .sidebar, 
 .right-sidebar {
-    /* THE GOLDILOCKS FIX */
-    width: -moz-fit-content !important;  /* Firefox support */
-    width: fit-content !important;       /* Standard: "Shrink wrap to text" */
+    /* 1. HORIZONTAL FIT (The Width Fix) */
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    
+    /* 2. VERTICAL FIT (The Height Fix) */
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    min-height: 0 !important;  /* Kill any minimum height defaults */
     
     /* Safety Limits */
-    min-width: 300px !important;   /* Don't get smaller than a phone screen */
-    max-width: 95vw !important;    /* Don't go off the screen edge */
+    min-width: 300px !important;
+    max-width: 95vw !important;
     
     /* Center it */
     margin-left: auto !important;
@@ -104,7 +109,6 @@ aside,
     /* Reset layout constraints */
     display: block !important;
     position: static !important; 
-    height: auto !important;
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
@@ -115,12 +119,13 @@ aside,
 .backlinks, 
 .toc {
     width: 100% !important; 
+    height: auto !important;    /* Let the content drive the height */
     box-sizing: border-box !important;
 }
 
-/* OPTIONAL: Prevent text wrapping unless absolutely necessary */
+/* Prevent text wrapping (Horizontal expansion) */
 .backlink a, .internal-link {
-    white-space: nowrap; /* Forces text to stay on one line if possible */
+    white-space: nowrap; 
 }
 
 /* Card Styling */
