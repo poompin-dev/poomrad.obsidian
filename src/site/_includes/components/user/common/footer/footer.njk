@@ -1,150 +1,19 @@
-<footer class="custom-footer">
-  <div class="footer-content">
-    <p>© <span id="year-display"></span> Dr.SFRad</p>
-    <p class="footer-sub">
-      Built with <a href="https://github.com/oleeskild/obsidian-digital-garden">Digital Garden</a>
-    </p>
-  </div>
-</footer>
-
-<script>
-  const yearSpan = document.getElementById("year-display");
-  if(yearSpan) {
-    yearSpan.innerText = new Date().getFullYear();
-  }
-</script>
-
-<style>
-/* =========================================
-   EMERGENCY RESTORE: STABLE & TALL SIDEBAR
-   ========================================= */
-
-/* 1. GLOBAL RESET (The "Pitch Black" Fix) */
-html {
-    overflow-x: hidden !important;
-    /* Ensure the theme background exists at the root */
-    background-color: var(--background-primary) !important;
-}
-
-body {
-    /* RESTORE LAYOUT ENGINE */
-    display: grid !important;
-    grid-template-rows: 1fr auto !important; 
-    min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: relative !important;
-    
-    /* Ensure the body is painted correctly */
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-
-    /* RESTORE SCROLLING (Let browser handle vertical, kill horizontal) */
-    overflow-y: auto !important;   
-    overflow-x: hidden !important; 
-}
-
-/* 2. PAGE WRAPPER */
-.page-wrapper {
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: center !important;    
-    width: 100%;
-    margin: 0 auto; 
-    padding-top: 80px !important;      
-    position: relative !important;     
-}
-
-/* --- SMART HIDE LOGIC (Fixed) --- */
-/* If the box has no links, hide the separator line */
-.page-wrapper:not(:has(.backlinks a)) .stacked-separator {
-    display: none !important;
-}
-
-/* 3. MAIN CONTENT */
-main.content {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 0 20px !important;
-    width: 100% !important;
-    max-width: var(--dg-content-max-width, 900px) !important;
-    flex: 1 1 auto !important;
-    overflow: visible !important; 
-}
-
-/* 4. THE SEPARATOR LINE (Default: Visible) */
-.stacked-separator {
-    border: 0;
-    height: 1px;
-    background: var(--text-normal);
-    opacity: 0.6;
-    margin-top: 60px !important;
-    margin-bottom: 20px !important;
-    
-    width: 90vw;             
-    max-width: 1200px;       
-    
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    
-    display: block; 
-}
-
-/* 5. SIDEBAR (Stacked View - Mobile/Tablet) */
-.right-sidebar, .sidebar {
-    margin: 0 auto !important;
-    width: 90% !important;
-    max-width: 800px !important;
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    display: block !important;
-    position: static !important; 
-    height: auto !important;
-}
-
-/* Cards styling */
-.right-sidebar .backlinks, 
-.right-sidebar .toc-container,
-.sidebar .backlinks,
-.sidebar .toc-container {
-    display: block !important;
-    background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
-    border: 1px solid var(--background-modifier-border) !important;
-    border-radius: 12px !important;
-    padding: 25px 30px !important;
-    margin-top: 0px !important;
-    margin-bottom: 20px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left !important;
-}
-
-.right-sidebar .sidebar-title {
-    font-size: 1.1em !important;
-    font-weight: 600 !important;
-    opacity: 0.8;
-}
-
-.graph-view-container { display: none !important; }
-
 /* =========================================
    B. WIDE VIEW FIX (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
     
-    /* 1. THE WRAPPER (The scrolling window) */
+    /* 1. THE SIDEBAR WRAPPER (Anchored) */
     .right-sidebar, .sidebar {
         position: fixed !important; 
         top: 100px !important; 
+        bottom: 40px !important; 
         left: calc(50% + 470px) !important; 
         width: 220px !important; 
         
-        /* This sets the "Window Size" */
-        max-height: calc(100vh - 120px) !important;
-        
-        /* The Wrapper handles the scrolling */
-        overflow-y: auto !important;
+        height: auto !important; 
+        max-height: none !important;
+        overflow-y: auto !important; /* Scroll here */
         scrollbar-width: none; 
         
         margin: 0 !important;
@@ -153,7 +22,7 @@ main.content {
         z-index: 100 !important;
     }
 
-    /* 2. THE INNER CARDS (The content) */
+    /* 2. INNER CONTAINERS (Backlinks & TOC) */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -163,52 +32,50 @@ main.content {
         box-shadow: none !important;
         padding: 0 !important;
         margin: 0 !important;
-        margin-bottom: 30px !important;
-        font-size: 0.9em !important;
+        margin-bottom: 40px !important; /* Gap between blocks */
         
-        /* CRITICAL FIX: Remove the default limits */
-        max-height: none !important;  /* Stop it from cutting off at 300px */
-        height: auto !important;      /* Let it grow as long as the list needs */
-        overflow: visible !important; /* Stop inner scrollbars */
+        /* Unlock height */
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    /* 3. TYPOGRAPHY POLISH (The Clean List Look) */
+    .sidebar-title {
+        font-size: 0.85em !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 12px !important;
     }
     
-    /* ... rest of the code (Hide Separator, etc) stays the same ... */
+    /* Target the new UL */
+    ul.backlinks-list {
+        list-style: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    /* Target the new LI */
+    li.backlink-item {
+        margin-bottom: 6px !important;
+        font-size: 0.9em !important;
+        line-height: 1.4;
+    }
+    
+    /* Links styling */
+    li.backlink-item a {
+        color: var(--text-normal);
+        text-decoration: none;
+        border-bottom: 1px solid transparent; /* Hover effect prep */
+        transition: all 0.2s;
+    }
+    
+    li.backlink-item a:hover {
+        color: var(--interactive-accent);
+        border-bottom-color: var(--interactive-accent);
+    }
+    
     .stacked-separator { display: none !important; }
-    .right-sidebar .sidebar-title { font-size: 1.0em !important; }
-    .graph-view-container { display: block !important; }
 }
-
-/* =========================================
-   FOOTER STYLING
-   ========================================= */
-.custom-footer {
-    grid-row: 2 !important; 
-    width: 100% !important;
-    background-color: var(--background-secondary);
-    border-top: 1px solid var(--background-modifier-border);
-    padding: 40px 0 !important;
-    margin-top: 2rem !important; 
-    z-index: 10;
-}
-
-.footer-content {
-    width: 100%;
-    max-width: var(--dg-content-max-width, 900px);
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-content p {
-    margin: 0;
-    color: var(--text-muted);
-    font-size: 0.9em;
-}
-.footer-sub {
-    font-size: 0.85em !important;
-    opacity: 0.6;
-    margin-top: 8px !important;
-}
-</style>
