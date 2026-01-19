@@ -105,7 +105,8 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     max-width: 90vw !important;     
     
     /* 3. EXPAND HEIGHT (No Scroll) */
-    height: auto !important;
+    height: auto !important;        /* Stops strictly at content end */
+    min-height: 0 !important;       /* Prevent default minimums */
     max-height: none !important;
     overflow: visible !important;
 
