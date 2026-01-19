@@ -95,16 +95,20 @@ main.content {
     display: block;
     position: absolute;
     
-    /* Position: 30px above the box */
-    top: -30px; 
+    /* Position: 40px above the box */
+    top: -40px; 
     left: 50%;
-    transform: translateX(-50%); /* Center it */
+    transform: translateX(-50%); /* Center it relative to the box */
     
-    /* Size & Color */
-    width: 120px; 
+    /* WIDTH LOGIC: */
+    /* 1. Take up 90% of the screen width (looks good on mobile) */
+    width: 90vw; 
+    /* 2. But never exceed 1200px (looks good on laptop) */
+    max-width: 1200px; 
+    
     height: 1px;
     background-color: var(--text-muted);
-    opacity: 0.3;
+    opacity: 0.2; /* Slightly more subtle since it's huge now */
 }
 
 .graph-view-container { display: none !important; }
