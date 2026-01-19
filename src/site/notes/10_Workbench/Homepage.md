@@ -9,11 +9,11 @@
 
 ___
 ## Last updated notes
+- [[30_Rad Knowledge/Chest/Mediastinum/Thymic carcinoma\|Thymic carcinoma]]
 - [[30_Rad Knowledge/MSK/Bone/Trauma/Atraumatic fracture/Atraumatic fracture\|Atraumatic fracture]]
 - [[30_Rad Knowledge/Multisystem/Systemic infection/Brucellosis\|Brucellosis]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Non-Mass Enhancement (NME) - Breast MRI\|Non-Mass Enhancement (NME) - Breast MRI]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Background Parenchymal Enhancement (BPE) - Breast MRI\|Background Parenchymal Enhancement (BPE) - Breast MRI]]
-- [[30_Rad Knowledge/Multisystem/Neoplasms/Granular cell tumour\|Granular cell tumour]]
 
 { .block-language-dataview}
 

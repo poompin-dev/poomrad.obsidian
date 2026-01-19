@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Rad/Chest/Mediastinum/Thymic carcinoma.md","permalink":"/rad/chest/mediastinum/thymic-carcinoma/"}
 ---
 
-# Thymic carcinoma
-
 > [!summary]
 > **High-grade malignant thymic epithelial tumour**. Compared with [[30_Rad Knowledge/Chest/Mediastinum/Thymoma\|thymoma]], it more often shows **infiltrative invasion**, **nodal metastases**, and **distant spread**, so prognosis is generally worse.
 ## Clinical
