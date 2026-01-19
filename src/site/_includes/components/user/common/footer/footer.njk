@@ -89,24 +89,19 @@ main.content {
 aside, 
 .sidebar, 
 .right-sidebar {
-    /* 1. HORIZONTAL FIT (The Width Fix) */
+    /* Horizontal Fit (As before) */
     width: -moz-fit-content !important;
     width: fit-content !important;
-    
-    /* 2. VERTICAL FIT (The Height Fix) */
-    height: -moz-fit-content !important;
-    height: fit-content !important;
-    min-height: 0 !important;  /* Kill any minimum height defaults */
-    
-    /* Safety Limits */
     min-width: 300px !important;
     max-width: 95vw !important;
-    
-    /* Center it */
     margin-left: auto !important;
     margin-right: auto !important;
+
+    /* VERTICAL UNLOCK (The Fix) */
+    height: auto !important;       /* Grow naturally */
+    max-height: none !important;   /* REMOVE THE CAP! */
+    overflow: visible !important;  /* Kill the scrollbar */
     
-    /* Reset layout constraints */
     display: block !important;
     position: static !important; 
     background: transparent !important;
@@ -114,16 +109,21 @@ aside,
     padding: 0 !important;
 }
 
-/* Force inner containers to behave */
+/* Force inner containers to expand */
 .sidebar-container, 
 .backlinks, 
-.toc {
+.toc, 
+.backlink-list {
     width: 100% !important; 
-    height: auto !important;    /* Let the content drive the height */
     box-sizing: border-box !important;
+    
+    /* CRITICAL: Tell the inner card to grow forever */
+    height: auto !important;
+    max-height: none !important; 
+    overflow: visible !important; 
 }
 
-/* Prevent text wrapping (Horizontal expansion) */
+/* Prevent text wrapping */
 .backlink a, .internal-link {
     white-space: nowrap; 
 }
