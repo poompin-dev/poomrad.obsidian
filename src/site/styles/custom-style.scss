@@ -291,13 +291,7 @@ body table tbody tr:hover td {
 /* =========================================
    PART 7: UTILITY & BUG FIXES
    ========================================= */
-
-/* 1. DUPLICATE TITLE KILLER (The H1 Fix) */
-div.title {
-    display: none !important;
-}
-
-/* 2. Center images by default */
+/* 1. Center images by default */
 img {
     display: block;
     margin: 2em auto;
