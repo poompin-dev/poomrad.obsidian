@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   MASTER CSS: FIXED ALIGNMENT
+   MASTER CSS: TRANSPARENT & EXPANDED
    ========================================= */
 
 /* 1. SCROLL ENGINE */
@@ -63,16 +63,16 @@ main.content {
 }
 
 /* =========================================
-   4. SEPARATOR LINE (Matched Width)
+   4. SEPARATOR LINE
    ========================================= */
 .stacked-separator {
     display: block;
     border: 0;
     height: 1px;
     background: var(--text-normal);
-    opacity: 0.3; /* Lower opacity for subtlety */
+    opacity: 0.3; 
     
-    /* ALIGNMENT FIX: Match the content width exactly */
+    /* Match content width */
     width: 90% !important;
     max-width: 900px !important;
     
@@ -83,16 +83,14 @@ main.content {
 }
 
 /* =========================================
-   5. SIDEBAR CONTAINER (The Flex Parent)
+   5. SIDEBAR CONTAINER (Flex Parent)
    ========================================= */
-/* This invisible container spans the full screen width 
-   and forces its children (the glass box) to the center. */
 aside, .sidebar, .right-sidebar, .sidebar-container {
     position: static !important;
-    display: flex !important;       /* Flex Parent Mode */
+    display: flex !important;       
     flex-direction: column !important;
-    align-items: center !important; /* Force children to center */
-    width: 100% !important;         /* Full width to prevent left-align */
+    align-items: center !important; /* Centers the list */
+    width: 100% !important;         
     margin: 0 !important;
     padding: 0 !important;
     
@@ -104,32 +102,54 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
 }
 
 /* =========================================
-   6. GLASS CARD STYLING (The Child)
+   6. CLEAN BACKLINKS (No Box, Expanded)
    ========================================= */
 .backlinks, .toc, .backlink-list {
-    /* SIZE CONTROL: Matches the separator and text above */
-    width: 90% !important;
-    max-width: 900px !important;
+    /* 1. REMOVE BOX STYLING */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+
+    /* 2. FIT TO TEXT */
+    width: fit-content !important;  
+    min-width: 200px !important;    
+    max-width: 95vw !important;     
     
-    /* TRANSPARENCY & LOOK */
-    background-color: rgba(20, 20, 20, 0.6) !important; 
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    border: 1px solid var(--background-modifier-border) !important;
-    border-radius: 12px !important;
-    padding: 25px 30px !important;
-    
-    margin: 0 !important; /* Parent handles centering */
-    margin-bottom: 20px !important;
-    box-sizing: border-box !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    /* 3. EXPAND HEIGHT (No Scroll) */
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+
+    /* 4. ALIGNMENT */
+    margin: 0 auto !important;      
+    margin-bottom: 40px !important;
+    padding: 0 !important;          
 }
 
-/* 7. TEXT WRAPPING */
-.backlink a, .internal-link {
-    white-space: normal !important; 
-    word-break: break-word;          
+/* The List Items */
+.backlink-list, .backlinks-list-container {
+    height: auto !important;
+    overflow: visible !important;
 }
+
+/* The Link Text */
+.backlink a, .internal-link, .backlink-header {
+    white-space: nowrap !important; /* No wrapping */
+    text-overflow: ellipsis !important;
+}
+
+/* Header Styling (optional cleanup) */
+.backlinks h3, .backlink-header {
+    margin-top: 0 !important;
+    opacity: 0.7 !important;
+    text-align: center !important; 
+    font-size: 0.9em !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
 .graph-view-container { display: none !important; }
 
 /* =========================================
@@ -137,27 +157,36 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
    ========================================= */
 @media screen and (min-width: 1650px) {
     aside, .sidebar, .right-sidebar {
-        /* Switch back to Block/Fixed for the floating card */
         display: block !important;
         position: fixed !important;
         top: 100px !important;
         
-        /* EXACT POSITIONING */
+        /* Positioning */
         left: calc(50% + 470px) !important;
         
-        width: 350px !important;
-        max-width: none !important;
+        /* Float Logic: Fit content but cap it so it doesn't fly off screen */
+        width: fit-content !important;
+        max-width: 400px !important;
+        
         bottom: auto !important;
         z-index: 100 !important;
     }
     
-    /* Hide the separator line on desktop */
+    /* Hide separator on desktop */
     .stacked-separator { display: none !important; }
     
-    /* Reset the glass card to fill the small sidebar */
+    /* Ensure the float is also transparent/clean */
     .backlinks, .toc {
         width: 100% !important;
-        max-width: none !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        text-align: left !important; /* Align left for side reading */
+    }
+    
+    /* Left align title on desktop for neatness */
+    .backlinks h3, .backlink-header {
+        text-align: left !important;
     }
 }
 
