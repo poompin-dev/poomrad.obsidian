@@ -169,18 +169,38 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
 }
 
 /* =========================================
-   7. FOOTER
+   7. FOOTER (Centering Fix)
    ========================================= */
 .custom-footer {
+    display: block !important;       /* Stop flex behavior on the parent */
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 40px 0 !important;
     margin-top: auto !important;
+    text-align: center !important;   /* Force text center */
 }
 
 .footer-content {
-    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;  /* Horizontal Center */
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 100% !important;      /* Stop it from being constrained */
+    margin: 0 auto !important;       /* Auto margins for safety */
+    text-align: center !important;
     color: var(--text-muted);
+}
+
+.footer-content p {
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.footer-sub {
+    margin-top: 8px !important;
+    font-size: 0.85em !important;
+    opacity: 0.6;
 }
 </style>
