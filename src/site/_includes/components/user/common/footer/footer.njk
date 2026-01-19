@@ -86,13 +86,16 @@ main.content {
 }
 
 /* 5. SIDEBAR & BACKLINKS (Stacked Default) */
-/* Target the wrapper <aside> AND the inner content */
 aside, 
 .sidebar, 
 .right-sidebar {
-    /* BREAK OUT OF PARENT */
-    width: 95vw !important;        /* 95% of the actual screen width */
-    max-width: 1200px !important;  /* The limit you want */
+    /* THE GOLDILOCKS FIX */
+    width: -moz-fit-content !important;  /* Firefox support */
+    width: fit-content !important;       /* Standard: "Shrink wrap to text" */
+    
+    /* Safety Limits */
+    min-width: 300px !important;   /* Don't get smaller than a phone screen */
+    max-width: 95vw !important;    /* Don't go off the screen edge */
     
     /* Center it */
     margin-left: auto !important;
@@ -107,16 +110,20 @@ aside,
     padding: 0 !important;
 }
 
-/* Force the inner container and cards to fill that new wide space */
+/* Force inner containers to behave */
 .sidebar-container, 
 .backlinks, 
 .toc {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 100% !important; 
     box-sizing: border-box !important;
 }
 
-/* Card Styling (The Grey Box itself) */
+/* OPTIONAL: Prevent text wrapping unless absolutely necessary */
+.backlink a, .internal-link {
+    white-space: nowrap; /* Forces text to stay on one line if possible */
+}
+
+/* Card Styling */
 .backlinks, .toc {
     display: block !important;
     background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
