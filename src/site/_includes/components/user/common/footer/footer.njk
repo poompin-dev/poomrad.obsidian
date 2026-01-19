@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   MASTER CSS: TRANSPARENT & EXPANDED
+   MASTER CSS: LIGHTER BOX + NO BREAKLINES
    ========================================= */
 
 /* 1. SCROLL ENGINE */
@@ -48,11 +48,6 @@ body {
     padding-top: 80px !important;       
 }
 
-/* Hide Separator if no backlinks */
-.page-wrapper:not(:has(.backlink-card)) .stacked-separator {
-    display: none !important;
-}
-
 /* 3. MAIN CONTENT */
 main.content {
     width: 100% !important;
@@ -63,23 +58,14 @@ main.content {
 }
 
 /* =========================================
-   4. SEPARATOR LINE
+   4. SEPARATOR REMOVAL (The "Breakline" Fix)
    ========================================= */
-.stacked-separator {
-    display: block;
-    border: 0;
-    height: 1px;
-    background: var(--text-normal);
-    opacity: 0.3; 
-    
-    /* Match content width */
-    width: 90% !important;
-    max-width: 900px !important;
-    
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 60px !important;
-    margin-bottom: 40px !important;
+/* We hide this universally to stop it appearing "out of nowhere" */
+.stacked-separator, hr {
+    display: none !important;
+    border: none !important;
+    height: 0 !important;
+    margin: 0 !important;
 }
 
 /* =========================================
@@ -102,36 +88,41 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
 }
 
 /* =========================================
-   6. CLEAN BACKLINKS (No Box, Expanded)
+   6. BACKLINKS BOX (Lighter Tint, Fitted)
    ========================================= */
 .backlinks, .toc, .backlink-list {
-    /* 1. REMOVE BOX STYLING */
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+    /* 1. LIGHTER TINT BACKGROUND */
+    /* This adds a 5% white layer to lighten the dark theme background */
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    
+    /* Optional: Slight border to define the edge */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
 
-    /* 2. FIT TO TEXT */
+    /* 2. FIT TO TEXT (Bubbles) */
     width: fit-content !important;  
-    min-width: 200px !important;    
-    max-width: 95vw !important;     
+    min-width: 300px !important;    /* Give it some minimum substance */
+    max-width: 90vw !important;     
     
     /* 3. EXPAND HEIGHT (No Scroll) */
     height: auto !important;
     max-height: none !important;
     overflow: visible !important;
 
-    /* 4. ALIGNMENT */
-    margin: 0 auto !important;      
-    margin-bottom: 40px !important;
-    padding: 0 !important;          
+    /* 4. ALIGNMENT & SPACING */
+    margin: 60px auto 40px auto !important; /* Top margin replaces the breakline */
+    padding: 25px 35px !important;          /* Add padding back for the box look */
+    
+    /* Shadow for depth */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 /* The List Items */
 .backlink-list, .backlinks-list-container {
     height: auto !important;
     overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* The Link Text */
@@ -140,12 +131,13 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     text-overflow: ellipsis !important;
 }
 
-/* Header Styling (optional cleanup) */
+/* Header Styling */
 .backlinks h3, .backlink-header {
     margin-top: 0 !important;
-    opacity: 0.7 !important;
+    margin-bottom: 15px !important; /* Space between title and list */
+    opacity: 0.8 !important;
     text-align: center !important; 
-    font-size: 0.9em !important;
+    font-size: 0.85em !important;
     text-transform: uppercase !important;
     letter-spacing: 1px !important;
 }
@@ -160,31 +152,19 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
         display: block !important;
         position: fixed !important;
         top: 100px !important;
-        
-        /* Positioning */
         left: calc(50% + 470px) !important;
-        
-        /* Float Logic: Fit content but cap it so it doesn't fly off screen */
         width: fit-content !important;
         max-width: 400px !important;
-        
         bottom: auto !important;
         z-index: 100 !important;
     }
     
-    /* Hide separator on desktop */
-    .stacked-separator { display: none !important; }
-    
-    /* Ensure the float is also transparent/clean */
     .backlinks, .toc {
-        width: 100% !important;
-        background: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        text-align: left !important; /* Align left for side reading */
+        /* Desktop specific tweaks if needed */
+        margin: 0 !important;
+        text-align: left !important;
     }
     
-    /* Left align title on desktop for neatness */
     .backlinks h3, .backlink-header {
         text-align: left !important;
     }
