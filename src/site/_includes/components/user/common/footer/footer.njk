@@ -133,16 +133,17 @@ main.content {
    ========================================= */
 @media screen and (min-width: 1380px) {
     
+    /* 1. THE WRAPPER (The scrolling window) */
     .right-sidebar, .sidebar {
         position: fixed !important; 
         top: 100px !important; 
         left: calc(50% + 470px) !important; 
         width: 220px !important; 
         
-        /* --- TALLER SIDEBAR FIX --- */
-        /* Take full height minus top offset (100px) and bottom padding (20px) */
+        /* This sets the "Window Size" */
         max-height: calc(100vh - 120px) !important;
         
+        /* The Wrapper handles the scrolling */
         overflow-y: auto !important;
         scrollbar-width: none; 
         
@@ -152,7 +153,7 @@ main.content {
         z-index: 100 !important;
     }
 
-    /* Reset Cards to Transparent */
+    /* 2. THE INNER CARDS (The content) */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -164,7 +165,18 @@ main.content {
         margin: 0 !important;
         margin-bottom: 30px !important;
         font-size: 0.9em !important;
+        
+        /* CRITICAL FIX: Remove the default limits */
+        max-height: none !important;  /* Stop it from cutting off at 300px */
+        height: auto !important;      /* Let it grow as long as the list needs */
+        overflow: visible !important; /* Stop inner scrollbars */
     }
+    
+    /* ... rest of the code (Hide Separator, etc) stays the same ... */
+    .stacked-separator { display: none !important; }
+    .right-sidebar .sidebar-title { font-size: 1.0em !important; }
+    .graph-view-container { display: block !important; }
+}
     
     /* KILL SWITCH: Force Hide the Line in Wide Mode */
     .stacked-separator {
