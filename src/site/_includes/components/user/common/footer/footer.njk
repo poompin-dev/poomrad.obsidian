@@ -75,36 +75,52 @@ main.content {
 }
 
 /* =========================================
-   5. SIDEBAR (Mobile/Tablet/Stacked)
+   5. UNIVERSAL SIDEBAR FIX (Safe Mode)
    ========================================= */
-aside, .sidebar, .right-sidebar {
-    /* FORCE RESET */
+
+/* 1. DEFAULT STATE: Stacked at the bottom & Centered (Mobile/Tablet/Laptop) */
+aside, .sidebar, .right-sidebar, .sidebar-container {
+    /* FORCE RESET: Strip all floating behavior */
     position: static !important;
     display: block !important;
-    background: transparent !important;
-    border: none !important;
+    float: none !important;
     
-    /* SIZE & CENTERING */
-    width: 95% !important;               /* Use 95% so it doesn't touch phone edges */
-    max-width: var(--dg-content-max-width, 900px) !important; /* Match text width */
-    
-    /* CRITICAL CENTERING FIX */
+    /* CENTERING: This forces it to the middle of the screen */
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 40px !important;
-    margin-bottom: 20px !important;
+    margin-top: 60px !important; 
+    margin-bottom: 40px !important;
     
-    /* If parent is flex, this forces the item to center itself */
-    align-self: center !important; 
+    /* SIZING: 90% width looks good on mobile; Cap at 900px to match text */
+    width: 90% !important;
+    max-width: 900px !important;
+    height: auto !important;
     
-    padding: 0 !important;
-    box-sizing: border-box !important;
+    /* CLEANUP: Remove any weird positioning coordinates */
+    top: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    transform: none !important;
+    
+    /* FLEX OVERRIDE: If parent is flex, force self to center */
+    align-self: center !important;
 }
 
-/* Ensure internal contents fill the centered box */
-.sidebar-container, .backlinks, .toc, .backlink-list {
-    width: 100% !important; 
-    box-sizing: border-box !important;
+/* 2. ULTRA-WIDE STATE: Only float if screen is > 1650px */
+/* This prevents the "Cutoff" seen in your screenshot. */
+@media screen and (min-width: 1650px) {
+    aside, .sidebar, .right-sidebar {
+        position: fixed !important;
+        top: 100px !important;
+        
+        /* MATH: Center (50%) + Half Content (450px) + Gap (20px) = 470px */
+        left: calc(50% + 470px) !important;
+        
+        /* Shrink back to card size */
+        width: 350px !important;
+        margin: 0 !important; /* Reset the centering margins */
+    }
 }
 
 /* 6. GLASS CARD STYLING (The Look) */
@@ -135,38 +151,6 @@ aside, .sidebar, .right-sidebar {
 
 .graph-view-container { display: none !important; }
 
-/* =========================================
-   8. WIDE VIEW (Only trigger if space exists)
-   ========================================= */
-/* BUMPED UP TO 1600px TO PREVENT OVERFLOW */
-@media screen and (min-width: 1600px) {
-    
-    aside, .sidebar, .right-sidebar {
-        position: fixed !important; 
-        /* 100px from top allows for header/breathing room */
-        top: 100px !important; 
-        
-        /* CALCULATED POSITION: Center + Half Content (450) + Gap (20) */
-        left: calc(50% + 470px) !important; 
-        bottom: auto !important; 
-        z-index: 100 !important;
-        
-        /* CARD SIZE */
-        width: 350px !important; 
-        max-width: none !important;
-    }
-
-    /* Remove the mobile separator line on desktop */
-    .stacked-separator { display: none !important; }
-    
-    /* Clean up the card look for desktop floating */
-    .backlinks, .toc {
-        background-color: rgba(20, 20, 20, 0.4) !important; /* Slightly more transparent on desktop */
-        backdrop-filter: blur(10px) !important;
-        border: 1px solid var(--background-modifier-border) !important;
-        padding: 20px !important;
-    }
-}
 
 /* =========================================
    9. FOOTER STYLING
