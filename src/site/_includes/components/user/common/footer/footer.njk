@@ -16,11 +16,31 @@
 
 <style>
 /* =========================================
-   ZERO-RISK MODULE: COMPONENT ONLY
-   (No Body/HTML/Global Overrides)
+   THE "HYBRID" FIX:
+   1. FORCE SCROLL (Top Priority)
+   2. SAFE LAYOUT (No Wonkiness)
    ========================================= */
 
-/* 1. SEPARATOR LINE (Safe Logic) */
+/* 1. EMERGENCY SCROLL RESTORE */
+/* We MUST force these to override the theme's "app mode" */
+html {
+    overflow-y: auto !important;   /* FORCE VERTICAL SCROLL */
+    overflow-x: hidden !important; /* KILL HORIZONTAL SCROLL */
+    height: auto !important;
+    min-height: 100% !important;
+    background-color: var(--background-primary) !important;
+}
+
+body {
+    overflow-y: auto !important;   /* FORCE VERTICAL SCROLL */
+    overflow-x: hidden !important; /* KILL HORIZONTAL SCROLL */
+    height: auto !important;
+    min-height: 100vh !important;
+    position: relative !important;
+    display: block !important;     /* Reset any flex/grid locking */
+}
+
+/* 2. SEPARATOR LINE */
 .stacked-separator {
     display: block;
     border: 0;
@@ -32,18 +52,17 @@
     max-width: 1200px;       
 }
 
-/* Hide separator if there are no backlinks to show */
 .page-wrapper:not(:has(.backlink-card)) .stacked-separator {
     display: none !important;
 }
 
 
 /* =========================================
-   2. MOBILE & TABLET DEFAULT (<1380px)
-   This forces the sidebar to be a normal, scrollable block.
+   3. SIDEBAR: MOBILE / TABLET DEFAULT
+   (The "Safe Mode" - Centered, Static, 90% Width)
    ========================================= */
 aside, .sidebar, .right-sidebar {
-    /* RESET: Delete any "fixed" or "absolute" positioning */
+    /* RESET: Delete any fixed positioning */
     display: block !important;
     position: static !important;
     float: none !important;
@@ -55,21 +74,19 @@ aside, .sidebar, .right-sidebar {
     
     /* WIDTH: Safe 90% width. Cannot overflow. */
     width: 90% !important;
-    max-width: 700px !important;
+    max-width: 700px !important; /* Reading width */
     
     /* HEIGHT: Let it grow naturally */
     height: auto !important;
-    min-height: 0 !important;
     max-height: none !important;
     overflow: visible !important;
     
-    /* Remove wrapper styling */
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
 }
 
-/* Fix inner containers */
+/* Inner containers */
 .sidebar-container, .backlinks, .toc, .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
@@ -77,12 +94,12 @@ aside, .sidebar, .right-sidebar {
 
 
 /* =========================================
-   3. THE GLASS CARD (Applies Everywhere)
+   4. THE GLASS CARD (Applies Everywhere)
    ========================================= */
 .backlinks, .toc {
     display: block !important;
     
-    /* THE LOOK: Dark Glass */
+    /* DARK GLASS EFFECT */
     background-color: rgba(20, 20, 20, 0.6) !important; 
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
@@ -94,56 +111,51 @@ aside, .sidebar, .right-sidebar {
     margin-bottom: 20px !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
     
-    /* Ensure content inside doesn't clip */
+    /* Content Safety */
     height: auto !important;
     overflow: visible !important;
 }
 
-/* TEXT WRAPPING: Prevent horizontal overflow */
+/* WRAPPING: Prevent horizontal overflow */
 .backlink a, .internal-link {
     white-space: normal !important; 
     word-break: break-word !important;         
 }
 
+.graph-view-container { display: none !important; }
+
 
 /* =========================================
-   4. DESKTOP OVERRIDE (>1380px)
-   Only active on large screens.
+   5. DESKTOP OVERRIDE (>1380px)
+   (Only active on big screens)
    ========================================= */
 @media screen and (min-width: 1380px) {
     
-    /* Hide the mobile separator */
+    /* Hide separator on desktop */
     .stacked-separator { display: none !important; }
     
     /* Pin the sidebar */
     aside, .sidebar, .right-sidebar {
         position: fixed !important; 
         top: 100px !important; 
-        left: calc(50% + 470px) !important; /* Move to right of content */
+        left: calc(50% + 470px) !important; 
         bottom: auto !important; 
         z-index: 100 !important;
         
         /* Fixed Desktop Width */
         width: 350px !important; 
         max-width: none !important;
-        margin: 0 !important; /* Reset the auto margins */
+        margin: 0 !important;
     }
     
-    /* Clean up inner card extra padding/margins if needed */
-    .backlink-card {
-        margin: 0 !important;
-        padding: 4px 0 !important;
-        background: transparent !important;
-        border: none !important;
-    }
+    .graph-view-container { display: block !important; }
 }
 
 
 /* =========================================
-   5. FOOTER STYLE
+   6. FOOTER STYLE
    ========================================= */
 .custom-footer {
-    /* Just a simple block at the bottom */
     display: block !important;
     width: 100% !important;
     background-color: var(--background-secondary);
