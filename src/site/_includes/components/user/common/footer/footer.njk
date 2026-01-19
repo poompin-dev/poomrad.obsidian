@@ -16,10 +16,10 @@
 
 <style>
 /* =========================================
-   MASTER CSS: SCROLL + LAYOUT + SIDEBAR
+   MASTER CSS: GLASS SIDEBAR + SAFE LAYOUT
    ========================================= */
 
-/* 1. THE ENGINE ROOM (Fixes "Can't Scroll") */
+/* 1. SCROLL ENGINE */
 html {
     overflow-x: hidden !important;
     background-color: var(--background-primary) !important;
@@ -31,16 +31,13 @@ body {
     min-height: 100vh !important;
     margin: 0 !important;
     padding: 0 !important;
-    position: relative !important;
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-
-    /* CRITICAL: Turn scrolling back ON */
     overflow-y: auto !important;   
     overflow-x: hidden !important; 
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
 }
 
-/* 2. PAGE LAYOUT */
+/* 2. PAGE WRAPPER */
 .page-wrapper {
     flex: 1 0 auto !important; 
     display: flex !important;
@@ -49,21 +46,19 @@ body {
     width: 100%;
     margin: 0 auto; 
     padding-top: 80px !important;      
-    position: relative !important;     
 }
 
-/* Smart Hide Separator */
+/* Hide Separator if no backlinks */
 .page-wrapper:not(:has(.backlink-card)) .stacked-separator {
     display: none !important;
 }
 
 /* 3. MAIN CONTENT */
 main.content {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 0 20px !important;
     width: 100% !important;
     max-width: var(--dg-content-max-width, 900px) !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
     overflow: visible !important; 
 }
 
@@ -74,26 +69,20 @@ main.content {
     height: 1px;
     background: var(--text-normal);
     opacity: 0.6;
-    margin-top: 60px !important;
-    margin-bottom: 20px !important;
+    margin: 60px auto 20px auto !important;
     width: 90vw;             
     max-width: 1200px;       
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
-/* 5. SIDEBAR (Global Logic) */
+/* =========================================
+   5. SIDEBAR (Mobile/Tablet/Stacked)
+   ========================================= */
 aside, .sidebar, .right-sidebar {
-    /* Fit Logic */
-    width: -moz-fit-content !important;
-    width: fit-content !important;
-    min-width: 300px !important;
-    max-width: 90vw !important; /* Prevents overflow */
+    /* FIX: Stop using fit-content here. Just fill the screen safely. */
+    width: 95% !important;
+    max-width: 1200px !important; /* Cap it for wide tablets */
+    margin: 0 auto !important;    /* Perfectly centered */
     
-    margin-left: auto !important;
-    margin-right: auto !important;
-
     /* Height Logic */
     height: auto !important;
     max-height: none !important;
@@ -115,19 +104,27 @@ aside, .sidebar, .right-sidebar {
     overflow: visible !important; 
 }
 
-/* 6. CARD STYLING (The Grey Box) */
+/* 6. GLASS CARD STYLING (The Look) */
 .backlinks, .toc {
     display: block !important;
-    background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
+    
+    /* TRANSPARENCY FIX */
+    /* Darker black with 60% opacity */
+    background-color: rgba(20, 20, 20, 0.6) !important; 
+    
+    /* FROSTED GLASS EFFECT (Blur behind the box) */
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+
     border: 1px solid var(--background-modifier-border) !important;
     border-radius: 12px !important;
     padding: 25px 30px !important;
     margin-top: 0px !important;
     margin-bottom: 20px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* 7. TEXT WRAPPING (Fixes "Overflowing Text") */
+/* 7. TEXT WRAPPING */
 .backlink a, .internal-link {
     white-space: normal !important; 
     word-break: break-word;         
@@ -147,13 +144,9 @@ aside, .sidebar, .right-sidebar {
         bottom: auto !important; 
         z-index: 100 !important;
         
-        max-width: 400px !important; /* Cap width for card look */
-    }
-
-    /* Force card look on desktop too */
-    .backlinks, .toc {
-        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
-        opacity: 1 !important;
+        /* Desktop: Shrink back to a nice card size */
+        width: 350px !important; 
+        max-width: none !important;
     }
 
     /* Cleanup */
