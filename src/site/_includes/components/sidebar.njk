@@ -43,13 +43,9 @@
                                           {%- for backlink in currentNode.backLinks -%}
                                                 {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
                                                       
-                                                      <div class="backlink-simple-row" style="margin-bottom: 8px; display: flex; align-items: center;">
-                                                            
-                                                            {%- if not meta.noteIconsSettings.backlinks -%}
-                                                                  <i data-lucide="link" style="margin-right: 6px; opacity: 0.5; width: 14px;"></i> 
-                                                            {%- endif -%}
-                                                            
-                                                            <a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink" style="text-decoration: none;">
+                                                      <div class="custom-backlink-row">
+                                                            <i data-lucide="link"></i>
+                                                            <a href="{{graph.nodes[backlink].url}}" class="internal-link">
                                                                   {{graph.nodes[backlink].title}}
                                                             </a>
                                                       </div>
