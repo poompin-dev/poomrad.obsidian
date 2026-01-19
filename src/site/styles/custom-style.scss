@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* =========================================
-   PART 1: THE CORE VARIABLES (AESTHETICS ONLY)
+   PART 1: THE CORE VARIABLES (AESTHETICS)
    ========================================= */
 :root {
   /* --- TYPOGRAPHY ENGINE --- */
@@ -15,9 +15,7 @@
 
   /* Sizing */
   --dg-content-font-size: 19px; 
-  
-  /* TIGHTER LINE HEIGHT (Was 1.6) */
-  --dg-content-line-height: 1.5; 
+  --dg-content-line-height: 1.5; /* Tightened */
   
   /* Colors */
   --interactive-accent: #2eaadc;
@@ -29,25 +27,20 @@
 /* =========================================
    PART 2: NUCLEAR FONT OVERRIDE
    ========================================= */
-
-/* 1. The Container Override */
 body, main, .markdown-rendered, .markdown-preview-view {
   font-family: var(--font-editorial) !important;
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
 }
 
-/* 2. Target text elements DIRECTLY */
 p, li, ul, ol, dl, blockquote, table, td, th, span {
     font-family: var(--font-editorial) !important;
 }
 
-/* 3. Keep Headers Distinct */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-editorial) !important;
 }
 
-/* 4. Keep Code Distinct */
 code, pre {
   font-family: var(--font-mono) !important;
 }
@@ -56,12 +49,49 @@ code, pre {
    PART 3: TYPOGRAPHY & DENSITY
    ========================================= */
 
-/* ... Headings stay the same ... */
+/* HEADINGS */
+main h1 {
+    font-size: 2.3em !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.03em !important;
+    color: var(--text-header);
+    line-height: 1.2;
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+    border: none !important;      
+}
 
-/* BODY TEXT */
+main h2 {
+    font-size: 1.6em !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+    color: var(--text-header);
+    margin-top: 1.5em !important; 
+    margin-bottom: 0.5em !important;
+    border: none !important; 
+}
+
+main h3 {
+    font-size: 1.25em !important;
+    font-weight: 600 !important;
+    color: var(--text-header);
+    margin-top: 1.2em !important;
+    margin-bottom: 0.3em !important;
+}
+
+main h4, main h5 {
+    font-weight: 600;
+    margin-top: 1.0em !important;
+    margin-bottom: 0.2em !important;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+}
+
+/* BODY DENSITY */
 p {
-    /* TIGHTER PARAGRAPH GAP (Was 1em) */
-    margin-bottom: 0.8em; 
+    margin-bottom: 0.8em; /* Tight Gap */
     max-width: 80ch;      
 }
 
@@ -70,20 +100,17 @@ strong, b {
     color: #fff; 
 }
 
-/* LISTS (The "Same Listing" Fix) */
+/* LISTS (The "Note-Taking" Density) */
 ul, ol {
-    margin-bottom: 0.8em; /* Matches paragraph gap */
+    margin-bottom: 0.8em;
     padding-left: 1.5em;
 }
 
 li {
-    /* ULTRA TIGHT LIST ITEMS (Was 0.2em) */
-    /* This makes bullet points feel like a single block */
-    margin-bottom: 0.05em; 
+    margin-bottom: 0.05em; /* Ultra Tight */
     padding-left: 0.3em;
 }
 
-/* Space between a bullet and a nested sub-list */
 li > ul, li > ol {
     margin-top: 0.1em;
     margin-bottom: 0.1em;
@@ -116,18 +143,14 @@ blockquote {
     margin: 1.5em 0 !important; 
     padding: 1em 1.5em !important;
     border-radius: 6px;
-    font-style: normal; 
-    font-size: 0.95em;
-    color: var(--text-normal);
-    
     background: rgba(255, 255, 255, 0.03) !important;
     border: 1px solid var(--background-modifier-border);
+    color: var(--text-normal);
 }
 
 /* =========================================
    PART 4: MEDICAL TABLES
    ========================================= */
-
 table {
   border-collapse: separate; 
   border-spacing: 0;
@@ -136,7 +159,7 @@ table {
   border-radius: 8px; 
   overflow: hidden; 
   margin-bottom: 1.5em;
-  width: 100%; /* Default to full width */
+  width: 100%; 
 }
 
 thead tr {
@@ -149,14 +172,14 @@ th {
   font-size: 0.85em;
   font-weight: 700;
   color: var(--text-muted);
-  padding: 12px 16px 12px 16px; /* Added left padding */
+  padding: 12px 16px;
   text-align: left;
   border: none !important;
   background: transparent !important;
 }
 
 td {
-  padding: 16px 16px 16px 16px; /* Added left padding */
+  padding: 16px 16px;
   vertical-align: top;
   border-bottom: 1px solid var(--background-modifier-border);
   line-height: 1.6;
@@ -167,10 +190,8 @@ td:first-child {
   font-family: var(--font-text) !important;
   font-weight: 700;
   color: var(--text-normal);
-  /* Removed fixed width so it flows naturally */
 }
 
-/* Hover Interaction */
 body table tbody tr:hover td {
   background-color: rgba(120, 120, 120, 0.05) !important;
 }
@@ -178,7 +199,6 @@ body table tbody tr:hover td {
 /* =========================================
    PART 5: CLINICAL CALLOUTS
    ========================================= */
-
 .callout {
   border: 1px solid var(--background-modifier-border) !important;
   border-radius: 8px !important;
@@ -197,7 +217,7 @@ body table tbody tr:hover td {
   margin-bottom: 8px;
 }
 
-/* BLUE: Info/Note */
+/* Blue & Green & Red Callouts */
 .callout[data-callout="info"], .callout[data-callout="note"] {
   background-color: rgba(46, 170, 220, 0.05) !important;
   border-color: rgba(46, 170, 220, 0.3) !important;
@@ -206,7 +226,6 @@ body table tbody tr:hover td {
   color: #2eaadc;
 }
 
-/* GREEN: Tip/Example */
 .callout[data-callout="tip"], .callout[data-callout="example"] {
   background-color: rgba(52, 211, 153, 0.08) !important;
   border-color: rgba(52, 211, 153, 0.4) !important;
@@ -215,7 +234,6 @@ body table tbody tr:hover td {
   color: #059669;
 }
 
-/* RED: Warning/Danger */
 .callout[data-callout="warning"], .callout[data-callout="danger"] {
   background-color: rgba(248, 113, 113, 0.08) !important;
   border-color: rgba(248, 113, 113, 0.3) !important;
@@ -225,18 +243,61 @@ body table tbody tr:hover td {
 }
 
 /* =========================================
-   PART 6: UTILITY & CLEANUP
+   PART 6: SMART NAVBAR (RESTORED)
+   ========================================= */
+.navbar {
+    position: fixed !important; 
+    top: 0;
+    left: 0;
+    width: 100% !important; 
+    height: 60px;
+    z-index: 1000;
+    
+    background-color: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-inner {
+    width: 100% !important;
+    max-width: 900px !important; 
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+
+.navbar-brand {
+    font-family: var(--font-editorial) !important; 
+    font-size: 1.5em !important;   
+    font-weight: 800 !important;   
+    letter-spacing: -0.03em;       
+    color: var(--text-normal) !important;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* =========================================
+   PART 7: UTILITY & BUG FIXES
    ========================================= */
 
-/* Hide specific internal link glitches */
-.backlinks a[href="/"], 
-.backlinks a[href="/index"],
-.backlinks a.internal-link[href="/"],
-.backlinks li:has(a[href="/"]) {
+/* 1. DUPLICATE TITLE KILLER (The H1 Fix) */
+div.title {
     display: none !important;
 }
 
-/* Center images by default */
+/* 2. Center images by default */
 img {
     display: block;
     margin: 2em auto;
