@@ -16,22 +16,25 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT: SMART SEPARATOR (FIXED)
+   FINAL LAYOUT: SCROLLING + SMART HIDE
    ========================================= */
 
-/* 1. GLOBAL RESET */
-html, body {
-    overflow-x: hidden !important; 
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
+/* 1. GLOBAL RESET (The Safe Version) */
+html {
+    overflow-x: hidden !important; /* Stop horizontal scroll on the root */
 }
 
 body {
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
     min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
     position: relative !important;
+    
+    /* CRITICAL FIX: Explicitly allow Vertical Scroll */
+    overflow-y: auto !important;   
+    overflow-x: hidden !important; 
 }
 
 /* 2. PAGE WRAPPER */
@@ -45,8 +48,8 @@ body {
     position: relative !important;     
 }
 
-/* --- THE MAGIC "SMART HIDE" RULE --- */
-/* Only show the line if there are actual LINKS in the backlinks box */
+/* --- SMART HIDE LOGIC --- */
+/* IF the backlinks box does NOT contain a link (<a>), hide the separator line */
 .page-wrapper:not(:has(.backlinks a)) .stacked-separator {
     display: none !important;
 }
@@ -190,8 +193,4 @@ main.content {
     font-size: 0.9em;
 }
 .footer-sub {
-    font-size: 0.85em !important;
-    opacity: 0.6;
-    margin-top: 8px !important;
-}
-</style>
+    font-size:
