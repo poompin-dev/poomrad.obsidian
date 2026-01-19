@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   MASTER CSS: LIGHTER BOX + NO BREAKLINES
+   MASTER CSS: CLEAN & FIT-CONTENT
    ========================================= */
 
 /* 1. SCROLL ENGINE */
@@ -57,10 +57,7 @@ main.content {
     overflow: visible !important; 
 }
 
-/* =========================================
-   4. SEPARATOR REMOVAL (The "Breakline" Fix)
-   ========================================= */
-/* We hide this universally to stop it appearing "out of nowhere" */
+/* 4. HIDE DEFAULT SEPARATORS */
 .stacked-separator, hr {
     display: none !important;
     border: none !important;
@@ -69,84 +66,97 @@ main.content {
 }
 
 /* =========================================
-   5. SIDEBAR CONTAINER (Flex Parent)
+   5. SIDEBAR CONTAINER (The Wrapper)
    ========================================= */
 aside, .sidebar, .right-sidebar, .sidebar-container {
     position: static !important;
     display: flex !important;       
     flex-direction: column !important;
-    align-items: center !important; /* Centers the list */
+    align-items: center !important; 
     width: 100% !important;         
     margin: 0 !important;
     padding: 0 !important;
     
-    /* Reset Floating */
+    /* CRITICAL: Force height to hug content */
+    height: fit-content !important; 
+    min-height: 0 !important;
+    
     float: none !important;
     top: auto !important;
     left: auto !important;
-    transform: none !important;
 }
 
 /* =========================================
-   6. BACKLINKS BOX (Lighter Tint, Fitted)
+   6. THE OUTER BOX (Visible Lighter Tint)
    ========================================= */
 .backlinks, .toc, .backlink-list {
-    /* 1. LIGHTER TINT BACKGROUND */
-    /* This adds a 5% white layer to lighten the dark theme background */
+    /* STYLE: Lighter tint, single container */
     background-color: rgba(255, 255, 255, 0.05) !important;
-    
-    /* Optional: Slight border to define the edge */
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 12px !important;
 
-    /* 2. FIT TO TEXT (Bubbles) */
+    /* LAYOUT: Fit text, center it */
     width: fit-content !important;  
-    min-width: 300px !important;    /* Give it some minimum substance */
+    min-width: 300px !important;    
     max-width: 90vw !important;     
     
-    /* 3. EXPAND HEIGHT (No Scroll) */
-    height: auto !important;        /* Stops strictly at content end */
-    min-height: 0 !important;       /* Prevent default minimums */
+    /* HEIGHT FIX: Stop the "Expand all the way" bug */
+    height: fit-content !important; 
+    min-height: 0 !important;       
     max-height: none !important;
     overflow: visible !important;
 
-    /* 4. ALIGNMENT & SPACING */
-    margin: 60px auto 40px auto !important; /* Top margin replaces the breakline */
-    padding: 25px 35px !important;          /* Add padding back for the box look */
+    /* SPACING */
+    margin: 60px auto 40px auto !important; 
+    padding: 25px 35px !important;          
     
-    /* Shadow for depth */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
-/* The List Items */
-.backlink-list, .backlinks-list-container {
-    height: auto !important;
-    overflow: visible !important;
+/* =========================================
+   7. NUCLEAR RESET (Kill Inner Boxes)
+   ========================================= */
+/* This targets the individual items inside the list to strip their styling */
+.backlink-card, 
+.backlink-item, 
+.backlinks-list-container div, 
+.backlinks ul, 
+.backlinks li {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 5px 0 !important; /* Small gap between text links */
 }
 
-/* The Link Text */
+/* 8. LINK TEXT STYLING */
 .backlink a, .internal-link, .backlink-header {
-    white-space: nowrap !important; /* No wrapping */
+    white-space: nowrap !important; 
     text-overflow: ellipsis !important;
+    text-decoration: none !important;
+    color: var(--text-normal) !important; /* Ensure readable text */
 }
 
-/* Header Styling */
+.backlink a:hover, .internal-link:hover {
+    text-decoration: underline !important;
+    opacity: 1 !important;
+}
+
 .backlinks h3, .backlink-header {
     margin-top: 0 !important;
-    margin-bottom: 15px !important; /* Space between title and list */
+    margin-bottom: 15px !important;
     opacity: 0.8 !important;
     text-align: center !important; 
     font-size: 0.85em !important;
     text-transform: uppercase !important;
     letter-spacing: 1px !important;
+    border: none !important; /* Ensure header has no line */
 }
 
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   8. DESKTOP FLOAT (> 1650px ONLY)
+   9. DESKTOP FLOAT (> 1650px ONLY)
    ========================================= */
 @media screen and (min-width: 1650px) {
     aside, .sidebar, .right-sidebar {
@@ -154,16 +164,23 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
         position: fixed !important;
         top: 100px !important;
         left: calc(50% + 470px) !important;
+        
+        /* HEIGHT FIX FOR DESKTOP */
+        height: fit-content !important; 
+        max-height: 80vh !important; /* Cap it so it doesn't go off screen */
+        overflow-y: auto !important; /* Scroll ONLY if list is massive */
+        
         width: fit-content !important;
         max-width: 400px !important;
         bottom: auto !important;
         z-index: 100 !important;
     }
     
+    /* Ensure the outer box wraps tightly on desktop too */
     .backlinks, .toc {
-        /* Desktop specific tweaks if needed */
         margin: 0 !important;
         text-align: left !important;
+        height: fit-content !important;
     }
     
     .backlinks h3, .backlink-header {
@@ -172,7 +189,7 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
 }
 
 /* =========================================
-   9. FOOTER STYLING
+   10. FOOTER STYLING
    ========================================= */
 .custom-footer {
     flex-shrink: 0 !important;
