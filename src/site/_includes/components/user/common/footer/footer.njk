@@ -16,24 +16,25 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT: "STACKED" + "GHOST" + "SEPARATOR"
+   FINAL LAYOUT: SMART SEPARATOR
    ========================================= */
 
-/* 1. BODY RESET */
+/* 1. GLOBAL RESET */
+html, body {
+    overflow-x: hidden !important; 
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 body {
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
     min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-y: auto !important;   
-    overflow-x: hidden !important; 
     position: relative !important;
 }
 
-/* =========================================
-   A. GLOBAL DEFAULT (Stacked View)
-   ========================================= */
+/* 2. PAGE WRAPPER */
 .page-wrapper {
     display: flex !important;
     flex-direction: column !important; 
@@ -44,6 +45,18 @@ body {
     position: relative !important;     
 }
 
+/* --- THE MAGIC "SMART HIDE" RULE --- */
+/* If the page does NOT have a visible sidebar content, HIDE the line */
+/* This prevents a dangling line when there are no backlinks */
+.page-wrapper:not(:has(.right-sidebar .backlinks)), 
+.page-wrapper:not(:has(.sidebar .backlinks)) {
+    /* Hide the separator inside main */
+    & main.content .stacked-separator {
+        display: none !important;
+    }
+}
+
+/* 3. MAIN CONTENT */
 main.content {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -51,8 +64,27 @@ main.content {
     width: 100% !important;
     max-width: var(--dg-content-max-width, 900px) !important;
     flex: 1 1 auto !important;
+    overflow: visible !important; 
 }
 
+/* 4. THE SEPARATOR LINE (Default: Visible) */
+.stacked-separator {
+    border: 0;
+    height: 1px;
+    background: var(--text-muted);
+    opacity: 0.2;
+    margin-top: 60px !important;
+    margin-bottom: 20px !important;
+    
+    width: 90vw;             
+    max-width: 1200px;       
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 5. SIDEBAR (Stacked View) */
 .right-sidebar, .sidebar {
     margin: 0 auto !important;
     width: 90% !important;
@@ -65,7 +97,6 @@ main.content {
     height: auto !important;
 }
 
-/* --- THE CARD STYLING --- */
 .right-sidebar .backlinks, 
 .right-sidebar .toc-container,
 .sidebar .backlinks,
@@ -75,71 +106,39 @@ main.content {
     border: 1px solid var(--background-modifier-border) !important;
     border-radius: 12px !important;
     padding: 25px 30px !important;
-    
-    /* GAP SETTING: Push the box down to make room for the line */
-    margin-top: 60px !important;
+    margin-top: 0px !important;
     margin-bottom: 20px !important;
-    
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left !important;
-    
-    /* Required for positioning the line */
-    position: relative !important; 
 }
 
-/* --- THE BREAKLINE (SEPARATOR) --- */
-/* This draws a line above the box in stacked view */
-.right-sidebar .backlinks::before, 
-.sidebar .backlinks::before {
-    content: "";
-    display: block;
-    position: absolute;
-    
-    /* Position: 40px above the box */
-    top: -40px; 
-    left: 50%;
-    transform: translateX(-50%); /* Center it relative to the box */
-    
-    /* WIDTH LOGIC: */
-    /* 1. Take up 90% of the screen width (looks good on mobile) */
-    width: 90vw; 
-    /* 2. But never exceed 1200px (looks good on laptop) */
-    max-width: 1200px; 
-    
-    height: 1px;
-    background-color: var(--text-muted);
-    opacity: 0.2; /* Slightly more subtle since it's huge now */
+.right-sidebar .sidebar-title {
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+    opacity: 0.8;
 }
 
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   B. WIDE VIEW FIX (>1380px) - NOW STICKY!
+   B. WIDE VIEW FIX (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
     
     .right-sidebar, .sidebar {
-        /* FIXED: This makes it stick to the screen while you scroll */
         position: fixed !important; 
-        
-        top: 100px !important; /* Start slightly lower than navbar */
-        left: calc(50% + 470px) !important; /* Keep the Ghost Column position */
+        top: 100px !important; 
+        left: calc(50% + 470px) !important; 
         width: 220px !important; 
-        
-        /* SCROLLABLE: If backlinks are long, scroll INSIDE the sidebar */
         max-height: 80vh !important;
         overflow-y: auto !important;
-        
-        /* Hide scrollbar for cleaner look (optional) */
         scrollbar-width: none; 
-        
         margin: 0 !important;
         background: transparent !important;
         border: none !important;
-        z-index: 100 !important; /* Ensure it floats above other things */
+        z-index: 100 !important;
     }
 
-    /* Reset Cards to Transparent */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -153,10 +152,9 @@ main.content {
         font-size: 0.9em !important;
     }
     
-    /* HIDE THE BREAKLINE IN WIDE MODE */
-    .right-sidebar .backlinks::before, 
-    .sidebar .backlinks::before {
-        content: none !important; 
+    /* KILL SWITCH: Force Hide the Line in Wide Mode */
+    .stacked-separator {
+        display: none !important;
     }
     
     .right-sidebar .sidebar-title {
@@ -189,7 +187,6 @@ main.content {
     align-items: center;
 }
 
-/* Typography */
 .footer-content p {
     margin: 0;
     color: var(--text-muted);
