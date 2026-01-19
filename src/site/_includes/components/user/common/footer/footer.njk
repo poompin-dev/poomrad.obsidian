@@ -85,11 +85,10 @@ main.content {
     transform: translateX(-50%);
 }
 
-/* 5. SIDEBAR & BACKLINKS (Stacked Default) */
+/* 5. SIDEBAR & BACKLINKS (Global / Stacked Default) */
 aside, 
 .sidebar, 
 .right-sidebar {
-    /* Horizontal Fit (As before) */
     width: -moz-fit-content !important;
     width: fit-content !important;
     min-width: 300px !important;
@@ -97,27 +96,27 @@ aside,
     margin-left: auto !important;
     margin-right: auto !important;
 
-    /* VERTICAL UNLOCK (The Fix) */
-    height: auto !important;       /* Grow naturally */
-    max-height: none !important;   /* REMOVE THE CAP! */
-    overflow: visible !important;  /* Kill the scrollbar */
+    /* Grow tall, no scrollbars */
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
     
     display: block !important;
     position: static !important; 
+    
+    /* The Wrapper itself is transparent */
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
 }
 
-/* Force inner containers to expand */
+/* Inner containers (The actual content) */
 .sidebar-container, 
 .backlinks, 
 .toc, 
 .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
-    
-    /* CRITICAL: Tell the inner card to grow forever */
     height: auto !important;
     max-height: none !important; 
     overflow: visible !important; 
@@ -128,16 +127,47 @@ aside,
     white-space: nowrap; 
 }
 
-/* Card Styling */
+/* =========================================
+   CARD STYLING (Applies to BOTH Mobile & Wide)
+   ========================================= */
 .backlinks, .toc {
     display: block !important;
+    
+    /* THE CARD PAINT (Grey Background + Border) */
     background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
     border: 1px solid var(--background-modifier-border) !important;
+    
+    /* SHAPE */
     border-radius: 12px !important;
     padding: 25px 30px !important;
+    
+    /* SPACING */
     margin-top: 0px !important;
     margin-bottom: 20px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    /* SHADOW */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* =========================================
+   WIDE VIEW POSITIONING (>1380px)
+   ========================================= */
+@media screen and (min-width: 1380px) {
+    aside, 
+    .sidebar, 
+    .right-sidebar {
+        /* Pin to the right */
+        position: fixed !important; 
+        top: 100px !important; 
+        left: calc(50% + 470px) !important; 
+        
+        /* Ensure it doesn't get cut off at the bottom */
+        bottom: auto !important; 
+        z-index: 100 !important;
+    }
+    
+    /* HIDE THE SEPARATOR IN WIDE VIEW */
+    .stacked-separator { display: none !important; }
 }
 
 .graph-view-container { display: none !important; }
