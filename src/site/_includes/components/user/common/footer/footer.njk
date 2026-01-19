@@ -16,25 +16,25 @@
 
 <style>
 /* =========================================
-   FIXED LAYOUT: SCROLLING RESTORED
+   FINAL LAYOUT: SMART SEPARATOR (FIXED)
    ========================================= */
 
-/* 1. BODY RESET (The "Safe" Version) */
+/* 1. GLOBAL RESET */
+html, body {
+    overflow-x: hidden !important; 
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 body {
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
     min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    
-    /* CRITICAL FIX: Allow vertical scrolling, hide horizontal */
-    overflow-y: auto !important;   
-    overflow-x: hidden !important; 
-    
     position: relative !important;
 }
 
-/* 2. PAGE WRAPPER (Stacked Default) */
+/* 2. PAGE WRAPPER */
 .page-wrapper {
     display: flex !important;
     flex-direction: column !important; 
@@ -45,6 +45,12 @@ body {
     position: relative !important;     
 }
 
+/* --- THE MAGIC "SMART HIDE" RULE --- */
+/* Only show the line if there are actual LINKS in the backlinks box */
+.page-wrapper:not(:has(.backlinks a)) .stacked-separator {
+    display: none !important;
+}
+
 /* 3. MAIN CONTENT */
 main.content {
     margin-left: auto !important;
@@ -53,28 +59,21 @@ main.content {
     width: 100% !important;
     max-width: var(--dg-content-max-width, 900px) !important;
     flex: 1 1 auto !important;
-    
-    /* Allow the Separator Line to be wider than the text */
     overflow: visible !important; 
 }
 
-/* 4. THE SEPARATOR LINE (<hr>) */
+/* 4. THE SEPARATOR LINE (Default: Visible) */
 .stacked-separator {
     border: 0;
-    
-    /* VISIBILITY UPGRADE */
-    height: 1px;               /* Keep it elegant */
-    background: var(--text-normal); /* Change from 'muted' to 'normal' (brighter) */
-    opacity: 0.6;              /* Change from 0.2 to 0.6 (much more visible) */
-    
+    height: 1px;
+    background: var(--text-normal);
+    opacity: 0.6;
     margin-top: 60px !important;
     margin-bottom: 20px !important;
     
-    /* WIDE LINE LOGIC */
     width: 90vw;             
     max-width: 1200px;       
     
-    /* Centering */
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -82,15 +81,7 @@ main.content {
     display: block; 
 }
 
-/* SMART HIDE: If no sidebar content, hide the line */
-.page-wrapper:not(:has(.right-sidebar .backlinks)), 
-.page-wrapper:not(:has(.sidebar .backlinks)) {
-    & main.content .stacked-separator {
-        display: none !important;
-    }
-}
-
-/* 5. SIDEBAR CONTAINER (Stacked View) */
+/* 5. SIDEBAR (Stacked View) */
 .right-sidebar, .sidebar {
     margin: 0 auto !important;
     width: 90% !important;
@@ -103,7 +94,6 @@ main.content {
     height: auto !important;
 }
 
-/* 6. SIDEBAR CARDS */
 .right-sidebar .backlinks, 
 .right-sidebar .toc-container,
 .sidebar .backlinks,
@@ -113,16 +103,11 @@ main.content {
     border: 1px solid var(--background-modifier-border) !important;
     border-radius: 12px !important;
     padding: 25px 30px !important;
-    
-    /* No huge margin needed, the line handles spacing */
-    margin-top: 0px !important; 
+    margin-top: 0px !important;
     margin-bottom: 20px !important;
-    
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left !important;
 }
-
-.graph-view-container { display: none !important; }
 
 .right-sidebar .sidebar-title {
     font-size: 1.1em !important;
@@ -130,13 +115,14 @@ main.content {
     opacity: 0.8;
 }
 
+.graph-view-container { display: none !important; }
+
 /* =========================================
    B. WIDE VIEW FIX (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
     
     .right-sidebar, .sidebar {
-        /* STICKY SIDEBAR RESTORED */
         position: fixed !important; 
         top: 100px !important; 
         left: calc(50% + 470px) !important; 
@@ -144,14 +130,12 @@ main.content {
         max-height: 80vh !important;
         overflow-y: auto !important;
         scrollbar-width: none; 
-        
         margin: 0 !important;
         background: transparent !important;
         border: none !important;
         z-index: 100 !important;
     }
 
-    /* Reset Cards to Transparent */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -165,7 +149,7 @@ main.content {
         font-size: 0.9em !important;
     }
     
-    /* HIDE THE SEPARATOR IN WIDE MODE */
+    /* KILL SWITCH: Force Hide the Line in Wide Mode */
     .stacked-separator {
         display: none !important;
     }
