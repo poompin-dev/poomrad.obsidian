@@ -16,72 +16,33 @@
 
 <style>
 /* =========================================
-   MASTER CSS: THE "NO WONK" LAYOUT
+   EMERGENCY RESTORE: COMPONENT-ONLY STYLES
+   (No Global Body/Layout Overrides)
    ========================================= */
 
-/* 1. GLOBAL ENGINE (Scroll Fix) */
-html {
-    overflow-x: hidden !important;
-    background-color: var(--background-primary) !important;
-}
-
-body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-y: auto !important;   
-    overflow-x: hidden !important; /* Kill horizontal scroll */
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-}
-
-.page-wrapper {
-    flex: 1 0 auto !important; 
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: center !important;    
-    width: 100%;
-    margin: 0 auto; 
-    padding-top: 80px !important;      
+/* 1. SEPARATOR LINE (Keep this logic, it's safe) */
+.stacked-separator {
+    display: block;
+    border: 0;
+    height: 1px;
+    background: var(--text-normal);
+    opacity: 0.6;
+    margin: 40px auto 40px auto !important;
+    width: 90vw;             
+    max-width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);       
 }
 
 .page-wrapper:not(:has(.backlink-card)) .stacked-separator {
     display: none !important;
 }
 
-/* 2. THE MOBILE / TABLET DEFAULT (0px to 1379px) */
-/* This is the "Safe Mode". No fancy positioning. */
-aside, .sidebar, .right-sidebar {
-    display: block !important;
-    position: static !important; /* Sit naturally in the page */
-    
-    /* SAFETY WIDTHS */
-    width: 90% !important;       /* Take up 90% of screen */
-    max-width: 700px !important; /* Never get wider than a nice reading column */
-    margin: 0 auto 40px auto !important; /* Center horizontally + bottom gap */
-    
-    /* Reset heights */
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-    
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-}
-
-/* 3. INNER CONTENT RESET */
-.sidebar-container, .backlinks, .toc, .backlink-list {
-    width: 100% !important; 
-    box-sizing: border-box !important;
-    height: auto !important;
-    max-height: none !important; 
-    overflow: visible !important; 
-}
-
-/* 4. THE GLASS CARD LOOK (Applies everywhere) */
+/* =========================================
+   2. SIDEBAR CARD STYLING (The Grey Box)
+   Applies to the BOX only, does not move the page.
+   ========================================= */
 .backlinks, .toc {
     display: block !important;
     
@@ -96,67 +57,80 @@ aside, .sidebar, .right-sidebar {
     margin-top: 0px !important;
     margin-bottom: 20px !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    
+    /* RESET HEIGHTS (Fixes the scrollbar issue safely) */
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
 }
 
-/* 5. TEXT WRAPPING (Critical for Mobile) */
-/* Forces long links to wrap instead of pushing the box wide */
+/* 3. MOBILE / TABLET WIDTHS (Default) */
+/* Force the sidebar container to be safe and centered */
+.sidebar, .right-sidebar {
+    width: 90% !important;
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    position: static !important; /* Let it flow naturally */
+}
+
+.sidebar-container {
+    width: 100% !important;
+}
+
+/* 4. TEXT WRAPPING (Prevents overflow) */
 .backlink a, .internal-link {
     white-space: normal !important; 
     word-break: break-word !important;         
 }
 
-/* 6. HIDE GRAPH ON MOBILE */
 .graph-view-container { display: none !important; }
 
-/* 7. SEPARATOR LINE */
-.stacked-separator {
-    display: block;
-    border: 0;
-    height: 1px;
-    background: var(--text-normal);
-    opacity: 0.6;
-    margin: 40px auto 40px auto !important;
-    width: 90vw;             
-    max-width: 1200px;       
-}
-
 /* =========================================
-   8. DESKTOP OVERRIDE (>1380px)
-   This is where we turn ON the fixed sidebar.
+   3. DESKTOP OVERRIDE (>1380px)
+   Only active on big screens.
    ========================================= */
 @media screen and (min-width: 1380px) {
     
-    aside, .sidebar, .right-sidebar {
-        /* ACTIVATE SIDEBAR MODE */
+    /* Pin the sidebar ONLY on desktop */
+    .sidebar, .right-sidebar {
         position: fixed !important; 
         top: 100px !important; 
-        left: calc(50% + 470px) !important; /* Position relative to center */
+        left: calc(50% + 470px) !important; 
         bottom: auto !important; 
         z-index: 100 !important;
         
-        /* FIXED WIDTH FOR DESKTOP */
+        /* Fixed Width Card */
         width: 350px !important; 
         max-width: none !important;
         margin: 0 !important;
+        
+        background: transparent !important;
+        border: none !important;
+        padding: 0 !important;
     }
 
-    /* Hide the mobile separator */
+    /* Clean up inner card styles for desktop */
+    .backlink-card {
+        border: none !important;
+        background: transparent !important;
+        padding: 4px 0 !important;
+        margin: 0 !important;
+    }
+
     .stacked-separator { display: none !important; }
-    
-    /* Show the graph */
     .graph-view-container { display: block !important; }
 }
 
 /* =========================================
-   9. FOOTER
+   4. FOOTER (Safe Flexbox)
    ========================================= */
 .custom-footer {
-    flex-shrink: 0 !important;
     width: 100% !important;
     background-color: var(--background-secondary);
     border-top: 1px solid var(--background-modifier-border);
     padding: 40px 0 !important;
-    margin-top: auto !important;
+    margin-top: 60px !important; /* Use margin instead of flex to push down */
     z-index: 10;
 }
 
@@ -174,5 +148,10 @@ aside, .sidebar, .right-sidebar {
     margin: 0;
     color: var(--text-muted);
     font-size: 0.9em;
+}
+.footer-sub {
+    font-size: 0.85em !important;
+    opacity: 0.6;
+    margin-top: 8px !important;
 }
 </style>
