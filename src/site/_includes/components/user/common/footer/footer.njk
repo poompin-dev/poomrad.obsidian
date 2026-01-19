@@ -16,10 +16,10 @@
 
 <style>
 /* =========================================
-   MASTER CSS: GLASS SIDEBAR + SAFE LAYOUT
+   MASTER CSS: STRICT MOBILE VS DESKTOP SPLIT
    ========================================= */
 
-/* 1. SCROLL ENGINE */
+/* 1. SCROLL ENGINE (Global) */
 html {
     overflow-x: hidden !important;
     background-color: var(--background-primary) !important;
@@ -48,7 +48,6 @@ body {
     padding-top: 80px !important;      
 }
 
-/* Hide Separator if no backlinks */
 .page-wrapper:not(:has(.backlink-card)) .stacked-separator {
     display: none !important;
 }
@@ -75,24 +74,27 @@ main.content {
 }
 
 /* =========================================
-   5. SIDEBAR (Mobile/Tablet/Stacked)
+   5. MOBILE / TABLET DEFAULTS (The Fix)
+   This applies to everyone first. Wide view overrides it later.
    ========================================= */
 aside, .sidebar, .right-sidebar {
-    /* FIX: Stop using fit-content here. Just fill the screen safely. */
-    width: 95% !important;
-    max-width: 1200px !important; /* Cap it for wide tablets */
-    margin: 0 auto !important;    /* Perfectly centered */
-    
-    /* Height Logic */
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-    
+    /* RESET: Stop trying to be "fit-content". Just fill the container. */
     display: block !important;
-    position: static !important; 
+    position: relative !important; /* Normal document flow */
+    
+    /* WIDTH: Strict 90% width centered. No overflow possible. */
+    width: 90% !important;
+    max-width: 800px !important;   /* Cap it so it doesn't look huge on iPad */
+    margin: 0 auto !important;     /* Force Center */
+    
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
+    
+    /* HEIGHT: Grow naturally */
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
 }
 
 /* Inner Layout */
@@ -104,15 +106,12 @@ aside, .sidebar, .right-sidebar {
     overflow: visible !important; 
 }
 
-/* 6. GLASS CARD STYLING (The Look) */
+/* 6. GLASS CARD STYLING (Applies everywhere) */
 .backlinks, .toc {
     display: block !important;
     
-    /* TRANSPARENCY FIX */
-    /* Darker black with 60% opacity */
+    /* GLASS EFFECT */
     background-color: rgba(20, 20, 20, 0.6) !important; 
-    
-    /* FROSTED GLASS EFFECT (Blur behind the box) */
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
 
@@ -124,7 +123,7 @@ aside, .sidebar, .right-sidebar {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* 7. TEXT WRAPPING */
+/* 7. TEXT WRAPPING (Prevents horizontal scroll) */
 .backlink a, .internal-link {
     white-space: normal !important; 
     word-break: break-word;         
@@ -133,23 +132,25 @@ aside, .sidebar, .right-sidebar {
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   8. WIDE VIEW (>1380px)
+   8. WIDE VIEW OVERRIDE (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
     
     aside, .sidebar, .right-sidebar {
+        /* SWITCH TO FLOATING MODE */
         position: fixed !important; 
         top: 100px !important; 
         left: calc(50% + 470px) !important; 
         bottom: auto !important; 
         z-index: 100 !important;
         
-        /* Desktop: Shrink back to a nice card size */
+        /* Override Mobile Widths */
         width: 350px !important; 
         max-width: none !important;
+        margin: 0 !important; /* Remove centering margin */
     }
 
-    /* Cleanup */
+    /* Remove individual card margins since the container is fixed */
     .backlink-card {
         border: none !important;
         background: transparent !important;
