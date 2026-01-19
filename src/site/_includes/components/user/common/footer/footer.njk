@@ -78,37 +78,33 @@ main.content {
    5. SIDEBAR (Mobile/Tablet/Stacked)
    ========================================= */
 aside, .sidebar, .right-sidebar {
-    /* RESET: Force it back into the page flow */
+    /* FORCE RESET */
     position: static !important;
     display: block !important;
     background: transparent !important;
     border: none !important;
     
-    /* WIDTH LOGIC: 
-       1. Match the content width (usually 900px) so it aligns with text.
-       2. Use 'min' to ensure it never exceeds 95% of the screen on tiny phones.
-    */
-    width: 100% !important;
-    max-width: var(--dg-content-max-width, 900px) !important;
+    /* SIZE & CENTERING */
+    width: 95% !important;               /* Use 95% so it doesn't touch phone edges */
+    max-width: var(--dg-content-max-width, 900px) !important; /* Match text width */
     
-    /* CENTERING: 
-       The margin auto is crucial here. 
-       We add margin-top to separate it from the content. 
-    */
-    margin: 40px auto 20px auto !important;
+    /* CRITICAL CENTERING FIX */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    
+    /* If parent is flex, this forces the item to center itself */
+    align-self: center !important; 
+    
     padding: 0 !important;
-    
-    /* SAFEGUARD: Prevent horizontal scrollbars */
     box-sizing: border-box !important;
 }
 
-/* Inner Layout reset */
+/* Ensure internal contents fill the centered box */
 .sidebar-container, .backlinks, .toc, .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
-    height: auto !important;
-    max-height: none !important; 
-    overflow: visible !important; 
 }
 
 /* 6. GLASS CARD STYLING (The Look) */
@@ -140,32 +136,36 @@ aside, .sidebar, .right-sidebar {
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   8. WIDE VIEW (>1380px)
+   8. WIDE VIEW (Only trigger if space exists)
    ========================================= */
-@media screen and (min-width: 1380px) {
+/* BUMPED UP TO 1600px TO PREVENT OVERFLOW */
+@media screen and (min-width: 1600px) {
     
     aside, .sidebar, .right-sidebar {
         position: fixed !important; 
+        /* 100px from top allows for header/breathing room */
         top: 100px !important; 
+        
+        /* CALCULATED POSITION: Center + Half Content (450) + Gap (20) */
         left: calc(50% + 470px) !important; 
         bottom: auto !important; 
         z-index: 100 !important;
         
-        /* Desktop: Shrink back to a nice card size */
+        /* CARD SIZE */
         width: 350px !important; 
         max-width: none !important;
     }
 
-    /* Cleanup */
-    .backlink-card {
-        border: none !important;
-        background: transparent !important;
-        padding: 4px 0 !important;
-        margin: 0 !important;
-    }
-
+    /* Remove the mobile separator line on desktop */
     .stacked-separator { display: none !important; }
-    .graph-view-container { display: block !important; }
+    
+    /* Clean up the card look for desktop floating */
+    .backlinks, .toc {
+        background-color: rgba(20, 20, 20, 0.4) !important; /* Slightly more transparent on desktop */
+        backdrop-filter: blur(10px) !important;
+        border: 1px solid var(--background-modifier-border) !important;
+        padding: 20px !important;
+    }
 }
 
 /* =========================================
