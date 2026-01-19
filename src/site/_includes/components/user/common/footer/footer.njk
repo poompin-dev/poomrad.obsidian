@@ -16,22 +16,58 @@
 
 <style>
 /* =========================================
-   MASTER CSS: RECOVERY MODE
+   MASTER CSS: SCROLL UNLOCKED + LAYOUT FIX
    ========================================= */
 
-/* 1. GLOBAL RESET */
-html { overflow-x: hidden !important; background-color: var(--background-primary) !important; }
-body { display: flex !important; flex-direction: column !important; min-height: 100vh !important; margin: 0 !important; background-color: var(--background-primary) !important; color: var(--text-normal) !important; }
+/* 1. SCROLL ENGINE FIX (Critical) */
+html {
+    overflow-y: scroll !important; /* Forces natural browser scrolling */
+    overflow-x: hidden !important;
+    background-color: var(--background-primary) !important;
+    height: 100% !important;
+}
+
+body {
+    /* REMOVED 'overflow-y: auto' - This was locking the scroll */
+    overflow: visible !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+    position: relative !important;
+}
 
 /* 2. PAGE WRAPPER */
-.page-wrapper { flex: 1 0 auto !important; display: flex !important; flex-direction: column !important; align-items: center !important; width: 100%; margin: 0 auto; padding-top: 80px !important; }
-main.content { width: 100% !important; max-width: var(--dg-content-max-width, 900px) !important; margin: 0 auto !important; padding: 0 20px !important; overflow: visible !important; }
+.page-wrapper {
+    flex: 1 0 auto !important; 
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;    
+    width: 100%;
+    margin: 0 auto; 
+    padding-top: 80px !important;       
+}
+
+main.content {
+    width: 100% !important;
+    max-width: var(--dg-content-max-width, 900px) !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    overflow: visible !important; 
+}
 
 /* 3. HIDE SEPARATORS */
-.stacked-separator, hr { display: none !important; border: none !important; height: 0 !important; margin: 0 !important; }
+.stacked-separator, hr {
+    display: none !important;
+    border: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+}
 
 /* =========================================
-   4. SIDEBAR CONTAINER
+   4. SIDEBAR CONTAINER (Mobile/Tablet/Stacked)
    ========================================= */
 aside, .sidebar, .right-sidebar, .sidebar-container {
     position: static !important;
@@ -41,9 +77,15 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     width: 100% !important;         
     margin: 0 !important;
     padding: 0 !important;
+    
+    /* Allow it to grow naturally so you can scroll past it */
     height: fit-content !important; 
     min-height: 0 !important;
+    overflow: visible !important;
+    
     float: none !important;
+    top: auto !important;
+    left: auto !important;
 }
 
 /* =========================================
@@ -53,24 +95,26 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     background-color: rgba(255, 255, 255, 0.05) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 12px !important;
+
     width: fit-content !important;  
     min-width: 300px !important;    
     max-width: 90vw !important;     
+    
     height: fit-content !important; 
     min-height: 0 !important;       
     overflow: visible !important;
+
     margin: 60px auto 40px auto !important; 
     padding: 25px 35px !important;          
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 /* =========================================
-   6. INNER ROWS (The Fix)
+   6. INNER ROWS (Custom Layout from Sidebar.njk)
    ========================================= */
-/* Target the new custom class to force proper layout */
 .custom-backlink-row {
     display: flex !important;
-    align-items: center !important; /* Vertically align icon + text */
+    align-items: center !important;
     width: 100% !important;
     margin-bottom: 8px !important;
     background: transparent !important;
@@ -113,7 +157,7 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   7. DESKTOP FLOAT (> 1650px)
+   7. DESKTOP FLOAT (> 1650px Only)
    ========================================= */
 @media screen and (min-width: 1650px) {
     aside, .sidebar, .right-sidebar {
@@ -121,23 +165,7 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
         position: fixed !important;
         top: 100px !important;
         left: calc(50% + 470px) !important;
+        
+        /* If list is huge, allow scroll INSIDE the box on desktop only */
         height: fit-content !important; 
-        max-height: 80vh !important;
-        overflow-y: auto !important;
-        width: fit-content !important;
-        max-width: 400px !important;
-        bottom: auto !important;
-        z-index: 100 !important;
-    }
-    .backlinks, .toc { margin: 0 !important; text-align: left !important; }
-    .backlinks h3, .backlink-header, .backlink-title { text-align: left !important; }
-}
-
-/* =========================================
-   8. FOOTER
-   ========================================= */
-.custom-footer { flex-shrink: 0 !important; width: 100% !important; background-color: var(--background-secondary); border-top: 1px solid var(--background-modifier-border); padding: 40px 0 !important; margin-top: auto !important; z-index: 10; }
-.footer-content { width: 100%; max-width: var(--dg-content-max-width, 900px); margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; }
-.footer-content p { margin: 0; color: var(--text-muted); font-size: 0.9em; }
-.footer-sub { font-size: 0.85em !important; opacity: 0.6; margin-top: 8px !important; }
-</style>
+        max-
