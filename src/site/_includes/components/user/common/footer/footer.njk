@@ -16,57 +16,22 @@
 
 <style>
 /* =========================================
-   MASTER CSS: FINAL CLEAN VERSION
+   MASTER CSS: RECOVERY MODE
    ========================================= */
 
-/* 1. SCROLL ENGINE */
-html {
-    overflow-x: hidden !important;
-    background-color: var(--background-primary) !important;
-}
-
-body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-y: auto !important;    
-    overflow-x: hidden !important; 
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-}
+/* 1. GLOBAL RESET */
+html { overflow-x: hidden !important; background-color: var(--background-primary) !important; }
+body { display: flex !important; flex-direction: column !important; min-height: 100vh !important; margin: 0 !important; background-color: var(--background-primary) !important; color: var(--text-normal) !important; }
 
 /* 2. PAGE WRAPPER */
-.page-wrapper {
-    flex: 1 0 auto !important; 
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: center !important;    
-    width: 100%;
-    margin: 0 auto; 
-    padding-top: 80px !important;       
-}
+.page-wrapper { flex: 1 0 auto !important; display: flex !important; flex-direction: column !important; align-items: center !important; width: 100%; margin: 0 auto; padding-top: 80px !important; }
+main.content { width: 100% !important; max-width: var(--dg-content-max-width, 900px) !important; margin: 0 auto !important; padding: 0 20px !important; overflow: visible !important; }
 
-/* 3. MAIN CONTENT */
-main.content {
-    width: 100% !important;
-    max-width: var(--dg-content-max-width, 900px) !important;
-    margin: 0 auto !important;
-    padding: 0 20px !important;
-    overflow: visible !important; 
-}
-
-/* 4. HIDE SEPARATORS */
-.stacked-separator, hr {
-    display: none !important;
-    border: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-}
+/* 3. HIDE SEPARATORS */
+.stacked-separator, hr { display: none !important; border: none !important; height: 0 !important; margin: 0 !important; }
 
 /* =========================================
-   5. SIDEBAR CONTAINER (The Wrapper)
+   4. SIDEBAR CONTAINER
    ========================================= */
 aside, .sidebar, .right-sidebar, .sidebar-container {
     position: static !important;
@@ -76,41 +41,103 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     width: 100% !important;         
     margin: 0 !important;
     padding: 0 !important;
-    
-    /* Force height to hug content */
     height: fit-content !important; 
     min-height: 0 !important;
-    
     float: none !important;
-    top: auto !important;
-    left: auto !important;
 }
 
 /* =========================================
-   6. THE OUTER BOX (Lighter Tint)
+   5. OUTER BOX (Lighter Tint)
    ========================================= */
 .backlinks, .toc, .backlink-list {
-    /* VISUALS: Lighter tint, subtle border */
     background-color: rgba(255, 255, 255, 0.05) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 12px !important;
-
-    /* SIZING: Fit text, center it */
     width: fit-content !important;  
     min-width: 300px !important;    
     max-width: 90vw !important;     
-    
-    /* HEIGHT: Stop expansion */
     height: fit-content !important; 
     min-height: 0 !important;       
-    max-height: none !important;
     overflow: visible !important;
-
-    /* POSITIONING */
     margin: 60px auto 40px auto !important; 
     padding: 25px 35px !important;          
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 /* =========================================
-   7. LINK TEXT STYLING
+   6. INNER ROWS (The Fix)
+   ========================================= */
+/* Target the new custom class to force proper layout */
+.custom-backlink-row {
+    display: flex !important;
+    align-items: center !important; /* Vertically align icon + text */
+    width: 100% !important;
+    margin-bottom: 8px !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Icons */
+.custom-backlink-row i, [data-lucide] {
+    opacity: 0.5 !important;
+    margin-right: 10px !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* Links */
+.custom-backlink-row a, .internal-link {
+    white-space: nowrap !important; 
+    text-overflow: ellipsis !important;
+    text-decoration: none !important;
+    color: var(--text-normal) !important;
+    font-size: 0.95em !important;
+}
+
+.custom-backlink-row a:hover {
+    text-decoration: underline !important;
+    opacity: 0.8 !important;
+}
+
+/* Header */
+.backlinks h3, .backlink-header, .backlink-title {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    opacity: 0.8 !important;
+    text-align: center !important; 
+    font-size: 0.85em !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+.graph-view-container { display: none !important; }
+
+/* =========================================
+   7. DESKTOP FLOAT (> 1650px)
+   ========================================= */
+@media screen and (min-width: 1650px) {
+    aside, .sidebar, .right-sidebar {
+        display: block !important;
+        position: fixed !important;
+        top: 100px !important;
+        left: calc(50% + 470px) !important;
+        height: fit-content !important; 
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        width: fit-content !important;
+        max-width: 400px !important;
+        bottom: auto !important;
+        z-index: 100 !important;
+    }
+    .backlinks, .toc { margin: 0 !important; text-align: left !important; }
+    .backlinks h3, .backlink-header, .backlink-title { text-align: left !important; }
+}
+
+/* =========================================
+   8. FOOTER
+   ========================================= */
+.custom-footer { flex-shrink: 0 !important; width: 100% !important; background-color: var(--background-secondary); border-top: 1px solid var(--background-modifier-border); padding: 40px 0 !important; margin-top: auto !important; z-index: 10; }
+.footer-content { width: 100%; max-width: var(--dg-content-max-width, 900px); margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; }
+.footer-content p { margin: 0; color: var(--text-muted); font-size: 0.9em; }
+.footer-sub { font-size: 0.85em !important; opacity: 0.6; margin-top: 8px !important; }
+</style>
