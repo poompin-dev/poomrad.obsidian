@@ -318,3 +318,8 @@ img {
     max-width: 100%;
     border-radius: 4px;
 }
+/*2. fixed safari input hard to see*/
+input, textarea, select, button {
+    -webkit-appearance: none;
+    appearance: none;
+}
