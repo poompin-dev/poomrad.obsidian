@@ -85,13 +85,11 @@ main.content {
     transform: translateX(-50%);
 }
 
-/* 5. SIDEBAR (Mobile/Stacked Default) */
+/* 5. SIDEBAR & BACKLINKS BOX (Stacked Default) */
 .sidebar {
     margin: 0 auto !important;
-    
-    /* WIDER LOGIC */
-    width: 95% !important;       /* Take up almost all horizontal space */
-    max-width: 1200px !important; /* Cap it at 1200px (Matches your separator line) */
+    width: 95% !important;       
+    max-width: 1200px !important; /* The Outer Limit */
     
     background: transparent !important;
     border: none !important;
@@ -99,6 +97,15 @@ main.content {
     display: block !important;
     position: static !important; 
     height: auto !important;
+}
+
+/* FORCE THE INNER CONTAINERS TO FILL THE SPACE */
+.sidebar-container, 
+.sidebar-container .backlinks, 
+.sidebar-container .toc {
+    width: 100% !important;      /* Fill the parent! */
+    max-width: 100% !important;  /* Don't shrink! */
+    box-sizing: border-box !important;
 }
 
 /* Original Card Styling (Mobile) */
