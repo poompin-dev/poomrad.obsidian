@@ -14,85 +14,19 @@
   }
 </script>
 
-<style>
 /* =========================================
-   FINAL STABLE LAYOUT: ORIGINAL SIDEBAR + FLEX EXPAND
+   FINAL LAYOUT: CARD STYLE + WRAPPED TEXT
    ========================================= */
 
-/* 1. GLOBAL RESET */
-html {
-    overflow-x: hidden !important;
-    background-color: var(--background-primary) !important;
-}
-
-body {
-    /* Flex Column = Sticky Footer Stability */
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: relative !important;
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-    
-    /* Vertical Scroll ON, Horizontal OFF */
-    overflow-y: auto !important;   
-    overflow-x: hidden !important; 
-}
-
-/* 2. PAGE WRAPPER */
-.page-wrapper {
-    flex: 1 0 auto !important; /* Grow to fill space */
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: center !important;    
-    width: 100%;
-    margin: 0 auto; 
-    padding-top: 80px !important;      
-    position: relative !important;     
-}
-
-/* --- SMART HIDE LOGIC --- */
-/* Matches original HTML structure (.backlink-card) */
-.page-wrapper:not(:has(.backlink-card)) .stacked-separator {
-    display: none !important;
-}
-
-/* 3. MAIN CONTENT */
-main.content {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 0 20px !important;
-    width: 100% !important;
-    max-width: var(--dg-content-max-width, 900px) !important;
-    overflow: visible !important; 
-}
-
-/* 4. SEPARATOR LINE */
-.stacked-separator {
-    display: block;
-    border: 0;
-    height: 1px;
-    background: var(--text-normal);
-    opacity: 0.6;
-    margin-top: 60px !important;
-    margin-bottom: 20px !important;
-    width: 90vw;             
-    max-width: 1200px;       
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* 5. SIDEBAR & BACKLINKS (Global / Stacked Default) */
-aside, 
-.sidebar, 
-.right-sidebar {
+/* 1. GLOBAL RESET (The Container) */
+aside, .sidebar, .right-sidebar {
     width: -moz-fit-content !important;
     width: fit-content !important;
     min-width: 300px !important;
-    max-width: 95vw !important;
+    
+    /* Ensure it never overflows the screen on tablets */
+    max-width: 90vw !important; 
+    
     margin-left: auto !important;
     margin-right: auto !important;
 
@@ -104,17 +38,14 @@ aside,
     display: block !important;
     position: static !important; 
     
-    /* The Wrapper itself is transparent */
+    /* The Wrapper itself is transparent (the gap around the box) */
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
 }
 
-/* Inner containers (The actual content) */
-.sidebar-container, 
-.backlinks, 
-.toc, 
-.backlink-list {
+/* 2. INNER CONTENT RESET */
+.sidebar-container, .backlinks, .toc, .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
     height: auto !important;
@@ -122,115 +53,51 @@ aside,
     overflow: visible !important; 
 }
 
-/* Prevent text wrapping */
-.backlink a, .internal-link {
-    white-space: nowrap; 
-}
-
-/* =========================================
-   CARD STYLING (Applies to BOTH Mobile & Wide)
-   ========================================= */
+/* 3. CARD STYLING (The Grey Box) */
+/* This applies to BOTH Mobile and Wide views */
 .backlinks, .toc {
     display: block !important;
     
-    /* THE CARD PAINT (Grey Background + Border) */
-    background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
+    /* FORCE THE COLOR */
+    background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
     border: 1px solid var(--background-modifier-border) !important;
     
-    /* SHAPE */
     border-radius: 12px !important;
     padding: 25px 30px !important;
-    
-    /* SPACING */
     margin-top: 0px !important;
     margin-bottom: 20px !important;
-    
-    /* SHADOW */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 4. TEXT WRAPPING (The Fix) */
+/* Allow text to wrap so it doesn't shoot off the screen */
+.backlink a, .internal-link {
+    white-space: normal !important; 
+    word-break: break-word;         
 }
 
 /* =========================================
    WIDE VIEW POSITIONING (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
-    aside, 
-    .sidebar, 
-    .right-sidebar {
-        /* Pin to the right */
+    aside, .sidebar, .right-sidebar {
         position: fixed !important; 
         top: 100px !important; 
         left: calc(50% + 470px) !important; 
-        
-        /* Ensure it doesn't get cut off at the bottom */
         bottom: auto !important; 
         z-index: 100 !important;
+        
+        /* Limit width on desktop so it looks like a nice card */
+        max-width: 400px !important; 
     }
     
-    /* HIDE THE SEPARATOR IN WIDE VIEW */
+    /* Ensure the inner card doesn't accidentally turn transparent */
+    .backlinks, .toc {
+        background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
+        opacity: 1 !important;
+    }
+    
     .stacked-separator { display: none !important; }
-}
-
-.graph-view-container { display: none !important; }
-
-/* =========================================
-   B. WIDE VIEW FIX (>1380px)
-   ========================================= */
-@media screen and (min-width: 1380px) {
-    
-    /* 1. THE WRAPPER (Anchored Top & Bottom) */
-    aside, .sidebar {
-        position: fixed !important; 
-        top: 100px !important; 
-        bottom: 40px !important; /* Forces height to stretch */
-        left: calc(50% + 470px) !important; 
-        width: 220px !important; 
-        
-        height: auto !important; 
-        max-height: none !important;
-        overflow-y: auto !important; /* Container scrolls */
-        scrollbar-width: none; 
-        
-        margin: 0 !important;
-        background: transparent !important;
-        border: none !important;
-        z-index: 100 !important;
-    }
-
-    /* 2. THE INNER CONTENT (Unlock Heights) */
-    .sidebar-container, .backlinks, .toc, .backlink-list {
-        background-color: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        margin-bottom: 30px !important;
-        
-        /* THE CRITICAL UNLOCK */
-        height: auto !important;
-        max-height: none !important;
-        overflow: visible !important;
-    }
-    
-    /* 3. CLEAN UP THE ORIGINAL CARDS */
-    /* Remove the card look from individual items to make it a list */
-    .backlink-card {
-        border: none !important;
-        background: transparent !important;
-        padding: 4px 0 !important;
-        margin: 0 !important;
-    }
-    
-    .backlink-title, .toc-title {
-        font-size: 0.85em !important;
-        font-weight: 700 !important;
-        text-transform: uppercase;
-        color: var(--text-muted);
-        margin-bottom: 10px !important;
-    }
-
-    /* Hide Separator in Wide Mode */
-    .stacked-separator { display: none !important; }
-    .graph-view-container { display: block !important; }
 }
 
 /* =========================================
