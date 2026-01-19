@@ -16,101 +16,76 @@
 
 <style>
 /* =========================================
-   MASTER CSS: SCROLL UNLOCKED + LAYOUT FIX
+   1. CRITICAL SCROLL FIX
    ========================================= */
-
-/* 1. SCROLL ENGINE FIX (Critical) */
-html {
-    overflow-y: scroll !important; /* Forces natural browser scrolling */
+/* Reset html/body to standard web scrolling behavior */
+html, body {
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow-y: auto !important; /* Allow scroll */
     overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
     background-color: var(--background-primary) !important;
-    height: 100% !important;
 }
 
-body {
-    /* REMOVED 'overflow-y: auto' - This was locking the scroll */
-    overflow: visible !important; 
+/* Ensure the wrapper doesn't lock the height */
+.page-wrapper {
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow: visible !important;
     display: flex !important;
     flex-direction: column !important;
-    min-height: 100vh !important;
-    margin: 0 !important;
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-    position: relative !important;
-}
-
-/* 2. PAGE WRAPPER */
-.page-wrapper {
-    flex: 1 0 auto !important; 
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: center !important;    
-    width: 100%;
-    margin: 0 auto; 
-    padding-top: 80px !important;       
+    padding-top: 80px !important;
 }
 
 main.content {
     width: 100% !important;
-    max-width: var(--dg-content-max-width, 900px) !important;
+    max-width: 900px !important;
     margin: 0 auto !important;
     padding: 0 20px !important;
-    overflow: visible !important; 
-}
-
-/* 3. HIDE SEPARATORS */
-.stacked-separator, hr {
-    display: none !important;
-    border: none !important;
-    height: 0 !important;
-    margin: 0 !important;
+    overflow: visible !important;
 }
 
 /* =========================================
-   4. SIDEBAR CONTAINER (Mobile/Tablet/Stacked)
+   2. HIDE SEPARATORS
+   ========================================= */
+.stacked-separator, hr {
+    display: none !important;
+}
+
+/* =========================================
+   3. SIDEBAR CONTAINER
    ========================================= */
 aside, .sidebar, .right-sidebar, .sidebar-container {
     position: static !important;
-    display: flex !important;       
+    display: flex !important;
     flex-direction: column !important;
-    align-items: center !important; 
-    width: 100% !important;         
-    margin: 0 !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: fit-content !important;
     padding: 0 !important;
-    
-    /* Allow it to grow naturally so you can scroll past it */
-    height: fit-content !important; 
-    min-height: 0 !important;
-    overflow: visible !important;
-    
+    margin: 0 !important;
     float: none !important;
-    top: auto !important;
-    left: auto !important;
 }
 
 /* =========================================
-   5. OUTER BOX (Lighter Tint)
+   4. BACKLINK BOX (Lighter Tint)
    ========================================= */
-.backlinks, .toc, .backlink-list {
+.backlinks, .toc {
     background-color: rgba(255, 255, 255, 0.05) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 12px !important;
-
-    width: fit-content !important;  
-    min-width: 300px !important;    
-    max-width: 90vw !important;     
-    
-    height: fit-content !important; 
-    min-height: 0 !important;       
-    overflow: visible !important;
-
-    margin: 60px auto 40px auto !important; 
-    padding: 25px 35px !important;          
+    width: fit-content !important;
+    min-width: 300px !important;
+    max-width: 90vw !important;
+    margin: 60px auto 40px auto !important;
+    padding: 25px 35px !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 /* =========================================
-   6. INNER ROWS (Custom Layout from Sidebar.njk)
+   5. CUSTOM ROW STYLING
    ========================================= */
 .custom-backlink-row {
     display: flex !important;
@@ -118,24 +93,20 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     width: 100% !important;
     margin-bottom: 8px !important;
     background: transparent !important;
-    padding: 0 !important;
 }
 
-/* Icons */
 .custom-backlink-row i, [data-lucide] {
     opacity: 0.5 !important;
     margin-right: 10px !important;
     width: 16px !important;
-    height: 16px !important;
 }
 
-/* Links */
-.custom-backlink-row a, .internal-link {
-    white-space: nowrap !important; 
-    text-overflow: ellipsis !important;
-    text-decoration: none !important;
+.custom-backlink-row a {
     color: var(--text-normal) !important;
+    text-decoration: none !important;
     font-size: 0.95em !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
 }
 
 .custom-backlink-row a:hover {
@@ -143,21 +114,21 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
     opacity: 0.8 !important;
 }
 
-/* Header */
+/* Headers */
 .backlinks h3, .backlink-header, .backlink-title {
     margin-top: 0 !important;
     margin-bottom: 20px !important;
+    text-align: center !important;
     opacity: 0.8 !important;
-    text-align: center !important; 
-    font-size: 0.85em !important;
     text-transform: uppercase !important;
+    font-size: 0.85em !important;
     letter-spacing: 1px !important;
 }
 
 .graph-view-container { display: none !important; }
 
 /* =========================================
-   7. DESKTOP FLOAT (> 1650px Only)
+   6. DESKTOP VIEW (> 1650px)
    ========================================= */
 @media screen and (min-width: 1650px) {
     aside, .sidebar, .right-sidebar {
@@ -165,7 +136,36 @@ aside, .sidebar, .right-sidebar, .sidebar-container {
         position: fixed !important;
         top: 100px !important;
         left: calc(50% + 470px) !important;
-        
-        /* If list is huge, allow scroll INSIDE the box on desktop only */
-        height: fit-content !important; 
-        max-
+        width: fit-content !important;
+        max-width: 400px !important;
+        /* Scroll ONLY the sidebar if it gets too tall */
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+    }
+
+    .backlinks, .toc {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .backlinks h3, .backlink-header, .backlink-title {
+        text-align: left !important;
+    }
+}
+
+/* =========================================
+   7. FOOTER
+   ========================================= */
+.custom-footer {
+    width: 100% !important;
+    background-color: var(--background-secondary);
+    border-top: 1px solid var(--background-modifier-border);
+    padding: 40px 0 !important;
+    margin-top: auto !important;
+}
+
+.footer-content {
+    text-align: center;
+    color: var(--text-muted);
+}
+</style>
