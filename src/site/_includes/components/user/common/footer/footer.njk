@@ -85,30 +85,38 @@ main.content {
     transform: translateX(-50%);
 }
 
-/* 5. SIDEBAR & BACKLINKS BOX (Stacked Default) */
-.sidebar {
-    margin: 0 auto !important;
-    width: 95% !important;       
-    max-width: 1200px !important; /* The Outer Limit */
+/* 5. SIDEBAR & BACKLINKS (Stacked Default) */
+/* Target the wrapper <aside> AND the inner content */
+aside, 
+.sidebar, 
+.right-sidebar {
+    /* BREAK OUT OF PARENT */
+    width: 95vw !important;        /* 95% of the actual screen width */
+    max-width: 1200px !important;  /* The limit you want */
     
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
+    /* Center it */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    /* Reset layout constraints */
     display: block !important;
     position: static !important; 
     height: auto !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
 }
 
-/* FORCE THE INNER CONTAINERS TO FILL THE SPACE */
+/* Force the inner container and cards to fill that new wide space */
 .sidebar-container, 
-.sidebar-container .backlinks, 
-.sidebar-container .toc {
-    width: 100% !important;      /* Fill the parent! */
-    max-width: 100% !important;  /* Don't shrink! */
+.backlinks, 
+.toc {
+    width: 100% !important;
+    max-width: 100% !important;
     box-sizing: border-box !important;
 }
 
-/* Original Card Styling (Mobile) */
+/* Card Styling (The Grey Box itself) */
 .backlinks, .toc {
     display: block !important;
     background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.03)) !important;
