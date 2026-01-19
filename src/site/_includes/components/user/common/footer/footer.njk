@@ -16,15 +16,18 @@
 
 <style>
 /* =========================================
-   FINAL LAYOUT: SCROLLING + SMART HIDE
+   EMERGENCY RESTORE: STABLE & TALL SIDEBAR
    ========================================= */
 
-/* 1. GLOBAL RESET (The Safe Version) */
+/* 1. GLOBAL RESET (The "Pitch Black" Fix) */
 html {
-    overflow-x: hidden !important; /* Stop horizontal scroll on the root */
+    overflow-x: hidden !important;
+    /* Ensure the theme background exists at the root */
+    background-color: var(--background-primary) !important;
 }
 
 body {
+    /* RESTORE LAYOUT ENGINE */
     display: grid !important;
     grid-template-rows: 1fr auto !important; 
     min-height: 100vh !important;
@@ -32,7 +35,11 @@ body {
     padding: 0 !important;
     position: relative !important;
     
-    /* CRITICAL FIX: Explicitly allow Vertical Scroll */
+    /* Ensure the body is painted correctly */
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+
+    /* RESTORE SCROLLING (Let browser handle vertical, kill horizontal) */
     overflow-y: auto !important;   
     overflow-x: hidden !important; 
 }
@@ -48,8 +55,8 @@ body {
     position: relative !important;     
 }
 
-/* --- SMART HIDE LOGIC --- */
-/* IF the backlinks box does NOT contain a link (<a>), hide the separator line */
+/* --- SMART HIDE LOGIC (Fixed) --- */
+/* If the box has no links, hide the separator line */
 .page-wrapper:not(:has(.backlinks a)) .stacked-separator {
     display: none !important;
 }
@@ -84,7 +91,7 @@ main.content {
     display: block; 
 }
 
-/* 5. SIDEBAR (Stacked View) */
+/* 5. SIDEBAR (Stacked View - Mobile/Tablet) */
 .right-sidebar, .sidebar {
     margin: 0 auto !important;
     width: 90% !important;
@@ -97,6 +104,7 @@ main.content {
     height: auto !important;
 }
 
+/* Cards styling */
 .right-sidebar .backlinks, 
 .right-sidebar .toc-container,
 .sidebar .backlinks,
@@ -130,15 +138,21 @@ main.content {
         top: 100px !important; 
         left: calc(50% + 470px) !important; 
         width: 220px !important; 
-        max-height: 80vh !important;
+        
+        /* --- TALLER SIDEBAR FIX --- */
+        /* Take full height minus top offset (100px) and bottom padding (20px) */
+        max-height: calc(100vh - 120px) !important;
+        
         overflow-y: auto !important;
         scrollbar-width: none; 
+        
         margin: 0 !important;
         background: transparent !important;
         border: none !important;
         z-index: 100 !important;
     }
 
+    /* Reset Cards to Transparent */
     .right-sidebar .backlinks, 
     .right-sidebar .toc-container,
     .sidebar .backlinks,
@@ -193,4 +207,8 @@ main.content {
     font-size: 0.9em;
 }
 .footer-sub {
-    font-size:
+    font-size: 0.85em !important;
+    opacity: 0.6;
+    margin-top: 8px !important;
+}
+</style>
