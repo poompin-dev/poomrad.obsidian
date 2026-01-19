@@ -246,7 +246,7 @@ body table tbody tr:hover td {
 }
 
 /* =========================================
-   PART 6: SMART NAVBAR (RESTORED)
+   PART 6: SMART NAVBAR (FIXED)
    ========================================= */
 .navbar {
     position: fixed !important; 
@@ -261,7 +261,21 @@ body table tbody tr:hover td {
     
     display: flex;
     justify-content: center;
+
+    /* --- FIX START: ANIMATION --- */
+    /* This allows the bar to slide instead of teleporting */
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+    /* --- FIX END --- */
 }
+
+/* --- FIX START: HIDDEN STATE --- */
+/* This is what the JS activates. Moves bar up by 100% of its height */
+.navbar.navbar-hidden {
+    transform: translateY(-100%);
+    box-shadow: none; /* Optional: looks cleaner when hidden */
+}
+/* --- FIX END --- */
 
 .navbar-inner {
     width: 100% !important;
@@ -277,19 +291,22 @@ body table tbody tr:hover td {
 
 .navbar-brand {
     font-family: var(--font-editorial) !important; 
-    font-size: 1.5em !important;   
-    font-weight: 800 !important;   
-    letter-spacing: -0.03em;       
+    font-size: 1.5em !important;    
+    font-weight: 800 !important;    
+    letter-spacing: -0.03em;        
     color: var(--text-normal) !important;
     text-decoration: none !important;
     display: flex;
     align-items: center;
 }
 
-.navbar-nav {
+/* --- FIX START: CLASS NAME MATCH --- */
+/* Changed from .navbar-nav to .navbar-menu to match your HTML */
+.navbar-menu { 
     display: flex;
     gap: 20px;
 }
+/* --- FIX END --- */
 
 /* =========================================
    PART 7: UTILITY & BUG FIXES
