@@ -1,62 +1,64 @@
 <aside>
-    <div class="sidebar right-sidebar"> <div class="sidebar-container">
-            
-            {% for imp in dynamics.sidebar.top %}
-                {% include imp %}
-            {% endfor %}
+      <div class="sidebar">
+            <div class="sidebar-container">
+                  {% for imp in dynamics.sidebar.top %}
+                        {% include imp %}
+                  {% endfor %}
+                  {%if settings.dgShowLocalGraph === true%}
+                        {%include "components/graphScript.njk"%}
+                  {%endif%}
 
-            {%if settings.dgShowLocalGraph === true%}
-                {%include "components/graphScript.njk"%}
-            {%endif%}
+                  {%if settings.dgShowToc === true%}
+                        {%set tocHtml= (content and (content|toc)) %}
+                        {%if tocHtml %}
+                              <div class="toc">
+                                    <div class="toc-title-container">
+                                          <div class="toc-title">
+                                                {% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}
+                                          </div>
+                                    </div>
+                                    <div class="toc-container">
+                                          {{ tocHtml | safe }}
+                                    </div>
+                              </div>
+                        {%endif%}
 
-            {%if settings.dgShowToc === true%}
-                {%set tocHtml= (content and (content|toc)) %}
-                {%if tocHtml %}
-                    <div class="toc-container">
-                        <div class="sidebar-title">On this page</div>
-                        <div class="toc-content">
-                            {{ tocHtml | safe }}
-                        </div>
-                    </div>
-                {%endif%}
-            {%endif%}
+                  {%endif%}
 
-            {%if settings.dgShowBacklinks === true %}
-                {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
-                
-                {# --- 1. PRE-CALCULATE: Check for valid links first --- #}
-                {%- set hasValidBacklinks = false -%}
-                {%- if currentNode -%}
-                    {%- for backlink in currentNode.backLinks -%}
-                        {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" and graph.nodes[backlink].url != "/index" -%}
-                            {%- set hasValidBacklinks = true -%}
+                  {%if settings.dgShowBacklinks === true %}
+                        {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
+                        {%- set hasValidBacklinks = false -%}
+                        {%- if currentNode -%}
+                              {%- for backlink in currentNode.backLinks -%}
+                                    {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                                          {%- set hasValidBacklinks = true -%}
+                                    {%- endif -%}
+                              {%- endfor -%}
                         {%- endif -%}
-                    {%- endfor -%}
-                {%- endif -%}
 
-                {# --- 2. RENDER: The Clean List --- #}
-                {%- if hasValidBacklinks -%}
-                    <div class="backlinks">
-                        <div class="sidebar-title">{{ meta.uiStrings.backlinkHeader or "Pages mentioning this page" }}</div>
-                        <ul class="backlinks-list"> {%- for backlink in currentNode.backLinks -%}
-                                {# Filter out Home and Self #}
-                                {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" and graph.nodes[backlink].url != "/index" -%}
-                                    <li class="backlink-item">
-                                        <a href="{{graph.nodes[backlink].url}}" class="internal-link">
-                                            {{graph.nodes[backlink].title}}
-                                        </a>
-                                    </li>
-                                {%- endif -%}
-                            {%- endfor -%}
-                        </ul>
-                    </div>
-                {%- endif -%}
-            {%endif%}
-
-            {% for imp in dynamics.sidebar.bottom %}
-                {% include imp %}
-            {% endfor %}
-            
-        </div>
-    </div>
+                        {%- if hasValidBacklinks -%}
+                              <div class="backlinks">
+                                    <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
+                                    <div class="backlink-list">
+                                          {%- for backlink in currentNode.backLinks -%}
+                                                {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                                                      <div class="backlink-card">
+                                                            {%- if not meta.noteIconsSettings.backlinks -%}
+                                                                  <i data-lucide="link"></i> 
+                                                            {%- endif -%}
+                                                            <a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">
+                                                                  {{graph.nodes[backlink].title}}
+                                                            </a>
+                                                      </div>
+                                                {%- endif -%}
+                                          {%- endfor -%}
+                                    </div>
+                              </div>
+                        {%- endif -%}
+                  {%endif%}
+                  {% for imp in dynamics.sidebar.bottom %}
+                        {% include imp %}
+                  {% endfor %}
+            </div>
+      </div>
 </aside>
