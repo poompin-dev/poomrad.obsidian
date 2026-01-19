@@ -16,7 +16,7 @@
 
 <style>
 /* =========================================
-   MASTER CSS: GLASS SIDEBAR + SAFE LAYOUT
+   MASTER CSS: FIXED ALIGNMENT
    ========================================= */
 
 /* 1. SCROLL ENGINE */
@@ -31,7 +31,7 @@ body {
     min-height: 100vh !important;
     margin: 0 !important;
     padding: 0 !important;
-    overflow-y: auto !important;   
+    overflow-y: auto !important;    
     overflow-x: hidden !important; 
     background-color: var(--background-primary) !important;
     color: var(--text-normal) !important;
@@ -45,7 +45,7 @@ body {
     align-items: center !important;    
     width: 100%;
     margin: 0 auto; 
-    padding-top: 80px !important;      
+    padding-top: 80px !important;       
 }
 
 /* Hide Separator if no backlinks */
@@ -62,95 +62,104 @@ main.content {
     overflow: visible !important; 
 }
 
-/* 4. SEPARATOR LINE */
+/* =========================================
+   4. SEPARATOR LINE (Matched Width)
+   ========================================= */
 .stacked-separator {
     display: block;
     border: 0;
     height: 1px;
     background: var(--text-normal);
-    opacity: 0.6;
-    margin: 60px auto 20px auto !important;
-    width: 90vw;             
-    max-width: 1200px;       
+    opacity: 0.3; /* Lower opacity for subtlety */
+    
+    /* ALIGNMENT FIX: Match the content width exactly */
+    width: 90% !important;
+    max-width: 900px !important;
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 60px !important;
+    margin-bottom: 40px !important;
 }
 
 /* =========================================
-   5. UNIVERSAL SIDEBAR FIX (Safe Mode)
+   5. SIDEBAR CONTAINER (The Flex Parent)
    ========================================= */
-
-/* 1. DEFAULT STATE: Stacked at the bottom & Centered (Mobile/Tablet/Laptop) */
+/* This invisible container spans the full screen width 
+   and forces its children (the glass box) to the center. */
 aside, .sidebar, .right-sidebar, .sidebar-container {
-    /* FORCE RESET: Strip all floating behavior */
     position: static !important;
-    display: block !important;
+    display: flex !important;       /* Flex Parent Mode */
+    flex-direction: column !important;
+    align-items: center !important; /* Force children to center */
+    width: 100% !important;         /* Full width to prevent left-align */
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    /* Reset Floating */
     float: none !important;
-    
-    /* CENTERING: This forces it to the middle of the screen */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 60px !important; 
-    margin-bottom: 40px !important;
-    
-    /* SIZING: 90% width looks good on mobile; Cap at 900px to match text */
-    width: 90% !important;
-    max-width: 900px !important;
-    height: auto !important;
-    
-    /* CLEANUP: Remove any weird positioning coordinates */
     top: auto !important;
     left: auto !important;
-    bottom: auto !important;
-    right: auto !important;
     transform: none !important;
-    
-    /* FLEX OVERRIDE: If parent is flex, force self to center */
-    align-self: center !important;
 }
 
-/* 2. ULTRA-WIDE STATE: Only float if screen is > 1650px */
-/* This prevents the "Cutoff" seen in your screenshot. */
-@media screen and (min-width: 1650px) {
-    aside, .sidebar, .right-sidebar {
-        position: fixed !important;
-        top: 100px !important;
-        
-        /* MATH: Center (50%) + Half Content (450px) + Gap (20px) = 470px */
-        left: calc(50% + 470px) !important;
-        
-        /* Shrink back to card size */
-        width: 350px !important;
-        margin: 0 !important; /* Reset the centering margins */
-    }
-}
-
-/* 6. GLASS CARD STYLING (The Look) */
-.backlinks, .toc {
-    display: block !important;
+/* =========================================
+   6. GLASS CARD STYLING (The Child)
+   ========================================= */
+.backlinks, .toc, .backlink-list {
+    /* SIZE CONTROL: Matches the separator and text above */
+    width: 90% !important;
+    max-width: 900px !important;
     
-    /* TRANSPARENCY FIX */
-    /* Darker black with 60% opacity */
+    /* TRANSPARENCY & LOOK */
     background-color: rgba(20, 20, 20, 0.6) !important; 
-    
-    /* FROSTED GLASS EFFECT (Blur behind the box) */
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
-
     border: 1px solid var(--background-modifier-border) !important;
     border-radius: 12px !important;
     padding: 25px 30px !important;
-    margin-top: 0px !important;
+    
+    margin: 0 !important; /* Parent handles centering */
     margin-bottom: 20px !important;
+    box-sizing: border-box !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
 
 /* 7. TEXT WRAPPING */
 .backlink a, .internal-link {
     white-space: normal !important; 
-    word-break: break-word;         
+    word-break: break-word;          
 }
-
 .graph-view-container { display: none !important; }
 
+/* =========================================
+   8. DESKTOP FLOAT (> 1650px ONLY)
+   ========================================= */
+@media screen and (min-width: 1650px) {
+    aside, .sidebar, .right-sidebar {
+        /* Switch back to Block/Fixed for the floating card */
+        display: block !important;
+        position: fixed !important;
+        top: 100px !important;
+        
+        /* EXACT POSITIONING */
+        left: calc(50% + 470px) !important;
+        
+        width: 350px !important;
+        max-width: none !important;
+        bottom: auto !important;
+        z-index: 100 !important;
+    }
+    
+    /* Hide the separator line on desktop */
+    .stacked-separator { display: none !important; }
+    
+    /* Reset the glass card to fill the small sidebar */
+    .backlinks, .toc {
+        width: 100% !important;
+        max-width: none !important;
+    }
+}
 
 /* =========================================
    9. FOOTER STYLING
