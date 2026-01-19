@@ -14,37 +14,99 @@
   }
 </script>
 
+<style>
 /* =========================================
-   FINAL LAYOUT: CARD STYLE + WRAPPED TEXT
+   MASTER CSS: SCROLL + LAYOUT + SIDEBAR
    ========================================= */
 
-/* 1. GLOBAL RESET (The Container) */
+/* 1. THE ENGINE ROOM (Fixes "Can't Scroll") */
+html {
+    overflow-x: hidden !important;
+    background-color: var(--background-primary) !important;
+}
+
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+
+    /* CRITICAL: Turn scrolling back ON */
+    overflow-y: auto !important;   
+    overflow-x: hidden !important; 
+}
+
+/* 2. PAGE LAYOUT */
+.page-wrapper {
+    flex: 1 0 auto !important; 
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;    
+    width: 100%;
+    margin: 0 auto; 
+    padding-top: 80px !important;      
+    position: relative !important;     
+}
+
+/* Smart Hide Separator */
+.page-wrapper:not(:has(.backlink-card)) .stacked-separator {
+    display: none !important;
+}
+
+/* 3. MAIN CONTENT */
+main.content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px !important;
+    width: 100% !important;
+    max-width: var(--dg-content-max-width, 900px) !important;
+    overflow: visible !important; 
+}
+
+/* 4. SEPARATOR LINE */
+.stacked-separator {
+    display: block;
+    border: 0;
+    height: 1px;
+    background: var(--text-normal);
+    opacity: 0.6;
+    margin-top: 60px !important;
+    margin-bottom: 20px !important;
+    width: 90vw;             
+    max-width: 1200px;       
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 5. SIDEBAR (Global Logic) */
 aside, .sidebar, .right-sidebar {
+    /* Fit Logic */
     width: -moz-fit-content !important;
     width: fit-content !important;
     min-width: 300px !important;
-    
-    /* Ensure it never overflows the screen on tablets */
-    max-width: 90vw !important; 
+    max-width: 90vw !important; /* Prevents overflow */
     
     margin-left: auto !important;
     margin-right: auto !important;
 
-    /* Grow tall, no scrollbars */
+    /* Height Logic */
     height: auto !important;
     max-height: none !important;
     overflow: visible !important;
     
     display: block !important;
     position: static !important; 
-    
-    /* The Wrapper itself is transparent (the gap around the box) */
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
 }
 
-/* 2. INNER CONTENT RESET */
+/* Inner Layout */
 .sidebar-container, .backlinks, .toc, .backlink-list {
     width: 100% !important; 
     box-sizing: border-box !important;
@@ -53,15 +115,11 @@ aside, .sidebar, .right-sidebar {
     overflow: visible !important; 
 }
 
-/* 3. CARD STYLING (The Grey Box) */
-/* This applies to BOTH Mobile and Wide views */
+/* 6. CARD STYLING (The Grey Box) */
 .backlinks, .toc {
     display: block !important;
-    
-    /* FORCE THE COLOR */
     background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
     border: 1px solid var(--background-modifier-border) !important;
-    
     border-radius: 12px !important;
     padding: 25px 30px !important;
     margin-top: 0px !important;
@@ -69,17 +127,19 @@ aside, .sidebar, .right-sidebar {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* 4. TEXT WRAPPING (The Fix) */
-/* Allow text to wrap so it doesn't shoot off the screen */
+/* 7. TEXT WRAPPING (Fixes "Overflowing Text") */
 .backlink a, .internal-link {
     white-space: normal !important; 
     word-break: break-word;         
 }
 
+.graph-view-container { display: none !important; }
+
 /* =========================================
-   WIDE VIEW POSITIONING (>1380px)
+   8. WIDE VIEW (>1380px)
    ========================================= */
 @media screen and (min-width: 1380px) {
+    
     aside, .sidebar, .right-sidebar {
         position: fixed !important; 
         top: 100px !important; 
@@ -87,21 +147,29 @@ aside, .sidebar, .right-sidebar {
         bottom: auto !important; 
         z-index: 100 !important;
         
-        /* Limit width on desktop so it looks like a nice card */
-        max-width: 400px !important; 
+        max-width: 400px !important; /* Cap width for card look */
     }
-    
-    /* Ensure the inner card doesn't accidentally turn transparent */
+
+    /* Force card look on desktop too */
     .backlinks, .toc {
         background-color: var(--background-secondary-alt, rgba(255, 255, 255, 0.05)) !important;
         opacity: 1 !important;
     }
-    
+
+    /* Cleanup */
+    .backlink-card {
+        border: none !important;
+        background: transparent !important;
+        padding: 4px 0 !important;
+        margin: 0 !important;
+    }
+
     .stacked-separator { display: none !important; }
+    .graph-view-container { display: block !important; }
 }
 
 /* =========================================
-   FOOTER STYLING
+   9. FOOTER STYLING
    ========================================= */
 .custom-footer {
     flex-shrink: 0 !important;
@@ -127,5 +195,10 @@ aside, .sidebar, .right-sidebar {
     margin: 0;
     color: var(--text-muted);
     font-size: 0.9em;
+}
+.footer-sub {
+    font-size: 0.85em !important;
+    opacity: 0.6;
+    margin-top: 8px !important;
 }
 </style>
