@@ -47,93 +47,69 @@ code, pre {
 }
 
 /* =========================================
-   PART 3: TYPOGRAPHY & DENSITY
+   PART 3: TYPOGRAPHY & DENSITY (TIGHTER)
    ========================================= */
 
-/* HEADINGS */
+/* 1. Remove hidden margins from the header container */
+main header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* 2. Tighten Paragraphs & Lists */
+/* Using 'main' and '.markdown-rendered' makes this rule stronger */
+main p, .markdown-rendered p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0.5em !important; /* Was 0.8em - now much tighter */
+    line-height: 1.5;
+    max-width: 80ch;
+}
+
+main ul, main ol, .markdown-rendered ul {
+    margin-block-start: 0 !important;
+    margin-block-end: 0.5em !important;
+    padding-left: 1.5em;
+}
+
+main li, .markdown-rendered li {
+    margin-bottom: 0 !important; /* No extra gap between list items */
+}
+
+/* 3. Tighten Headings */
 main h1 {
     font-size: 2.3em !important;
     font-weight: 800 !important;
-    letter-spacing: -0.03em !important;
-    color: var(--text-header);
     line-height: 1.2;
     margin-top: 0 !important;
-    margin-bottom: 0.3rem !important; /* Slightly tighter */
-    border: none !important;      
+    margin-bottom: 0.2rem !important; /* Very close to the tags */
+    color: var(--text-header);
+    border: none !important;
 }
 
 main h2 {
     font-size: 1.6em !important;
     font-weight: 700 !important;
-    letter-spacing: -0.02em;
     color: var(--text-header);
-    margin-top: 1.4em !important; 
-    margin-bottom: 0.4em !important;
-    border: none !important; 
+    
+    /* CRITICAL: Gap above H2 */
+    margin-top: 1.0em !important; /* Standard gap */
+    margin-bottom: 0.3em !important;
+    border: none !important;
 }
 
-/* --- FIX START: TIGHTER GAP AFTER SEPARATOR --- */
-/* If an H2 appears immediately after an HR, kill the top margin */
-hr + h2, hr + * > h2 {
-    margin-top: 0.25em !important;
+/* 4. SPECIAL CASE: If H2 comes right after the header/line */
+/* This catches the first H2 of the document and pulls it up */
+header + h2, 
+header + * > h2:first-child,
+.header-separator + h2 {
+    margin-top: 0.3em !important; /* Pulls the first H2 up close to the line */
 }
-/* --- FIX END --- */
 
 main h3 {
     font-size: 1.25em !important;
     font-weight: 600 !important;
-    color: var(--text-header);
-    margin-top: 1.1em !important;
-    margin-bottom: 0.3em !important;
-}
-
-main h4, main h5 {
-    font-weight: 600;
     margin-top: 1.0em !important;
     margin-bottom: 0.2em !important;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    font-size: 0.85em;
-    letter-spacing: 0.05em;
-}
-
-/* BODY DENSITY */
-p {
-    margin-bottom: 0.5em; /* Tighter Gap (was 0.8em) */
-    max-width: 80ch;       
-}
-
-strong, b {
-    font-family: var(--font-editorial) !important; 
-    font-weight: 700;
-    color: #fff; 
-}
-
-/* LISTS (The "Note-Taking" Density) */
-ul, ol {
-    margin-bottom: 0.5em; /* Tighter Gap (was 0.8em) */
-    padding-left: 1.5em;
-}
-
-li {
-    margin-bottom: 0em; /* Ultra Tight */
-    padding-left: 0.3em;
-}
-
-li > ul, li > ol {
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
-}
-
-ul > li::marker {
-    color: var(--interactive-accent); 
-}
-
-/* HORIZONTAL RULE (The Separator) */
-hr {
-    border: none;
-    border-bottom: 1px solid var(--line-color);
-    margin: 2em 0 1em 0; /* Standard spacing */
 }
 
 /* =========================================
