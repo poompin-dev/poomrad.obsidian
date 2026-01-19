@@ -96,6 +96,8 @@ p {
 }
 
 strong, b {
+    /* FORCE THE FONT FAMILY */
+    font-family: var(--font-editorial) !important; 
     font-weight: 700;
     color: #fff; 
 }
@@ -187,7 +189,8 @@ td {
 }
 
 td:first-child {
-  font-family: var(--font-text) !important;
+  /* CHANGED: Use --font-editorial directly, not --font-text */
+  font-family: var(--font-editorial) !important; 
   font-weight: 700;
   color: var(--text-normal);
 }
