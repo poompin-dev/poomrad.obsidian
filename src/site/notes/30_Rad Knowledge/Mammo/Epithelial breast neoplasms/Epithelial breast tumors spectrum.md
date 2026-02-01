@@ -15,7 +15,7 @@ ___
 ### Benign epithelial lesions
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]]
 ### Precursor lesions
-- [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia (ADH)\|Atypical ductal hyperplasia (ADH)]]
+- [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|Atypical ductal hyperplasia]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Lobular neoplasia\|Lobular neoplasia]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|Ductal carcinoma in situ]]
 ### Invasive carcinomas
@@ -42,7 +42,7 @@ ___
 ___
 ## Management pathways (NICE Guidelines)
 * **Triple Assessment:** Clinical exam + Imaging + Pathology (Core needle biopsy preferred over FNA for histology/receptor status).
-* **B3 Lesions (Uncertain malignant potential):** e.g., [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia (ADH)\|ADH]], ALH, [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]], Radial Scar.
+* **B3 Lesions (Uncertain malignant potential):** e.g., [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]], ALH, [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]], Radial Scar.
     * *Guideline:* Vacuum-Assisted Excision (VAE) recommended to obtain larger sample and ensure no adjacent [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|DCIS]]/invasion.
 * **Neoadjuvant Chemotherapy (NAC):**
     * Indicated for T2+, N+, HER2+, or Triple Negative to downstage tumor.
