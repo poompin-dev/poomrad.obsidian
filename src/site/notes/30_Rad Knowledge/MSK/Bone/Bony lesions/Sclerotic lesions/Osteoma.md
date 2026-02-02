@@ -11,7 +11,7 @@
 * **Pathology subtypes:**
     1.  **Ivory osteoma:** Dense, solid bone (no marrow).
     2.  **Cancellous osteoma:** Trabecular bone with marrow elements.
-- Syndromic association with [[Gardner syndrome\|Gardner syndrome]].
+- Syndromic association with [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Gardner syndrome\|Gardner syndrome]].
 ---
 ## Anatomical distribution
 * **Paranasal sinuses (Most common):**

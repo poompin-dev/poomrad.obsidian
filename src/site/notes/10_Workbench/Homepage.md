@@ -10,10 +10,10 @@
 ___
 ## Last updated notes
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoma\|Osteoma]]
-- [[Gardner syndrome\|Gardner syndrome]]
+- [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Gardner syndrome\|Gardner syndrome]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Brodie's abscess\|Brodie's abscess]]
 - [[30_Rad Knowledge/MSK/Bone/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
-- [[Spina ventosa\|Spina ventosa]]
+- [[30_Rad Knowledge/MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Tuberculous osteomyelitis\|Tuberculous osteomyelitis]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma\|Non-ossifying fibroma]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]
@@ -51,7 +51,7 @@ ___
 - [[30_Rad Knowledge/Multisystem/Systemic infection/Brucellosis\|Brucellosis]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Non-Mass Enhancement (NME) - Breast MRI\|Non-Mass Enhancement (NME) - Breast MRI]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Background Parenchymal Enhancement (BPE) - Breast MRI\|Background Parenchymal Enhancement (BPE) - Breast MRI]]
-- [[30_Rad Knowledge/Multisystem/Neoplasms/Granular cell tumour\|Granular cell tumour]]
+- [[30_Rad Knowledge/Mammo/Benign solid lesions/Granular cell tumour\|Granular cell tumour]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Contrast Kinetics - Breast MRI\|Contrast Kinetics - Breast MRI]]
 - [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Pulmonary sarcoidosis radiographic staging (Scadding)\|Pulmonary sarcoidosis radiographic staging (Scadding)]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
