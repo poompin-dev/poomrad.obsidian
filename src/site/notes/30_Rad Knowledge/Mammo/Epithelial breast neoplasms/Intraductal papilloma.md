@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Rad/Mammo/Epithelial breast neoplasms/Intraductal papilloma.md","permalink":"/rad/mammo/epithelial-breast-neoplasms/intraductal-papilloma/","tags":["breast","Pathology"]}
 ---
 
-Proliferation of ductal epithelium on fibrovascular core. Common cause of pathologic nipple discharge. Considered [[B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 lesions]].
+Proliferation of ductal epithelium on fibrovascular core. Common cause of pathologic nipple discharge. Considered [[30_Rad Knowledge/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 lesions]].
 
 ## Imaging:
 * **Mammography:** Often occult; may show solitary dilated retroareolar duct or circumscribed mass.

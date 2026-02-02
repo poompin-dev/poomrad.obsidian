@@ -41,14 +41,14 @@
 ## Differential diagnosis
 1.  **Invasive breast carcinoma**: Specifically [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Tubular carcinoma\|tubular carcinoma]] (often indistinguishable imaging features) or invasive ductal carcinoma (NOS).
 2.  **Post-surgical scar**: History of surgery is key; usually decreases in size/density over time.
-3.  **[[Fat necrosis\|Fat necrosis]]**: Usually radiolucent center (oil cyst) with history of trauma.
+3.  **[[30_Rad Knowledge/Mammo/Fat necrosis (Breast)\|Fat necrosis]]**: Usually radiolucent center (oil cyst) with history of trauma.
 4.  **Sclerosing adenosis**.
 
 ---
 ## Management
 
 > [!warning] Critical Management Rule
-> Radial scars are **[[B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 lesions]]**. Core needle biopsy (CNB) alone is often insufficient due to sampling error and the risk of underestimating associated malignancy ([[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]], [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|DCIS]], or [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Tubular carcinoma\|tubular carcinoma]]) located at the periphery.
+> Radial scars are **[[30_Rad Knowledge/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 lesions]]**. Core needle biopsy (CNB) alone is often insufficient due to sampling error and the risk of underestimating associated malignancy ([[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]], [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|DCIS]], or [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Tubular carcinoma\|tubular carcinoma]]) located at the periphery.
 
 1.  **Diagnosis**: requires histological confirmation.
 2.  **Intervention**:

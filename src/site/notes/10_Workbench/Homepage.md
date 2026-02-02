@@ -9,9 +9,10 @@
 
 ___
 ## Last updated notes
-- [[B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 Lesions (Lesions of Uncertain Malignant Potential)]]
-- [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]]
+- [[30_Rad Knowledge/Mammo/Fat necrosis (Breast)\|Fat necrosis (Breast)]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Radial scar\|Radial scar]]
+- [[30_Rad Knowledge/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 Lesions (Lesions of Uncertain Malignant Potential)]]
+- [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|Atypical ductal hyperplasia]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum\|Epithelial breast tumors spectrum]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Tubular carcinoma\|Tubular carcinoma]]
