@@ -9,6 +9,8 @@
 
 ___
 ## Last updated notes
+- [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoma\|Osteoma]]
+- [[Gardner syndrome\|Gardner syndrome]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Brodie's abscess\|Brodie's abscess]]
 - [[30_Rad Knowledge/MSK/Bone/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
 - [[Spina ventosa\|Spina ventosa]]
