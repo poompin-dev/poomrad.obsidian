@@ -9,6 +9,7 @@
 
 ___
 ## Last updated notes
+- [[30_Rad Knowledge/Mammo/Breast ddx/Solid circumscribed breast masses (Ddx)\|Solid circumscribed breast masses (Ddx)]]
 - [[30_Rad Knowledge/Mammo/Fat necrosis (Breast)\|Fat necrosis (Breast)]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Radial scar\|Radial scar]]
 - [[30_Rad Knowledge/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 Lesions (Lesions of Uncertain Malignant Potential)]]
@@ -26,7 +27,6 @@ ___
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Lobular neoplasia\|Lobular neoplasia]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Tubular adenoma\|Tubular adenoma]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Fibroepithelial lesions\|Fibroepithelial lesions]]
-- [[30_Rad Knowledge/Mammo/Breast ddx/Solid circumscribed breast masses (Ddx)\|Solid circumscribed breast masses (Ddx)]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Phyllodes tumor\|Phyllodes tumor]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Breast hamartoma\|Breast hamartoma]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Pseudoangiomatous Stromal Hyperplasia\|Pseudoangiomatous Stromal Hyperplasia]]

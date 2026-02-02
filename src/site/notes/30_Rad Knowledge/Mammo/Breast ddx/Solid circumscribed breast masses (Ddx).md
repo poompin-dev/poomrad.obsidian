@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Rad/Mammo/Breast ddx/Solid circumscribed breast masses (Ddx).md","permalink":"/rad/mammo/breast-ddx/solid-circumscribed-breast-masses-ddx/","tags":["breast","Pathology","ddx"]}
 ---
 
-| Feature           | [[30_Rad Knowledge/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]   | [[30_Rad Knowledge/Mammo/Benign solid lesions/Phyllodes tumor\|Phyllodes Tumor]]    | Medullary Carcinoma        |
+| Feature           | [[30_Rad Knowledge/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]   | [[30_Rad Knowledge/Mammo/Benign solid lesions/Phyllodes tumor\|Phyllodes tumor]]    | [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Medullary carcinoma\|Medullary carcinoma]]    |
 | :---------------- | :----------------- | :--------------------- | :------------------------- |
 | **Age**           | 20-30s             | 40-50s                 | Any (Assoc. BRCA1)         |
 | **Growth**        | Slow/Stable        | Rapid                  | Rapid                      |
