@@ -12,11 +12,11 @@
 | Lesion                                           | Typical Age           | Key Imaging Features                                                   | Clinical Pearls                                         |
 | ------------------------------------------------ | --------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------- |
 | **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]**                          | 10–25 (open physis)   | Lytic, well-defined, thin sclerotic rim; may have edema                | Most common true epiphyseal tumor in kids/teens         |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumor\|Giant Cell Tumor (GCT)]]** | 20–40 (closed physis) | Lytic, eccentric, non-sclerotic border; may extend to subchondral bone | Occurs _after_ physeal closure; pain, swelling          |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant Cell Tumor (GCT)]]** | 20–40 (closed physis) | Lytic, eccentric, non-sclerotic border; may extend to subchondral bone | Occurs _after_ physeal closure; pain, swelling          |
 | **Clear Cell [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]**                | 20–40                 | Lytic, expansile, mild sclerosis, may mimic GCT                        | Rare, malignant, older pts than chondroblastoma         |
 | **Infection (Epiphyseal OM)**                    | Any (esp. kids)       | Lytic or ill-defined, may cross physis                                 | May have systemic signs, fever                          |
 | **Geode (Subchondral cyst)**                     | 40+ (OA age)          | Well-defined cystic lesion at articular surface                        | Associated with osteoarthritis                          |
-| **[[Chondromyxoid fibroma\|Chondromyxoid fibroma]]**                    | Rare in epiphysis     | Eccentric, lobulated, sclerotic rim                                    | Usually metaphyseal, but can be epiphyseal              |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondromyxoid fibroma\|Chondromyxoid fibroma]]**                    | Rare in epiphysis     | Eccentric, lobulated, sclerotic rim                                    | Usually metaphyseal, but can be epiphyseal              |
 | **Other rare/bonus**                             | —                     |                                                                        | e.g. intra-articular [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]], LCH |
 
 ---

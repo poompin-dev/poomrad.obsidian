@@ -36,11 +36,11 @@ ___
 
 | Diagnosis                                 | Key Differences                                                                                                    |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumor\|Giant cell tumor]]  <br>                | - Older age group (20–40, skeletally mature)<br>- Extends from metaphysis to epiphysis, lacks matrix calcification |
+| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]  <br>               | - Older age group (20–40, skeletally mature)<br>- Extends from metaphysis to epiphysis, lacks matrix calcification |
 | [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]] (secondary) | - Fluid-fluid levels dominant<br>- Younger age<br>- Metaphyseal location more typical                              |
-| Clear Cell [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]             | - Older patients, similar location<br>- More aggressive, cortical breakthrough more likely                         |
-| Brodie Abscess                            | - Clinical signs of infection<br>- Serpiginous border, sequestrum possible                                         |
-| Pediatric Osteomyelitis                   | - Systemic signs<br>- Metaphyseal or epiphyseal lucency, ill-defined margins                                       |
+| Clear cell [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|chondrosarcoma]]             | - Older patients, similar location<br>- More aggressive, cortical breakthrough more likely                         |
+| Brodie's abscess                          | - Clinical signs of infection<br>- Serpiginous border, sequestrum possible                                         |
+| Pediatric osteomyelitis                   | - Systemic signs<br>- Metaphyseal or epiphyseal lucency, ill-defined margins                                       |
 ## Management
 - Surgical curettage with or without bone grafting
 - Local recurrence in 10–15% of cases

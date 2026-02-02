@@ -1,54 +1,80 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/"}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/","tags":["msk","Pathology"]}
 ---
 
 ## Overview
-- Most common benign bone lesion in children and adolescents
-- Considered a **developmental cortical defect** rather than a true neoplasm
-- Belongs to the **fibrous cortical defect spectrum**
-- Often asymptomatic and discovered incidentally
-## Epidemiology
-- Age: Predominantly seen between ages **5–20**
-- Gender: Slight **male predominance**
-- Clinically silent unless complicated by a [[30_Rad Knowledge/MSK/Bone/Trauma/Atraumatic fracture/Pathological fracture\|pathological fracture]]
-## Location
-- Typically involves the **metaphysis** of long bones
-- Most frequent sites:
-	- **Distal femur**
-	- **Proximal tibia**
-- May extend toward the **diaphysis** with bone growth
-- Same anatomic sites as some malignant lesions (e.g., [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]]) but very different clinical and radiologic behavior
-___
-## Radiographic Features
-### X-ray/CT:
-- Well-defined, **eccentric**, **lucent lesion** with a **thin sclerotic rim**
-- **No periosteal reaction** unless complicated by fracture
-- **No matrix calcification**
-- **Cortical thinning** may be present
-- Lesion may migrate diaphyseally as the patient grows
-- Size classification:
-	- **< 2 cm**: Often termed *fibrous cortical defect*
-	- **> 2 cm (up to ~7 cm)**: Classic non-ossifying fibroma
-### MRI Features
-- T1: **Hypointense** relative to marrow
-- T2/STIR: **Hyperintense or heterogeneous**, reflecting fibrous content
-- **No significant enhancement** unless there's associated healing, hemorrhage, or remodeling
-- May show **fluid-like signal**, especially in larger or healing lesions
-___
-## Differential Diagnosis
+* **Definition:** A common non-neoplastic, developmental defect of bone characterized by proliferation of benign fibrous tissue and histiocytes.
+* **Pathophysiology:** Originates at the insertion of tendons/ligaments into the perichondrium of the physis. As the bone lengthens, the lesion "migrates" into the metadiaphysis.
+* **Epidemiology:**
+    * **Very common:** Found in ~30–40% of all skeletally immature children.
+    * **Age:** 5–20 years (rare after skeletal maturity).
+    * **Gender:** M > F (2:1).
+* **Terminology:**
+    * **Fibrous cortical defect (FCD):** Small (< 2–3 cm), strictly intracortical.
+    * **Non-ossifying fibroma (NOF):** Large (> 3 cm), expands into medullary cavity.
+* **Syndromic association:** 
+	* [[30_Rad Knowledge/MSK/Misc. MSK/Jaffe-Campanacci syndrome\|Jaffe-Campanacci syndrome]]: Rare syndrome but exam favourite; considered in multiple NOFs with NF1-like features.
 
-| Diagnosis             | Key Differences                                                      |
-| --------------------- | -------------------------------------------------------------------- |
-| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]] | Ground-glass matrix, may involve diaphysis, no sclerotic rim         |
-| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]   | Epiphyseal, younger patients, matrix calcification possible          |
-| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoid osteoma\|Osteoid osteoma]]   | Smaller, intensely painful, central nidus with surrounding sclerosis |
-| Healing Bone Lesion   | Clinical history and temporal progression essential                  |
-## Clinical Management
-- **No treatment required** in most cases
-- Lesion typically **resolves spontaneously** with skeletal maturity
-- **Follow-up imaging** may be advised if:
-	- Lesion is large (>50% cortical involvement)
-	- Patient presents with pain or fracture risk
-- **Surgical curettage** or stabilization is rarely indicated, reserved for:
-	- **Pathologic fracture**
-	- Lesion size causing structural compromise
+---
+## Anatomical distribution
+* **Location:** Metaphysis $\rightarrow$ Metadiaphysis (migrates away from knee/joint with growth).
+* **Bones:** Around the knee (80%).
+    * Distal femur (most common).
+    * Proximal tibia.
+    * Distal tibia.
+* **Position:** **Eccentric** and cortically based.
+
+---
+## Imaging features
+### Plain radiograph (Diagnostic in 99% of cases)
+* **Appearance:** Multiloculated, radiolucent lesion with a "bubbly" or "bunch of grapes" appearance.
+* **Margins:** Well-defined with a **sclerotic rim** (scalloped).
+* **Orientation:** Long axis parallels the long axis of the bone.
+* **Expansion:** Mild cortical thinning/expansion, but the cortex remains intact (unless fractured).
+* **Evolution:**
+    1.  Starts at physis.
+    2.  Migrates into diaphysis.
+    3.  Fills in with sclerosis (ossifies) in adulthood $\rightarrow$ becomes a **"bone island"** or disappears.
+### CT
+* Usually unnecessary.
+* Used to assess fracture risk (cortical occupancy).
+* Shows lack of matrix mineralisation (unlike fibrous dysplasia or chondroid tumours).
+### MRI (Problem-solving)
+* **T1:** Hypointense.
+* **T2:** **Variable** (Key discriminator).
+    * *Immature:* Hyperintense (cellular/hyperaemic).
+    * *Mature/Healing:* **Hypointense** (collagenous/sclerotic).
+* **Enhancement:** Variable. Can show enhancement (vascular fibrous tissue), which may confuse the diagnosis if X-ray correlation is not made.
+### Nuclear medicine
+* **Bone scan:** Mild to moderate uptake (hyperaemic).
+* *Note:* Intense uptake suggests a superimposed fracture or a different diagnosis.
+
+---
+## Differential diagnosis
+
+| Lesion                                                      | Key distinguishing features                                                                                                                              |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondromyxoid fibroma\|Chondromyxoid fibroma]]** (CMF)                         | **The main mimic.** CMF is usually more spherical/lobulated, lacks the natural history of migrating away from the physis, and is **T2 Bright** (myxoid). |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|Aneurysmal bone cyst]]**                                | **Fluid-fluid levels**; rapid expansion; much more aggressive cortical thinning.                                                                         |
+| **[[Desmoplastic fibroma\|Desmoplastic fibroma]]**                                | Rare, locally aggressive; lacks the sclerotic rim; soft tissue mass.                                                                                     |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]**                                   | **Central** location; "ground glass" matrix; long segment involved; no sclerotic rim.                                                                    |
+| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma\|Eosinophilic granuloma]]** | "Beveled edge"; rapid development; pain; no sclerotic rim (early).                                                                                       |
+___
+## Management and prognosis
+* **Standard care:** **"Do not touch."** No biopsy, no follow-up needed if classic.
+* **Pathological fracture risk:**
+    * Highest if lesion occupies **> 50% of cortical diameter** or exceeds **33 mm** in length.
+    * *Management:* Prophylactic curettage and bone grafting if high risk.
+* **Biopsy:** Contraindicated unless atypical features (pain without fracture, soft tissue mass, rapid growth).
+
+---
+## High-yield exam pearls
+
+> [!TIP] The T2 signal trap
+> Do not be alarmed if an NOF enhances or has high T2 signal (immature phase).
+> **Always look at the plain film first.**
+> If it looks like an NOF on X-ray, it is an NOF. MRI often confuses the picture by making it look "active".
+
+> [!NOTE] Migration rule
+> NOFs start at the physis. If you see a lesion that looks like an NOF but is touching the articular surface (epiphyseal), it is **not** an NOF.
+> *Think:* **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]** or **Infection**.
