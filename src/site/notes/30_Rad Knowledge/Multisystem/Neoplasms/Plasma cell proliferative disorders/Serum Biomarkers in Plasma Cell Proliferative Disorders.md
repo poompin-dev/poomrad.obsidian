@@ -40,5 +40,5 @@
 ## Linked Notes:
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
 - [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|Monoclonal gammopathy of uncertain significance (MGUS]]
-- [[10_Workbench/AL Amyloidosis\|AL Amyloidosis]]
+- [[30_Rad Knowledge/Multisystem/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
 - [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders]]

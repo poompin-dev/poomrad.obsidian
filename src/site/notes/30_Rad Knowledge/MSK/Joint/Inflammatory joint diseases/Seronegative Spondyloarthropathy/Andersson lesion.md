@@ -18,21 +18,16 @@
 
 ---
 ## Imaging features
-
-
-
 ### Plain radiograph
 * **Appearance:** Looks deceptively like infection.
 * **Disc space:** Irregular widening or narrowing.
 * **Endplates:** Extensive erosion and destruction.
 * **Sclerosis:** Significant reactive sclerosis ("shiny corners" become distinct sclerotic blocks) surrounding the destruction.
 * **Alignment:** Often mild kyphosis or subluxation at the level.
-
 ### CT (The problem solver)
 * **Key finding:** **Vacuum phenomenon** (gas) within the disc space.
     * *Significance:* Gas indicates **motion** (negative pressure). It is a strong predictor of pseudoarthrosis and argues *against* acute infection (which is fluid-filled).
 * **Posterior elements:** Look for the fracture line extending through the fused facet joints (indicating a 3-column injury).
-
 ### MRI
 * **T1:** Hypointense signal in the disc and adjacent marrow (sclerosis/oedema).
 * **T2/STIR:**
@@ -44,13 +39,13 @@
 ---
 ## Differential diagnosis: The "infection" battle
 
-| Feature | Andersson lesion (Pseudoarthrosis) | [[Spondylodiscitis\|Spondylodiscitis]] (Infection/TB) |
-| :--- | :--- | :--- |
-| **Context** | Rigid/ankylosed spine ([[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|AS]]/[[DISH\|DISH]]) | Any patient (often immunocompromised) |
-| **Vacuum phenomenon** | **Common** (The "clinching" sign) | Rare (fluid/pus fills the space) |
-| **Posterior involvement** | **Fracture line visible** through fused facets | Rare (unless advanced TB) |
-| **Soft tissue mass** | Minimal / None (mild paraspinal oedema) | **Paravertebral abscess / epidural collection** |
-| **Fracture line** | Often "through-and-through" the spine | Absent |
+| Feature                   | Andersson lesion (Pseudoarthrosis)                                                                    | Spondylodiscitis(Infection/TB)                  |
+| :------------------------ | :---------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
+| **Context**               | Rigid/ankylosed spine ([[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]/[[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis\|DISH]]) | Any patient (often immunocompromised)           |
+| **Vacuum phenomenon**     | **Common** (The "clinching" sign)                                                                     | Rare (fluid/pus fills the space)                |
+| **Posterior involvement** | **Fracture line visible** through fused facets                                                        | Rare (unless advanced TB)                       |
+| **Soft tissue mass**      | Minimal / None (mild paraspinal oedema)                                                               | **Paravertebral abscess / epidural collection** |
+| **Fracture line**         | Often "through-and-through" the spine                                                                 | Absent                                          |
 
 ---
 ## Management principles

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","hemato","neoplasm","myeloma","bone-tumor"]}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","haematology"]}
 ---
 
 part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
@@ -14,6 +14,8 @@ part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disor
 - **Bence-Jones proteins** are found in approximately 50% of cases
 - Elevated ESR common due to high protein burden
 - 3% of patients will not have abnormal proteins in **both** their serum or urine, a condition termed "**nonsecretory myeloma**"
+
+___
 ## Diagnostic criteria
 Either of
 - bone marrow analysis shows ≥10% clonal bone marrow plasma cells

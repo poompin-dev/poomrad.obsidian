@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasms/Lymphoma/Lymphoma.md","permalink":"/rad/multisystem/neoplasms/lymphoma/lymphoma/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasms/Lymphoma/Lymphoma.md","permalink":"/rad/multisystem/neoplasms/lymphoma/lymphoma/","tags":["haematology","oncology"]}
 ---
 
 Malignant lymphoid neoplasm that most often presents as **nodal disease** ([[30_Rad Knowledge/Multisystem/Neoplasms/Lymphoma/Hodgkin Lymphoma\|HL]] and low-grade NHL), whereas high-grade [[30_Rad Knowledge/Multisystem/Neoplasms/Lymphoma/Non-Hodgkin Lymphoma\|NHL]] can present with complication from mass effects such as [[SVC obstruction\|SVC obstruction]]. **Extranodal involvement** is common and can mimic infection/inflammation/metastases in many organs.

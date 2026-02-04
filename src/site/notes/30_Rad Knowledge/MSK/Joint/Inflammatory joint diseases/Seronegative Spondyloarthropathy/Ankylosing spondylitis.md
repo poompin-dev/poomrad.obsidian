@@ -27,9 +27,7 @@
 
 ---
 ## Imaging features
-
 ### 1. Sacroiliitis (Hallmark)
-
 * **Distribution:** Typically **bilateral and symmetrical**.
 * **Radiographic grading (New York criteria):**
     * Grade 0: Normal.
@@ -37,29 +35,21 @@
     * Grade 2: Minimal sclerosis, some erosion ("pseudo-widening"), joint margins distinct.
     * Grade 3: Definite sclerosis, significant erosions, joint space narrowing.
     * Grade 4: Total ankylosis (fusion).
-
 ### 2. Spine
-
-
-[Image of bamboo spine X-ray]
-
 Progression typically ascends: **Lumbar $\rightarrow$ Thoracic $\rightarrow$ Cervical**.
-
 * **Romanus lesion:**
     * *MRI (Early):* Anterior vertebral corner oedema (enthesitis at annulus fibrosus insertion).
     * *X-ray (Late):* **"Shiny corner"** (reactive sclerosis following the osteitis).
 * **Vertebral squaring:** Loss of normal anterior concavity due to corner erosion and sub-ligamentous bone formation.
 * **Syndesmophytes:**
-    * **Marginal:** Thin, vertical ossification of the outer layers of the annulus fibrosus (Sharpey's fibers).
-    * *Crucial distinction:* Must differentiate from **non-marginal** (bulky/gap from endplate) seen in [[Psoriatic arthritis\|Psoriatic arthritis]] and **flowing** (anterolateral candle wax) seen in [[DISH\|DISH]].
+    * **Marginal:** Thin, vertical ossification of the outer layers of the annulus fibrosus (Sharpey's fibres).
+    * *Crucial distinction:* Must differentiate from **non-marginal** (bulky/gap from endplate) seen in Psoriatic arthritis and **flowing** (anterolateral candle wax) seen in [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis\|DISH]].
 * **Bamboo spine:** Complete fusion of vertebral bodies via marginal syndesmophytes.
 * **Ligamentous ossification signs:**
     * **Dagger sign:** Ossification of supraspinous and interspinous ligaments (appears as a single central dense line on frontal view).
     * **Trolley track sign:** Dagger sign + ossification of facet joint capsules (three vertical dense lines).
-* **Andersson lesion:** Aseptic inflammatory spondylodiscitis. Appears as disc space destruction/irregularity. Can mimic infection.
-
+* **[[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Andersson lesion\|Andersson lesion]]:** Aseptic inflammatory spondylodiscitis. Appears as disc space destruction/irregularity. Can mimic infection.
 ### 3. MRI findings (Early diagnosis)
-
 * **Protocol:** STIR or T2 fat-sat is mandatory to detect active inflammation.
 * **Active inflammatory lesions (ASAS positive):**
     * **Bone marrow oedema (BMO):** Hyperintense on STIR/T2FS. Must be peri-articular (SI joints) or at vertebral corners.
@@ -70,22 +60,22 @@ Progression typically ascends: **Lumbar $\rightarrow$ Thoracic $\rightarrow$ Cer
 ---
 ## Complications
 * **Spinal fractures:**
-    * **"Chalk stick" fractures:** Trans-vertebral or trans-discal fractures of the fused spine.
+    * **[[30_Rad Knowledge/Neuro/Spine/Trauma/Chalk stick fracture\|Chalk stick fracture]]:** Trans-vertebral or trans-discal fractures of the fused spine.
     * **Location:** Most common at the cervicothoracic or thoracolumbar junctions.
     * **Risk:** Can occur with trivial trauma. High risk of epidural haematoma and cord injury due to the spine acting as a long lever arm.
 * **Atlanto-axial subluxation:** Due to transverse ligament laxity/pannus (similar to RA).
 * **Cauda equina syndrome:** Rare. Caused by dural ectasia and arachnoiditis (diverticula formation eroding into posterior elements).
 
 ---
-## Differential diagnosis (The "Spinal Outgrowths" DDx)
+## Differential diagnosis (The "Spinal outgrowths")
 
-| Feature | [[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]] | [[DISH\|DISH]] | [[Psoriatic arthritis\|Psoriatic arthritis]] / [[Reactive arthritis\|Reactive arthritis]] |
-| :--- | :--- | :--- | :--- |
-| **SI joints** | Bilateral, symmetric, fused | Normal (or bridging osteophytes only) | Unilateral or asymmetric |
-| **Syndesmophytes** | **Marginal** (thin, vertical) | **Flowing** (anterolateral, "candle wax") | **Non-marginal** (bulky, comma-shaped) |
-| **Disc height** | Preserved (until late fusion) | Preserved | Preserved |
-| **Facet joints** | Fused | Normal | Usually normal |
-| **HLA-B27** | >90% | Normal population % | 50–70% |
+| Feature            | [[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]    | [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis\|DISH]] | Psoriatic arthritis / Reactive arthritis |
+| :----------------- | :---------------------------- | :------------------------------------------------- | :--------------------------------------- |
+| **SI joints**      | Bilateral, symmetric, fused   | Normal (or bridging osteophytes only)              | Unilateral or asymmetric                 |
+| **Syndesmophytes** | **Marginal** (thin, vertical) | **Flowing** (anterolateral, "candle wax")          | **Non-marginal** (bulky, comma-shaped)   |
+| **Disc height**    | Preserved (until late fusion) | Preserved                                          | Preserved                                |
+| **Facet joints**   | Fused                         | Normal                                             | Usually normal                           |
+| **HLA-B27**        | >90%                          | Normal population %                                | 50–70%                                   |
 
 > [!WARNING] Exam trap: Osteitis condensans ilii
 > Do not confuse **Osteitis condensans ilii (OCI)** with Sacroiliitis.
