@@ -9,6 +9,9 @@
 
 ___
 ## Last updated notes
+- [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Scadding staging\|Scadding staging]]
+- [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Löfgren syndrome\|Löfgren syndrome]]
+- [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Pulmonary sarcoidosis\|Pulmonary sarcoidosis]]
 - [[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
 - [[30_Rad Knowledge/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Andersson lesion\|Andersson lesion]]
 - [[30_Rad Knowledge/MSK/Joint/Infection/Tuberculous arthritis\|Tuberculous arthritis]]
@@ -68,7 +71,6 @@ ___
 - [[30_Rad Knowledge/Mammo/Breast MRI/Background Parenchymal Enhancement (BPE) - Breast MRI\|Background Parenchymal Enhancement (BPE) - Breast MRI]]
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Granular cell tumour\|Granular cell tumour]]
 - [[30_Rad Knowledge/Mammo/Breast MRI/Contrast Kinetics - Breast MRI\|Contrast Kinetics - Breast MRI]]
-- [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Pulmonary sarcoidosis radiographic staging (Scadding)\|Pulmonary sarcoidosis radiographic staging (Scadding)]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma\|Eosinophilic Granuloma]]
 - [[30_Rad Knowledge/MSK/Bone/Bone marrow/Bone marrow composition\|Bone marrow composition]]
 - [[30_Rad Knowledge/MSK/Bone/Bone marrow/Bone marrow conversion\|Bone marrow conversion]]
