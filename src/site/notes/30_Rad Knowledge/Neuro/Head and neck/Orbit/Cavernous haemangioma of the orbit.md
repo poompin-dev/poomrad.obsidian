@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Neuro/Head and neck/Orbit/Cavernous haemangioma of the orbit.md","permalink":"/rad/neuro/head-and-neck/orbit/cavernous-haemangioma-of-the-orbit/","tags":["Orbit","neuro","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/Neuro/Head and neck/Orbit/Cavernous haemangioma of the orbit.md","permalink":"/rad/neuro/head-and-neck/orbit/cavernous-haemangioma-of-the-orbit/","tags":["Orbit","neuro","lesion/mass"]}
 ---
 
 > [!info] One-liner

@@ -1,72 +1,74 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondromyxoid fibroma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","tags":["msk","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondromyxoid fibroma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","tags":["msk","lesion/mass"]}
 ---
 
-## Overview
-* **Definition:** A rare benign cartilaginous tumour characterised by chondroid and myxoid tissue.
-* **Epidemiology:**
-    * **Least common** benign cartilage tumour.
-    * **Age:** 2nd and 3rd decades (peak 10–30 years).
-    * **Gender:** M:F = 1.5:1.
-* **Clinical presentation:** Chronic pain (most common), local swelling, or incidental finding.
----
-## Anatomical distribution
-* **Location:** Metaphysis (often abutting the physis).
-* **Bones:**
-    * **Tibia (proximal)** is the single most common site.
-    * Femur (distal).
-    * Foot bones (metatarsals/calcaneus).
-* **Position:** **Eccentric** within the medullary cavity (key discriminator).
----
-## Imaging features
+## Key points
+- **Least common** benign cartilage tumour
+- **Eccentric metaphyseal** lytic lesion with **sclerotic rim** in a young adult - classic description
+- Unlike other chondroid tumours, **rarely calcifies** on XR ("least chondroid" chondroid tumour)
+- **Proximal tibia** is the single most common site
+- Frequently **misdiagnosed as chondrosarcoma** histologically due to pseudomalignant atypia
 
-### Plain radiograph
-* **Appearance:** Lobulated, lytic lesion.
-* **Margins:** Well-defined with a **sclerotic rim** (scalloped).
-* **Internal:** Septated / bubbly appearance (pseudotrabeculation).
-* **Matrix:** Unlike other chondroid tumours, calcification is **rare** on plain film.
-* **Cortex:** Causes cortical expansion and thinning; may appear to take a "bite" out of the bone.
-* **Periosteal reaction:** Absent unless a pathological fracture is present.
+---
+## Epidemiology & risk factors
+- Age: 2nd-3rd decades (peak 10-30 years)
+- M:F = 1.5:1
+- Presentation: chronic pain (most common), local swelling, or incidental
+
+---
+## Pathophysiology
+Lobules of spindle/stellate cells in a **myxoid stroma** separated by cellular bands. The myxoid component accounts for the markedly high T2 signal on MRI. Nuclear atypia can mimic low-grade chondrosarcoma histologically ("pseudomalignant" trap).
+
+---
+## Imaging / investigations
+
+### XR
+- **Lobulated, eccentric, lytic** metaphyseal lesion (often abutting the physis)
+- **Sclerotic scalloped rim** with septated/bubbly internal appearance (pseudotrabeculation)
+- Cortical expansion and thinning - may appear to "bite" into the cortex
+- **Calcification rare** (key differentiator from other chondroid tumours)
+- No periosteal reaction unless pathological fracture
+
 ### CT
-* Confirms the extent of cortical thinning/breach.
-* **Matrix:** May show subtle punctate calcification (seen in ~25% of cases) not visible on X-ray.
-* **Contrast:** Mild enhancement.
+- Confirms cortical thinning/breach extent
+- Subtle **punctate calcification** in ~25% (not visible on XR)
+- Mild contrast enhancement
+
 ### MRI
-* **T1:** Hypointense to isointense.
-* **T2/STIR:** **Markedly hyperintense** (due to myxoid content).
-* **Post-contrast:**
-    * **Peripheral nodular enhancement** (septa may enhance).
-    * Central non-enhancement (reflects myxoid/cystic degeneration).
+- **T1:** hypointense to isointense
+- **T2/STIR:** **markedly hyperintense** (myxoid content)
+- **Post-contrast:** peripheral nodular enhancement with septal enhancement; central non-enhancement (myxoid/cystic degeneration)
+
 ### Nuclear medicine
-* **Bone scan:** Intense radiotracer uptake (hot spot).
----
-## Differential diagnosis
-
-| Lesion                        | Key distinguishing features                                                                                |
-| :---------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|Aneurysmal bone cyst]]**  | **Fluid-fluid levels** on MRI; rapid expansion.                                                            |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma\|Non-ossifying fibroma]]** | Usually asymptomatic; migrates away from physis; "bubbly" but less expansile than CMF.                     |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]**        | Older age (>40); central location; definite chondroid matrix (popcorn calcification); aggressive features. |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]**     | **No sclerotic rim**; extends to articular surface (subchondral); closed physes.                           |
-| **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Enchondroma\|Enchondroma]]**           | **Central** location; characteristic rings and arcs calcification.                                         |
+- Bone scan: intense radiotracer uptake (hot spot)
 
 ---
-## Pathology pearls
-* **Histology:** Lobules of spindle/stellate cells in a myxoid stroma separated by cellular bands.
-* **The "pseudomalignant" trap:** Histologically, CMF can look bizarre with nuclear atypia. It is frequently **misdiagnosed as chondrosarcoma** by inexperienced pathologists.
-    * *Radiology-Pathology discordance:* If radiology says benign (sclerotic rim) but path says low-grade malignancy, suggest review for CMF.
----
-## Management and prognosis
-* **Treatment:** Surgical curettage with bone grafting.
-* **Recurrence:** High recurrence rate (~25%) with simple curettage; lower with wide local excision.
-* **Malignant transformation:** Extremely rare.
----
-## High-yield exam pearls
+## Differentials
 
-> [!TIP] The "least chondroid" chondroid tumour
-> Despite being a cartilage tumour, **CMF rarely calcifies** on X-ray.
-> * *Classic exam look:* An **eccentric**, **lytic**, **metaphyseal** lesion with a **sclerotic rim** in a young adult (proximal tibia).
+|Lesion|Key distinguishing features|
+|---|---|
+|**Aneurysmal bone cyst**|**Fluid-fluid levels** on MRI; rapid expansion|
+|**Non-ossifying fibroma**|Usually asymptomatic; migrates away from physis; less expansile|
+|**Chondrosarcoma**|Older age (>40); central; definite chondroid matrix (popcorn calcification); aggressive features|
+|**Giant cell tumour**|**No sclerotic rim**; extends to subchondral surface; closed physes|
+|**Enchondroma**|**Central** location; rings and arcs calcification|
 
-> [!WARNING] The "ABC" mimic
-> CMF is a rare cause of **secondary [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]]**.
-> * If you see fluid-fluid levels in a lesion with a thick, scalloped sclerotic rim, consider CMF with secondary ABC.
+---
+## Management
+- Surgical curettage with bone grafting
+- **Recurrence ~25%** with simple curettage; lower with wide local excision
+- Malignant transformation: extremely rare
+- Rare cause of **secondary ABC** - if fluid-fluid levels are seen within a lesion with a thick scalloped sclerotic rim, consider CMF with secondary ABC
+
+---
+
+> [!tip] Exam pearls
+> 
+> - Classic exam look: **eccentric, lytic, metaphyseal, sclerotic rim, young adult, proximal tibia**
+> - The "least chondroid" chondroid tumour - **no calcification on XR** despite being a cartilage tumour
+> - Radiology-pathology discordance: if radiology says benign (sclerotic rim) but pathology says low-grade malignancy, suggest review for CMF
+
+> [!warning] Common pitfalls
+> 
+> - Do not dismiss as chondrosarcoma based on histology alone - CMF has pseudomalignant atypia
+> - Fluid-fluid levels do not exclude CMF - it can develop secondary ABC

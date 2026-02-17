@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Neuro/Head and neck/Orbit/Retinoblastoma.md","permalink":"/rad/neuro/head-and-neck/orbit/retinoblastoma/","tags":["neuro","Orbit","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/Neuro/Head and neck/Orbit/Retinoblastoma.md","permalink":"/rad/neuro/head-and-neck/orbit/retinoblastoma/","tags":["neuro","Orbit","lesion/mass"]}
 ---
 
 ## Key points
@@ -82,6 +82,7 @@ Remember: **ICRB = eye salvage**, **AJCC = survival**.
 - Evisceration = intraocular contents removed, scleral shell left (**not used in RB** - tumour seeding risk)
 - Exenteration = globe + orbital contents removed (advanced orbital disease)
 
+> [!tip] Evisceration < Enucleation < Exenteration.
 ## Trilateral & quadrilateral RB
 - **Trilateral:** bilateral RB + **pineoblastoma** - screen with MRI at Dx and follow-up
 - Quadrilateral: + suprasellar PNET (rare, low exam yield)
