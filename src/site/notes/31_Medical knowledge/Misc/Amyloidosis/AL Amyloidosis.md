@@ -85,7 +85,7 @@ ___
     * Usually asymmetric septal hypertrophy; LGE occurs at RV insertion points, not diffuse subendocardial.
 3.  **Sarcoidosis:**
     * Patchy LGE, often involves septum/lateral wall; nodal calcification different pattern.
-4.  **[[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]:**
+4.  **[[Lymphoma\|Lymphoma]]:**
     * For nodular lung/GI disease.
 
 ---

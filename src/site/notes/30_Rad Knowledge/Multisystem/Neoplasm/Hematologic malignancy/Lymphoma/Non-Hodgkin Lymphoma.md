@@ -1,20 +1,20 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","tags":["lymphoma"]}
 ---
 
-A heterogeneous group of lymphoid malignancies (B-cell >> T/NK) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.
+A heterogeneous group of lymphoid malignancies (B-cell >> T/NK cell) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.
 ## Big buckets
 - **Aggressive (high-grade)**: rapidly enlarging, bulky masses; may have necrosis (esp. very high-grade or post-treatment).
-	- Examples: [[DLBCL\|DLBCL]], [[Burkitt lymphoma\|Burkitt lymphoma]], [[Lymphoblastic lymphoma\|Lymphoblastic lymphoma]], [[ALCL\|ALCL]]
-- **Indolent (low-grade)**: long-standing lymphadenopathy, organomegaly; transformation can occur.
-	- Examples: [[Follicular lymphoma\|Follicular lymphoma]], [[Marginal zone lymphoma\|Marginal zone lymphoma]], [[Mantle cell lymphoma\|Mantle cell lymphoma]] (often behaves more aggressively)
+	- Examples: DLBCL, [[Burkitt lymphoma\|Burkitt lymphoma]], Lymphoblastic lymphoma
+- **Indolent (low-grade)**: slow growing lymphadenopathy, organomegaly; aggressive transformation can occur in long standing cases.
+	- Examples: Follicular lymphoma, Marginal zone lymphoma
 ___
 ## Imaging patterns
 ### Nodes
 - Enlarged, usually **homogeneous soft tissue**; can be bulky/confluent.
 - Tends to **encase vessels/structures** rather than invade early (helpful vs many carcinomas).
 ### Extranodal
-Common and high-yield sites
+Common and high-yield sites. Parenchymal involvement without nodal disease **can** happens.
 - **GI**: segmental wall thickening/mass; small bowel may show “aneurysmal” dilatation; perforation risk (esp. after treatment).
 - **Spleen/liver**: diffuse enlargement ± focal lesions.
 - **[[30_Rad Knowledge/GU/Kidney/Renal masses/Renal lymphoma\|Kidney]]**: multiple bilateral hypoenhancing masses or diffuse infiltration; often with retroperitoneal nodes.

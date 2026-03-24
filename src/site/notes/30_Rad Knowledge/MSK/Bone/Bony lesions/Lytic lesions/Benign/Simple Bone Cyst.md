@@ -43,7 +43,7 @@ ___
 | **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma\|Non-ossifying fibroma]]** | Eccentric, multiloculated, metaphyseal, sclerotic rim            |
 | **Eosinophilic Granuloma**    | Often painful, aggressive-appearing lysis in younger children    |
 
-## Management #ddx 
+## Management
 - **Observation** if asymptomatic and non-fractured (may resolve with skeletal maturity)
 - **Steroid injection** (methylprednisolone) or bone marrow injection
 - **Curettage and bone grafting** if recurrent or symptomatic

@@ -38,7 +38,7 @@ The primary staging tool. See [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Sca
 > 2. Right hilar nodes
 > 3. Left hilar nodes
 >
-> *Differentiation:* The **aortic-pulmonary (AP) window** is typically preserved in sarcoidosis, whereas it is often obscured in [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]].
+> *Differentiation:* The **aortic-pulmonary (AP) window** is typically preserved in sarcoidosis, whereas it is often obscured in [[Lymphoma\|Lymphoma]].
 
 ### CT Chest (HRCT)
 **Dominant Pattern:** Perilymphatic distribution with upper and middle zone predominance.
@@ -69,7 +69,7 @@ The primary staging tool. See [[30_Rad Knowledge/Chest/Pulmonary sarcoidosis/Sca
 ## Differential diagnosis
 ### Bilateral Hilar Lymphadenopathy (BHL)
 * **[[Tuberculosis\|Tuberculosis]] (TB):** Critical ddx in Thailand. TB is usually unilateral/asymmetric. If bilateral, look for necrosis (hypodense centre) or cavitary lung lesions.
-* **[[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]:** Often asymmetric, massive mediastinal involvement, anterior mediastinal mass (Hodgkin's), retrosternal space obliteration.
+* **[[Lymphoma\|Lymphoma]]:** Often asymmetric, massive mediastinal involvement, anterior mediastinal mass (Hodgkin's), retrosternal space obliteration.
 * **[[Silicosis\|Silicosis]] / CWP:** Occupational history is key. Eggshell calcification is more common in silicosis than sarcoid.
 * **Metastases:** Renal cell carcinoma (RCC), Testicular seminoma, Melanoma.
 ### Perilymphatic Nodules

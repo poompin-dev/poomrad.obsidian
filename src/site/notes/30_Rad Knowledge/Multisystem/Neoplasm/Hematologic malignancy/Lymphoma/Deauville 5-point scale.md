@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","tags":["lymphoma"]}
 ---
 
-Visual score comparing residual FDG uptake in [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] sites to two reference tissues: mediastinal blood pool and liver.
+Visual score comparing residual FDG uptake in [[Lymphoma\|Lymphoma]] sites to two reference tissues: mediastinal blood pool and liver.
 
 ## Reference regions
 - **Mediastinum:** blood pool (typically ascending aorta)

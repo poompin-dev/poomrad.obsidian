@@ -41,7 +41,7 @@ Well-defined lytic lesion
 - Increased uptake
 - Useful in detecting multifocal lesions
 ---
-## Differentials #ddx 
+## Differentials
 
 ### Vertebra plana (MELT)
 

@@ -1,17 +1,16 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Metabolic/Renal osteodystrophy.md","permalink":"/rad/msk/bone/metabolic/renal-osteodystrophy/"}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Metabolic/Renal osteodystrophy.md","permalink":"/rad/msk/bone/metabolic/renal-osteodystrophy/","tags":["chronic-renal-failure"]}
 ---
 
 Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis\|osteoporosis]]  
-- Secondary / tertiary [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Types of hyperparathyroidism\|Types of hyperparathyroidism]] (high bone turnover)  
+- Secondary / tertiary [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] (high bone turnover)  
 - +/- osteosclerosis and soft-tissue / vascular calcification  
 
 → Characteristically **generalised** bone involvement in a patient with CKD/dialysis.
 
 ---
 ## Pathophysiology
-
 - ↓ GFR → phosphate retention → ↓ 1,25(OH)₂D → hypocalcaemia → **secondary hyperparathyroidism**
 - Long-standing disease ± post-transplant:
 	- **High-turnover**: osteitis fibrosa cystica (PTH-driven)
@@ -23,14 +22,13 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 
 > [!summary]
 > Think: **generalised bone disease in CKD** with  
-> 1) osteopenia/osteomalacia  
-> 2) subperiosteal resorption / brown tumours  
-> 3) patchy osteosclerosis + soft-tissue/vascular calcification.
+> 1) [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] bone change *plus*
+> 2) patchy osteosclerosis and soft-tissue/vascular calcification.
 
 ### Plain radiograph
 
 #### General
-- **Diffuse osteopenia / osteomalacia**
+- **Diffuse osteopenia / osteomalacia****
 - Coarse trabeculae, cortical thinning
 - Looser zones / insufficiency fractures (esp. femoral neck, pubic rami, ribs)
 
@@ -85,9 +83,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 ### Nuclear medicine
 
 - **Bone scan**:
-	- Often **“superscan”** pattern:
-		- Intense, diffuse skeletal uptake
-		- Markedly reduced renal and soft-tissue activity (but kidneys may still show some activity in CKD)
+	- Often **[[30_Rad Knowledge/Physics/Nuclear imaging/Superscan\|Superscan]]** pattern:
 	- Focally increased uptake in fractures and brown tumours
 - Useful to assess **disease extent** and **fracture risk**, not specific to renal aetiology → correlate with CKD history.
 

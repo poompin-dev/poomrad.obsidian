@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging (2014).md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/lugano-staging-2014/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging (2014).md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/lugano-staging-2014/","tags":["lymphoma"]}
 ---
 
-Modern [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] staging that **keeps [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging\|Ann Arbor anatomic stages]]** but formally integrates **FDG PET-CT** for FDG-avid lymphomas and standardises terminology.
+Modern [[Lymphoma\|Lymphoma]] staging that **keeps [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging\|Ann Arbor anatomic stages]]** but formally integrates **FDG PET-CT** for FDG-avid lymphomas and standardises terminology.
 
 ## Key updates
 - **PET-CT is incorporated into standard staging** for **FDG-avid** lymphomas; **CT** is used for non-/variably FDG-avid histologies.

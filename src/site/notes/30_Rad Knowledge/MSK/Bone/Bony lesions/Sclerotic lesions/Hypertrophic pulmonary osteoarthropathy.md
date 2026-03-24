@@ -84,7 +84,7 @@
 	- MRI: low-signal periosteal new bone with adjacent soft tissue oedema; may enhance after contrast
 
 ---
-## Differential Diagnosis #ddx
+## Differential diagnosis
 
 > Differential for **bilateral diaphyseal periosteal reaction of long bones**.
 

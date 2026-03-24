@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/"}
+{"dg-publish":true,"dg-path":"Rad/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","tags":["Lymphoma"]}
 ---
 
-A B-cell [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] with **orderly, contiguous nodal spread** (more predictable than [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]]), classically **cervical/mediastinal**. Extranodal disease is less common and usually late.
+A B-cell [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|lymphoma]] with **orderly, contiguous nodal spread** (more predictable than [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]]), classically **cervical/mediastinal**. Extranodal disease is less common and usually late.
 
 > [!summary]
 > HL = “**nodal first, stepwise spread**” + **bulky mediastinum** is a classic exam set-up.
