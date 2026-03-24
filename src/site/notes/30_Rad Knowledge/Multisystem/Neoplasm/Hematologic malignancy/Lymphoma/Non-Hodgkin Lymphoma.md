@@ -5,7 +5,7 @@
 A heterogeneous group of lymphoid malignancies (B-cell >> T/NK cell) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.
 ## Big buckets
 - **Aggressive (high-grade)**: rapidly enlarging, bulky masses; may have necrosis (esp. very high-grade or post-treatment).
-	- Examples: DLBCL, [[Burkitt lymphoma\|Burkitt lymphoma]], Lymphoblastic lymphoma
+	- Examples: DLBCL, [[10_Workbench/Burkitt lymphoma\|Burkitt lymphoma]], Lymphoblastic lymphoma
 - **Indolent (low-grade)**: slow growing lymphadenopathy, organomegaly; aggressive transformation can occur in long standing cases.
 	- Examples: Follicular lymphoma, Marginal zone lymphoma
 ___

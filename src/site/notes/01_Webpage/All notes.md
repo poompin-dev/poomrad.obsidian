@@ -53,6 +53,7 @@
 - [[30_Rad Knowledge/Neuro/Brain/Trauma/Diffuse axonal injury\|Diffuse axonal injury]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis\|Diffuse idiopathic skeletal hyperostosis]]
 - [[30_Rad Knowledge/Chest/Trachea/Diffuse tracheal pathologies\|Diffuse tracheal pathologies]]
+- [[31_Medical knowledge/Genetics/Chromosomal abnormalities/Down syndrome\|Down syndrome]]
 - [[30_Rad Knowledge/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|Ductal carcinoma in situ]]
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/DXA scan for osteoporosis\|DXA scan for osteoporosis]]
 - [[30_Rad Knowledge/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma\|Dysplastic cerebellar gangliocytoma]]
