@@ -30,12 +30,11 @@
                         {%- set hasValidBacklinks = false -%}
                         {%- if currentNode -%}
                               {%- for backlink in currentNode.backLinks -%}
-                                    {%- if 
-                                                    graph.nodes[backlink].url != page.url 
-                                                    and graph.nodes[backlink].url != "/" 
-                                                    and graph.nodes[backlink].path 
-                                                    and not graph.nodes[backlink].path.startsWith("01-webpage/")
-                                                -%}
+                                          {%- if
+                                            graph.nodes[backlink].url != page.url
+                                            and graph.nodes[backlink].url != "/"
+                                            and not graph.nodes[backlink].url.startsWith("/01-webpage/")
+                                          -%}
                                           {%- set hasValidBacklinks = true -%}
                                     {%- endif -%}
                               {%- endfor -%}
@@ -45,12 +44,11 @@
                               <div class="backlinks">
                                     <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
                                     <div class="backlink-list">
-                                          {%- for backlink in currentNode.backLinks -%}
-                                                {%- if 
-                                                    graph.nodes[backlink].url != page.url 
-                                                    and graph.nodes[backlink].url != "/" 
-                                                    and graph.nodes[backlink].path 
-                                                    and not graph.nodes[backlink].path.startsWith("01-webpage/")
+                                                {%- for backlink in currentNode.backLinks -%}
+                                                    {%- if
+                                                  graph.nodes[backlink].url != page.url
+                                                  and graph.nodes[backlink].url != "/"
+                                                  and not graph.nodes[backlink].url.startsWith("/01-webpage/")
                                                 -%}
                                                       <div class="custom-backlink-row">
                                                             <i data-lucide="link"></i>
