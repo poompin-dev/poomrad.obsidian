@@ -25,44 +25,46 @@
 
                   {%endif%}
 
-                  {%if settings.dgShowBacklinks === true %}
-                        {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
-                        {%- set hasValidBacklinks = false -%}
-                        {%- if currentNode -%}
-                              {%- for backlink in currentNode.backLinks -%}
-                                          {%- if
-                                            graph.nodes[backlink].url != page.url
-                                            and graph.nodes[backlink].url != "/"
-                                            and not graph.nodes[backlink].url.startsWith("/01-webpage/")
-                                          -%}
-                                          {%- set hasValidBacklinks = true -%}
-                                    {%- endif -%}
-                              {%- endfor -%}
+                  {% if settings.dgShowBacklinks === true %}
+                    {%- set currentNode = graph.nodes[page.url] or graph.nodes[graph.homeAlias] -%}
+                    {%- set hasValidBacklinks = false -%}
+                  
+                    {%- if currentNode and currentNode.backLinks -%}
+                      {%- for backlink in currentNode.backLinks -%}
+                        {%- set node = graph.nodes[backlink] -%}
+                        {%- if node
+                            and node.url != page.url
+                            and node.url != "/"
+                            and "/01-webpage/" not in node.url
+                        -%}
+                          {%- set hasValidBacklinks = true -%}
                         {%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
 
-                        {%- if hasValidBacklinks -%}
-                              <div class="backlinks">
-                                    <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
-                                    <div class="backlink-list">
-                                                {%- for backlink in currentNode.backLinks -%}
-                                                    {%- if
-                                                  graph.nodes[backlink].url != page.url
-                                                  and graph.nodes[backlink].url != "/"
-                                                  and not graph.nodes[backlink].url.startsWith("/01-webpage/")
-                                                -%}
-                                                      <div class="custom-backlink-row">
-                                                            <i data-lucide="link"></i>
-                                                            <a href="{{graph.nodes[backlink].url}}" class="internal-link">
-                                                                  {{graph.nodes[backlink].title}}
-                                                            </a>
-                                                      </div>
-
-                                                {%- endif -%}
-                                          {%- endfor -%}
-                                    </div>
+                    {%- if hasValidBacklinks -%}
+                      <div class="backlinks">
+                        <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
+                        <div class="backlink-list">
+                          {%- for backlink in currentNode.backLinks -%}
+                            {%- set node = graph.nodes[backlink] -%}
+                            {%- if node
+                                and node.url != page.url
+                                and node.url != "/"
+                                and "/01-webpage/" not in node.url
+                            -%}
+                              <div class="custom-backlink-row">
+                                <i data-lucide="link"></i>
+                                <a href="{{ node.url }}" class="internal-link">
+                                  {{ node.title }}
+                                </a>
                               </div>
-                        {%- endif -%}
-                  {%endif%}
+                            {%- endif -%}
+                          {%- endfor -%}
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  {% endif %}
                   {% for imp in dynamics.sidebar.bottom %}
                         {% include imp %}
                   {% endfor %}
