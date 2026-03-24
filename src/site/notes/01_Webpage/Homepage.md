@@ -17,11 +17,11 @@ ___
 
 { .block-language-dataview}
 ## Recently updated notes
+- [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis signpost\|Osteoporosis signpost]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma\|Eosinophilic Granuloma]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic pulmonary osteoarthropathy\|Hypertrophic pulmonary osteoarthropathy]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst\|Simple Bone Cyst]]
 - [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]
-- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
 
 { .block-language-dataview}
 ## I am looking for certain...
