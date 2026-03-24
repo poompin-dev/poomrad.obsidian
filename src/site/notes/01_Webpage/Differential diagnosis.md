@@ -2,11 +2,14 @@
 {"dg-publish":true,"permalink":"/01-webpage/differential-diagnosis/"}
 ---
 
-- [[30_Rad Knowledge/Ped/Pediatric neoplasm/Renal masses/Paediatric renal mass differentials\|Paediatric renal mass differentials]]
-- [[30_Rad Knowledge/Neuro/Head and neck/Skull base/Clival lesions\|Clival lesions]]
-- [[30_Rad Knowledge/Chest/Trachea/Diffuse tracheal pathologies\|Diffuse tracheal pathologies]]
-- [[30_Rad Knowledge/MSK/Bone/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
-- [[30_Rad Knowledge/Mammo/Breast ddx/Solid circumscribed breast masses (Ddx)\|Solid circumscribed breast masses (Ddx)]]
-- [[30_Rad Knowledge/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]
+- [[30_Rad Knowledge/MSK/Bone/Insight/Epiphyseal bone lesions\|Epiphyseal bone lesions]]
+- [[30_Rad Knowledge/MSK/Soft tissue/Malformation/Focal gigantism\|Focal gigantism]]
+- [[30_Rad Knowledge/Neuro/Brain/White matters/Leukoencephalopathies involving U-fibres\|Leukoencephalopathies involving U-fibres]]
+- [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]
+- [[30_Rad Knowledge/GU/Basic and Misc/Renal pseudotumour\|Renal pseudotumour]]
+- [[30_Rad Knowledge/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]]
+- [[30_Rad Knowledge/Physics/Nuclear imaging/Superscan\|Superscan]]
+- [[30_Rad Knowledge/Neuro/NeuroDdx/Tinnitus\|Tinnitus]]
+- [[30_Rad Knowledge/Neuro/Head and neck/Cranial vault/Wormian bones\|Wormian bones]]
 
 { .block-language-dataview}
