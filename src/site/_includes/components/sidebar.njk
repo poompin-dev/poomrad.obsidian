@@ -30,7 +30,12 @@
                         {%- set hasValidBacklinks = false -%}
                         {%- if currentNode -%}
                               {%- for backlink in currentNode.backLinks -%}
-                                    {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                                    {%- if 
+                                                    graph.nodes[backlink].url != page.url 
+                                                    and graph.nodes[backlink].url != "/" 
+                                                    and graph.nodes[backlink].path 
+                                                    and not graph.nodes[backlink].path.startsWith("01-webpage/")
+                                                -%}
                                           {%- set hasValidBacklinks = true -%}
                                     {%- endif -%}
                               {%- endfor -%}
