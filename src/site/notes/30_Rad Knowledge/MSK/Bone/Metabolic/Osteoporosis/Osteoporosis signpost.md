@@ -6,7 +6,6 @@
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis\|Osteoporosis]]
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/DXA scan for osteoporosis\|DXA scan for osteoporosis]]
-- [[Pattern of osseous resorption in tubular bones\|Pattern of osseous resorption in tubular bones]]
 - [[30_Rad Knowledge/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
 - [[30_Rad Knowledge/MSK/Bone/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 ## Diseases

@@ -10,18 +10,18 @@
 ___
 ## New notes
 - [[30_Rad Knowledge/Physics/Nuclear imaging/Superscan\|Superscan]]
-- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]
 - [[30_Rad Knowledge/Ped/Pediatric neoplasm/Renal masses/Paediatric renal mass differentials\|Paediatric renal mass differentials]]
 - [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Sturge-Weber syndrome\|Sturge-Weber syndrome]]
 - [[30_Rad Knowledge/Neuro/Brain/Metabolic/Marchiafava-Bignami disease\|Marchiafava-Bignami disease]]
+- [[30_Rad Knowledge/Neuro/Brain/Metabolic/Transient lesion of the splenium\|Transient lesion of the splenium]]
 
 { .block-language-dataview}
 ## Recently updated notes
-- [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis signpost\|Osteoporosis signpost]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma\|Eosinophilic Granuloma]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic pulmonary osteoarthropathy\|Hypertrophic pulmonary osteoarthropathy]]
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst\|Simple Bone Cyst]]
-- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]
+- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
+- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|Non-Hodgkin Lymphoma]]
 
 { .block-language-dataview}
 ## I am looking for certain...
