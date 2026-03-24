@@ -41,7 +41,7 @@
                                     <div class="backlink-title">{{ meta.uiStrings.backlinkHeader }}</div>
                                     <div class="backlink-list">
                                           {%- for backlink in currentNode.backLinks -%}
-                                                {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" -%}
+                                                {%- if graph.nodes[backlink].url != page.url and graph.nodes[backlink].url != "/" and graph.nodes[backlink].url != "/01-webpage" -%}
                                                       
                                                       <div class="custom-backlink-row">
                                                             <i data-lucide="link"></i>
