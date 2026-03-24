@@ -4,7 +4,7 @@
 
 ## Overview
 - The most common **benign** tumor of the kidney.
-- Essentially a renal [[31_Medical knowledge/Misc/Harmartoma\|harmatoma]].
+- Essentially a renal [[31_Medical knowledge/Misc/Hamartoma\|harmatoma]].
 - Almost all (95%) have macroscopic fat.
 - Usually incidental findings.
 

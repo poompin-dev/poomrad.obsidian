@@ -81,7 +81,7 @@
 - [[30_Rad Knowledge/Mammo/Benign solid lesions/Granular cell tumour\|Granular cell tumour]]
 - [[30_Rad Knowledge/Neuro/Brain/Sellar region/Granular cell tumour of the pituitary region\|Granular cell tumour of the pituitary region]]
 - [[30_Rad Knowledge/GI/Pancreas/Groove pancreatitis\|Groove pancreatitis]]
-- [[31_Medical knowledge/Misc/Harmartoma\|Harmartoma]]
+- [[31_Medical knowledge/Misc/Hamartoma\|Hamartoma]]
 - [[30_Rad Knowledge/Neuro/Brain/CNS infection/HIV-related/HIV encephalopathy\|HIV encephalopathy]]
 - [[30_Rad Knowledge/Neuro/Brain/CNS infection/HIV-related/HIVE vs PML\|HIVE vs PML]]
 - [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]

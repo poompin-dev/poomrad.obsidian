@@ -23,7 +23,7 @@ Present in >90% and often the **earliest** manifestations (clinical hallmark).
 - Thyroid
 	- Adenoma
 	- Multi-nodular goiters
-- GI [[31_Medical knowledge/Misc/Harmartoma\|harmartomatous]] polyps (small and large bowel)
+- GI [[31_Medical knowledge/Misc/Hamartoma\|harmartomatous]] polyps (small and large bowel)
 - Breast: benign breast disease (fibrocystic change, fibroadenomas)
 - Uterine fibroid
 - Lipoma

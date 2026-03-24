@@ -17,11 +17,11 @@ ___
 
 { .block-language-dataview}
 ## Recently updated notes
+- [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Tumour predisposition syndrome\|Tumour predisposition syndrome]]
+- [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Cowden syndrome\|Cowden syndrome]]
+- [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal Angiomyolipoma\|Renal Angiomyolipoma]]
 - [[30_Rad Knowledge/Neuro/NeuroDdx/Tinnitus\|Tinnitus]]
 - [[30_Rad Knowledge/Neuro/Brain/White matters/Leukoencephalopathies involving U-fibres\|Leukoencephalopathies involving U-fibres]]
-- [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma\|Eosinophilic Granuloma]]
-- [[30_Rad Knowledge/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic pulmonary osteoarthropathy\|Hypertrophic pulmonary osteoarthropathy]]
-- [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst\|Simple Bone Cyst]]
 
 { .block-language-dataview}
 ## I am looking for certain...
