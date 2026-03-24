@@ -13,7 +13,7 @@
     * **Fibrous cortical defect (FCD):** Small (< 2–3 cm), strictly intracortical.
     * **Non-ossifying fibroma (NOF):** Large (> 3 cm), expands into medullary cavity.
 * **Syndromic association:** 
-	* [[30_Rad Knowledge/MSK/Misc. MSK/Jaffe-Campanacci syndrome\|Jaffe-Campanacci syndrome]]: Rare syndrome but exam favourite; considered in multiple NOFs with NF1-like features.
+	* [[31_Medical knowledge/Genetics/Genetic disease/MSK/Jaffe-Campanacci syndrome\|Jaffe-Campanacci syndrome]]: Rare syndrome but exam favourite; considered in multiple NOFs with NF1-like features.
 
 ---
 ## Anatomical distribution

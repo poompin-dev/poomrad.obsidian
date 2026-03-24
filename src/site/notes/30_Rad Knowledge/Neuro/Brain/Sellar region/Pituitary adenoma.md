@@ -60,7 +60,7 @@ Large sellar ± suprasellar mass; normal gland often only a thin peripheral rim 
 	- Common primary includes:
 		- breast
 		- lung
-		- systemic [[30_Rad Knowledge/Multisystem/Neoplasms/Lymphoma/Lymphoma\|lymphoma]]
+		- systemic [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]
 			- infiltrative low T2 signal
 - [[30_Rad Knowledge/Neuro/Brain/Sellar region/Craniopharyngioma\|Craniopharyngioma]]
 - [[30_Rad Knowledge/Neuro/Brain/Sellar region/Hypophysitis\|Hypophysitis]]:

@@ -6,7 +6,7 @@
 > **Primary thymic epithelial neoplasm** of the **anterior mediastinum** with a spectrum from **encapsulated** to **locally invasive** and **pleural/pericardial spread**. Frequently associated with **autoimmune disease**, especially **myasthenia gravis**.
 
 ## Clinical associations
-- **[[30_Rad Knowledge/Multisystem/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]** is common
+- **[[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]** is common
 - Other classic associations:
 	- **Pure red cell aplasia**
 	- **Hypogammaglobulinaemia (Good syndrome)**

@@ -9,7 +9,7 @@
 ## Epidemiology
 - Age: Typically **>40 years**
 - Male predominance
-- Secondary types often occur in younger adults with **[[30_Rad Knowledge/MSK/Bone/Multiple lesions conditions/Multiple hereditary exostoses\|multiple hereditary exostoses]]** or **[[enchondromatosis\|enchondromatosis]]**
+- Secondary types often occur in younger adults with **[[31_Medical knowledge/Genetics/Genetic disease/MSK/Multiple hereditary exostoses\|Multiple hereditary exostoses]]** or **[[enchondromatosis\|enchondromatosis]]**
 ## Locations
 - **Pelvis**, **proximal femur**, **scapula**, **ribs**
 - Long bones: metaphyseal-diaphyseal regions

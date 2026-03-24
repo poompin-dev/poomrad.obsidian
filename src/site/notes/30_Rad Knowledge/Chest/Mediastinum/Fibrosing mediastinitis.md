@@ -28,7 +28,7 @@ ___
 - Helpful mainly to exclude aggressive malignancy and guide biopsy target.
 ___
 ## Top differentials
-- [[30_Rad Knowledge/Multisystem/Neoplasms/Lymphoma/Lymphoma\|Lymphoma]]/metastatic nodes: bulky discrete nodal masses, less encasing fibrosis, calcification usually absent unless treated.
+- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]/metastatic nodes: bulky discrete nodal masses, less encasing fibrosis, calcification usually absent unless treated.
 - Sarcoidosis: symmetric hilar/mediastinal nodes, perilymphatic lung nodules; fibrosis pattern differs.
 - IgG4-related disease: multi-organ involvement (pancreas, salivary glands, retroperitoneum), less calcification; may respond to steroids.
 - Radiation fibrosis: matches radiation field and history.

@@ -10,7 +10,7 @@
 - Any age, often discovered in adults
 - Frequently **asymptomatic**; symptoms are usually from **mass effect** when giant
 ## Associations
-- Reported with **[[30_Rad Knowledge/Multisystem/Paraneoplastic syndromes/Myasthenia gravis\|myasthenia gravis]]** and other autoimmune phenomena, but not a reliable pairing
+- Reported with **[[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]** and other autoimmune phenomena, but not a reliable pairing
 ___
 ## Imaging
 ### CXR

@@ -15,7 +15,7 @@ ___
 - **Intralobar:**
 	- Anywhere in parenchyma, patchy / nodular.
 	- **Higher Wilms risk.**
-	- **Syndromes:** Denys–Drash, [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/WAGR\|WAGR]], sporadic aniridia.
+	- **Syndromes:** Denys–Drash, [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/WAGR\|WAGR]], sporadic aniridia.
 ___
 ## Imaging
 ### Key imaging features

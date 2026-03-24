@@ -6,7 +6,7 @@
 > **High-grade malignant thymic epithelial tumour**. Compared with [[30_Rad Knowledge/Chest/Mediastinum/Thymoma\|thymoma]], it more often shows **infiltrative invasion**, **nodal metastases**, and **distant spread**, so prognosis is generally worse.
 ## Clinical
 - Usually **adults**; **very rare in children**
-- Paraneoplastic syndromes (e.g. **[[30_Rad Knowledge/Multisystem/Paraneoplastic syndromes/Myasthenia gravis\|myasthenia gravis]]**) are **uncommon** compared with thymoma
+- Paraneoplastic syndromes (e.g. **[[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]**) are **uncommon** compared with thymoma
 - Often presents at **locally advanced stage**
 ___
 ## Imaging features

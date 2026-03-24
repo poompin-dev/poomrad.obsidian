@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","haematology"]}
 ---
 
-part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
+part of [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
 ## Clinical
 - most common manifesting symptoms are:
 	- Fatigue (often from normocytic normochromic anemia due to marrow infiltration)
@@ -39,4 +39,4 @@ ___
 	- 8% throughout the disease course
 
 ___
-See also: [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
+See also: [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]

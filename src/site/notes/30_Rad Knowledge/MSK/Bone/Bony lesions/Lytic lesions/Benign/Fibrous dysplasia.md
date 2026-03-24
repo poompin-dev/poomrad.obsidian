@@ -66,7 +66,7 @@
 | **Osteofibrous dysplasia**         | Anterior tibia, cortical-based, Cytokeratin -ve           |
 ## Management
 - **Observe** if asymptomatic
-- **[[31_Other knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]** for pain control (polyostotic)
+- **[[31_Medical knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]** for pain control (polyostotic)
 - **Surgery** for fracture or deformity
 - *Avoid radiation* (sarcoma risk ↑; same as [[30_Rad Knowledge/MSK/Bone/Misc/Paget disease\|Paget disease]])
 ---

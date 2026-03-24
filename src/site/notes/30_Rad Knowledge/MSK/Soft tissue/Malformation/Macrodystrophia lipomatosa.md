@@ -45,7 +45,7 @@ CT is rarely needed but shows hypertrophic bone + low attenuation fat proliferat
 
 | Entity                         | Key differences                                                                                                     |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Proteus syndrome\|Proteus syndrome]]           | Asymmetric overgrowth + dysregulated bone, vascular malformations, cerebriform plantar nevi, systemic features.     |
+| [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Proteus syndrome\|Proteus syndrome]]           | Asymmetric overgrowth + dysregulated bone, vascular malformations, cerebriform plantar nevi, systemic features.     |
 | [[30_Rad Knowledge/MSK/Soft tissue/Malformation/Klippel-Trénaunay Syndrome\|Klippel-Trénaunay Syndrome]] | Limb overgrowth + **port-wine stain + venous/lymphatic malformations**, not pure fat overgrowth in nerve territory. |
 | Plexiform neurofibroma         | “Bag of worms” soft tissue mass, not predominantly fat; NF1 stigmata.                                               |
 | Haemangioma / AVM              | Vascular channels, flow voids, phleboliths; not uniform fatty bulk.                                                 |

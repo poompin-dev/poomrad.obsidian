@@ -12,7 +12,7 @@
 - Old ‘rule of 10s’ (≈10% bilateral, ≈10% extra-adrenal, ≈10% malignant, ≈10% in children) is **outdated but still pops up in exams** – now we know **~30–40%+ hereditary**.”
 ## Clinical significance
 - Crisis risk with procedures/anaesthesia; potentially curable cause of hypertension.
-- A substantial fraction are hereditary (e.g., **RET/MEN2, [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Von Hippel-Lindau (overview)\|VHL]], [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Neurofibromatosis type 1\|NF1]], SDHx**); genetics affects surveillance and family screening
+- A substantial fraction are hereditary (e.g., **RET/MEN2, [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Von Hippel-Lindau (overview)\|VHL]], [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Neurofibromatosis type 1\|NF1]], SDHx**); genetics affects surveillance and family screening
 - Histology **cannot reliably distinguish benign vs malignant**; malignancy defined by **metastases** (nodes, bone, lung, liver).  
 	Risk higher in: extra-adrenal, large size, **SDHB** mutation.
 ___
@@ -65,7 +65,7 @@ ___
 - Monitor for **hypotension** and **hypoglycaemia** immediately post-resection.
 - Repeat **metanephrines** for biochemical cure; interval imaging if hereditary or metastatic risk.
 ### Genetics workup
-High hereditary yield; consider **genetic counselling/testing** (e.g., **RET, [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Von Hippel-Lindau (overview)\|VHL]], [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Neurofibromatosis type 1\|NF1]], SDHB/SDHD**), especially if young, bilateral, extra-adrenal, multifocal, or metastatic.
+High hereditary yield; consider **genetic counselling/testing** (e.g., **RET, [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Von Hippel-Lindau (overview)\|VHL]], [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Neurofibromatosis type 1\|NF1]], SDHB/SDHD**), especially if young, bilateral, extra-adrenal, multifocal, or metastatic.
 - **SDHB** → higher metastatic risk, often extra-adrenal trunk disease → **favour FDG/DOTATATE over MIBG**.
 - **SDHD / SDHAF2** → multiple **[[30_Rad Knowledge/Neuro/Head and neck/Paragangliomas of the head and neck\|head & neck PG]]**
 ____

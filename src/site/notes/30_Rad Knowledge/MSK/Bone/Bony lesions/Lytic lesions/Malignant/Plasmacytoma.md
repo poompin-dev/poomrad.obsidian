@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Rad/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Plasmacytoma.md","permalink":"/rad/msk/bone/bony-lesions/lytic-lesions/malignant/plasmacytoma/"}
 ---
 
-Part of [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]
+Part of [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]
 ## Definition  
 A **localized collection of neoplastic monoclonal plasma cells** without systemic features of multiple myeloma (e.g., **no CRAB symptoms, marrow involvement, or myeloma-defining biomarkers**).
 
@@ -57,5 +57,5 @@ ___
 ---
 ## Related  
 - [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]  
-- [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|MGUS]]  
-- [[30_Rad Knowledge/Multisystem/Neoplasms/Plasma cell proliferative disorders/Smoldering myeloma\|Smoldering myeloma]]
+- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|MGUS]]  
+- [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Smoldering myeloma\|Smoldering myeloma]]

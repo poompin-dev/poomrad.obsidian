@@ -14,7 +14,7 @@ Slow growing, but locally destructive neuroendocrine tumours arising from **para
 	- **SDHX (SDHB, SDHC, SDHD, SDHAF2)** – “paraganglioma syndromes”.
 		- **SDHD, SDHAF2** → often **multiple head and neck paragangliomas**.
 		- **SDHB** → higher risk of **metastatic** disease (esp. extra-adrenal trunk/abdomen).
-	- ± [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Von Hippel-Lindau (overview)\|VHL]], [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/Neurofibromatosis type 1\|NF1]], RET (MEN2) mainly in [[30_Rad Knowledge/GU/Adrenal gland/Phaeochromocytoma - Paraganglioma\|adrenal phaeochromocytoma]] context.
+	- ± [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Von Hippel-Lindau (overview)\|VHL]], [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Neurofibromatosis type 1\|NF1]], RET (MEN2) mainly in [[30_Rad Knowledge/GU/Adrenal gland/Phaeochromocytoma - Paraganglioma\|adrenal phaeochromocytoma]] context.
 
 > [!tip] Imaging implication  
 > Multiple lesions? Young patient? → **think SDH mutation** and **screen whole paraganglionic axis** (skull base to pelvis).

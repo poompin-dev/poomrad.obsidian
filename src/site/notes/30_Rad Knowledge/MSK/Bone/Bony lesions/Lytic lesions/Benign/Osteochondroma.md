@@ -7,7 +7,7 @@
 - Composed of **bony outgrowth ([[70_Glossary/MSK/Exostosis\|Exostosis]])** covered by **cartilage cap**
 - Always has **continuity of cortex and medullary cavity** with the parent bone
 - Occurs at the **metaphysis**, **grows away from the joint**
-- Can be **solitary** or part of **[[30_Rad Knowledge/MSK/Bone/Multiple lesions conditions/Multiple hereditary exostoses\|Multiple hereditary exostoses]] (MHE)**
+- Can be **solitary** or part of **[[31_Medical knowledge/Genetics/Genetic disease/MSK/Multiple hereditary exostoses\|Multiple hereditary exostoses]] (MHE)**
 ## Epidemiology
 - Age: Typically arises in **childhood/adolescence**
 - Stops growing after **skeletal maturity**

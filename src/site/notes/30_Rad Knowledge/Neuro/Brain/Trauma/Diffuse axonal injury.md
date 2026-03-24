@@ -9,7 +9,7 @@ Shearing injury of axons from rapid acceleration–deceleration / rotational hea
 
 ---
 ## Pathophysiology & terminology
-- Sudden rotational forces → stretch and shear axons → axonal swelling and disconnection (secondary [[31_Other knowledge/Pathology/Wallerian degeneration\|Wallerian degeneration]]).
+- Sudden rotational forces → stretch and shear axons → axonal swelling and disconnection (secondary [[31_Medical knowledge/Misc/Wallerian degeneration\|Wallerian degeneration]]).
 - Usually associated with high-speed RTCs, falls from height, shaken-baby.
 - **DAI** = original histopathological term.  
 - **TAI** often used as the imaging term (same concept for exams).

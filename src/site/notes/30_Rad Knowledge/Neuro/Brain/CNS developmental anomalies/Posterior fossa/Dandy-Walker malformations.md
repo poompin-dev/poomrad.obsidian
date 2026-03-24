@@ -20,6 +20,6 @@
 	- [[Callosal dysgenesis\|Callosal dysgenesis]]
 - Non-CNS
 	- [[Cleft lip and palate\|Cleft lip and palate]]
-	- [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/PHACES syndrome\|PHACES syndrome]]
+	- [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/PHACES syndrome\|PHACES syndrome]]
 	- Cardiac malformations
 	- Genitourinary abnormalities

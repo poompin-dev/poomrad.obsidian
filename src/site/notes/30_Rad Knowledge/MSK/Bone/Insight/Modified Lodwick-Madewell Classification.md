@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/msk/bone/insight/modified-lodwick-madewell-classification/"}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/msk/bone/insight/modified-lodwick-madewell-classification/","tags":["grading","msk","XR"]}
 ---
 
 ## Concepts (update from previous edition)

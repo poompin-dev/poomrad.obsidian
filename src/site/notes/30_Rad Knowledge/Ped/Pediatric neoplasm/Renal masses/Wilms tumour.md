@@ -8,7 +8,7 @@ Common paediatric renal malignancy (~age 3–4). Large renal-origin mass with �
 
 ## Epidemiology & context
 - Peak: early childhood; can be bilateral/synchronous or metachronous.
-- Associations: nephrogenic rests ([[30_Rad Knowledge/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis\|nephroblastomatosis]]), [[30_Rad Knowledge/Multisystem/Neoplasms/Tumor predisposition syndromes/WAGR\|WAGR]], Beckwith–Wiedemann, Denys–Drash, others.
+- Associations: nephrogenic rests ([[30_Rad Knowledge/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis\|nephroblastomatosis]]), [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/WAGR\|WAGR]], Beckwith–Wiedemann, Denys–Drash, others.
 ## Clinical clues
 - Painless abdominal mass, abdominal pain, haematuria, anaemia; possible renin-mediated hypertension.
 - Do NOT palpate vigorously (rupture risk).

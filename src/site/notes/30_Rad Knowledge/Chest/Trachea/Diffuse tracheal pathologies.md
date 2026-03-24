@@ -39,7 +39,7 @@ Differential diagnosis of diffuse tracheal abnormalities is a frequent theme in 
 ---
 ## Tracheal Amyloidosis
 
-**Pathophysiology:** Extracellular deposition of insoluble amyloid fibrils ([[30_Rad Knowledge/Multisystem/Amyloidosis/AL Amyloidosis\|AL type]] most common in respiratory tract).
+**Pathophysiology:** Extracellular deposition of insoluble amyloid fibrils ([[31_Medical knowledge/Misc/Amyloidosis/AL Amyloidosis\|AL type]] most common in respiratory tract).
 ### Imaging features
 * **Morphology:** Focal or diffuse submucosal thickening.
 * **Calcification:** Common (partially ossified/calcified plaques).

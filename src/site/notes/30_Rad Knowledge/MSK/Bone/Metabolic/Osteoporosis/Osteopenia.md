@@ -16,5 +16,5 @@ It is a **preferred descriptive term** to use in reports instead of older or les
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]]
 - [[Rickets\|Rickets]]
 - [[Scurvy\|Scurvy]]
-- [[Hyperparathyroidism\|Hyperparathyroidism]]
+- [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Types of hyperparathyroidism\|Types of hyperparathyroidism]]
 - [[30_Rad Knowledge/MSK/Bone/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]]

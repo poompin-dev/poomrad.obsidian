@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Rad/GU/Kidney/Renal masses/Renal lymphoma.md","permalink":"/rad/gu/kidney/renal-masses/renal-lymphoma/"}
 ---
 
-Lymphoma is the most common secondary malignant renal neoplasm (usually systemic [[30_Rad Knowledge/Multisystem/Neoplasms/Lymphoma/Non-Hodgkin Lymphoma\|NHL]]).
+Lymphoma is the most common secondary malignant renal neoplasm (usually systemic [[30_Rad Knowledge/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]]).
 
 ## Imaging (CT)
 - Often infiltrative and moulding → tends to preserve renal contour (“bean shape”).

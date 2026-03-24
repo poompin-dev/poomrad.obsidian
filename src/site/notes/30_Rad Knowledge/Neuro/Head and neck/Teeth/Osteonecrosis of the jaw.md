@@ -3,7 +3,7 @@
 ---
 
 
-**Core idea:** Exposed, non-healing jaw bone with chronic infection and necrosis, classically in patients on **[[31_Other knowledge/Pharmacology/Bisphosphonate\|bisphosphonate]]/denosumab** or after **radiotherapy**.
+**Core idea:** Exposed, non-healing jaw bone with chronic infection and necrosis, classically in patients on **[[31_Medical knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]/denosumab** or after **radiotherapy**.
 
 ---
 ## Typical setting
