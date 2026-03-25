@@ -12,7 +12,6 @@
 - Assoc. with [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Tuberous sclerosis\|Tuberous sclerosis complex]] esp. multiple / bilateral involvement in young patient
 - Size > 4 cm or contain aneurysm → bleeding risk ↑
 	- Considered intervention consultation for embolisation
--  (if have considered [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal cell carcinoma\|Renal cell carcinoma]])
 ## Lipid-poor renal AML
 - Rare (5%), more commonly seen in [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Phakomatosis/Tuberous sclerosis\|TSC]].
 - Have to ddx with papillary [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal cell carcinoma\|RCC]]. 

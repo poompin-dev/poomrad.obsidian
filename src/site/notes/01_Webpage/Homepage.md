@@ -9,11 +9,11 @@
 
 ___
 ## Recently updated notes
+- [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal hypoT2 lesions\|Renal hypoT2 lesions]]
+- [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal angiomyolipoma\|Renal angiomyolipoma]]
 - [[30_Rad Knowledge/Neuro/NeuroRad signs/Platybasia\|Platybasia]]
 - [[30_Rad Knowledge/Neuro/Misc/Radiographic lines - Basilar invagination\|Radiographic lines - Basilar invagination]]
-- [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal hypoT2 lesions\|Renal hypoT2 lesions]]
 - [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal cell carcinoma\|Renal cell carcinoma]]
-- [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal angiomyolipoma\|Renal angiomyolipoma]]
 
 { .block-language-dataview}
 ## New notes
