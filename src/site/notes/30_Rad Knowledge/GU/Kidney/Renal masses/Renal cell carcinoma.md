@@ -27,7 +27,7 @@ The most common primary renal malignancy
 	- Likely to occurs in transplanted kidney
 - Less aggressive than clear cell
 - Less vascular → enhance less than cortex on corticomedullary phase
-- [[30_Rad Knowledge/GU/Kidney/Renal masses/Ddx of renal hypoT2 lesions\|Ddx of renal hypoT2 lesions]]: lipid poor AML, hemorrhagic cyst
+- **Differential:** [[30_Rad Knowledge/GU/Kidney/Renal masses/Renal hypoT2 lesions\|Renal hypoT2 lesions]]
 ### Medullary
 - Typically younger patient
 - Assoc. with sickle cell trait

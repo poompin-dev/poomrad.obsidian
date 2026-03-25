@@ -1,13 +1,13 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/msk/bone/insight/modified-lodwick-madewell-classification/","tags":["grading","msk","XR"]}
+{"dg-publish":true,"dg-path":"Rad/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/msk/bone/insight/modified-lodwick-madewell-classification/","tags":["bone-tumor"]}
 ---
 
 ## Concepts (update from previous edition)
 Integrates static margin + dynamic changes + “invisible”/occult category so temporal evolution and radiographically occult disease matter.
 
 ___
-## Classification Table 
-Use this only to categorise lesion margin/aggressiveness. Patient age and lesion location (and clinical, duh) are still KINGS for differential diagnosis.
+## Summary table 
+Use this only to categorise lesion margin/aggressiveness. Patient age and lesion location are still KINGS for differential diagnosis.
 
 | Type   | Description                                                                                 | Possible entities                                                   | Classic lesions                                                            |
 | ------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
