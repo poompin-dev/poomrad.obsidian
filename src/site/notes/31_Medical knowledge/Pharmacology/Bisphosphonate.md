@@ -8,12 +8,12 @@
 
 ## Typical clinical context
 - Long-term therapy for:
-	- Primary / secondary **[[30_Rad Knowledge/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis\|osteoporosis]]**
+	- Primary / secondary **[[30_Rad Knowledge/301_Disease/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis\|Osteoporosis]]**
 	- **Metastatic bone disease** (IV forms: zoledronate, pamidronate)
 - Red flag: **>3–5 years** continuous use + new bone pain (thigh, groin, jaw).
 ## Complications
-- [[30_Rad Knowledge/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
-- [[30_Rad Knowledge/Neuro/Head and neck/Teeth/Osteonecrosis of the jaw\|Osteonecrosis of the jaw]]
+- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
+- [[30_Rad Knowledge/301_Disease/Neuro/Head and neck/Teeth/Osteonecrosis of the jaw\|Osteonecrosis of the jaw]]
 ## Other radiology points
 - **Metaphyseal sclerotic bands** in growing children on cyclical IV therapy  
   (“zebra stripe lines” – dense metaphyseal lines parallel to physes).

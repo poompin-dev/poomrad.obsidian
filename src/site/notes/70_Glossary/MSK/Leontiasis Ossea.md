@@ -27,8 +27,8 @@
 
 | Condition                        | Notes                                                              |
 | -------------------------------- | ------------------------------------------------------------------ |
-| [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]            | Most common cause; esp. in polyostotic form or **McCune-Albright** |
-| [[30_Rad Knowledge/MSK/Bone/Misc/Paget disease\|Paget disease]]                | Skull base involvement; older adults                               |
+| [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]            | Most common cause; esp. in polyostotic form or **McCune-Albright** |
+| [[Paget disease\|Paget disease]]                | Skull base involvement; older adults                               |
 | Hyperparathyroidism              | Rare; brown tumors or generalized resorption with overgrowth       |
 | Cherubism                        | Pediatric; bilateral jaw swelling, autosomal dominant              |
 | Acromegaly                       | Coarsening of facial bones; not true leontiasis but may mimic      |

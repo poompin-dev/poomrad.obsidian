@@ -6,7 +6,7 @@
 ### Prenatal
 - Increased nuchal translucency
 - Absent or hypoplastic nasal bone
-- [[30_Rad Knowledge/Ped/Developmental/Duodenal atresia\|Duodenal atresia]] (double bubble sign)
+- [[30_Rad Knowledge/301_Disease/Ped/Developmental/Duodenal atresia\|Duodenal atresia]] (double bubble sign)
 - Congenital heart disease, classically atrioventricular septal defect
 ### Neonatal
 #### Physical findings
@@ -22,7 +22,7 @@
 - Generalised ligamentous laxity
 #### Radiological findings
 - Proximal bowel obstruction pattern
-	- [[30_Rad Knowledge/Ped/Developmental/Duodenal atresia\|Duodenal atresia]]
+	- [[30_Rad Knowledge/301_Disease/Ped/Developmental/Duodenal atresia\|Duodenal atresia]]
 	- [[Annular pancreas\|Annular pancreas]]
 - Hisrchprung-type distal bowel obstruction pattern
 - Cardiomegaly / pulmonary plethora if significant shunt lesion

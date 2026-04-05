@@ -7,13 +7,13 @@
 
 ---
 ## Pathophysiology & epidemiology
-* **Pathogenesis:** Clonal plasma cell dyscrasia (often subtle/low burden compared to [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]]) secretes unstable monoclonal light chains.
+* **Pathogenesis:** Clonal plasma cell dyscrasia (often subtle/low burden compared to [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]]) secretes unstable monoclonal light chains.
     * **Light chain type:** **Lambda (λ)** light chains are more amyloidogenic than Kappa (κ) (ratio ~3:1).
     * Fibrils deposit in tissues → disruption of tissue architecture and direct cellular toxicity.
 * **Epidemiology:**
     * Most common form of systemic amyloidosis.
     * Age: > 50 years (peak 60–70).
-    * Association: 10–15% of patients with [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|multiple myeloma]] develop AL amyloidosis.
+    * Association: 10–15% of patients with [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]] develop AL amyloidosis.
 ## Clinical features (exam high-yields)
 * **General:** Fatigue, weight loss.
 * **"Aunt Minnie" signs:**
@@ -85,7 +85,7 @@ ___
     * Usually asymmetric septal hypertrophy; LGE occurs at RV insertion points, not diffuse subendocardial.
 3.  **Sarcoidosis:**
     * Patchy LGE, often involves septum/lateral wall; nodal calcification different pattern.
-4.  **[[Lymphoma\|Lymphoma]]:**
+4.  **[[30_Rad Knowledge/301_Disease/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]:**
     * For nodular lung/GI disease.
 
 ---

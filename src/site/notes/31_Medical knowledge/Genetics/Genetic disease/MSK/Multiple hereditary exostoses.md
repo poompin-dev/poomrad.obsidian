@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/msk/multiple-hereditary-exostoses/"}
 ---
 
-**Genetic disorder**: multiple [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]s throughout the skeleton
+**Genetic disorder**: multiple [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]s throughout the skeleton
 - **Autosomal dominant** (EXT1/EXT2 genes)`
 ## Clinical Features
 - Presents in **childhood** (often before age 10)
@@ -14,11 +14,11 @@
 - Also: pelvis, scapula, ribs
 - **Rarely in spine/skull**
 ## Complications
-- **Malignant transformation** (~1–5%) to secondary **[[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]** arising from its cartilaginous cap
+- **Malignant transformation** (~1–5%) to secondary **[[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]** arising from its cartilaginous cap
     - Signs: new pain, rapid growth, thick cap
 - **Neurovascular impingement**
 - **Bursitis** (overlying prominent lesions)
-- **[[30_Rad Knowledge/MSK/Bone/Trauma/Atraumatic fracture/Pathological fracture\|Pathological fracture]]** (rare)
+- **[[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]** (rare)
 ___
 ## Imaging
 - **Multiple bony outgrowths**—continuity of cortex and medullary cavity with parent bone
@@ -27,6 +27,6 @@ ___
 - **Deformity**: bowing, limb shortening, valgus/varus angulation
 ___
 ## Pearls
-- **New pain or rapid growth in MHE = [[30_Rad Knowledge/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]] until proven otherwise**
+- **New pain or rapid growth in MHE = [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]] until proven otherwise**
 - Deformities can be severe—refer to ortho early for surveillance
 - Family screening is important
