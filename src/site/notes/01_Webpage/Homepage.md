@@ -13,7 +13,7 @@ ___
 - [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
 - [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
+- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Atraumatic fracture\|Atraumatic fracture]]
 
 { .block-language-dataview}
 ## New notes
