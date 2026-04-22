@@ -18,7 +18,7 @@
 
 ## Typical association
 - **Exam-safe association**:  
-	- Rind sign + proximal femur + young patient → **[[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]**.
+	- Rind sign + proximal femur + young patient → **[[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]**.
 ## Differentials (rind-like lesions)
 - **Liposclerosing myxofibrous tumour** – adult, intertrochanteric femur, mixed lytic–sclerotic, irregular thick rim.
 - **Healed/simple bone cyst or other fibro-osseous lesion** – can have a prominent rim but usually less “classic”.

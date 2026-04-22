@@ -9,19 +9,19 @@
 
 ___
 ## Recently updated notes
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Trauma/Atraumatic fracture/Atraumatic fracture\|Atraumatic fracture]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
+- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
+- [[30_Rad Knowledge/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas\|Cardiac rhabdomyomas]]
+- [[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS developmental anomalies/Midline related structures/Holoprosencephaly spectrum\|Holoprosencephaly spectrum]]
 
 { .block-language-dataview}
 ## New notes
-- [[30_Rad Knowledge/301_Disease/Neuro/Head and neck/Skull base/Basilar invagination\|Basilar invagination]]
-- [[30_Rad Knowledge/301_Disease/Neuro/NeuroRad signs/Platybasia\|Platybasia]]
-- [[30_Rad Knowledge/301_Disease/Neuro/Misc/Radiographic lines - Basilar invagination\|Radiographic lines - Basilar invagination]]
-- [[30_Rad Knowledge/303_Physics/Nuclear imaging/Superscan\|Superscan]]
-- [[30_Rad Knowledge/301_Disease/Ped/Pediatric neoplasm/Renal masses/Paediatric renal mass differentials\|Paediatric renal mass differentials]]
+- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
+- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Skull base/Basilar invagination\|Basilar invagination]]
+- [[30_Rad Knowledge/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas\|Cardiac rhabdomyomas]]
+- [[30_Rad Knowledge/301_Systems/Neuro/NeuroRad signs/Platybasia\|Platybasia]]
+- [[30_Rad Knowledge/301_Systems/Neuro/Misc/Radiographic lines - Basilar invagination\|Radiographic lines - Basilar invagination]]
 
 { .block-language-dataview}
 ## I am looking for certain...

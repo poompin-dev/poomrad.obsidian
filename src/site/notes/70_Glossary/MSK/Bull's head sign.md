@@ -3,6 +3,6 @@
 ---
 
 
-Classic sign of [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Sclerotic lesions/SAPHO syndrome\|SAPHO syndrome]] on bone scan
+Classic sign of [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/SAPHO syndrome\|SAPHO syndrome]] on bone scan
 - Uptake at sternoclavicular joints = horns
 - Manubrium = face

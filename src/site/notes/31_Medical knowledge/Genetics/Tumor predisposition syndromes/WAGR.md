@@ -3,7 +3,7 @@
 ---
 
 Deletion 11p13 involving **WT1 + PAX6**.
-- [[30_Rad Knowledge/301_Disease/Ped/Pediatric neoplasm/Renal masses/Wilms tumour\|Wilms tumour]]: ↑ risk, often bilateral; background [[30_Rad Knowledge/301_Disease/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis\|nephrogenic rest]].
+- [[30_Rad Knowledge/301_Systems/Ped/Pediatric neoplasm/Renal masses/Wilms tumour\|Wilms tumour]]: ↑ risk, often bilateral; background [[30_Rad Knowledge/301_Systems/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis\|nephrogenic rest]].
 - Aniridia: due to PAX6 involvement.
 - Genitourinary anomalies: gonadal dysgenesis, cryptorchidism, ambiguous genitalia, other GU malformations.
 - Intellectual disability / developmental delay *(historically “mental retardation”)*

@@ -25,13 +25,13 @@
 - Skull, mandible, sternum
 - Costochondral junctions, distal appendicular uptake
 #### Causes
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]] (most common benign)
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]] (most common benign)
 - [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|Hyperparathyroidism]]
-- [[30_Rad Knowledge/301_Disease/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / rickets
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / rickets
 - Hyperthyroidism
 - [[Paget disease\|Paget disease]] (polyostotic)
 - Myelofibrosis
-- [[30_Rad Knowledge/301_Disease/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma]] / leukaemia
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma]] / leukaemia
 - Mastocytosis
 ## Mimics
 - Looks like normal scan (uniform uptake)

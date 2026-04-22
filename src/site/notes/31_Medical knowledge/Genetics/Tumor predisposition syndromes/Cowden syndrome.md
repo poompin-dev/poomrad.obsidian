@@ -18,7 +18,7 @@ Present in >90% and often the **earliest** manifestations (clinical hallmark).
 - Macrocephaly
 - Intellectual disability
 
-**[[30_Rad Knowledge/301_Disease/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma\|Lhermitte-Duclos disease]] (adult-onset dysplastic cerebellar gangliocytoma)** is a major criterion
+**[[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma\|Lhermitte-Duclos disease]] (adult-onset dysplastic cerebellar gangliocytoma)** is a major criterion
 ### Harmatoma
 - Thyroid
 	- Adenoma
@@ -33,4 +33,4 @@ Present in >90% and often the **earliest** manifestations (clinical hallmark).
 - Breast cancer: ~30-50%
 - Thyroid cancer: **↑ risk** of thyroid carcinoma (often follicular)
 - Endometrial cancer: ~5-10%
-- CNS: Dysplastic cerebellar gangliocytoma ([[30_Rad Knowledge/301_Disease/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma\|Lhermitte-Duclos disease]])
+- CNS: Dysplastic cerebellar gangliocytoma ([[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma\|Lhermitte-Duclos disease]])

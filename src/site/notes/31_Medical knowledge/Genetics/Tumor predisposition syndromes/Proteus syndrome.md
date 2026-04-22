@@ -5,5 +5,5 @@
 _Mosaic disorder_
 - Key features:
     - Skull, facial, and spinal abnormalities ("Elephant man")
-    - **[[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]-like lesions**
+    - **[[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]-like lesions**
     - Lymphangiomatous hamartomas

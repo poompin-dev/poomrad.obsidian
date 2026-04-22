@@ -16,7 +16,7 @@ Mechanism: marrow suppression / haemolysis → extramedullary haematopoiesis
 Mechanism: extensive bone marrow infiltration/replacement → extramedullary haematopoiesis ± direct skin infiltration
 - **Congenital leukaemia** (esp. myelomonocytic).
 - **Langerhans cell histiocytosis** (disseminated / Letterer–Siwe type).
-- Occasionally other [[30_Rad Knowledge/301_Disease/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]], e.g. **[[30_Rad Knowledge/301_Disease/Ped/Pediatric neoplasm/Neuroblastoma\|Neuroblastoma]]** with skin metastases.
+- Occasionally other [[30_Rad Knowledge/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]], e.g. **[[30_Rad Knowledge/301_Systems/Ped/Pediatric neoplasm/Neuroblastoma\|Neuroblastoma]]** with skin metastases.
 ### 3. Severe haemolytic / hypoxic states
 Mechanism: severe chronic anaemia/hypoxia → marked extramedullary haematopoiesis (liver, spleen, skin).
 - Haemolytic disease of the newborn (Rh/ABO).

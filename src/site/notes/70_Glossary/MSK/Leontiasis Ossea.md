@@ -27,7 +27,7 @@
 
 | Condition                        | Notes                                                              |
 | -------------------------------- | ------------------------------------------------------------------ |
-| [[30_Rad Knowledge/301_Disease/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]            | Most common cause; esp. in polyostotic form or **McCune-Albright** |
+| [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]            | Most common cause; esp. in polyostotic form or **McCune-Albright** |
 | [[Paget disease\|Paget disease]]                | Skull base involvement; older adults                               |
 | Hyperparathyroidism              | Rare; brown tumors or generalized resorption with overgrowth       |
 | Cherubism                        | Pediatric; bilateral jaw swelling, autosomal dominant              |

@@ -11,9 +11,9 @@ Typical appearance:
 - **Coronal T1**: bright dot at the posterior margin of the gland.
 
 Clinical significance:
-- Usually **preserved (or displaced)** in **[[30_Rad Knowledge/301_Disease/Neuro/Brain/Sellar region/Pituitary adenoma\|Pituitary adenoma]]** → diabetes insipidus (DI) at presentation is uncommon.
+- Usually **preserved (or displaced)** in **[[30_Rad Knowledge/301_Systems/Neuro/Brain/Sellar region/Pituitary adenoma\|Pituitary adenoma]]** → diabetes insipidus (DI) at presentation is uncommon.
 - **Absent or ectopic** bright spot suggests **central DI** or **stalk pathology**, e.g.:
-  - [[30_Rad Knowledge/301_Disease/Neuro/Brain/Sellar region/Hypophysitis\|Hypophysitis]]
+  - [[30_Rad Knowledge/301_Systems/Neuro/Brain/Sellar region/Hypophysitis\|Hypophysitis]]
   - Langerhans cell histiocytosis
   - Metastasis / post-surgical / post-radiation damage
   - Stalk interruption syndrome
