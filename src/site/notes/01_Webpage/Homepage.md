@@ -37,5 +37,3 @@ ___
 ___
 ## Disclaimer
 This is a personal knowledge base created by a radiology resident for exam revision purposes. It is a work in progress and intended for educational reference, not as a substitute for official clinical guidelines.
-
-___
