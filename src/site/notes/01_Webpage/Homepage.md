@@ -31,9 +31,9 @@ ___
 - [[01_Webpage/Main branches/Differential diagnosis\|Differential diagnosis]]
 
 ## Random note
-<a href="/~random/">  
-<img src="/img/user/98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
-</a>
+
+![dice.png\|20](/img/user/98_Assets_Public/dice.png)
+![dice.png\|50px](/img/user/98_Assets_Public/dice.png)(/~random/)
 
 > [!Archive]
 > 👉 [[01_Webpage/Archieves/All notes\|All notes]]
