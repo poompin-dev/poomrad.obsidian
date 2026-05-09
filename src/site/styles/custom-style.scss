@@ -449,15 +449,15 @@ button {
 }
 
 /* =========================================
-   EMERGENCY PATCH: TITLE BELOW FIXED NAVBAR
+   PATCH: NOTE PAGE TITLE BELOW FIXED NAVBAR
    ========================================= */
 
 :root {
   --custom-navbar-height: 60px;
-  --custom-safe-top: 96px;
+  --custom-note-top-offset: 96px;
 }
 
-/* Keep navbar fixed */
+/* Fixed navbar */
 .navbar {
   position: fixed !important;
   top: 0 !important;
@@ -467,27 +467,42 @@ button {
   z-index: 9999 !important;
 }
 
-/* Push every likely page wrapper below navbar */
+/* Homepage fix: keep mild body offset */
 body {
-  padding-top: var(--custom-safe-top) !important;
+  padding-top: var(--custom-navbar-height) !important;
 }
 
+/* Note-page wrappers: push actual note content down */
 main,
-.page,
-.page-content,
+article,
 .content,
-.content-container,
-.markdown-preview-view,
+.page-content,
+.note-content,
 .markdown-rendered,
-article {
-  padding-top: 0 !important;
+.markdown-preview-view,
+.markdown-reading-view {
+  padding-top: 32px !important;
 }
 
-/* Stop first title from being glued upward */
+/* Stronger fix for first title inside note pages */
 main h1:first-child,
 article h1:first-child,
 .content h1:first-child,
+.page-content h1:first-child,
+.note-content h1:first-child,
 .markdown-rendered h1:first-child,
-.markdown-preview-view h1:first-child {
-  margin-top: 0 !important;
+.markdown-preview-view h1:first-child,
+.markdown-reading-view h1:first-child {
+  margin-top: 32px !important;
+  padding-top: 0 !important;
+}
+
+/* If the note title is generated as a header block */
+main > header,
+article > header,
+.content > header,
+.page-content > header,
+.note-content > header {
+  margin-top: 32px !important;
+  padding-top: 0 !important;
 }
