@@ -2,12 +2,10 @@
 {"dg-publish":true,"dg-home":true,"dg-pinned":false,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
+
 # Homepage
 
-
 **Exam-ready radiology notes, cross-linked for fast recall.**
-
-[Published physics.base|Radiology Physics]
 
 ___
 ## Recently updated notes
