@@ -5,7 +5,7 @@
 Five lines have been used to evaluate [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Skull base/Basilar invagination\|Basilar invagination]] on frontal and lateral images, based on the relative projection of the odontoid process to these lines.
 ## Lateral image
 
-
+![Radiographic line.jpeg\|450](/img/user/99_assets_Private/Neuro/Radiographic%20line.jpeg)
 
 |                        | Reference points                                                    | Basilar invagination threshold    | Misc.                                                                                                           |
 | ---------------------- | ------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -16,7 +16,7 @@ Five lines have been used to evaluate [[30_Rad Knowledge/301_Systems/Neuro/Head
 ---
 ## Frontal image
 
-
+![Basilar invagination frontal.jpeg\|450](/img/user/99_assets_Private/Neuro/Basilar%20invagination%20frontal.jpeg)
 
 |                    | Reference points                       | Basilar invagination threshold    | Misc.                         |
 | ------------------ | -------------------------------------- | --------------------------------- | ----------------------------- |

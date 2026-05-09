@@ -2,7 +2,7 @@
 {"type":["disease","list"],"path":["neoplasm","genetics"],"system":["headneck"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Paragangliomas of the head and neck.md","permalink":"/rad/301-systems/neuro/head-and-neck/paragangliomas-of-the-head-and-neck/","dgPassFrontmatter":true,"dg-note-properties":{"type":["disease","list"],"path":["neoplasm","genetics"],"system":["headneck"]}}
 ---
 
-
+![HN paragangliomas.jpg\|450](/img/user/99_assets_Private/HN%20paragangliomas.jpg)
 
 > [!summary] Core idea
 Slow growing, but locally destructive neuroendocrine tumours arising from **parasympathetic paraganglia** (neural crest origin) in the classic head and neck locations, usually **non–catecholamine-secreting but highly vascular**, seen as intense enhancement and “salt-and-pepper” MRI.

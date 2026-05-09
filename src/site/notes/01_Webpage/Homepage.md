@@ -33,7 +33,7 @@ ___
 ## Random note
 
 <a href="https://example.com](https://sfrad.vercel.app/~random/">  
-<img src="dice.png" alt="Cover image" style="width:50px;">  
+<img src="dice.png" alt="Random note" style="width:50px;">  
 </a>
 
 > [!Archive]
