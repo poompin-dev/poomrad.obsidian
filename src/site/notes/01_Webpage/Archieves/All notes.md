@@ -101,7 +101,7 @@
 - [[30_Rad Knowledge/301_Systems/GI/Pancreas/Intraductal papillary mucinous neoplasm\|Intraductal papillary mucinous neoplasm]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Spine/Intramedullary spinal cord metastasis\|Intramedullary spinal cord metastasis]]
-- [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive carcinoma of no special type\|Invasive carcinoma of no special type]]
+- [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive breast carcinoma, no special type\|Invasive breast carcinoma, no special type]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive lobular carcinoma\|Invasive lobular carcinoma]]
 - [[31_Medical knowledge/Genetics/Genetic disease/MSK/Jaffe-Campanacci syndrome\|Jaffe-Campanacci syndrome]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS developmental anomalies/Posterior fossa/Joubert syndrome\|Joubert syndrome]]
