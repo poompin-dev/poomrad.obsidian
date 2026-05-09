@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/chondroblastoma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Chondroblastoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/chondroblastoma/","dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
 ---
 
 The **most common chondroid tumor at the epiphysis**, especially in skeletally immature patients.

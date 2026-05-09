@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Bone Tumors-Behavior Spectrum.md","permalink":"/rad/301-systems/msk/bone/insight/bone-tumors-behavior-spectrum/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Bone Tumors-Behavior Spectrum.md","permalink":"/rad/301-systems/msk/bone/insight/bone-tumors-behavior-spectrum/","dg-note-properties":{"type":["insight"],"system":["MSK"],"path":["neoplasm"]}}
 ---
 
 ## Core Insight

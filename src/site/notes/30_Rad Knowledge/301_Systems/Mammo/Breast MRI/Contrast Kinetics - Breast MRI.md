@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Contrast Kinetics - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/contrast-kinetics-breast-mri/","tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physics/Contrast","Diagnosis/Differential"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Contrast Kinetics - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/contrast-kinetics-breast-mri/","tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physics/Contrast","Diagnosis/Differential"],"dg-note-properties":{"tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physics/Contrast","Diagnosis/Differential"]}}
 ---
 
 > [!summary] Key Concept

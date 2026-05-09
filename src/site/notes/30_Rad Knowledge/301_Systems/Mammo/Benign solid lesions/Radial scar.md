@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Radial scar.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/radial-scar/","tags":["breast","pathology","mimic"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Radial scar.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/radial-scar/","tags":["breast","pathology","mimic"],"dg-note-properties":{"aliases":["complex sclerosing lesion","CSL"],"tags":["breast","pathology","mimic"]}}
 ---
 
 ## General features

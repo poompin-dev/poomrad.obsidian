@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/lymphoma-signpost/","tags":["lymphoma"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/lymphoma-signpost/","tags":["lymphoma"],"dg-note-properties":{"tags":["lymphoma"],"type":["signpost","disease"],"path":["neoplasm"],"aliases":["lymphoma","lymphomatous disease"]}}
 ---
 
 ## Introduction

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Fat necrosis (Breast).md","permalink":"/rad/301-systems/mammo/fat-necrosis-breast/","tags":["breast","Pathology","mimic"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Fat necrosis (Breast).md","permalink":"/rad/301-systems/mammo/fat-necrosis-breast/","tags":["breast","Pathology","mimic"],"dg-note-properties":{"aliases":["Post-traumatic oleogranuloma","Oil cyst","Membranous fat necrosis"],"tags":["breast","Pathology","mimic"]}}
 ---
 
 ## Overview & pathophysiology

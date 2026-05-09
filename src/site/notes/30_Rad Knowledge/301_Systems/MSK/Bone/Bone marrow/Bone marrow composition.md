@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bone marrow/Bone marrow composition.md","permalink":"/rad/301-systems/msk/bone/bone-marrow/bone-marrow-composition/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bone marrow/Bone marrow composition.md","permalink":"/rad/301-systems/msk/bone/bone-marrow/bone-marrow-composition/","dg-note-properties":{"path":["anatomical"],"system":["MSK"],"type":["sci"],"modality":["MRI"]}}
 ---
 
 

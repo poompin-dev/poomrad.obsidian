@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Adamantinoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/adamantinoma/","tags":["bone-tumor","malignant","low-grade","tibia","diaphysis","epithelial","OFD-spectrum","cytokeratin-positive"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Adamantinoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/adamantinoma/","tags":["bone-tumor","malignant","low-grade","tibia","diaphysis","epithelial","OFD-spectrum","cytokeratin-positive"],"dg-note-properties":{"tags":["bone-tumor","malignant","low-grade","tibia","diaphysis","epithelial","OFD-spectrum","cytokeratin-positive"],"aliases":["Classic adamantinoma","Differentiated adamantinoma","OFD-like adamantinoma"],"path":["neoplasm"],"type":["disease"],"system":["MSK"]}}
 ---
 
 ## Overview

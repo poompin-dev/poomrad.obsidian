@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/msk/double-stripe-sign/"}
+{"dg-publish":true,"permalink":"/70-glossary/msk/double-stripe-sign/","dg-note-properties":{"type":["sign"],"modality":["Nuc"],"system":["MSK"],"aliases":["Tramline sign","Parallel track sign"]}}
 ---
 
 

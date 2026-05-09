@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteopenia.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteopenia/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteopenia.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteopenia/","dg-note-properties":{"path":["metabolic"],"system":["MSK"],"type":["insight","ddx"],"modality":["Radiograph","CT"]}}
 ---
 
 ## Overview

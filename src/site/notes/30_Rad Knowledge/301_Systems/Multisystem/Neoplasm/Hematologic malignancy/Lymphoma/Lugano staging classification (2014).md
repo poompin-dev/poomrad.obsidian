@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014).md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/lugano-staging-classification-2014/","tags":["lymphoma"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014).md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/lugano-staging-classification-2014/","tags":["lymphoma"],"dg-note-properties":{"aliases":["Lugano staging"],"path":["neoplasm"],"type":["grading"],"tags":["lymphoma"]}}
 ---
 
 Modern [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]] staging that **keeps [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor anatomic stages]]** but formally integrates **FDG PET-CT** for FDG-avid lymphomas and standardises terminology.

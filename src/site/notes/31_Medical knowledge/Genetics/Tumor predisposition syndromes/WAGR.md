@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/wagr/"}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/wagr/","dg-note-properties":{"path":["congenital","genetics","neoplasm"],"ped":true,"system":["GU","neuro"],"type":["syndrome","list"]}}
 ---
 
 Deletion 11p13 involving **WT1 + PAX6**.

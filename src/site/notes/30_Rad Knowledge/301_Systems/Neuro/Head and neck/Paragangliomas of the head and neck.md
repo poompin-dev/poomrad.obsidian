@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Paragangliomas of the head and neck.md","permalink":"/rad/301-systems/neuro/head-and-neck/paragangliomas-of-the-head-and-neck/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Paragangliomas of the head and neck.md","permalink":"/rad/301-systems/neuro/head-and-neck/paragangliomas-of-the-head-and-neck/","dg-note-properties":{"type":["disease","list"],"path":["neoplasm","genetics"],"system":["headneck"]}}
 ---
 
 

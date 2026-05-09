@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Shoulder/Quadrilateral space syndrome.md","permalink":"/rad/301-systems/msk/joint/by-location/shoulder/quadrilateral-space-syndrome/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Shoulder/Quadrilateral space syndrome.md","permalink":"/rad/301-systems/msk/joint/by-location/shoulder/quadrilateral-space-syndrome/","dg-note-properties":{"aliases":["QSS"],"path":["anatomical"],"system":["MSK"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 

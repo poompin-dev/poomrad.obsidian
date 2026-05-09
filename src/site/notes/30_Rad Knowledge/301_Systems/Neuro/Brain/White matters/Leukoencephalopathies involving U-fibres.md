@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/White matters/Leukoencephalopathies involving U-fibres.md","permalink":"/rad/301-systems/neuro/brain/white-matters/leukoencephalopathies-involving-u-fibres/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/White matters/Leukoencephalopathies involving U-fibres.md","permalink":"/rad/301-systems/neuro/brain/white-matters/leukoencephalopathies-involving-u-fibres/","dg-note-properties":{"system":["neuro"],"type":["ddx"],"modality":["MRI"]}}
 ---
 
 **U-fibres (subcortical arcuate fibres)** sit right under the cortex. The disease involvement represents **juxtacortical/subcortical process** rather than “pure periventricular deep WM” disease.

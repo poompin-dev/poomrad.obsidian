@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Invasive carcinoma of no special type.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/invasive-carcinoma-of-no-special-type/","tags":["breast","Pathology","oncology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Invasive carcinoma of no special type.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/invasive-carcinoma-of-no-special-type/","tags":["breast","Pathology","oncology"],"dg-note-properties":{"tags":["breast","Pathology","oncology"],"aliases":["IDC"]}}
 ---
 
 Formerly Invasive Ductal Carcinoma (IDC). Accounts for 70-80% of all invasive breast cancers.

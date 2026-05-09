@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Pituitary adenoma.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/pituitary-adenoma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Pituitary adenoma.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/pituitary-adenoma/","dg-note-properties":{"path":["neoplasm"],"system":["neuro"],"type":["disease"]}}
 ---
 
 ## Terminology

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/HIV encephalopathy.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/hiv-encephalopathy/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/HIV encephalopathy.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/hiv-encephalopathy/","dg-note-properties":{"aliases":["HIVE","HIV encephalitis"],"path":["infection"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 > [!summary]

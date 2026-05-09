@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Ossification of posterior longitudinal ligament.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","tags":["spine","neuro","msk"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Ossification of posterior longitudinal ligament.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","tags":["spine","neuro","msk"],"dg-note-properties":{"aliases":["OPLL"],"tags":["spine","neuro","msk"]}}
 ---
 
 ## Overview

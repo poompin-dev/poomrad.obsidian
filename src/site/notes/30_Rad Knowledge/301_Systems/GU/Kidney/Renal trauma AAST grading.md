@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal trauma AAST grading.md","permalink":"/rad/301-systems/gu/kidney/renal-trauma-aast-grading/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal trauma AAST grading.md","permalink":"/rad/301-systems/gu/kidney/renal-trauma-aast-grading/","dg-note-properties":{"path":["trauma"],"system":["GU"],"type":["grading"],"modality":["CT"]}}
 ---
 
 Anatomic severity of renal injury stratifies mainly by depth of laceration, collecting system involvement, and vascular injury/active bleeding.

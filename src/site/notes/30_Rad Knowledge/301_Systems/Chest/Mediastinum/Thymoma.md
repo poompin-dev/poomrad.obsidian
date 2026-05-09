@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymoma.md","permalink":"/rad/301-systems/chest/mediastinum/thymoma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymoma.md","permalink":"/rad/301-systems/chest/mediastinum/thymoma/","dg-note-properties":{"path":["neoplasm"],"system":["chest"],"type":["disease"],"aliases":["Thymic epithelial tumour"]}}
 ---
 
 > [!summary]

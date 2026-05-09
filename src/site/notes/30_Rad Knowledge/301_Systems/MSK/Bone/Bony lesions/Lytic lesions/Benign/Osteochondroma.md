@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/osteochondroma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/osteochondroma/","dg-note-properties":{"ped":true,"path":["malformation"],"type":["disease"],"system":["MSK"]}}
 ---
 
 ## Overview

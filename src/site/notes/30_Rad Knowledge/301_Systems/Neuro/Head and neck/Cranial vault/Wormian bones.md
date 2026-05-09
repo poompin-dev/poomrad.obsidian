@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Cranial vault/Wormian bones.md","permalink":"/rad/301-systems/neuro/head-and-neck/cranial-vault/wormian-bones/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Cranial vault/Wormian bones.md","permalink":"/rad/301-systems/neuro/head-and-neck/cranial-vault/wormian-bones/","dg-note-properties":{"ped":true,"system":["neuro"],"type":["list","ddx"]}}
 ---
 
 Wormian bones = **extra ossicles within cranial sutures**, especially lambdoid.

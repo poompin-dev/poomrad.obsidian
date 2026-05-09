@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/atypical-ductal-hyperplasia/","tags":["breast","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/atypical-ductal-hyperplasia/","tags":["breast","Pathology"],"dg-note-properties":{"aliases":["ADH"],"tags":["breast","Pathology"]}}
 ---
 
 ## Definition

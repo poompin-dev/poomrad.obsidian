@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Cortical nephrocalcinosis.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/cortical-nephrocalcinosis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Cortical nephrocalcinosis.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/cortical-nephrocalcinosis/","dg-note-properties":{"system":["GU"],"type":["list","disease"]}}
 ---
 
 

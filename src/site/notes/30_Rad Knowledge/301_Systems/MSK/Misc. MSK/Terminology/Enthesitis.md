@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Misc. MSK/Terminology/Enthesitis.md","permalink":"/rad/301-systems/msk/misc-msk/terminology/enthesitis/","tags":["msk"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Misc. MSK/Terminology/Enthesitis.md","permalink":"/rad/301-systems/msk/misc-msk/terminology/enthesitis/","tags":["msk"],"dg-note-properties":{"tags":["msk"],"aliases":["Enthesopathy"],"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Terminology

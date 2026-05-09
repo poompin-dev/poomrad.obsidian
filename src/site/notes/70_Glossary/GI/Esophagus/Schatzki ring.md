@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/schatzki-ring/"}
+{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/schatzki-ring/","dg-note-properties":{"system":["GI"],"type":["disease"],"modality":["Fluoro"]}}
 ---
 
 ## Core idea

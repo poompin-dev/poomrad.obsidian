@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/msk/multiple-hereditary-exostoses/"}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/msk/multiple-hereditary-exostoses/","dg-note-properties":{"aliases":["MHE","Osteochondromatosis"],"ped":true,"path":["genetics","malformation"],"system":["MSK"],"type":["disease"]}}
 ---
 
 **Genetic disorder**: multiple [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]s throughout the skeleton

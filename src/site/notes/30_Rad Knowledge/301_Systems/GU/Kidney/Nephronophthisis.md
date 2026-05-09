@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Nephronophthisis.md","permalink":"/rad/301-systems/gu/kidney/nephronophthisis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Nephronophthisis.md","permalink":"/rad/301-systems/gu/kidney/nephronophthisis/","dg-note-properties":{"path":["genetics"],"ped":true,"system":["GU"],"type":["disease"],"modality":["Ultrasound"]}}
 ---
 
 Nephronophthisis = **autosomal recessive tubulointerstitial kidney disease** that is a **leading genetic cause of end-stage renal failure in children/teens.**

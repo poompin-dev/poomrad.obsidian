@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Developmental/Foregut duplication cysts.md","permalink":"/rad/301-systems/ped/developmental/foregut-duplication-cysts/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Developmental/Foregut duplication cysts.md","permalink":"/rad/301-systems/ped/developmental/foregut-duplication-cysts/","dg-note-properties":{"path":["malformation","congenital"],"ped":true,"system":["chest"],"type":["disease"]}}
 ---
 
 ## Overview

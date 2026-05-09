@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Fibrosing mediastinitis.md","permalink":"/rad/301-systems/chest/mediastinum/fibrosing-mediastinitis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Fibrosing mediastinitis.md","permalink":"/rad/301-systems/chest/mediastinum/fibrosing-mediastinitis/","dg-note-properties":{"path":["infection","autoimmune"],"system":["chest"],"type":["disease"]}}
 ---
 
 Rare fibroinflammatory reaction in the mediastinum that progressively encases and narrows mediastinal structures (vessels, airways). Often post-infectious (classically histoplasmosis in North America; TB can be relevant in Asia) but can be IgG4-related or idiopathic.

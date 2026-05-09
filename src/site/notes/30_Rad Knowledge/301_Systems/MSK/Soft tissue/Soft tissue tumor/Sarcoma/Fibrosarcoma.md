@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/fibrosarcoma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/fibrosarcoma/","dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["disease"]}}
 ---
 
 Malignant fibroblastic tumour producing collagen; **true adult-type fibrosarcoma is now very rare** (often a **diagnosis of exclusion** after modern IHC/molecular reclassification).

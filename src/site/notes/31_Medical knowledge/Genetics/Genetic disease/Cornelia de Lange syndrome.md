@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/cornelia-de-lange-syndrome/","tags":["syndrome","congenital"]}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/cornelia-de-lange-syndrome/","tags":["syndrome","congenital"],"dg-note-properties":{"tags":["syndrome","congenital"]}}
 ---
 
 ## Key points

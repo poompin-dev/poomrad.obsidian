@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/","tags":["msk","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/","tags":["msk","Pathology"],"dg-note-properties":{"aliases":["NOF","Fibroxanthoma","FCD","Fibrous cortical defect","Metaphyseal cortical defect"],"tags":["msk","Pathology"],"path":["malformation"],"ped":true,"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Overview

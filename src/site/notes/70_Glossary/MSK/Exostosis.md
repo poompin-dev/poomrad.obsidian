@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/msk/exostosis/"}
+{"dg-publish":true,"permalink":"/70-glossary/msk/exostosis/","dg-note-properties":{"system":["MSK"],"type":["disease"]}}
 ---
 
 

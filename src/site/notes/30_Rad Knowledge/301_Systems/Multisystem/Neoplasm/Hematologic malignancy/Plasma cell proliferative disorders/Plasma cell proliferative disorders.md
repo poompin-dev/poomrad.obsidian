@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/","dg-note-properties":{}}
 ---
 
 ## Hallmark:

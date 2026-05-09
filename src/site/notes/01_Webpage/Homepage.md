@@ -1,11 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 # Homepage
 
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
+
+[[Published physics.base|Radiology Physics]]
 
 ___
 ## Recently updated notes
@@ -27,6 +29,9 @@ ___
 ## I am looking for certain...
 - [[01_Webpage/Topics\|Topics]]
 - [[01_Webpage/Differential diagnosis\|Differential diagnosis]]
+
+## I am bored. Choose for me please.
+👉 [[https://sfrad.vercel.app/~random/\|Random notes]] 
 
 > [!Archive]
 > 👉 [[01_Webpage/All notes\|All notes]]

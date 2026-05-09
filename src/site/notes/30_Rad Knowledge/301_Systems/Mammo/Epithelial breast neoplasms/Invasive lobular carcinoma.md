@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Invasive lobular carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/invasive-lobular-carcinoma/","tags":["breast","Pathology","oncology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Invasive lobular carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/invasive-lobular-carcinoma/","tags":["breast","Pathology","oncology"],"dg-note-properties":{"aliases":["ILC"],"tags":["breast","Pathology","oncology"]}}
 ---
 
 Accounts for 5-15%. Cells lack E-cadherin (non-cohesive).

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/List of sclerotic bony conditions.md","permalink":"/rad/301-systems/msk/bone/insight/list-of-sclerotic-bony-conditions/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/List of sclerotic bony conditions.md","permalink":"/rad/301-systems/msk/bone/insight/list-of-sclerotic-bony-conditions/","dg-note-properties":{}}
 ---
 
 ## Focal

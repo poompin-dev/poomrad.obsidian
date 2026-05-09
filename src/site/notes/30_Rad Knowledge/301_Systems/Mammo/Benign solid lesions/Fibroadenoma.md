@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Fibroadenoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/fibroadenoma/","tags":["breast","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Fibroadenoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/fibroadenoma/","tags":["breast","Pathology"],"dg-note-properties":{"tags":["breast","Pathology"]}}
 ---
 
 Most common breast mass in women <30 years. Estrogen-sensitive (grows in pregnancy, involutes in menopause).

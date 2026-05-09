@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Developmental/Infantile hypertrophic pyloric stenosis.md","permalink":"/rad/301-systems/ped/developmental/infantile-hypertrophic-pyloric-stenosis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Developmental/Infantile hypertrophic pyloric stenosis.md","permalink":"/rad/301-systems/ped/developmental/infantile-hypertrophic-pyloric-stenosis/","dg-note-properties":{"aliases":["IHPS"],"ped":true,"system":["GI"],"modality":["Radiograph","Fluoro","Ultrasound"],"type":["disease"]}}
 ---
 
 

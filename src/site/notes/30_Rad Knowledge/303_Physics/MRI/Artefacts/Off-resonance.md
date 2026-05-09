@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Off-resonance.md","permalink":"/rad/303-physics/mri/artefacts/off-resonance/"}
+{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Off-resonance.md","permalink":"/rad/303-physics/mri/artefacts/off-resonance/","dg-note-properties":{}}
 ---
 
 Off-resonance = spins precess at a slightly "wrong" frequency because of local B0 inhomogeneity

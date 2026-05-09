@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pylorospasm.md","permalink":"/rad/301-systems/ped/pylorospasm/","tags":["paediatric","infant","ultrasound","vomiting"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pylorospasm.md","permalink":"/rad/301-systems/ped/pylorospasm/","tags":["paediatric","infant","ultrasound","vomiting"],"dg-note-properties":{"path":["idiopathic"],"ped":true,"system":["GI"],"type":["variant"],"tags":["paediatric","infant","ultrasound","vomiting"]}}
 ---
 
 Mimic/ddx consideration for [[30_Rad Knowledge/301_Systems/Ped/Developmental/Infantile hypertrophic pyloric stenosis\|Infantile hypertrophic pyloric stenosis]].

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Basilar invagination.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/basilar-invagination/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Basilar invagination.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/basilar-invagination/","dg-note-properties":{"system":["neuro"],"type":["disease"]}}
 ---
 
 

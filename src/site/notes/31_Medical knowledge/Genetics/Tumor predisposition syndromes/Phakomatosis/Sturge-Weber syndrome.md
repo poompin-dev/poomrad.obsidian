@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/phakomatosis/sturge-weber-syndrome/","tags":["neuro"]}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/phakomatosis/sturge-weber-syndrome/","tags":["neuro"],"dg-note-properties":{"tags":["neuro"]}}
 ---
 
 ## Key points

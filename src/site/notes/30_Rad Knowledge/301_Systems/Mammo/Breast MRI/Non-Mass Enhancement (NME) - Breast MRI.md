@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Non-Mass Enhancement (NME) - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/non-mass-enhancement-nme-breast-mri/","tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Diagnosis/DCIS","Diagnosis/ILC","Diagnosis/Differential"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Non-Mass Enhancement (NME) - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/non-mass-enhancement-nme-breast-mri/","tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Diagnosis/DCIS","Diagnosis/ILC","Diagnosis/Differential"],"dg-note-properties":{"tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Diagnosis/DCIS","Diagnosis/ILC","Diagnosis/Differential"]}}
 ---
 
 > [!summary] Key Concept

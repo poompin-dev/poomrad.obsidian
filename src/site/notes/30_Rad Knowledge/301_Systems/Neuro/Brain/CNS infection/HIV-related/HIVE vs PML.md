@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/HIVE vs PML.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/hive-vs-pml/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/HIVE vs PML.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/hive-vs-pml/","dg-note-properties":{"path":["infection"],"system":["neuro"],"type":["VS"],"modality":["MRI"]}}
 ---
 
 | Feature           | **[[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS infection/HIV-related/HIV encephalopathy\|HIVE]] (HIV encephalopathy)**                                                                            | **[[30_Rad Knowledge/301_Systems/Neuro/Brain/CNS infection/HIV-related/Progressive multifocal leukoencephalopathy\|PML]] (JC virus)**                                                                                      |

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Lodwick classification (original).md","permalink":"/rad/301-systems/msk/bone/insight/lodwick-classification-original/","tags":["bone-tumor"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Lodwick classification (original).md","permalink":"/rad/301-systems/msk/bone/insight/lodwick-classification-original/","tags":["bone-tumor"],"dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["grading"],"modality":["Radiograph"],"tags":["bone-tumor"]}}
 ---
 
 Grading growth/aggressiveness of _lytic_ lesions on radiograph according to border pattern.

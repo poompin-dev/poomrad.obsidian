@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Renal osteodystrophy.md","permalink":"/rad/301-systems/msk/bone/metabolic/renal-osteodystrophy/","tags":["chronic-renal-failure"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Renal osteodystrophy.md","permalink":"/rad/301-systems/msk/bone/metabolic/renal-osteodystrophy/","tags":["chronic-renal-failure"],"dg-note-properties":{"path":["endocrine","metabolic"],"system":["MSK"],"type":["disease"],"tags":["chronic-renal-failure"]}}
 ---
 
 Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:

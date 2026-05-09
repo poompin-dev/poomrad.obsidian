@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Rathke’s cleft cyst.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/rathke-s-cleft-cyst/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Rathke’s cleft cyst.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/rathke-s-cleft-cyst/","dg-note-properties":{"path":["malformation"],"system":["neuro"],"type":["disease"]}}
 ---
 
 > [!summary]  

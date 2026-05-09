@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/bannayan-riley-ruvalcaba-syndrome/"}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/bannayan-riley-ruvalcaba-syndrome/","dg-note-properties":{"type":["syndrome"],"path":["genetics","neoplasm"],"system":["MSK"]}}
 ---
 
 Spectrum / variant of [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Cowden syndrome\|Cowden syndrome]] within the [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/PTEN-related diseases\|PTEN-related diseases]] / PHTS family – tends to present earlier with more prominent overgrowth + musculoskeletal features.

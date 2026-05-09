@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Metabolic/Transient lesion of the splenium.md","permalink":"/rad/301-systems/neuro/brain/metabolic/transient-lesion-of-the-splenium/","tags":["neuro"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Metabolic/Transient lesion of the splenium.md","permalink":"/rad/301-systems/neuro/brain/metabolic/transient-lesion-of-the-splenium/","tags":["neuro"],"dg-note-properties":{"aliases":["MERS","RESLES","MERS/RESLES"],"tags":["neuro"]}}
 ---
 
 ## Key points

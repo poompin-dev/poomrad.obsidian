@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/intraductal-papilloma/","tags":["breast","Pathology"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/intraductal-papilloma/","tags":["breast","Pathology"],"dg-note-properties":{"tags":["breast","Pathology"]}}
 ---
 
 Proliferation of ductal epithelium on fibrovascular core. Common cause of pathologic nipple discharge. Considered [[30_Rad Knowledge/301_Systems/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential)\|B3 lesions]].

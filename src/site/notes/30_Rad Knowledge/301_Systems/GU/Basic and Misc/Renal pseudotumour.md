@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Basic and Misc/Renal pseudotumour.md","permalink":"/rad/301-systems/gu/basic-and-misc/renal-pseudotumour/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Basic and Misc/Renal pseudotumour.md","permalink":"/rad/301-systems/gu/basic-and-misc/renal-pseudotumour/","dg-note-properties":{"type":["ddx","list"],"system":["GU"]}}
 ---
 
 **Developmental**

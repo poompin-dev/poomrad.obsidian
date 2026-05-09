@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Intraductal papillary mucinous neoplasm.md","permalink":"/rad/301-systems/gi/pancreas/intraductal-papillary-mucinous-neoplasm/","tags":["pancreas","cystic-tumour","premalignant","mucin","MRCP"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Intraductal papillary mucinous neoplasm.md","permalink":"/rad/301-systems/gi/pancreas/intraductal-papillary-mucinous-neoplasm/","tags":["pancreas","cystic-tumour","premalignant","mucin","MRCP"],"dg-note-properties":{"aliases":["IPMN"],"tags":["pancreas","cystic-tumour","premalignant","mucin","MRCP"]}}
 ---
 
 ## Overview

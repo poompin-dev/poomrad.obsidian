@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/SAPHO syndrome.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/sapho-syndrome/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/SAPHO syndrome.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/sapho-syndrome/","dg-note-properties":{"path":["idiopathic"],"system":["MSK"],"type":["disease"]}}
 ---
 
 The acronym SAPHO represent the major findings of

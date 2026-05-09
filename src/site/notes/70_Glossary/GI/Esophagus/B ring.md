@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/b-ring/"}
+{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/b-ring/","dg-note-properties":{"system":["GI"],"type":["anatomy"],"modality":["Fluoro"]}}
 ---
 
 - **Mucosal ring** at the **squamocolumnar junction (Z-line)**

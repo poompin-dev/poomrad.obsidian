@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/special-fracture/atypical-femoral-fracture/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/special-fracture/atypical-femoral-fracture/","dg-note-properties":{"type":["disease"],"system":["MSK"],"path":["trauma","iatrogenic"]}}
 ---
 
 ## Definition

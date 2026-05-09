@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Phaeochromocytoma - Paraganglioma.md","permalink":"/rad/301-systems/gu/adrenal-gland/phaeochromocytoma-paraganglioma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Phaeochromocytoma - Paraganglioma.md","permalink":"/rad/301-systems/gu/adrenal-gland/phaeochromocytoma-paraganglioma/","dg-note-properties":{"aliases":["Pheochromocytoma","Paraganglioma","PPGL"],"path":["neoplasm","endocrine"],"type":["disease"]}}
 ---
 
 

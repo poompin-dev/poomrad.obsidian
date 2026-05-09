@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/Nuclear imaging/Superscan.md","permalink":"/rad/303-physics/nuclear-imaging/superscan/","tags":["bonescan"]}
+{"dg-publish":true,"dg-path":"Rad/303_Physics/Nuclear imaging/Superscan.md","permalink":"/rad/303-physics/nuclear-imaging/superscan/","tags":["bonescan"],"dg-note-properties":{"type":["ddx"],"modality":["Nuc"],"tags":["bonescan"]}}
 ---
 
 > [!summary]  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis signpost.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteoporosis-signpost/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis signpost.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteoporosis-signpost/","dg-note-properties":{"type":["signpost"],"system":["MSK"]}}
 ---
 
 ## Basics

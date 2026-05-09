@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/White matters/List of leukoencephalopathies that typically spare U-fibres.md","permalink":"/rad/301-systems/neuro/brain/white-matters/list-of-leukoencephalopathies-that-typically-spare-u-fibres/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/White matters/List of leukoencephalopathies that typically spare U-fibres.md","permalink":"/rad/301-systems/neuro/brain/white-matters/list-of-leukoencephalopathies-that-typically-spare-u-fibres/","dg-note-properties":{}}
 ---
 
 These entities at least leave thin “juxtacortical rim” relatively normal in its earlier course.

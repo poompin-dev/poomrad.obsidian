@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/ped/blueberry-muffin-baby/"}
+{"dg-publish":true,"permalink":"/70-glossary/ped/blueberry-muffin-baby/","dg-note-properties":{"ped":true,"type":["sign","ddx"]}}
 ---
 
 > [!summary]

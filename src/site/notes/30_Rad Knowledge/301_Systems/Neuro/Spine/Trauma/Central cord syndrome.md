@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/Central cord syndrome.md","permalink":"/rad/301-systems/neuro/spine/trauma/central-cord-syndrome/","tags":["spine","neuro","trauma"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/Central cord syndrome.md","permalink":"/rad/301-systems/neuro/spine/trauma/central-cord-syndrome/","tags":["spine","neuro","trauma"],"dg-note-properties":{"aliases":["CCS","Acute traumatic central cord syndrome"],"tags":["spine","neuro","trauma"]}}
 ---
 
 > [!summary] Summary

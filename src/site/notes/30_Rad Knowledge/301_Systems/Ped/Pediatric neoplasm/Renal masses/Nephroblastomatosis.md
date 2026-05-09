@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis.md","permalink":"/rad/301-systems/ped/pediatric-neoplasm/renal-masses/nephroblastomatosis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pediatric neoplasm/Renal masses/Nephroblastomatosis.md","permalink":"/rad/301-systems/ped/pediatric-neoplasm/renal-masses/nephroblastomatosis/","dg-note-properties":{"aliases":["Nephrogenic rest","Metanephric blastema"],"path":["neoplasm"],"system":["GU"],"ped":true,"type":["variant"]}}
 ---
 
 ## Key points

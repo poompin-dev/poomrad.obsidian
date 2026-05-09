@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Adrenal adenoma.md","permalink":"/rad/301-systems/gu/adrenal-gland/adrenal-adenoma/","tags":["adrenal","lesion/mass"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Adrenal adenoma.md","permalink":"/rad/301-systems/gu/adrenal-gland/adrenal-adenoma/","tags":["adrenal","lesion/mass"],"dg-note-properties":{"type":["disease"],"system":["GU"],"path":["neoplasm","endocrine"],"tags":["adrenal","lesion/mass"]}}
 ---
 
 ## Key points

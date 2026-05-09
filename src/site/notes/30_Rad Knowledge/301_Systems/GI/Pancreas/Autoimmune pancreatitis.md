@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Autoimmune pancreatitis.md","permalink":"/rad/301-systems/gi/pancreas/autoimmune-pancreatitis/","tags":["pancreas","autoimmune","IgG4-related","chronic-pancreatitis"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Autoimmune pancreatitis.md","permalink":"/rad/301-systems/gi/pancreas/autoimmune-pancreatitis/","tags":["pancreas","autoimmune","IgG4-related","chronic-pancreatitis"],"dg-note-properties":{"aliases":["IgG4-related pancreatitis","Lymphoplasmacytic sclerosing pancreatitis","Sclerosing pancreatitis"],"tags":["pancreas","autoimmune","IgG4-related","chronic-pancreatitis"]}}
 ---
 
 ## Overview

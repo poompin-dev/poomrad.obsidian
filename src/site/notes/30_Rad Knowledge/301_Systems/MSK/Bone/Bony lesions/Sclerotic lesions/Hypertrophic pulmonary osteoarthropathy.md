@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic pulmonary osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/hypertrophic-pulmonary-osteoarthropathy/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic pulmonary osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/hypertrophic-pulmonary-osteoarthropathy/","dg-note-properties":{"system":["MSK"],"type":["disease"]}}
 ---
 
 > [!summary]

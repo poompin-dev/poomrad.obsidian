@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma.md","permalink":"/rad/301-systems/neuro/brain/cns-neoplasm/dysplastic-cerebellar-gangliocytoma/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS Neoplasm/Dysplastic cerebellar gangliocytoma.md","permalink":"/rad/301-systems/neuro/brain/cns-neoplasm/dysplastic-cerebellar-gangliocytoma/","dg-note-properties":{"aliases":["Lhermitte-Duclos disease","LDD"],"path":["neoplasm","genetics"],"system":["neuro"],"type":["disease"]}}
 ---
 
 ## Exam points

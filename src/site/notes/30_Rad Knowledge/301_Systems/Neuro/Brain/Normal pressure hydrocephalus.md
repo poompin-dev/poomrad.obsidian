@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Normal pressure hydrocephalus.md","permalink":"/rad/301-systems/neuro/brain/normal-pressure-hydrocephalus/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Normal pressure hydrocephalus.md","permalink":"/rad/301-systems/neuro/brain/normal-pressure-hydrocephalus/","dg-note-properties":{"aliases":["NPH","Normal-pressure hydrocephalus"],"system":["neuro"],"type":["disease"],"modality":["CT","MRI"]}}
 ---
 
 > [!summary]

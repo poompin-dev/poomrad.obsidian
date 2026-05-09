@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/infectious/bacteria/brucellosis/","tags":["Infection","Radiology/MSK","Radiology/Neuro","Radiology/Abdo"]}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/infectious/bacteria/brucellosis/","tags":["Infection","Radiology/MSK","Radiology/Neuro","Radiology/Abdo"],"dg-note-properties":{"aliases":["Undulant fever","Malta fever","Mediterranean fever"],"tags":["Infection","Radiology/MSK","Radiology/Neuro","Radiology/Abdo"]}}
 ---
 
 ## Clinical & Epidemiological Context

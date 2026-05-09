@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/hamartoma/"}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/hamartoma/","dg-note-properties":{"path":["neoplasm"],"type":["sci"]}}
 ---
 
 ## Overview

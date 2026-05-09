@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","tags":["Lymphoma","hemato"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","tags":["Lymphoma","hemato"],"dg-note-properties":{"path":["neoplasm"],"type":["disease"],"aliases":["HL"],"system":["chest"],"tags":["Lymphoma","hemato"]}}
 ---
 
 > [!info] Notice

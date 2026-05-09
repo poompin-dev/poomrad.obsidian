@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteoporosis/"}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/osteoporosis/","dg-note-properties":{"path":["metabolic"],"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Overview
