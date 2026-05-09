@@ -454,6 +454,7 @@ button {
 
 body {
   padding-top: var(--custom-navbar-height) !important;
+  border-bottom: 1px solid var(--background-modifier-border);
 }
 
 main,
@@ -477,12 +478,4 @@ article h1:first-child,
 .markdown-reading-view h1:first-child {
   margin-top: 40px !important;
   padding-top: 0 !important;
-}
-
-/* ===== Divider under tags before note body ===== */
-
-.tags {
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--background-modifier-border);
 }
