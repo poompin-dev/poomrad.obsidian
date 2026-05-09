@@ -452,27 +452,10 @@ button {
    PATCH: NOTE PAGE TITLE BELOW FIXED NAVBAR
    ========================================= */
 
-:root {
-  --custom-navbar-height: 60px;
-  --custom-note-top-offset: 96px;
-}
-
-/* Fixed navbar */
-.navbar {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  height: var(--custom-navbar-height) !important;
-  z-index: 9999 !important;
-}
-
-/* Homepage fix: keep mild body offset */
 body {
   padding-top: var(--custom-navbar-height) !important;
 }
 
-/* Note-page wrappers: push actual note content down */
 main,
 article,
 .content,
@@ -484,7 +467,6 @@ article,
   padding-top: 32px !important;
 }
 
-/* Stronger fix for first title inside note pages */
 main h1:first-child,
 article h1:first-child,
 .content h1:first-child,
@@ -493,16 +475,6 @@ article h1:first-child,
 .markdown-rendered h1:first-child,
 .markdown-preview-view h1:first-child,
 .markdown-reading-view h1:first-child {
-  margin-top: 32px !important;
-  padding-top: 0 !important;
-}
-
-/* If the note title is generated as a header block */
-main > header,
-article > header,
-.content > header,
-.page-content > header,
-.note-content > header {
   margin-top: 32px !important;
   padding-top: 0 !important;
 }
