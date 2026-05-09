@@ -30,8 +30,8 @@ ___
 
 ## Random note
 
-<a href="https://example.com](https://sfrad.vercel.app/~random/">  
-<img src="dice.png" alt="Random note" style="width:50px;">  
+<a href="/~random/">  
+<img src="98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
 </a>
 
 > [!Archive]
