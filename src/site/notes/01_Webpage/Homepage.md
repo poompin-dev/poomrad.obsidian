@@ -31,7 +31,7 @@ ___
 - [[01_Webpage/Differential diagnosis\|Differential diagnosis]]
 
 ## I am bored. Choose for me please.
-👉 [https://sfrad.vercel.app/random] 
+👉 https://sfrad.vercel.app/~random/
 
 > [!Archive]
 > 👉 [[01_Webpage/All notes\|All notes]]
