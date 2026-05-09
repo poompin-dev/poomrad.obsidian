@@ -1,5 +1,5 @@
 ---
-{"type":["list"],"system":["MSK"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Atraumatic fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/atraumatic-fracture/","dgPassFrontmatter":true,"dg-note-properties":{"type":["list"],"system":["MSK"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Atraumatic fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/atraumatic-fracture/","dg-note-properties":{"type":["list"],"system":["MSK"]}}
 ---
 
 It is a clinical/history-based term describing fractures with **no clearly identifiable discrete or memorable traumatic event**. This distinction helps guide the initial differential diagnosis.

@@ -1,5 +1,5 @@
 ---
-{"aliases":["Bisphosphonates"],"type":["medicine"],"system":["MSK"],"dg-publish":true,"permalink":"/31-medical-knowledge/pharmacology/bisphosphonate/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Bisphosphonates"],"type":["medicine"],"system":["MSK"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/pharmacology/bisphosphonate/","dg-note-properties":{"aliases":["Bisphosphonates"],"type":["medicine"],"system":["MSK"]}}
 ---
 
 

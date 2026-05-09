@@ -1,5 +1,5 @@
 ---
-{"aliases":["CPFE"],"path":["idiopathic","toxic"],"system":["chest"],"type":["disease"],"modality":["Radiograph","CT"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Interstitial lung diseases (ILDs)/Combined pulmonary fibrosis and emphysema.md","permalink":"/rad/301-systems/chest/interstitial-lung-diseases-il-ds/combined-pulmonary-fibrosis-and-emphysema/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["CPFE"],"path":["idiopathic","toxic"],"system":["chest"],"type":["disease"],"modality":["Radiograph","CT"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Interstitial lung diseases (ILDs)/Combined pulmonary fibrosis and emphysema.md","permalink":"/rad/301-systems/chest/interstitial-lung-diseases-il-ds/combined-pulmonary-fibrosis-and-emphysema/","dg-note-properties":{"aliases":["CPFE"],"path":["idiopathic","toxic"],"system":["chest"],"type":["disease"],"modality":["Radiograph","CT"]}}
 ---
 
 **CPFE** = upper-lobe predominant emphysema plus clinically significant fibrotic ILD (often UIP/IPF) with a characteristic physiology (preserved volumes but poor gas transfer) and high complication risk.

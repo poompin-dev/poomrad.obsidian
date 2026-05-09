@@ -1,5 +1,5 @@
 ---
-{"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"path":["neoplasm"],"type":["list","ddx"],"ped":true,"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/small-round-blue-cell-tumours/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"path":["neoplasm"],"type":["list","ddx"],"ped":true}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/small-round-blue-cell-tumours/","dg-note-properties":{"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"path":["neoplasm"],"type":["list","ddx"],"ped":true}}
 ---
 
 ## Concept

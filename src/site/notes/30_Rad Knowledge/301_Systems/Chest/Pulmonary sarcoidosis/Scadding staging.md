@@ -1,5 +1,5 @@
 ---
-{"aliases":null,"tags":["thorax","grading"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Scadding staging.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/scadding-staging/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":null,"tags":["thorax","grading"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Scadding staging.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/scadding-staging/","tags":["thorax","grading"],"dg-note-properties":{"aliases":null,"tags":["thorax","grading"]}}
 ---
 
 ## Overview

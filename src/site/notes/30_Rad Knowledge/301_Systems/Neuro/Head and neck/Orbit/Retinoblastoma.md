@@ -1,5 +1,5 @@
 ---
-{"tags":["neuro","Orbit","lesion/mass"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Orbit/Retinoblastoma.md","permalink":"/rad/301-systems/neuro/head-and-neck/orbit/retinoblastoma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["neuro","Orbit","lesion/mass"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Orbit/Retinoblastoma.md","permalink":"/rad/301-systems/neuro/head-and-neck/orbit/retinoblastoma/","tags":["neuro","Orbit","lesion/mass"],"dg-note-properties":{"tags":["neuro","Orbit","lesion/mass"]}}
 ---
 
 ## Key points

@@ -1,5 +1,5 @@
 ---
-{"aliases":["SIFFH"],"tags":["hip","femoral-head","insufficiency-fracture","subchondral","osteoporosis","bone-marrow-edema","collapse-risk"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Hip/Subchondral insufficiency fracture of the femoral head.md","permalink":"/rad/301-systems/msk/joint/by-location/hip/subchondral-insufficiency-fracture-of-the-femoral-head/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["SIFFH"],"tags":["hip","femoral-head","insufficiency-fracture","subchondral","osteoporosis","bone-marrow-edema","collapse-risk"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Hip/Subchondral insufficiency fracture of the femoral head.md","permalink":"/rad/301-systems/msk/joint/by-location/hip/subchondral-insufficiency-fracture-of-the-femoral-head/","tags":["hip","femoral-head","insufficiency-fracture","subchondral","osteoporosis","bone-marrow-edema","collapse-risk"],"dg-note-properties":{"aliases":["SIFFH"],"tags":["hip","femoral-head","insufficiency-fracture","subchondral","osteoporosis","bone-marrow-edema","collapse-risk"]}}
 ---
 
 ## Overview

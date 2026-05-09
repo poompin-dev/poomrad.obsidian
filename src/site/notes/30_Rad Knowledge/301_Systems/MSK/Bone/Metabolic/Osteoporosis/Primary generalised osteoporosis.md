@@ -1,5 +1,5 @@
 ---
-{"path":["metabolic"],"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Primary generalised osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/primary-generalised-osteoporosis/","dgPassFrontmatter":true,"dg-note-properties":{"path":["metabolic"],"system":["MSK"],"type":["disease"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Primary generalised osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/primary-generalised-osteoporosis/","dg-note-properties":{"path":["metabolic"],"system":["MSK"],"type":["disease"]}}
 ---
 
 The most prevalent metabolic bone disease and a leading cause of [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]] / [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Special fracture/Fragility fracture\|Fragility fracture]] → fractures of the proximal femur have a major impact on the quality of life of both patients and caregivers.

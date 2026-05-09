@@ -1,5 +1,5 @@
 ---
-{"tags":["msk","insight","list","neoplasm"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Diaphyseal Lesions.md","permalink":"/rad/301-systems/msk/bone/insight/diaphyseal-lesions/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["msk","insight","list","neoplasm"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Diaphyseal Lesions.md","permalink":"/rad/301-systems/msk/bone/insight/diaphyseal-lesions/","tags":["msk","insight","list","neoplasm"],"dg-note-properties":{"tags":["msk","insight","list","neoplasm"]}}
 ---
 
 ## Overview

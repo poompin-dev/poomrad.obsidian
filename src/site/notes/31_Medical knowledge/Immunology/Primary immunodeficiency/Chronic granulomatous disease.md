@@ -1,5 +1,5 @@
 ---
-{"aliases":["CGD"],"path":["infection","congenital"],"ped":true,"system":["chest","GI","GU","MSK"],"type":["disease"],"dg-publish":true,"permalink":"/31-medical-knowledge/immunology/primary-immunodeficiency/chronic-granulomatous-disease/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["CGD"],"path":["infection","congenital"],"ped":true,"system":["chest","GI","GU","MSK"],"type":["disease"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/immunology/primary-immunodeficiency/chronic-granulomatous-disease/","dg-note-properties":{"aliases":["CGD"],"path":["infection","congenital"],"ped":true,"system":["chest","GI","GU","MSK"],"type":["disease"]}}
 ---
 
 

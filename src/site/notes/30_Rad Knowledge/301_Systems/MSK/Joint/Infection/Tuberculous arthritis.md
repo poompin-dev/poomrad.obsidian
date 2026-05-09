@@ -1,5 +1,5 @@
 ---
-{"aliases":null,"tags":["Infection","TB","msk"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/Infection/Tuberculous arthritis.md","permalink":"/rad/301-systems/msk/joint/infection/tuberculous-arthritis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":null,"tags":["Infection","TB","msk"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/Infection/Tuberculous arthritis.md","permalink":"/rad/301-systems/msk/joint/infection/tuberculous-arthritis/","tags":["Infection","TB","msk"],"dg-note-properties":{"aliases":null,"tags":["Infection","TB","msk"]}}
 ---
 
 ## Phemister's triad

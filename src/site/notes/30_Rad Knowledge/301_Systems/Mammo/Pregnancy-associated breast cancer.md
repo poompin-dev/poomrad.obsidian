@@ -1,5 +1,5 @@
 ---
-{"aliases":["PABC"],"path":["neoplasm"],"system":["mammo"],"type":["disease"],"dg-publish":true,"tags":["breast","oncology","pregnancy","lactation"],"dg-path":"Rad/301_Systems/Mammo/Pregnancy-associated breast cancer.md","permalink":"/rad/301-systems/mammo/pregnancy-associated-breast-cancer/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PABC"],"path":["neoplasm"],"system":["mammo"],"type":["disease"],"tags":["breast","oncology","pregnancy","lactation"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Pregnancy-associated breast cancer.md","permalink":"/rad/301-systems/mammo/pregnancy-associated-breast-cancer/","tags":["breast","oncology","pregnancy","lactation"],"dg-note-properties":{"aliases":["PABC"],"path":["neoplasm"],"system":["mammo"],"type":["disease"],"tags":["breast","oncology","pregnancy","lactation"]}}
 ---
 
 Pregnancy-associated breast cancer = breast cancer diagnosed during pregnancy or within about 1 year after delivery

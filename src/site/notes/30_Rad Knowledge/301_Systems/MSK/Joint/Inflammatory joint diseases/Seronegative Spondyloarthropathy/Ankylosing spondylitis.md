@@ -1,5 +1,5 @@
 ---
-{"aliases":["AS","Ankylosing spondylosis"],"tags":["spine","rheumatology","msk"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis.md","permalink":"/rad/301-systems/msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["AS","Ankylosing spondylosis"],"tags":["spine","rheumatology","msk"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis.md","permalink":"/rad/301-systems/msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","tags":["spine","rheumatology","msk"],"dg-note-properties":{"aliases":["AS","Ankylosing spondylosis"],"tags":["spine","rheumatology","msk"]}}
 ---
 
 ## Overview

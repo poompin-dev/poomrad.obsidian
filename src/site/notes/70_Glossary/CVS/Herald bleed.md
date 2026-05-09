@@ -1,5 +1,5 @@
 ---
-{"path":["iatrogenic"],"system":["CVS","GI"],"type":["sign"],"dg-publish":true,"permalink":"/70-glossary/cvs/herald-bleed/","dgPassFrontmatter":true,"dg-note-properties":{"path":["iatrogenic"],"system":["CVS","GI"],"type":["sign"]}}
+{"dg-publish":true,"permalink":"/70-glossary/cvs/herald-bleed/","dg-note-properties":{"path":["iatrogenic"],"system":["CVS","GI"],"type":["sign"]}}
 ---
 
 a small, self-limiting haemorrhage that **warns** you a **massive, often fatal bleed is coming soon**.

@@ -1,5 +1,5 @@
 ---
-{"tags":["sign","ObGyn"],"dg-publish":true,"dg-path":"Rad/301_Systems/ObGyn/Adnexa/T1 shading sign.md","permalink":"/rad/301-systems/ob-gyn/adnexa/t1-shading-sign/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["sign","ObGyn"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/ObGyn/Adnexa/T1 shading sign.md","permalink":"/rad/301-systems/ob-gyn/adnexa/t1-shading-sign/","tags":["sign","ObGyn"],"dg-note-properties":{"tags":["sign","ObGyn"]}}
 ---
 
 ## Definition

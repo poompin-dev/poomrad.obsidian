@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/msk/rind-sign/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/70-glossary/msk/rind-sign/","dg-note-properties":{}}
 ---
 
 ![Rind sign.png](/img/user/99_assets_Private/Rind%20sign.png)

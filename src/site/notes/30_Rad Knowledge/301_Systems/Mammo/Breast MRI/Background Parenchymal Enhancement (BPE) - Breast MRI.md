@@ -1,5 +1,5 @@
 ---
-{"tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physiology/Hormonal","RiskFactors"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Background Parenchymal Enhancement (BPE) - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/background-parenchymal-enhancement-bpe-breast-mri/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physiology/Hormonal","RiskFactors"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Breast MRI/Background Parenchymal Enhancement (BPE) - Breast MRI.md","permalink":"/rad/301-systems/mammo/breast-mri/background-parenchymal-enhancement-bpe-breast-mri/","tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physiology/Hormonal","RiskFactors"],"dg-note-properties":{"tags":["Radiology/Breast","Modality/MRI","Reporting/BIRADS","Physiology/Hormonal","RiskFactors"]}}
 ---
 
 > [!summary] Key Concept

@@ -1,5 +1,5 @@
 ---
-{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Overview

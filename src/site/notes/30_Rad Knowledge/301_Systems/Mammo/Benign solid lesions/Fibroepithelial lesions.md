@@ -1,5 +1,5 @@
 ---
-{"tags":["breast","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Fibroepithelial lesions.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/fibroepithelial-lesions/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["breast","Pathology"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Fibroepithelial lesions.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/fibroepithelial-lesions/","tags":["breast","Pathology"],"dg-note-properties":{"tags":["breast","Pathology"]}}
 ---
 
 Fibroepithelial lesions are biphasic tumors characterized by proliferation of both **stromal** and **epithelial** components.

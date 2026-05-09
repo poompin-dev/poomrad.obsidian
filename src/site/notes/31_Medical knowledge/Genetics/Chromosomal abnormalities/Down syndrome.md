@@ -1,5 +1,5 @@
 ---
-{"aliases":["trisomy 21"],"path":["genetics"],"type":["disease"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/chromosomal-abnormalities/down-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["trisomy 21"],"path":["genetics"],"type":["disease"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/chromosomal-abnormalities/down-syndrome/","dg-note-properties":{"aliases":["trisomy 21"],"path":["genetics"],"type":["disease"]}}
 ---
 
 ## Phenotype across life stages

@@ -1,5 +1,5 @@
 ---
-{"ped":true,"system":["neuro","vas","CVS","chest"],"path":["congenital"],"type":["syndrome"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/phaces-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"ped":true,"system":["neuro","vas","CVS","chest"],"path":["congenital"],"type":["syndrome"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/phaces-syndrome/","dg-note-properties":{"ped":true,"system":["neuro","vas","CVS","chest"],"path":["congenital"],"type":["syndrome"]}}
 ---
 
 - **P** Posterior fossa malformation

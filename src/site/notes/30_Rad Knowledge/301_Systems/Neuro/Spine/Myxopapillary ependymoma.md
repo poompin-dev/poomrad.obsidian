@@ -1,5 +1,5 @@
 ---
-{"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"ped":true,"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Myxopapillary ependymoma.md","permalink":"/rad/301-systems/neuro/spine/myxopapillary-ependymoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"ped":true}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Myxopapillary ependymoma.md","permalink":"/rad/301-systems/neuro/spine/myxopapillary-ependymoma/","dg-note-properties":{"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"ped":true}}
 ---
 
 

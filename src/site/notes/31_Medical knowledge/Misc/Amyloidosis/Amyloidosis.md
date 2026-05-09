@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/amyloidosis/amyloidosis/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/amyloidosis/amyloidosis/","dg-note-properties":{}}
 ---
 
 

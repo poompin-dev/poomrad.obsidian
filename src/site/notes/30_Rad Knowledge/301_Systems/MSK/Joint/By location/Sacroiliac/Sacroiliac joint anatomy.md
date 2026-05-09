@@ -1,5 +1,5 @@
 ---
-{"path":["anatomical"],"system":["MSK"],"aliases":["SI joint"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Sacroiliac/Sacroiliac joint anatomy.md","permalink":"/rad/301-systems/msk/joint/by-location/sacroiliac/sacroiliac-joint-anatomy/","dgPassFrontmatter":true,"dg-note-properties":{"path":["anatomical"],"system":["MSK"],"aliases":["SI joint"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Sacroiliac/Sacroiliac joint anatomy.md","permalink":"/rad/301-systems/msk/joint/by-location/sacroiliac/sacroiliac-joint-anatomy/","dg-note-properties":{"path":["anatomical"],"system":["MSK"],"aliases":["SI joint"]}}
 ---
 
 ## Structural composition

@@ -1,5 +1,5 @@
 ---
-{"aliases":["Fibroadenolipoma"],"tags":["breast","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Breast hamartoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/breast-hamartoma/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Fibroadenolipoma"],"tags":["breast","Pathology"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Breast hamartoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/breast-hamartoma/","tags":["breast","Pathology"],"dg-note-properties":{"aliases":["Fibroadenolipoma"],"tags":["breast","Pathology"]}}
 ---
 
 Benign proliferation of fibrous, glandular, and fatty tissue (disorganized but mature).

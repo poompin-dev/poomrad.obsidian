@@ -1,5 +1,5 @@
 ---
-{"tags":["hemato","nonrad"],"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/serum-biomarkers-in-plasma-cell-proliferative-disorders/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["hemato","nonrad"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/serum-biomarkers-in-plasma-cell-proliferative-disorders/","tags":["hemato","nonrad"],"dg-note-properties":{"tags":["hemato","nonrad"]}}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"tags":null,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"ped":true,"path":["neoplasm"],"system":["MSK","neuro"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":null,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"ped":true,"path":["neoplasm"],"system":["MSK","neuro"],"type":["disease"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","dg-note-properties":{"tags":null,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"ped":true,"path":["neoplasm"],"system":["MSK","neuro"],"type":["disease"]}}
 ---
 
 ## Overview

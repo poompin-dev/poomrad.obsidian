@@ -1,5 +1,5 @@
 ---
-{"tags":["syndrome","msk"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/msk/jaffe-campanacci-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["syndrome","msk"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/genetic-disease/msk/jaffe-campanacci-syndrome/","tags":["syndrome","msk"],"dg-note-properties":{"tags":["syndrome","msk"]}}
 ---
 
 ## Triad

@@ -1,5 +1,5 @@
 ---
-{"aliases":["PTS"],"path":["autoimmune"],"system":["neuro","MSK"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Shoulder/Parsonage–Turner syndrome.md","permalink":"/rad/301-systems/msk/joint/by-location/shoulder/parsonage-turner-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PTS"],"path":["autoimmune"],"system":["neuro","MSK"],"type":["disease"],"modality":["MRI"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Joint/By location/Shoulder/Parsonage–Turner syndrome.md","permalink":"/rad/301-systems/msk/joint/by-location/shoulder/parsonage-turner-syndrome/","dg-note-properties":{"aliases":["PTS"],"path":["autoimmune"],"system":["neuro","MSK"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 

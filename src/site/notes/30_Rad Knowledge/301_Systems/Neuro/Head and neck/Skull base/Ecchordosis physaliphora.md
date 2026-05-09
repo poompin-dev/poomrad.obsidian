@@ -1,5 +1,5 @@
 ---
-{"tags":["neuro","lesion/mass"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Ecchordosis physaliphora.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/ecchordosis-physaliphora/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["neuro","lesion/mass"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Ecchordosis physaliphora.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/ecchordosis-physaliphora/","tags":["neuro","lesion/mass"],"dg-note-properties":{"tags":["neuro","lesion/mass"]}}
 ---
 
 ## Key points

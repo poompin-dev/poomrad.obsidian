@@ -1,5 +1,5 @@
 ---
-{"system":["MSK"],"type":["disease"],"path":["neoplasm"],"tags":["fracture"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/pathologic-fracture/","dgPassFrontmatter":true,"dg-note-properties":{"system":["MSK"],"type":["disease"],"path":["neoplasm"],"tags":["fracture"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/pathologic-fracture/","tags":["fracture"],"dg-note-properties":{"system":["MSK"],"type":["disease"],"path":["neoplasm"],"tags":["fracture"]}}
 ---
 
 ## Definition

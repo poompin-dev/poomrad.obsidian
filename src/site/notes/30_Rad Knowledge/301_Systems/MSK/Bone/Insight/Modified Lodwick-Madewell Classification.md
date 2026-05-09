@@ -1,5 +1,5 @@
 ---
-{"path":["neoplasm"],"system":["MSK"],"type":["grading"],"modality":["Radiograph"],"tags":["bone-tumor"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/301-systems/msk/bone/insight/modified-lodwick-madewell-classification/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["grading"],"modality":["Radiograph"],"tags":["bone-tumor"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/rad/301-systems/msk/bone/insight/modified-lodwick-madewell-classification/","tags":["bone-tumor"],"dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["grading"],"modality":["Radiograph"],"tags":["bone-tumor"]}}
 ---
 
 ## Concepts (update from previous edition)

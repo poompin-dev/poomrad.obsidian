@@ -1,5 +1,5 @@
 ---
-{"tags":["stomach"],"dg-publish":true,"dg-path":"Rad/301_Systems/GI/GI tract/Ménétrier's disease.md","permalink":"/rad/301-systems/gi/gi-tract/menetrier-s-disease/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["stomach"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/GI tract/Ménétrier's disease.md","permalink":"/rad/301-systems/gi/gi-tract/menetrier-s-disease/","tags":["stomach"],"dg-note-properties":{"tags":["stomach"]}}
 ---
 
 ## Key points

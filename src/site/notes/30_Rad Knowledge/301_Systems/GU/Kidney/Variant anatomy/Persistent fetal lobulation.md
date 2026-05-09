@@ -1,5 +1,5 @@
 ---
-{"path":["anatomical"],"type":["variant"],"system":["GU"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Variant anatomy/Persistent fetal lobulation.md","permalink":"/rad/301-systems/gu/kidney/variant-anatomy/persistent-fetal-lobulation/","dgPassFrontmatter":true,"dg-note-properties":{"path":["anatomical"],"type":["variant"],"system":["GU"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Variant anatomy/Persistent fetal lobulation.md","permalink":"/rad/301-systems/gu/kidney/variant-anatomy/persistent-fetal-lobulation/","dg-note-properties":{"path":["anatomical"],"type":["variant"],"system":["GU"]}}
 ---
 
 Normal anatomical variant where fetal renal lobulations persist into adulthood, causing shallow external cortical clefts between renal pyramids without cortical loss or parenchymal scarring.

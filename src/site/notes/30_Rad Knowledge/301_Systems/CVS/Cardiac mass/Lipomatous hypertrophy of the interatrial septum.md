@@ -1,5 +1,5 @@
 ---
-{"aliases":["LHIS"],"system":["CVS"],"type":["disease","variant"],"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Cardiac mass/Lipomatous hypertrophy of the interatrial septum.md","permalink":"/rad/301-systems/cvs/cardiac-mass/lipomatous-hypertrophy-of-the-interatrial-septum/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["LHIS"],"system":["CVS"],"type":["disease","variant"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Cardiac mass/Lipomatous hypertrophy of the interatrial septum.md","permalink":"/rad/301-systems/cvs/cardiac-mass/lipomatous-hypertrophy-of-the-interatrial-septum/","dg-note-properties":{"aliases":["LHIS"],"system":["CVS"],"type":["disease","variant"]}}
 ---
 
 Non-encapsulated fatty overgrowth of the interatrial septum, typically in obese elderly patients, classically sparing the fossa ovalis and giving a “dumbbell/waist” shape. Benign but can look scary + be FDG-avid.

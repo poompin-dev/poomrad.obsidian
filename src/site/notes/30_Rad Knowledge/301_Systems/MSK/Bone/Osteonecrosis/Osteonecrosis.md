@@ -1,5 +1,5 @@
 ---
-{"system":["MSK"],"type":["disease"],"aliases":["Avascular necrosis","ON","AVN"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Osteonecrosis/Osteonecrosis.md","permalink":"/rad/301-systems/msk/bone/osteonecrosis/osteonecrosis/","dgPassFrontmatter":true,"dg-note-properties":{"system":["MSK"],"type":["disease"],"aliases":["Avascular necrosis","ON","AVN"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Osteonecrosis/Osteonecrosis.md","permalink":"/rad/301-systems/msk/bone/osteonecrosis/osteonecrosis/","dg-note-properties":{"system":["MSK"],"type":["disease"],"aliases":["Avascular necrosis","ON","AVN"]}}
 ---
 
 ## Pathophysiology

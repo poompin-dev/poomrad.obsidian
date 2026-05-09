@@ -1,5 +1,5 @@
 ---
-{"system":["neuro"],"type":["ddx"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/NeuroDdx/Tinnitus.md","permalink":"/rad/301-systems/neuro/neuro-ddx/tinnitus/","dgPassFrontmatter":true,"dg-note-properties":{"system":["neuro"],"type":["ddx"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/NeuroDdx/Tinnitus.md","permalink":"/rad/301-systems/neuro/neuro-ddx/tinnitus/","dg-note-properties":{"system":["neuro"],"type":["ddx"]}}
 ---
 
 ## What is tinnitus?

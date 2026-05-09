@@ -1,5 +1,5 @@
 ---
-{"aliases":["renal AML"],"system":["GU"],"type":["disease"],"path":["neoplasm"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal angiomyolipoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-angiomyolipoma/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["renal AML"],"system":["GU"],"type":["disease"],"path":["neoplasm"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal angiomyolipoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-angiomyolipoma/","dg-note-properties":{"aliases":["renal AML"],"system":["GU"],"type":["disease"],"path":["neoplasm"]}}
 ---
 
 ## Overview

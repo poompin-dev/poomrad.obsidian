@@ -1,5 +1,5 @@
 ---
-{"aliases":["Malignant stricture"],"path":["neoplasm"],"system":["GI"],"type":["disease"],"modality":["Fluoro"],"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/pseudoachalasia/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Malignant stricture"],"path":["neoplasm"],"system":["GI"],"type":["disease"],"modality":["Fluoro"]}}
+{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/pseudoachalasia/","dg-note-properties":{"aliases":["Malignant stricture"],"path":["neoplasm"],"system":["GI"],"type":["disease"],"modality":["Fluoro"]}}
 ---
 
 > [!TLDR] TLDR

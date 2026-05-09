@@ -1,5 +1,5 @@
 ---
-{"path":["congenital"],"system":["GI"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Biliary system/Choledochal cyst.md","permalink":"/rad/301-systems/gi/biliary-system/choledochal-cyst/","dgPassFrontmatter":true,"dg-note-properties":{"path":["congenital"],"system":["GI"],"type":["disease"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Biliary system/Choledochal cyst.md","permalink":"/rad/301-systems/gi/biliary-system/choledochal-cyst/","dg-note-properties":{"path":["congenital"],"system":["GI"],"type":["disease"]}}
 ---
 
 ## Overview

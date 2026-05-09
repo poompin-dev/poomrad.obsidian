@@ -1,5 +1,5 @@
 ---
-{"aliases":["Löfgren's syndrome"],"tags":["thorax","msk","rheumatology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Löfgren syndrome.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/loefgren-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Löfgren's syndrome"],"tags":["thorax","msk","rheumatology"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Löfgren syndrome.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/loefgren-syndrome/","tags":["thorax","msk","rheumatology"],"dg-note-properties":{"aliases":["Löfgren's syndrome"],"tags":["thorax","msk","rheumatology"]}}
 ---
 
 ## Overview

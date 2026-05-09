@@ -1,5 +1,5 @@
 ---
-{"aliases":["Multiple hamartoma syndrome","PTEN hamartoma tumour syndrome","PHTS"],"path":["genetics","neoplasm"],"type":["disease","syndrome"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/cowden-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Multiple hamartoma syndrome","PTEN hamartoma tumour syndrome","PHTS"],"path":["genetics","neoplasm"],"type":["disease","syndrome"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/cowden-syndrome/","dg-note-properties":{"aliases":["Multiple hamartoma syndrome","PTEN hamartoma tumour syndrome","PHTS"],"path":["genetics","neoplasm"],"type":["disease","syndrome"]}}
 ---
 
 ## Overview

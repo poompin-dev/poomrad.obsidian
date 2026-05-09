@@ -1,5 +1,5 @@
 ---
-{"path":["neoplasm"],"system":["chest"],"type":["disease"],"modality":null,"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymolipoma.md","permalink":"/rad/301-systems/chest/mediastinum/thymolipoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["chest"],"type":["disease"],"modality":null}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymolipoma.md","permalink":"/rad/301-systems/chest/mediastinum/thymolipoma/","dg-note-properties":{"path":["neoplasm"],"system":["chest"],"type":["disease"],"modality":null}}
 ---
 
 > [!summary]

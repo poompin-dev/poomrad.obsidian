@@ -1,5 +1,5 @@
 ---
-{"tags":["trachea","chest","lesion/mass"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Trachea/Adenoid cystic carcinoma of the trachea.md","permalink":"/rad/301-systems/chest/trachea/adenoid-cystic-carcinoma-of-the-trachea/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["trachea","chest","lesion/mass"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Trachea/Adenoid cystic carcinoma of the trachea.md","permalink":"/rad/301-systems/chest/trachea/adenoid-cystic-carcinoma-of-the-trachea/","tags":["trachea","chest","lesion/mass"],"dg-note-properties":{"tags":["trachea","chest","lesion/mass"]}}
 ---
 
 ## Key points

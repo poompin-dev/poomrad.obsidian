@@ -1,5 +1,5 @@
 ---
-{"tags":["breast","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Lobular neoplasia.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/lobular-neoplasia/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["breast","Pathology"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Lobular neoplasia.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/lobular-neoplasia/","tags":["breast","Pathology"],"dg-note-properties":{"tags":["breast","Pathology"]}}
 ---
 
 Spectrum includes Atypical Lobular Hyperplasia (ALH) and Lobular Carcinoma In Situ (LCIS).

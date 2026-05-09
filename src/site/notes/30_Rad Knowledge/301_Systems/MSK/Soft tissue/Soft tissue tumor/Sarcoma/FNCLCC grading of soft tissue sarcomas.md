@@ -1,5 +1,5 @@
 ---
-{"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"type":["grading"],"system":["MSK"],"path":["neoplasm"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/FNCLCC grading of soft tissue sarcomas.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"type":["grading"],"system":["MSK"],"path":["neoplasm"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Sarcoma/FNCLCC grading of soft tissue sarcomas.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","dg-note-properties":{"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"type":["grading"],"system":["MSK"],"path":["neoplasm"]}}
 ---
 
 Most widely used **histologic grading system** for **adult-type soft tissue sarcomas** in Europe (and many MDTs globally).  

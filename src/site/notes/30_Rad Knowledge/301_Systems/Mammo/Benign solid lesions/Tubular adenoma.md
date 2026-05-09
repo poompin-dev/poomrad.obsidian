@@ -1,5 +1,5 @@
 ---
-{"tags":["breast","Pathology","mimic"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Tubular adenoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/tubular-adenoma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["breast","Pathology","mimic"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Tubular adenoma.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/tubular-adenoma/","tags":["breast","Pathology","mimic"],"dg-note-properties":{"tags":["breast","Pathology","mimic"]}}
 ---
 
 * **Pathology:** Pure epithelial proliferation (closely packed tubules) with minimal stroma.

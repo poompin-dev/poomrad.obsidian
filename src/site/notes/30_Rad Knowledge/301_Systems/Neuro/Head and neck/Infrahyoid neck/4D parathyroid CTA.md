@@ -1,5 +1,5 @@
 ---
-{"system":["headneck"],"modality":["CT"],"type":["modality"],"tags":["parathyroid","hyperPTH"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA.md","permalink":"/rad/301-systems/neuro/head-and-neck/infrahyoid-neck/4-d-parathyroid-cta/","dgPassFrontmatter":true,"dg-note-properties":{"system":["headneck"],"modality":["CT"],"type":["modality"],"tags":["parathyroid","hyperPTH"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA.md","permalink":"/rad/301-systems/neuro/head-and-neck/infrahyoid-neck/4-d-parathyroid-cta/","tags":["parathyroid","hyperPTH"],"dg-note-properties":{"system":["headneck"],"modality":["CT"],"type":["modality"],"tags":["parathyroid","hyperPTH"]}}
 ---
 
 > [!info] Key points

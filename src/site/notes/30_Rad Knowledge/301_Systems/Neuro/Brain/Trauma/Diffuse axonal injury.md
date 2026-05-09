@@ -1,5 +1,5 @@
 ---
-{"aliases":["Traumatic axonal injury","TAI","DAI"],"path":["trauma"],"system":["neuro"],"type":["disease","grading"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Trauma/Diffuse axonal injury.md","permalink":"/rad/301-systems/neuro/brain/trauma/diffuse-axonal-injury/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Traumatic axonal injury","TAI","DAI"],"path":["trauma"],"system":["neuro"],"type":["disease","grading"],"modality":["MRI"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Trauma/Diffuse axonal injury.md","permalink":"/rad/301-systems/neuro/brain/trauma/diffuse-axonal-injury/","dg-note-properties":{"aliases":["Traumatic axonal injury","TAI","DAI"],"path":["trauma"],"system":["neuro"],"type":["disease","grading"],"modality":["MRI"]}}
 ---
 
 Shearing injury of axons from rapid acceleration–deceleration / rotational head trauma → microscopic axonal damage ± tiny haemorrhages, often with **CT that looks “too normal” for the level of coma**.

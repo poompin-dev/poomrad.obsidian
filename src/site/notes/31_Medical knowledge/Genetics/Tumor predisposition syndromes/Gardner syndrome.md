@@ -1,5 +1,5 @@
 ---
-{"tags":["syndrome","GI","msk"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/gardner-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["syndrome","GI","msk"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/gardner-syndrome/","tags":["syndrome","GI","msk"],"dg-note-properties":{"tags":["syndrome","GI","msk"]}}
 ---
 
 [[30_Rad Knowledge/301_Systems/GI/GI tract/Familial adenomatous polyposis syndrome\|Familial adenomatous polyposis syndrome]] (FAP) variant.

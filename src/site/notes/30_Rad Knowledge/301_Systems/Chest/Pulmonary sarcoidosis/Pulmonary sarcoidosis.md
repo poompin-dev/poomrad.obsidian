@@ -1,5 +1,5 @@
 ---
-{"aliases":null,"tags":["thorax","CXR","ILD","Granulomatous"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Pulmonary sarcoidosis.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/pulmonary-sarcoidosis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":null,"tags":["thorax","CXR","ILD","Granulomatous"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Pulmonary sarcoidosis/Pulmonary sarcoidosis.md","permalink":"/rad/301-systems/chest/pulmonary-sarcoidosis/pulmonary-sarcoidosis/","tags":["thorax","CXR","ILD","Granulomatous"],"dg-note-properties":{"aliases":null,"tags":["thorax","CXR","ILD","Granulomatous"]}}
 ---
 
 ## Overview

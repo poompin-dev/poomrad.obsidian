@@ -1,5 +1,5 @@
 ---
-{"aliases":["lesions of uncertain malignant potential","LUMP","B3 lesions"],"tags":["breast","pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential).md","permalink":"/rad/301-systems/mammo/b3-lesions-lesions-of-uncertain-malignant-potential/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["lesions of uncertain malignant potential","LUMP","B3 lesions"],"tags":["breast","pathology"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/B3 Lesions (Lesions of Uncertain Malignant Potential).md","permalink":"/rad/301-systems/mammo/b3-lesions-lesions-of-uncertain-malignant-potential/","tags":["breast","pathology"],"dg-note-properties":{"aliases":["lesions of uncertain malignant potential","LUMP","B3 lesions"],"tags":["breast","pathology"]}}
 ---
 
 ## General concept

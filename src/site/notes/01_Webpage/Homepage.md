@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-pinned":false,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 
@@ -7,7 +7,7 @@
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
 
-- [[01_Webpage/Physic notes\|Physic notes]]
+- [[01_Webpage/Main branches/Physic notes\|Physic notes]]
 
 ___
 ## Recently updated notes
@@ -27,17 +27,17 @@ ___
 
 { .block-language-dataview}
 ## I am looking for certain...
-- [[01_Webpage/Topics\|Topics]]
-- [[01_Webpage/Differential diagnosis\|Differential diagnosis]]
+- [[01_Webpage/Main branches/Topics\|Topics]]
+- [[01_Webpage/Main branches/Differential diagnosis\|Differential diagnosis]]
 
 ## Random note
-
+![dice.png\|50](/img/user/98_Assets_Public/dice.png)
 <a href="/~random/">  
 <img src="/98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
 </a>
 
 > [!Archive]
-> 👉 [[01_Webpage/All notes\|All notes]]
+> 👉 [[01_Webpage/Archieves/All notes\|All notes]]
 
 ___
 ## Disclaimer

@@ -1,5 +1,5 @@
 ---
-{"path":["neoplasm"],"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/intermediate/fibromatosis/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["disease"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis.md","permalink":"/rad/301-systems/msk/soft-tissue/soft-tissue-tumor/intermediate/fibromatosis/","dg-note-properties":{"path":["neoplasm"],"system":["MSK"],"type":["disease"]}}
 ---
 
 Benign (non-metastasising) **fibroblastic/myofibroblastic proliferation** that behaves like a “bad neighbour”: **infiltrative + locally aggressive + high local recurrence**.

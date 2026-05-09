@@ -1,5 +1,5 @@
 ---
-{"type":["ddx","list"],"system":["MSK","vas"],"ped":true,"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Malformation/Focal gigantism.md","permalink":"/rad/301-systems/msk/soft-tissue/malformation/focal-gigantism/","dgPassFrontmatter":true,"dg-note-properties":{"type":["ddx","list"],"system":["MSK","vas"],"ped":true}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Soft tissue/Malformation/Focal gigantism.md","permalink":"/rad/301-systems/msk/soft-tissue/malformation/focal-gigantism/","dg-note-properties":{"type":["ddx","list"],"system":["MSK","vas"],"ped":true}}
 ---
 
 ## Core idea

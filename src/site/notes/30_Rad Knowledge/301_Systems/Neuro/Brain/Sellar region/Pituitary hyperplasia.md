@@ -1,5 +1,5 @@
 ---
-{"ped":true,"path":["endocrine"],"type":["variant","disease"],"system":["neuro"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Pituitary hyperplasia.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/pituitary-hyperplasia/","dgPassFrontmatter":true,"dg-note-properties":{"ped":true,"path":["endocrine"],"type":["variant","disease"],"system":["neuro"],"modality":["MRI"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Pituitary hyperplasia.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/pituitary-hyperplasia/","dg-note-properties":{"ped":true,"path":["endocrine"],"type":["variant","disease"],"system":["neuro"],"modality":["MRI"]}}
 ---
 
 ## Type

@@ -1,5 +1,5 @@
 ---
-{"type":["sign"],"modality":["Nuc"],"system":["MSK"],"aliases":["Tramline sign","Parallel track sign"],"dg-publish":true,"permalink":"/70-glossary/msk/double-stripe-sign/","dgPassFrontmatter":true,"dg-note-properties":{"type":["sign"],"modality":["Nuc"],"system":["MSK"],"aliases":["Tramline sign","Parallel track sign"]}}
+{"dg-publish":true,"permalink":"/70-glossary/msk/double-stripe-sign/","dg-note-properties":{"type":["sign"],"modality":["Nuc"],"system":["MSK"],"aliases":["Tramline sign","Parallel track sign"]}}
 ---
 
 ![Double stripe sign.jpg\|400](/img/user/99_assets_Private/Double%20stripe%20sign.jpg)

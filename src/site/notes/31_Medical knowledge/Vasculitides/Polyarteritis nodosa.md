@@ -1,5 +1,5 @@
 ---
-{"aliases":["PAN"],"tags":["vasculitis","systemic"],"dg-publish":true,"permalink":"/31-medical-knowledge/vasculitides/polyarteritis-nodosa/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PAN"],"tags":["vasculitis","systemic"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/vasculitides/polyarteritis-nodosa/","tags":["vasculitis","systemic"],"dg-note-properties":{"aliases":["PAN"],"tags":["vasculitis","systemic"]}}
 ---
 
 ## Key points

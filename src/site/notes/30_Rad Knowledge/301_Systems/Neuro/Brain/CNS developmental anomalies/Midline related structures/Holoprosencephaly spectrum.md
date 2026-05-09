@@ -1,5 +1,5 @@
 ---
-{"aliases":["Holoprosencephaly"],"path":["congenital"],"system":["neuro"],"type":["disease"],"ped":true,"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Midline related structures/Holoprosencephaly spectrum.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/midline-related-structures/holoprosencephaly-spectrum/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Holoprosencephaly"],"path":["congenital"],"system":["neuro"],"type":["disease"],"ped":true}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Midline related structures/Holoprosencephaly spectrum.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/midline-related-structures/holoprosencephaly-spectrum/","dg-note-properties":{"aliases":["Holoprosencephaly"],"path":["congenital"],"system":["neuro"],"type":["disease"],"ped":true}}
 ---
 
 A spectrum of malformations caused by failure of midline cleavage of prosencephalon (forebrain)

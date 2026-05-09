@@ -1,5 +1,5 @@
 ---
-{"path":["endocrine","neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Granular cell tumour of the pituitary region.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/granular-cell-tumour-of-the-pituitary-region/","dgPassFrontmatter":true,"dg-note-properties":{"path":["endocrine","neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Granular cell tumour of the pituitary region.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/granular-cell-tumour-of-the-pituitary-region/","dg-note-properties":{"path":["endocrine","neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 
