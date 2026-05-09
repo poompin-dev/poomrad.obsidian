@@ -32,8 +32,9 @@ ___
 
 ## Random note
 
-![dice.png\|20](/img/user/98_Assets_Public/dice.png)
-![dice.png\|50px](/img/user/98_Assets_Public/dice.png)(/~random/)
+<a href="/~random/">  
+<img src="/img/dice.png" alt="Random note" style="width:50px;">  
+</a>
 
 > [!Archive]
 > 👉 [[01_Webpage/Archieves/All notes\|All notes]]
