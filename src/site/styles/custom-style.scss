@@ -447,3 +447,47 @@ button {
   -webkit-appearance: none;
   appearance: none;
 }
+
+/* =========================================
+   EMERGENCY PATCH: TITLE BELOW FIXED NAVBAR
+   ========================================= */
+
+:root {
+  --custom-navbar-height: 60px;
+  --custom-safe-top: 96px;
+}
+
+/* Keep navbar fixed */
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: var(--custom-navbar-height) !important;
+  z-index: 9999 !important;
+}
+
+/* Push every likely page wrapper below navbar */
+body {
+  padding-top: var(--custom-safe-top) !important;
+}
+
+main,
+.page,
+.page-content,
+.content,
+.content-container,
+.markdown-preview-view,
+.markdown-rendered,
+article {
+  padding-top: 0 !important;
+}
+
+/* Stop first title from being glued upward */
+main h1:first-child,
+article h1:first-child,
+.content h1:first-child,
+.markdown-rendered h1:first-child,
+.markdown-preview-view h1:first-child {
+  margin-top: 0 !important;
+}
