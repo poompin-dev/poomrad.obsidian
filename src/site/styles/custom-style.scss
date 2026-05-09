@@ -1,154 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* =========================================
-   PART 1: THE CORE VARIABLES (AESTHETICS)
+   PART 1: CORE VARIABLES
    ========================================= */
+
 :root {
-  /* --- TYPOGRAPHY ENGINE --- */
+  /* Typography */
   --font-editorial: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  /* Force variables */
   --font-text: var(--font-editorial) !important;
   --font-heading: var(--font-editorial) !important;
   --font-body: var(--font-editorial) !important;
 
-  /* Sizing */
-  --dg-content-font-size: 19px; 
-  --dg-content-line-height: 1.5; 
-  
-  /* Colors */
+  /* Content sizing */
+  --dg-content-font-size: 19px;
+  --dg-content-line-height: 1.5;
+
+  /* Fixed navbar sizing */
+  --custom-navbar-height: 60px;
+  --custom-content-top-offset: 88px;
+
+  /* Colours */
   --interactive-accent: #2eaadc;
   --interactive-accent-faint: rgba(46, 170, 220, 0.1);
-  --text-header: #EAEAEA; 
-  --text-body: #CFCFCF;   
-  --line-color: rgba(255, 255, 255, 0.1); /* New variable for separators */
+  --text-header: #eaeaea;
+  --text-body: #cfcfcf;
+  --line-color: rgba(255, 255, 255, 0.1);
 }
 
 /* =========================================
-   PART 2: NUCLEAR FONT OVERRIDE
+   PART 2: GLOBAL FONT OVERRIDE
    ========================================= */
-body, main, .markdown-rendered, .markdown-preview-view {
+
+body,
+main,
+.markdown-rendered,
+.markdown-preview-view {
   font-family: var(--font-editorial) !important;
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
 }
 
-p, li, ul, ol, dl, blockquote, table, td, th, span {
-    font-family: var(--font-editorial) !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
+p,
+li,
+ul,
+ol,
+dl,
+blockquote,
+table,
+td,
+th,
+span {
   font-family: var(--font-editorial) !important;
 }
 
-code, pre {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-editorial) !important;
+}
+
+code,
+pre {
   font-family: var(--font-mono) !important;
 }
 
 /* =========================================
-   PART 3: TYPOGRAPHY & DENSITY (TIGHTER)
+   PART 3: LAYOUT FIX FOR FIXED NAVBAR
    ========================================= */
 
-/* 1. Remove hidden margins from the header container */
-main header {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+/* The navbar is fixed, so content must be pushed down manually. */
+main {
+  padding-top: var(--custom-content-top-offset) !important;
 }
 
-/* 2. Tighten Paragraphs & Lists */
-/* Using 'main' and '.markdown-rendered' makes this rule stronger */
-main p, .markdown-rendered p {
-    margin-block-start: 0 !important;
-    margin-block-end: 0.5em !important; /* Was 0.8em - now much tighter */
-    line-height: 1.5;
-    max-width: 80ch;
+/* More defensive fallback for template changes */
+.page,
+.page-content,
+.content,
+.markdown-preview-view,
+.markdown-reading-view,
+article {
+  scroll-margin-top: calc(var(--custom-navbar-height) + 24px);
 }
 
-main ul, main ol, .markdown-rendered ul {
-    margin-block-start: 0 !important;
-    margin-block-end: 0.5em !important;
-    padding-left: 1.5em;
+/* Prevent anchor links from jumping behind navbar */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  scroll-margin-top: calc(var(--custom-navbar-height) + 24px);
 }
 
-main li, .markdown-rendered li {
-    margin-bottom: 0 !important; /* No extra gap between list items */
+/* =========================================
+   PART 4: TYPOGRAPHY & DENSITY
+   ========================================= */
+
+/* Avoid global header compression catching the navbar by mistake */
+main > header,
+article > header,
+.content > header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* 3. Tighten Headings */
+/* Paragraphs */
+main p,
+.markdown-rendered p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0.5em !important;
+  line-height: 1.5;
+  max-width: 80ch;
+}
+
+/* Lists */
+main ul,
+main ol,
+.markdown-rendered ul,
+.markdown-rendered ol {
+  margin-block-start: 0 !important;
+  margin-block-end: 0.5em !important;
+  padding-left: 1.5em;
+}
+
+main li,
+.markdown-rendered li {
+  margin-bottom: 0 !important;
+}
+
+/* Headings */
 main h1 {
-    font-size: 2.3em !important;
-    font-weight: 800 !important;
-    line-height: 1.2;
-    margin-top: 0 !important;
-    margin-bottom: 0.2rem !important; /* Very close to the tags */
-    color: var(--text-header);
-    border: none !important;
+  font-size: 2.3em !important;
+  font-weight: 800 !important;
+  line-height: 1.2;
+  margin-top: 0.35em !important;
+  margin-bottom: 0.25rem !important;
+  color: var(--text-header);
+  border: none !important;
 }
 
 main h2 {
-    font-size: 1.6em !important;
-    font-weight: 700 !important;
-    color: var(--text-header);
-    
-    /* CRITICAL: Gap above H2 */
-    margin-top: 1.0em !important; /* Standard gap */
-    margin-bottom: 0.3em !important;
-    border: none !important;
-}
-
-/* 4. SPECIAL CASE: If H2 comes right after the header/line */
-/* This catches the first H2 of the document and pulls it up */
-header + h2, 
-header + * > h2:first-child,
-.header-separator + h2 {
-    margin-top: 0.3em !important; /* Pulls the first H2 up close to the line */
+  font-size: 1.6em !important;
+  font-weight: 700 !important;
+  color: var(--text-header);
+  margin-top: 1.0em !important;
+  margin-bottom: 0.3em !important;
+  border: none !important;
 }
 
 main h3 {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    margin-top: 1.0em !important;
-    margin-bottom: 0.2em !important;
+  font-size: 1.25em !important;
+  font-weight: 600 !important;
+  color: var(--text-header);
+  margin-top: 1.0em !important;
+  margin-bottom: 0.2em !important;
+  border: none !important;
+}
+
+main h4,
+main h5,
+main h6 {
+  color: var(--text-header);
+  margin-top: 0.9em !important;
+  margin-bottom: 0.25em !important;
+}
+
+/* First H2 after metadata/header should not float too far down */
+main > header + h2,
+main > header + * > h2:first-child,
+.header-separator + h2 {
+  margin-top: 0.4em !important;
 }
 
 /* =========================================
-   PART 3.5: METADATA & TAGS LINE
+   PART 5: METADATA & TAGS
    ========================================= */
 
-/* This targets the container holding the tags under H1 */
-/* Note: Depending on your plugin settings, this might be called .frontmatter-container */
-.frontmatter-container, .metadata-container {
-    border-bottom: 1px solid var(--line-color) !important;
-    padding-bottom: 12px !important;
-    margin-bottom: 20px !important;
-    width: 100%;
+.frontmatter-container,
+.metadata-container {
+  border-bottom: 1px solid var(--line-color) !important;
+  padding-bottom: 12px !important;
+  margin-bottom: 20px !important;
+  width: 100%;
 }
 
-/* Fallback: if tags are just a paragraph of hashes */
 .tag {
-    font-family: var(--font-mono) !important;
-    font-size: 0.85em;
+  font-family: var(--font-mono) !important;
+  font-size: 0.85em;
 }
 
-
 /* =========================================
-   PART 4: MEDICAL TABLES
+   PART 6: MEDICAL TABLES
    ========================================= */
-/* ... (Same as before, simplified for length, keep your previous table CSS here) ... */
+
 table {
-  border-collapse: separate; 
+  border-collapse: separate;
   border-spacing: 0;
-  background-color: rgba(255, 255, 255, 0.025); 
-  border: 1px solid var(--background-modifier-border); 
-  border-radius: 8px; 
-  overflow: hidden; 
+  background-color: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  overflow: hidden;
   margin-bottom: 1.5em;
-  width: 100%; 
+  width: 100%;
 }
 
 thead tr {
-  background-color: rgba(0, 0, 0, 0.2) !important; 
+  background-color: rgba(0, 0, 0, 0.2) !important;
   border-bottom: 1px solid var(--background-modifier-border);
 }
 
@@ -172,7 +235,7 @@ td {
 }
 
 td:first-child {
-  font-family: var(--font-editorial) !important; 
+  font-family: var(--font-editorial) !important;
   font-weight: 700;
   color: var(--text-normal);
 }
@@ -182,14 +245,15 @@ body table tbody tr:hover td {
 }
 
 /* =========================================
-   PART 5: CLINICAL CALLOUTS
+   PART 7: CLINICAL CALLOUTS
    ========================================= */
+
 .callout {
   border: 1px solid var(--background-modifier-border) !important;
   border-radius: 8px !important;
   padding: 16px 20px !important;
   margin: 1.5em 0 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 }
 
 .callout-title {
@@ -202,122 +266,184 @@ body table tbody tr:hover td {
   margin-bottom: 8px;
 }
 
-/* Callout Colors */
-.callout[data-callout="info"], .callout[data-callout="note"] {
+/* Info / note */
+.callout[data-callout="info"],
+.callout[data-callout="note"] {
   background-color: rgba(46, 170, 220, 0.05) !important;
   border-color: rgba(46, 170, 220, 0.3) !important;
 }
-.callout[data-callout="info"] .callout-title, .callout[data-callout="note"] .callout-title {
+
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="note"] .callout-title {
   color: #2eaadc;
 }
 
-.callout[data-callout="tip"], .callout[data-callout="example"] {
+/* Tip / example */
+.callout[data-callout="tip"],
+.callout[data-callout="example"] {
   background-color: rgba(52, 211, 153, 0.08) !important;
   border-color: rgba(52, 211, 153, 0.4) !important;
 }
-.callout[data-callout="tip"] .callout-title, .callout[data-callout="example"] .callout-title {
+
+.callout[data-callout="tip"] .callout-title,
+.callout[data-callout="example"] .callout-title {
   color: #059669;
 }
 
-.callout[data-callout="warning"], .callout[data-callout="danger"] {
+/* Warning / danger */
+.callout[data-callout="warning"],
+.callout[data-callout="danger"] {
   background-color: rgba(248, 113, 113, 0.08) !important;
   border-color: rgba(248, 113, 113, 0.3) !important;
 }
-.callout[data-callout="warning"] .callout-title, .callout[data-callout="danger"] .callout-title {
+
+.callout[data-callout="warning"] .callout-title,
+.callout[data-callout="danger"] .callout-title {
   color: #dc2626;
 }
 
 /* =========================================
-   PART 6: SMART NAVBAR (FIXED)
+   PART 8: NAVBAR, STATIC VERSION
    ========================================= */
-.navbar {
-    position: fixed !important; 
-    top: 0;
-    left: 0;
-    width: 100% !important; 
-    height: 60px;
-    z-index: 1000;
-    
-    background-color: var(--background-secondary);
-    border-bottom: 1px solid var(--background-modifier-border);
-    
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s ease-in-out;
-    transform: translateY(0);
-}
 
-.navbar.navbar-hidden {
-    transform: translateY(-100%);
-    box-shadow: none; 
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: var(--custom-navbar-height) !important;
+  z-index: 9999 !important;
+
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+
+  display: flex;
+  justify-content: center;
+
+  transform: none !important;
 }
 
 .navbar-inner {
-    width: 100% !important;
-    max-width: 1600px !important; 
-    margin: 0 auto !important;
-    padding: 0 20px !important;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; 
+  width: 100% !important;
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .navbar-brand {
-    font-family: var(--font-editorial) !important; 
-    font-size: 1.5em !important;     
-    font-weight: 800 !important;     
-    letter-spacing: -0.03em;        
-    color: var(--text-normal) !important;
-    text-decoration: none !important;
-    display: flex;
-    align-items: center;
+  font-family: var(--font-editorial) !important;
+  font-size: 1.5em !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em;
+  color: var(--text-normal) !important;
+  text-decoration: none !important;
+
+  display: flex;
+  align-items: center;
 }
 
-.navbar-menu { 
-    display: flex;
-    gap: 20px;
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Search area tends to break after template changes */
+.navbar input,
+.navbar button,
+.navbar .search,
+.navbar .search-container {
+  font-family: var(--font-editorial) !important;
 }
 
 /* =========================================
-   PART 7: UTILITY & BUG FIXES
+   PART 9: IMAGES
    ========================================= */
-img {
-    display: block;
-    margin: 2em auto;
-    max-width: 100%;
-    border-radius: 4px;
+
+/* Avoid breaking small inline/icon images such as navbar dice button */
+main img,
+.markdown-rendered img,
+.markdown-preview-view img {
+  display: block;
+  margin: 2em auto;
+  max-width: 100%;
+  border-radius: 4px;
 }
 
-input, textarea, select, button {
-    -webkit-appearance: none;
-    appearance: none;
+/* Keep navbar/header icons inline */
+.navbar img,
+header img,
+button img,
+a img.icon,
+img.icon {
+  display: inline-block;
+  margin: 0;
+  border-radius: 0;
 }
 
-/* LINKS */
-a.internal-link, a.external-link {
-    color: var(--interactive-accent);
-    text-decoration: none;
-    border-bottom: 1px solid rgba(46, 170, 220, 0.3);
-    transition: all 0.15s ease-out;
+/* =========================================
+   PART 10: LINKS
+   ========================================= */
+
+a.internal-link,
+a.external-link {
+  color: var(--interactive-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(46, 170, 220, 0.3);
+  transition: all 0.15s ease-out;
 }
 
-a.internal-link:hover, a.external-link:hover {
-    background: var(--interactive-accent-faint);
-    border-bottom-color: var(--interactive-accent);
-    color: #fff;
-    border-radius: 4px;
-    padding: 0 4px;
-    margin: 0 -4px;
+a.internal-link:hover,
+a.external-link:hover {
+  background: var(--interactive-accent-faint);
+  border-bottom-color: var(--interactive-accent);
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 4px;
+  margin: 0 -4px;
 }
+
+/* Do not underline linked images/buttons */
+a:has(img) {
+  border-bottom: none !important;
+}
+
+a:has(img):hover {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* =========================================
+   PART 11: BLOCKQUOTES
+   ========================================= */
 
 blockquote {
-    border-left: 3px solid var(--interactive-accent) !important;
-    margin: 1.5em 0 !important; 
-    padding: 1em 1.5em !important;
-    border-radius: 6px;
-    background: rgba(255, 255, 255, 0.03) !important;
-    border: 1px solid var(--background-modifier-border);
-    color: var(--text-normal);
+  border-left: 3px solid var(--interactive-accent) !important;
+  margin: 1.5em 0 !important;
+  padding: 1em 1.5em !important;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border-top: 1px solid var(--background-modifier-border);
+  border-right: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
+}
+
+/* =========================================
+   PART 12: FORM ELEMENTS
+   ========================================= */
+
+input,
+textarea,
+select,
+button {
+  -webkit-appearance: none;
+  appearance: none;
 }
