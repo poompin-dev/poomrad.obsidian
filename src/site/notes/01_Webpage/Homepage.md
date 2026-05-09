@@ -32,7 +32,7 @@ ___
 
 ## Random note
 
-![dice.png\|50](/img/user/98_Assets_Public/dice.png) [Random note](/~random/)
+![dice.png\|50](/img/user/98_Assets_Public/dice.png) [![Random note](/img/optimized/Jo4cr1suv9-700.webp)](/~random/)
 
 > [!Archive]
 > 👉 [[01_Webpage/Archieves/All notes\|All notes]]
