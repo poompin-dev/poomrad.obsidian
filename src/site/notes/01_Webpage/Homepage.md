@@ -7,6 +7,8 @@
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
 
+- [[01_Webpage/Physic notes\|Physic notes]]
+
 ___
 ## Recently updated notes
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]
@@ -31,7 +33,7 @@ ___
 ## Random note
 
 <a href="/~random/">  
-<img src="98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
+<img src="/98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
 </a>
 
 > [!Archive]
