@@ -27,7 +27,7 @@
 	- Prior chest radiotherapy, e.g. mantle radiation.
 	- High-risk lesions:
 		- atypical ductal hyperplasia
-		- atypical lobular hyperplasia / LCIS
+		- atypical lobular hyperplasia / LCIS (non-obligated precursors)
 	- Dense breasts:
 		- increased breast cancer risk
 		- reduced mammographic sensitivity
@@ -76,15 +76,13 @@
 ### MRI
 - T1: usually iso- to hypointense relative to fibroglandular tissue.
 - T2: often iso- to hypointense.
-	- Markedly high T2 signal suggests alternatives such as [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Mucinous carcinoma\|Mucinous Carcinoma]], cystic/necrotic lesion, or benign lesions such as [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]].
+	- Markedly high T2 signal suggests alternatives such as [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Mucinous carcinoma\|mucinous Carcinoma]], cystic/necrotic lesion, or benign lesions such as [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|fibroadenoma]].
 - DCE MRI:
-	- rapid early enhancement
-	- delayed plateau or washout kinetics
+	- rapid early enhancement with delayed plateau (type 2) or washout (type 3) kinetics
 - **Rim enhancement**: highly suspicious for malignancy, but not pathognomonic.
 - DWI:
 	- restricted diffusion
 	- low ADC
-	- ADC threshold is protocol-dependent; avoid treating a single number as absolute.
 - MRI is useful for:
 	- extent of disease
 	- multifocality / multicentricity
@@ -94,42 +92,40 @@
 ---
 ## Differentials
 
-| Mimic | Key discriminator |
-|---|---|
-| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial Scar]] | Spiculated architectural distortion but often with lucent centre and no definite central mass |
-| Post-surgical scar | Correlates with operative site; stable or decreases over time |
-| Fat necrosis | Oil cyst, rim calcification, fat signal, history of trauma/surgery |
-| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Granular cell tumour\|Granular Cell Tumour]] | Rare; can mimic carcinoma clinically and radiologically |
-| Invasive lobular carcinoma | Often subtle; may show architectural distortion, multifocality, or underestimation on mammography |
+| Mimic                                   | Key discriminator                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial Scar]]                         | Spiculated architectural distortion but often with lucent centre and no definite central mass     |
+| Post-surgical scar                      | Correlates with operative site; stable or decreases over time                                     |
+| [[30_Rad Knowledge/301_Systems/Mammo/Fat necrosis (Breast)\|Fat necrosis]] | Oil cyst, rim calcification, fat signal, history of trauma/surgery                                |
+| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Granular cell tumour\|Granular Cell Tumour]]                | Rare; can mimic carcinoma clinically and radiologically                                           |
+| [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive lobular carcinoma\|Invasive lobular carcinoma]]          | Often subtle; may show architectural distortion, multifocality, or underestimation on mammography |
 
 ---
 ## Management
-- MDT-driven.
-- Determined by:
-	- tumour size and nodal status
-	- metastatic status
-	- grade
-	- ER/PR/HER2 status
-	- patient factors
-	- genomic assays when applicable
-- Surgery:
-	- breast-conserving surgery / wide local excision when suitable
-	- mastectomy when breast conservation is unsuitable or patient preference
-	- sentinel lymph node biopsy for clinically node-negative disease
-	- axillary treatment depends on nodal burden and local protocol
-- Radiotherapy:
-	- usually after breast-conserving surgery
-	- considered after mastectomy depending on tumour and nodal risk
-- Systemic therapy:
-	- endocrine therapy if ER-positive
-	- anti-HER2 therapy if HER2-positive
-	- chemotherapy depending on stage, biology, and recurrence risk
-	- neoadjuvant therapy commonly considered for locally advanced disease, HER2-positive disease, and triple-negative disease when tumour burden/risk justifies it
+MDT-driven due to multiple factors determined by:
+- tumour size and nodal status
+- metastatic status
+- grade
+- ER/PR/HER2 status
+- patient factors
+- genomic assays when applicable
+### Surgery
+- breast-conserving surgery / wide local excision when suitable
+- mastectomy when breast conservation is unsuitable or patient preference
+- sentinel lymph node biopsy for clinically node-negative disease
+- axillary treatment depends on nodal burden and local protocol
+### Radiotherapy
+- usually after breast-conserving surgery
+- considered after mastectomy depending on tumour and nodal risk
+### Systemic therapy
+- endocrine therapy if ER-positive
+- anti-HER2 therapy if HER2-positive
+- chemotherapy depending on stage, biology, and recurrence risk
+- neoadjuvant therapy commonly considered for locally advanced disease, HER2-positive disease, and triple-negative disease when tumour burden/risk justifies it
 
 ---
 
 > [!tip] Pearls
-> - Use **IBC-NST** or **invasive carcinoma NST**, not bare “IBC”, because IBC can also mean inflammatory breast cancer.
 > - **Spiculated high-density mass** on mammography = carcinoma until proven otherwise.
 > - Suspicious calcifications often reflect associated **DCIS**.
 > - MRI malignant pattern: **rapid enhancement + plateau/washout + low ADC ± rim enhancement**.
