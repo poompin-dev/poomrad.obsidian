@@ -32,7 +32,7 @@ ___
 
 ## Random note
 <a href="/~random/">  
-<img src="site/img/user/98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
+<img src="/img/user/98_Assets_Public/dice.png" alt="Random note" style="width:50px;">  
 </a>
 
 > [!Archive]
