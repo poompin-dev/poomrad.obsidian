@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/Chalk stick fracture.md","permalink":"/rad/301-systems/neuro/spine/trauma/chalk-stick-fracture/","tags":["spine","trauma","emergency","msk","neuro"]}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/Chalk stick fracture.md","permalink":"/rad/301-systems/neuro/spine/trauma/chalk-stick-fracture/","tags":["spine","trauma","emergency","msk","neuro"],"dg-note-properties":{"aliases":["Carrot stick fracture","Ankylosed spine fracture","Transdiscal fracture"],"tags":["spine","trauma","emergency","msk","neuro"]}}
 ---
 
 ## Overview
