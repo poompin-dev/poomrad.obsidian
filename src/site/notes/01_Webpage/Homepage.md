@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-
-# Homepage
-
 **Exam-ready radiology notes, cross-linked for fast recall.**
 
 - [[01_Webpage/Main branches/Physic notes\|Physic notes]]
