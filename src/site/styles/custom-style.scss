@@ -85,7 +85,7 @@ main {
 .markdown-preview-view,
 .markdown-reading-view,
 article {
-  scroll-margin-top: calc(var(--custom-navbar-height) + 24px);
+  scroll-margin-top: calc(var(--custom-navbar-height) + 40px);
 }
 
 /* Prevent anchor links from jumping behind navbar */
@@ -95,7 +95,7 @@ h3,
 h4,
 h5,
 h6 {
-  scroll-margin-top: calc(var(--custom-navbar-height) + 24px);
+  scroll-margin-top: calc(var(--custom-navbar-height) + 40px);
 }
 
 /* =========================================
@@ -464,7 +464,7 @@ article,
 .markdown-rendered,
 .markdown-preview-view,
 .markdown-reading-view {
-  padding-top: 50px !important;
+  padding-top: 40px !important;
 }
 
 main h1:first-child,
@@ -475,6 +475,6 @@ article h1:first-child,
 .markdown-rendered h1:first-child,
 .markdown-preview-view h1:first-child,
 .markdown-reading-view h1:first-child {
-  margin-top: 50px !important;
+  margin-top: 40px !important;
   padding-top: 0 !important;
 }
