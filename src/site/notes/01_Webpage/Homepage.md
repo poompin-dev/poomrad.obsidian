@@ -7,7 +7,7 @@
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
 
-[[Published physics.base|Radiology Physics]]
+[Published physics.base|Radiology Physics]
 
 ___
 ## Recently updated notes
@@ -31,7 +31,7 @@ ___
 - [[01_Webpage/Differential diagnosis\|Differential diagnosis]]
 
 ## I am bored. Choose for me please.
-👉 [https://sfrad.vercel.app/random|Random notes] 
+👉 [https://sfrad.vercel.app/random] 
 
 > [!Archive]
 > 👉 [[01_Webpage/All notes\|All notes]]
