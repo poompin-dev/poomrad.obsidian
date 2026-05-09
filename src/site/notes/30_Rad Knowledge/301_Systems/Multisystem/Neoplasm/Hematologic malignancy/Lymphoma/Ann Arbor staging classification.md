@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/ann-arbor-staging-classification/","tags":["lymphoma"],"dg-note-properties":{"path":["neoplasm"],"type":["grading"],"tags":["lymphoma"]}}
+{"path":["neoplasm"],"type":["grading"],"dg-publish":true,"tags":["lymphoma"],"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/ann-arbor-staging-classification/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"type":["grading"],"tags":["lymphoma"]}}
 ---
 
 Anatomic staging system for lymphoma based on **nodal distribution vs extranodal spread**; originally designed for [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|HL]] and many [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].

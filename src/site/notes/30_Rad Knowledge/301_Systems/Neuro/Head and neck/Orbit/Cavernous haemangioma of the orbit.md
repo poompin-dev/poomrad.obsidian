@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Orbit/Cavernous haemangioma of the orbit.md","permalink":"/rad/301-systems/neuro/head-and-neck/orbit/cavernous-haemangioma-of-the-orbit/","tags":["Orbit","neuro","lesion/mass"],"dg-note-properties":{"aliases":["Cavernous venous malformation of the orbit"],"tags":["Orbit","neuro","lesion/mass"]}}
+{"aliases":["Cavernous venous malformation of the orbit"],"tags":["Orbit","neuro","lesion/mass"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Orbit/Cavernous haemangioma of the orbit.md","permalink":"/rad/301-systems/neuro/head-and-neck/orbit/cavernous-haemangioma-of-the-orbit/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Cavernous venous malformation of the orbit"],"tags":["Orbit","neuro","lesion/mass"]}}
 ---
 
 > [!info] One-liner

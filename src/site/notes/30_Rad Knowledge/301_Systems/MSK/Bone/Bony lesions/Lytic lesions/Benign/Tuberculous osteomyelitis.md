@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Tuberculous osteomyelitis.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","tags":["msk","Infection"],"dg-note-properties":{"tags":["msk","Infection"]}}
+{"tags":["msk","Infection"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Tuberculous osteomyelitis.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["msk","Infection"]}}
 ---
 
 ## Overview

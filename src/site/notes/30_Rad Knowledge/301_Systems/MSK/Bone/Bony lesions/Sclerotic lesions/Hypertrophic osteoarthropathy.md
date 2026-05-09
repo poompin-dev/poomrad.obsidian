@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","dg-note-properties":{"aliases":["HOA"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"]}}
+{"aliases":["HOA"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Hypertrophic osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["HOA"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"]}}
 ---
 
 Hypertrophic osteoarthropathy is a clinical syndrome consisting (can be incomplete) of

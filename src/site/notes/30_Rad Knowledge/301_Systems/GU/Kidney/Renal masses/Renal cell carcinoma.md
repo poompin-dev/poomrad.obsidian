@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal cell carcinoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-cell-carcinoma/","dg-note-properties":{"aliases":["RCC"],"system":["GU"],"path":["neoplasm"],"type":["disease"]}}
+{"aliases":["RCC"],"system":["GU"],"path":["neoplasm"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal cell carcinoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-cell-carcinoma/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["RCC"],"system":["GU"],"path":["neoplasm"],"type":["disease"]}}
 ---
 
 The most common primary renal malignancy

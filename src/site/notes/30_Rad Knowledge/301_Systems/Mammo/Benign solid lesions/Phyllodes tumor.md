@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Phyllodes tumor.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/phyllodes-tumor/","tags":["breast","Pathology"],"dg-note-properties":{"aliases":["Cystosarcoma phyllodes"],"tags":["breast","Pathology"]}}
+{"aliases":["Cystosarcoma phyllodes"],"tags":["breast","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Phyllodes tumor.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/phyllodes-tumor/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Cystosarcoma phyllodes"],"tags":["breast","Pathology"]}}
 ---
 
 Rare (<1% of breast tumors). Peak age 40-50 (older than [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]).

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/proteus-syndrome/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/proteus-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 _Mosaic disorder_

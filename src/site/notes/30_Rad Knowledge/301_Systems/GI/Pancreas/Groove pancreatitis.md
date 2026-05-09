@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Groove pancreatitis.md","permalink":"/rad/301-systems/gi/pancreas/groove-pancreatitis/","tags":["pancreas","chronic-pancreatitis"],"dg-note-properties":{"aliases":["Paraduodenal pancreatitis"],"tags":["pancreas","chronic-pancreatitis"]}}
+{"aliases":["Paraduodenal pancreatitis"],"tags":["pancreas","chronic-pancreatitis"],"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Pancreas/Groove pancreatitis.md","permalink":"/rad/301-systems/gi/pancreas/groove-pancreatitis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Paraduodenal pancreatitis"],"tags":["pancreas","chronic-pancreatitis"]}}
 ---
 
 ## Overview

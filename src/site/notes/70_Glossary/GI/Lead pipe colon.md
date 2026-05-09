@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/gi/lead-pipe-colon/","dg-note-properties":{"system":["GI"],"type":["sign"],"modality":["CT","Fluoro"]}}
+{"system":["GI"],"type":["sign"],"modality":["CT","Fluoro"],"dg-publish":true,"permalink":"/70-glossary/gi/lead-pipe-colon/","dgPassFrontmatter":true,"dg-note-properties":{"system":["GI"],"type":["sign"],"modality":["CT","Fluoro"]}}
 ---
 
 “Lead pipe colon” = a long, smooth, featureless colon from **loss of haustra**, usually due to **chronic inflammation with fibrosis and muscular atrophy** (classically described on barium enema, but you can infer the same idea on CT when the colon is persistently featureless).

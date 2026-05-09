@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Osteosarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/osteosarcoma/","dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
+{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Osteosarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/osteosarcoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Epidemiology

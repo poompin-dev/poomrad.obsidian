@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymic rebound.md","permalink":"/rad/301-systems/chest/mediastinum/thymic-rebound/","dg-note-properties":{"aliases":["rebound thymic hyperplasia"],"path":["iatrogenic"],"system":["chest"],"type":["variant"]}}
+{"aliases":["rebound thymic hyperplasia"],"path":["iatrogenic"],"system":["chest"],"type":["variant"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymic rebound.md","permalink":"/rad/301-systems/chest/mediastinum/thymic-rebound/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["rebound thymic hyperplasia"],"path":["iatrogenic"],"system":["chest"],"type":["variant"]}}
 ---
 
 > [!summary]

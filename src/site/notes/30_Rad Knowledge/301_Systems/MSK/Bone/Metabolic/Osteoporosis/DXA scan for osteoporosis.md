@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/DXA scan for osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/dxa-scan-for-osteoporosis/","dg-note-properties":{"type":["insight"],"system":["MSK"],"path":["metabolic"]}}
+{"type":["insight"],"system":["MSK"],"path":["metabolic"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Metabolic/Osteoporosis/DXA scan for osteoporosis.md","permalink":"/rad/301-systems/msk/bone/metabolic/osteoporosis/dxa-scan-for-osteoporosis/","dgPassFrontmatter":true,"dg-note-properties":{"type":["insight"],"system":["MSK"],"path":["metabolic"]}}
 ---
 
 Currently the **standardised method** for screening for and diagnosing **generalised osteoporosis**.

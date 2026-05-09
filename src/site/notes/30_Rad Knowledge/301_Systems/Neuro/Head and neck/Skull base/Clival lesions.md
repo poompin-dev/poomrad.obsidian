@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Clival lesions.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/clival-lesions/","tags":["neuro","ddx"],"dg-note-properties":{"tags":["neuro","ddx"]}}
+{"tags":["neuro","ddx"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Clival lesions.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/clival-lesions/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["neuro","ddx"]}}
 ---
 
 ## Differential diagnosis

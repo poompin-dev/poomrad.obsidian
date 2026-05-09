@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/pten-related-diseases/","dg-note-properties":{"path":["genetics","neoplasm"],"type":["disease","list"]}}
+{"path":["genetics","neoplasm"],"type":["disease","list"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/pten-related-diseases/","dgPassFrontmatter":true,"dg-note-properties":{"path":["genetics","neoplasm"],"type":["disease","list"]}}
 ---
 
 Clinical spectrum of the same PTEN hamartoma tumour syndrome (PHTS)

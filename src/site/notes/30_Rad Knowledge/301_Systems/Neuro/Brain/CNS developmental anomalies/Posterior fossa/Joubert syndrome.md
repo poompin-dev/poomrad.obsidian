@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Posterior fossa/Joubert syndrome.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/posterior-fossa/joubert-syndrome/","dg-note-properties":{"path":["congenital"],"ped":true,"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
+{"path":["congenital"],"ped":true,"system":["neuro"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Posterior fossa/Joubert syndrome.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/posterior-fossa/joubert-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"path":["congenital"],"ped":true,"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 

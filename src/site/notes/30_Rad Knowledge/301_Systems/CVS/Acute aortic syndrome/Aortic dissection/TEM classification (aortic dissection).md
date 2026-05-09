@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Acute aortic syndrome/Aortic dissection/TEM classification (aortic dissection).md","permalink":"/rad/301-systems/cvs/acute-aortic-syndrome/aortic-dissection/tem-classification-aortic-dissection/","dg-note-properties":{"type":["grading"],"modality":["CT"],"system":["vas"]}}
+{"type":["grading"],"modality":["CT"],"system":["vas"],"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Acute aortic syndrome/Aortic dissection/TEM classification (aortic dissection).md","permalink":"/rad/301-systems/cvs/acute-aortic-syndrome/aortic-dissection/tem-classification-aortic-dissection/","dgPassFrontmatter":true,"dg-note-properties":{"type":["grading"],"modality":["CT"],"system":["vas"]}}
 ---
 
 

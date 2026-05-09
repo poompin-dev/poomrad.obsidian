@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/topics/","dg-note-properties":{"type":["house"]}}
+{"type":["house"],"dg-publish":true,"permalink":"/01-webpage/topics/","dgPassFrontmatter":true,"dg-note-properties":{"type":["house"]}}
 ---
 
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis signpost\|Osteoporosis signpost]]

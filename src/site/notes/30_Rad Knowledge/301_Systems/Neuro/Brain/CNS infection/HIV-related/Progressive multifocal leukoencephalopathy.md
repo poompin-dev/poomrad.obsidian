@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/Progressive multifocal leukoencephalopathy.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/progressive-multifocal-leukoencephalopathy/","dg-note-properties":{"aliases":["PML"],"path":["infection"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
+{"aliases":["PML"],"path":["infection"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS infection/HIV-related/Progressive multifocal leukoencephalopathy.md","permalink":"/rad/301-systems/neuro/brain/cns-infection/hiv-related/progressive-multifocal-leukoencephalopathy/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PML"],"path":["infection"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 > [!summary]

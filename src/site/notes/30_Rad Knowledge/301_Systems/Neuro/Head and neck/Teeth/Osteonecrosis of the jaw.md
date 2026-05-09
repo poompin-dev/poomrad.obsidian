@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Teeth/Osteonecrosis of the jaw.md","permalink":"/rad/301-systems/neuro/head-and-neck/teeth/osteonecrosis-of-the-jaw/","dg-note-properties":{"path":["iatrogenic"],"system":["headneck"],"type":["disease"]}}
+{"path":["iatrogenic"],"system":["headneck"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Teeth/Osteonecrosis of the jaw.md","permalink":"/rad/301-systems/neuro/head-and-neck/teeth/osteonecrosis-of-the-jaw/","dgPassFrontmatter":true,"dg-note-properties":{"path":["iatrogenic"],"system":["headneck"],"type":["disease"]}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/msk/leontiasis-ossea/","dg-note-properties":{"system":["MSK","headneck"],"type":["sign","list"]}}
+{"system":["MSK","headneck"],"type":["sign","list"],"dg-publish":true,"permalink":"/70-glossary/msk/leontiasis-ossea/","dgPassFrontmatter":true,"dg-note-properties":{"system":["MSK","headneck"],"type":["sign","list"]}}
 ---
 
 ## Definition

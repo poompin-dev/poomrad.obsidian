@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","tags":["lymphoma"],"dg-note-properties":{"aliases":["NHL"],"path":["neoplasm"],"type":["disease"],"tags":["lymphoma"]}}
+{"aliases":["NHL"],"path":["neoplasm"],"type":["disease"],"dg-publish":true,"tags":["lymphoma"],"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["NHL"],"path":["neoplasm"],"type":["disease"],"tags":["lymphoma"]}}
 ---
 
 A heterogeneous group of lymphoid malignancies (B-cell >> T/NK cell) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/wallerian-degeneration/","dg-note-properties":{"system":["neuro"],"type":["sci"]}}
+{"system":["neuro"],"type":["sci"],"dg-publish":true,"permalink":"/31-medical-knowledge/misc/wallerian-degeneration/","dgPassFrontmatter":true,"dg-note-properties":{"system":["neuro"],"type":["sci"]}}
 ---
 
 Orderly **anterograde** breakdown of an axon → myelin distal to a focal injury that interrupts axonal transport. 

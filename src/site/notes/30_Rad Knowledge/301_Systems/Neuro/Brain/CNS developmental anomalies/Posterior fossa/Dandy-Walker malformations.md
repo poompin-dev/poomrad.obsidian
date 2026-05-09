@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Posterior fossa/Dandy-Walker malformations.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/posterior-fossa/dandy-walker-malformations/","dg-note-properties":{"aliases":["Dandy-Walker spectrum abnormalities"],"ped":true,"system":["neuro"],"type":["disease"],"path":["congenital"]}}
+{"aliases":["Dandy-Walker spectrum abnormalities"],"ped":true,"system":["neuro"],"type":["disease"],"path":["congenital"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/CNS developmental anomalies/Posterior fossa/Dandy-Walker malformations.md","permalink":"/rad/301-systems/neuro/brain/cns-developmental-anomalies/posterior-fossa/dandy-walker-malformations/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Dandy-Walker spectrum abnormalities"],"ped":true,"system":["neuro"],"type":["disease"],"path":["congenital"]}}
 ---
 
 ## Pathogenesis

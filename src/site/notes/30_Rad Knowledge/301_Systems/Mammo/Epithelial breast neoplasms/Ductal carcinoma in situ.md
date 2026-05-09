@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/ductal-carcinoma-in-situ/","tags":["breast","Pathology"],"dg-note-properties":{"aliases":["DCIS"],"tags":["breast","Pathology"]}}
+{"aliases":["DCIS"],"tags":["breast","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/ductal-carcinoma-in-situ/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["DCIS"],"tags":["breast","Pathology"]}}
 ---
 
 * **Definition:** Neoplastic epithelial proliferation confined to the ductal-lobular system; no basement membrane invasion.

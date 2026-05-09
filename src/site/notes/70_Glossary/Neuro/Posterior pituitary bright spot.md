@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/neuro/posterior-pituitary-bright-spot/","dg-note-properties":{"path":["anatomical"],"system":["neuro"],"type":["anatomy"],"modality":["MRI"],"aliases":["Posterior bright spot"]}}
+{"path":["anatomical"],"system":["neuro"],"type":["anatomy"],"modality":["MRI"],"aliases":["Posterior bright spot"],"dg-publish":true,"permalink":"/70-glossary/neuro/posterior-pituitary-bright-spot/","dgPassFrontmatter":true,"dg-note-properties":{"path":["anatomical"],"system":["neuro"],"type":["anatomy"],"modality":["MRI"],"aliases":["Posterior bright spot"]}}
 ---
 
 Normal MRI finding representing the **neurohypophysis**.

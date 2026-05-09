@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Granular cell tumour.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/granular-cell-tumour/","tags":["Radiology/Breast","Radiology/MSK","Radiology/HeadNeck","Pathology/Benign","Diagnosis/Mimics"],"dg-note-properties":{"path":["neoplasm"],"type":["disease"],"aliases":["Abrikossoff tumour"],"tags":["Radiology/Breast","Radiology/MSK","Radiology/HeadNeck","Pathology/Benign","Diagnosis/Mimics"]}}
+{"path":["neoplasm"],"type":["disease"],"aliases":["Abrikossoff tumour"],"dg-publish":true,"tags":["Radiology/Breast","Radiology/MSK","Radiology/HeadNeck","Pathology/Benign","Diagnosis/Mimics"],"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Granular cell tumour.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/granular-cell-tumour/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"type":["disease"],"aliases":["Abrikossoff tumour"],"tags":["Radiology/Breast","Radiology/MSK","Radiology/HeadNeck","Pathology/Benign","Diagnosis/Mimics"]}}
 ---
 
 > [!summary] Key Concept

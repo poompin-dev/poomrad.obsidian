@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"dg-home":true,"dg-pinned":false,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 # Homepage
@@ -30,8 +30,11 @@ ___
 - [[01_Webpage/Topics\|Topics]]
 - [[01_Webpage/Differential diagnosis\|Differential diagnosis]]
 
-## I am bored. Choose for me please.
-👉 https://sfrad.vercel.app/~random/
+## Random note
+
+<a href="https://example.com](https://sfrad.vercel.app/~random/">  
+<img src="dice.png" alt="Cover image" style="width:50px;">  
+</a>
 
 > [!Archive]
 > 👉 [[01_Webpage/All notes\|All notes]]

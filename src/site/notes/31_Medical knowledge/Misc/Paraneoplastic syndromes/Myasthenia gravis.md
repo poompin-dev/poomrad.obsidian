@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/paraneoplastic-syndromes/myasthenia-gravis/","dg-note-properties":{"aliases":["MG"],"system":["neuro"],"type":["disease"]}}
+{"aliases":["MG"],"system":["neuro"],"type":["disease"],"dg-publish":true,"permalink":"/31-medical-knowledge/misc/paraneoplastic-syndromes/myasthenia-gravis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["MG"],"system":["neuro"],"type":["disease"]}}
 ---
 
 In practice, **myasthenia gravis is mainly an “imaging the thymus” disease**.

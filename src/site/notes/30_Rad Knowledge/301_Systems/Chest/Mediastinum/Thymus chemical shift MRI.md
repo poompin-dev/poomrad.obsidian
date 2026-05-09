@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymus chemical shift MRI.md","permalink":"/rad/301-systems/chest/mediastinum/thymus-chemical-shift-mri/","dg-note-properties":{"path":["anatomical"],"system":["chest"],"type":["anatomy","sign"],"modality":["MRI"]}}
+{"path":["anatomical"],"system":["chest"],"type":["anatomy","sign"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymus chemical shift MRI.md","permalink":"/rad/301-systems/chest/mediastinum/thymus-chemical-shift-mri/","dgPassFrontmatter":true,"dg-note-properties":{"path":["anatomical"],"system":["chest"],"type":["anatomy","sign"],"modality":["MRI"]}}
 ---
 
 Normal/hyperplastic thymus has **microscopic fat mixed with water**, so it **loses signal on opposed-phase** GRE. Most thymic tumours (e.g. [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymoma\|Thymoma]]) have far less microscopic fat, so **little/no drop**.

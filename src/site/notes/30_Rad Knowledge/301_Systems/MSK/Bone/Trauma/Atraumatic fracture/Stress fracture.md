@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/stress-fracture/","tags":["fracture"],"dg-note-properties":{"aliases":["Fatigue fracture"],"system":["MSK"],"type":["disease"],"path":["trauma"],"tags":["fracture"]}}
+{"aliases":["Fatigue fracture"],"system":["MSK"],"type":["disease"],"path":["trauma"],"tags":["fracture"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/stress-fracture/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Fatigue fracture"],"system":["MSK"],"type":["disease"],"path":["trauma"],"tags":["fracture"]}}
 ---
 
 ## Overview

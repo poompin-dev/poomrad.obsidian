@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS).md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/monoclonal-gammopathy-of-uncertain-significance-mgus/","tags":["hemato","nonrad"],"dg-note-properties":{"tags":["hemato","nonrad"],"aliases":["MGUS"]}}
+{"tags":["hemato","nonrad"],"aliases":["MGUS"],"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS).md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/monoclonal-gammopathy-of-uncertain-significance-mgus/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["hemato","nonrad"],"aliases":["MGUS"]}}
 ---
 
 Part of [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]]

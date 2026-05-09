@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/rat-tail-sign/","dg-note-properties":{"system":["GI"],"type":["sign"],"modality":["Fluoro"],"path":["neoplasm"]}}
+{"system":["GI"],"type":["sign"],"modality":["Fluoro"],"path":["neoplasm"],"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/rat-tail-sign/","dgPassFrontmatter":true,"dg-note-properties":{"system":["GI"],"type":["sign"],"modality":["Fluoro"],"path":["neoplasm"]}}
 ---
 
 - **Narrow, abrupt** distal tapering

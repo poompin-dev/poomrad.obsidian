@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Medullary nephrocalcinosis.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/medullary-nephrocalcinosis/","dg-note-properties":{"system":["GU"],"type":["list"],"modality":["CT","Ultrasound"]}}
+{"system":["GU"],"type":["list"],"modality":["CT","Ultrasound"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Medullary nephrocalcinosis.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/medullary-nephrocalcinosis/","dgPassFrontmatter":true,"dg-note-properties":{"system":["GU"],"type":["list"],"modality":["CT","Ultrasound"]}}
 ---
 
 Non-specific **radiologic pattern** of **calcium deposition in the renal medulla/pyramids**, usually **bilateral**, from various metabolic or structural causes. Think **“medullary calcium = systemic or tubule problem”**, not a single disease.

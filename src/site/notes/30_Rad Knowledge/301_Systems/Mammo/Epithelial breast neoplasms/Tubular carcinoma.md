@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Tubular carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/tubular-carcinoma/","tags":["breast","mimic","oncology","Pathology"],"dg-note-properties":{"tags":["breast","mimic","oncology","Pathology"]}}
+{"tags":["breast","mimic","oncology","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Tubular carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/tubular-carcinoma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["breast","mimic","oncology","Pathology"]}}
 ---
 
 * **Prognosis:** Excellent (Grade 1).

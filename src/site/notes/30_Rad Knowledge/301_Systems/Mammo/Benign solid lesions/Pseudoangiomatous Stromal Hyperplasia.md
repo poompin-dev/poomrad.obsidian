@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Pseudoangiomatous Stromal Hyperplasia.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/pseudoangiomatous-stromal-hyperplasia/","tags":["breast","Pathology","mimic"],"dg-note-properties":{"aliases":["PASH"],"tags":["breast","Pathology","mimic"]}}
+{"aliases":["PASH"],"tags":["breast","Pathology","mimic"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Benign solid lesions/Pseudoangiomatous Stromal Hyperplasia.md","permalink":"/rad/301-systems/mammo/benign-solid-lesions/pseudoangiomatous-stromal-hyperplasia/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PASH"],"tags":["breast","Pathology","mimic"]}}
 ---
 
 Hormonally stimulated myofibroblastic proliferation.

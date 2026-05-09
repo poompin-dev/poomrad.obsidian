@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/all-notes/","dg-note-properties":{"type":["house"]}}
+{"type":["house"],"dg-publish":true,"permalink":"/01-webpage/all-notes/","dgPassFrontmatter":true,"dg-note-properties":{"type":["house"]}}
 ---
 
 - [[30_Rad Knowledge/303_Physics/MRI/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","tags":["lymphoma"],"dg-note-properties":{"path":["neoplasm"],"type":["grading"],"modality":["Nuc"],"tags":["lymphoma"]}}
+{"path":["neoplasm"],"type":["grading"],"modality":["Nuc"],"dg-publish":true,"tags":["lymphoma"],"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"type":["grading"],"modality":["Nuc"],"tags":["lymphoma"]}}
 ---
 
 Visual score comparing residual FDG uptake in [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]] sites to two reference tissues: mediastinal blood pool and liver.

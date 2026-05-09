@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Banding artefact.md","permalink":"/rad/303-physics/mri/artefacts/banding-artefact/","tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"],"dg-note-properties":{"aliases":["Banding artifact","Off-resonance banding","bSSFP dark bands"],"tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"]}}
+{"aliases":["Banding artifact","Off-resonance banding","bSSFP dark bands"],"tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"],"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Banding artefact.md","permalink":"/rad/303-physics/mri/artefacts/banding-artefact/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Banding artifact","Off-resonance banding","bSSFP dark bands"],"tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"]}}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Medullary sponge kidney.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/medullary-sponge-kidney/","dg-note-properties":{"path":["malformation"],"system":["GU"],"modality":["Ultrasound"]}}
+{"path":["malformation"],"system":["GU"],"modality":["Ultrasound"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal calcification/Medullary sponge kidney.md","permalink":"/rad/301-systems/gu/kidney/renal-calcification/medullary-sponge-kidney/","dgPassFrontmatter":true,"dg-note-properties":{"path":["malformation"],"system":["GU"],"modality":["Ultrasound"]}}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Hypophysitis.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/hypophysitis/","dg-note-properties":{"path":["autoimmune","infection","iatrogenic","endocrine"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
+{"path":["autoimmune","infection","iatrogenic","endocrine"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Hypophysitis.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/hypophysitis/","dgPassFrontmatter":true,"dg-note-properties":{"path":["autoimmune","infection","iatrogenic","endocrine"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 Inflammatory disorder of the **pituitary gland**, often mimicking [[30_Rad Knowledge/301_Systems/Neuro/Brain/Sellar region/Pituitary adenoma\|adenoma]].

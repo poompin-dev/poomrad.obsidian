@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Epiphyseal bone lesions.md","permalink":"/rad/301-systems/msk/bone/insight/epiphyseal-bone-lesions/","dg-note-properties":{"ped":true,"system":["MSK"],"type":["list","ddx"]}}
+{"ped":true,"system":["MSK"],"type":["list","ddx"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Insight/Epiphyseal bone lesions.md","permalink":"/rad/301-systems/msk/bone/insight/epiphyseal-bone-lesions/","dgPassFrontmatter":true,"dg-note-properties":{"ped":true,"system":["MSK"],"type":["list","ddx"]}}
 ---
 
 ## Overview

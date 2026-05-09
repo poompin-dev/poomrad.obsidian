@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Telangiectatic osteosarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","tags":["msk","Pathology","oncology","mimic"],"dg-note-properties":{"aliases":["Telangiectatic OS"],"tags":["msk","Pathology","oncology","mimic"]}}
+{"aliases":["Telangiectatic OS"],"tags":["msk","Pathology","oncology","mimic"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Telangiectatic osteosarcoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Telangiectatic OS"],"tags":["msk","Pathology","oncology","mimic"]}}
 ---
 
 ## Overview

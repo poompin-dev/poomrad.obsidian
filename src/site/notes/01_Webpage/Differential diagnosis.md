@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/differential-diagnosis/","dg-note-properties":{"type":["house"]}}
+{"type":["house"],"dg-publish":true,"permalink":"/01-webpage/differential-diagnosis/","dgPassFrontmatter":true,"dg-note-properties":{"type":["house"]}}
 ---
 
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Insight/Epiphyseal bone lesions\|Epiphyseal bone lesions]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pediatric neoplasm/INRG Staging System (INRGSS) & Image-Defined Risk Factors (IDRFs).md","permalink":"/rad/301-systems/ped/pediatric-neoplasm/inrg-staging-system-inrgss-and-image-defined-risk-factors-idr-fs/","dg-note-properties":{"aliases":["INRG","INRGSS","IDRFs"],"path":["neoplasm"],"ped":true,"type":["grading"],"modality":["CT","MRI","Nuc"]}}
+{"aliases":["INRG","INRGSS","IDRFs"],"path":["neoplasm"],"ped":true,"type":["grading"],"modality":["CT","MRI","Nuc"],"dg-publish":true,"dg-path":"Rad/301_Systems/Ped/Pediatric neoplasm/INRG Staging System (INRGSS) & Image-Defined Risk Factors (IDRFs).md","permalink":"/rad/301-systems/ped/pediatric-neoplasm/inrg-staging-system-inrgss-and-image-defined-risk-factors-idr-fs/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["INRG","INRGSS","IDRFs"],"path":["neoplasm"],"ped":true,"type":["grading"],"modality":["CT","MRI","Nuc"]}}
 ---
 
 > [!summary] Core idea

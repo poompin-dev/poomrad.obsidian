@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","tags":["msk","developmental"],"dg-note-properties":{"aliases":["Unicameral Bone Cyst","SBC"],"tags":["msk","developmental"]}}
+{"aliases":["Unicameral Bone Cyst","SBC"],"tags":["msk","developmental"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Unicameral Bone Cyst","SBC"],"tags":["msk","developmental"]}}
 ---
 
 ## Overview

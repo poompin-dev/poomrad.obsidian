@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Plasmacytoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/plasmacytoma/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Plasmacytoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/plasmacytoma/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Part of [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]

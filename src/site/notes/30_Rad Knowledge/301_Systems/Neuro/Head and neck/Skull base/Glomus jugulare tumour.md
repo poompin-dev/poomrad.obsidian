@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Glomus jugulare tumour.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/glomus-jugulare-tumour/","dg-note-properties":{"path":["neoplasm"],"system":["headneck"],"type":["disease"]}}
+{"path":["neoplasm"],"system":["headneck"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Skull base/Glomus jugulare tumour.md","permalink":"/rad/301-systems/neuro/head-and-neck/skull-base/glomus-jugulare-tumour/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["headneck"],"type":["disease"]}}
 ---
 
 > [!summary] Core idea

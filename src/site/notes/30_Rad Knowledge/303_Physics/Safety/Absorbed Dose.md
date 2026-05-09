@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/Safety/Absorbed Dose.md","permalink":"/rad/303-physics/safety/absorbed-dose/","dg-note-properties":{"type":["sci"]}}
+{"type":["sci"],"dg-publish":true,"dg-path":"Rad/303_Physics/Safety/Absorbed Dose.md","permalink":"/rad/303-physics/safety/absorbed-dose/","dgPassFrontmatter":true,"dg-note-properties":{"type":["sci"]}}
 ---
 
 ## Definition:  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoblastoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoblastoma/","dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
+{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoblastoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoblastoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"ped":true,"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Overview

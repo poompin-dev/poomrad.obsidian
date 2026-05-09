@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Teeth/Ameloblastoma.md","permalink":"/rad/301-systems/neuro/head-and-neck/teeth/ameloblastoma/","dg-note-properties":{"type":["disease"],"system":["headneck"],"path":["neoplasm"]}}
+{"type":["disease"],"system":["headneck"],"path":["neoplasm"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Head and neck/Teeth/Ameloblastoma.md","permalink":"/rad/301-systems/neuro/head-and-neck/teeth/ameloblastoma/","dgPassFrontmatter":true,"dg-note-properties":{"type":["disease"],"system":["headneck"],"path":["neoplasm"]}}
 ---
 
 **Ameloblastoma** is a benign but locally aggressive odontogenic tumor that typically arises in the mandible.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","haematology"],"dg-note-properties":{"tags":["msk","haematology"],"aliases":["myeloma"]}}
+{"tags":["msk","haematology"],"aliases":["myeloma"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["msk","haematology"],"aliases":["myeloma"]}}
 ---
 
 part of [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]

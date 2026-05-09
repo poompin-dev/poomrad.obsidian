@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Autosomal recessive polycystic kidney disease.md","permalink":"/rad/301-systems/gu/kidney/autosomal-recessive-polycystic-kidney-disease/","dg-note-properties":{"aliases":["ARPKD"],"path":["genetics","congenital"],"ped":true,"system":["GU"],"type":["disease"]}}
+{"aliases":["ARPKD"],"path":["genetics","congenital"],"ped":true,"system":["GU"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Autosomal recessive polycystic kidney disease.md","permalink":"/rad/301-systems/gu/kidney/autosomal-recessive-polycystic-kidney-disease/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["ARPKD"],"path":["genetics","congenital"],"ped":true,"system":["GU"],"type":["disease"]}}
 ---
 
 > [!summary]

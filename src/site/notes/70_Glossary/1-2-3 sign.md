@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/1-2-3-sign/","dg-note-properties":{"tags":null,"system":["chest"],"type":["sign"]}}
+{"tags":null,"system":["chest"],"type":["sign"],"dg-publish":true,"permalink":"/70-glossary/1-2-3-sign/","dgPassFrontmatter":true,"dg-note-properties":{"tags":null,"system":["chest"],"type":["sign"]}}
 ---
 
 ## What it is:

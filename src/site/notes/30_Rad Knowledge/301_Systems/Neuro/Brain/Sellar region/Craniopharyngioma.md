@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Craniopharyngioma.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/craniopharyngioma/","dg-note-properties":{"path":["neoplasm"],"system":["neuro"],"type":["disease"]}}
+{"path":["neoplasm"],"system":["neuro"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Sellar region/Craniopharyngioma.md","permalink":"/rad/301-systems/neuro/brain/sellar-region/craniopharyngioma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["neuro"],"type":["disease"]}}
 ---
 
 > [!summary]  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/SCIWORA.md","permalink":"/rad/301-systems/neuro/spine/trauma/sciwora/","tags":["neuro","spine","ped","trauma"],"dg-note-properties":{"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"tags":["neuro","spine","ped","trauma"]}}
+{"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"tags":["neuro","spine","ped","trauma"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Trauma/SCIWORA.md","permalink":"/rad/301-systems/neuro/spine/trauma/sciwora/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"tags":["neuro","spine","ped","trauma"]}}
 ---
 
 ## Definition

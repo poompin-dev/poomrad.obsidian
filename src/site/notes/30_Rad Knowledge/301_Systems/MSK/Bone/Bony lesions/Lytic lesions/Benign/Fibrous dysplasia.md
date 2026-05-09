@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","dg-note-properties":{"aliases":["FD"],"type":["disease"],"path":["malformation"],"system":["MSK"],"ped":true}}
+{"aliases":["FD"],"type":["disease"],"path":["malformation"],"system":["MSK"],"ped":true,"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["FD"],"type":["disease"],"path":["malformation"],"system":["MSK"],"ped":true}}
 ---
 
 ## Pathology

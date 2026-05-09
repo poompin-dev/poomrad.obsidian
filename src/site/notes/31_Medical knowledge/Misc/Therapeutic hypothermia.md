@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/therapeutic-hypothermia/","dg-note-properties":{"type":["medicine"],"system":["neuro"]}}
+{"type":["medicine"],"system":["neuro"],"dg-publish":true,"permalink":"/31-medical-knowledge/misc/therapeutic-hypothermia/","dgPassFrontmatter":true,"dg-note-properties":{"type":["medicine"],"system":["neuro"]}}
 ---
 
 ## Key Goals:

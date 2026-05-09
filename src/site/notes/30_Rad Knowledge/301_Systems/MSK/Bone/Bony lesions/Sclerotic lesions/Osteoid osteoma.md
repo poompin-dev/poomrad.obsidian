@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoid osteoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoid-osteoma/","dg-note-properties":{"ped":true,"path":["neoplasm"],"system":["MSK"],"type":["disease"]}}
+{"ped":true,"path":["neoplasm"],"system":["MSK"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoid osteoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoid-osteoma/","dgPassFrontmatter":true,"dg-note-properties":{"ped":true,"path":["neoplasm"],"system":["MSK"],"type":["disease"]}}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","dg-note-properties":{"aliases":["GCT"],"path":["neoplasm"],"type":["disease"],"system":["MSK"]}}
+{"aliases":["GCT"],"path":["neoplasm"],"type":["disease"],"system":["MSK"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["GCT"],"path":["neoplasm"],"type":["disease"],"system":["MSK"]}}
 ---
 
 ## Overview

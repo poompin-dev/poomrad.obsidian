@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/NeuroRad signs/Platybasia.md","permalink":"/rad/301-systems/neuro/neuro-rad-signs/platybasia/","dg-note-properties":{"type":["ddx","sign"],"system":["neuro"]}}
+{"type":["ddx","sign"],"system":["neuro"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/NeuroRad signs/Platybasia.md","permalink":"/rad/301-systems/neuro/neuro-rad-signs/platybasia/","dgPassFrontmatter":true,"dg-note-properties":{"type":["ddx","sign"],"system":["neuro"]}}
 ---
 
 ## Diagnosis

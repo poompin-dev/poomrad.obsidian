@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Intramedullary spinal cord metastasis.md","permalink":"/rad/301-systems/neuro/spine/intramedullary-spinal-cord-metastasis/","dg-note-properties":{"aliases":["ISCM"],"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
+{"aliases":["ISCM"],"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Spine/Intramedullary spinal cord metastasis.md","permalink":"/rad/301-systems/neuro/spine/intramedullary-spinal-cord-metastasis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["ISCM"],"path":["neoplasm"],"system":["neuro"],"type":["disease"],"modality":["MRI"]}}
 ---
 
 Metastatic deposit within the spinal cord parenchyma causing acute/subacute myelopathy; uncommon but high-stakes because treatment is time-sensitive.

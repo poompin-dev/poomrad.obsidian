@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Medullary carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/medullary-carcinoma/","tags":["breast","Pathology","oncology","mimic"],"dg-note-properties":{"tags":["breast","Pathology","oncology","mimic"]}}
+{"tags":["breast","Pathology","oncology","mimic"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Medullary carcinoma.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/medullary-carcinoma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["breast","Pathology","oncology","mimic"]}}
 ---
 
 * **Association:** *BRCA1* carriers, younger patients.

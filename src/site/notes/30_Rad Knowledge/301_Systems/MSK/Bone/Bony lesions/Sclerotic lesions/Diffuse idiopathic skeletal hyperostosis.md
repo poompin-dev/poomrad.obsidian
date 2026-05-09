@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","tags":["msk","spine","neuro"],"dg-note-properties":{"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"tags":["msk","spine","neuro"]}}
+{"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"tags":["msk","spine","neuro"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"tags":["msk","spine","neuro"]}}
 ---
 
 ## Overview

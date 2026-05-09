@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Trachea/Diffuse tracheal pathologies.md","permalink":"/rad/301-systems/chest/trachea/diffuse-tracheal-pathologies/","tags":["chest","trachea","ddx"],"dg-note-properties":{"tags":["chest","trachea","ddx"]}}
+{"tags":["chest","trachea","ddx"],"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Trachea/Diffuse tracheal pathologies.md","permalink":"/rad/301-systems/chest/trachea/diffuse-tracheal-pathologies/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["chest","trachea","ddx"]}}
 ---
 
 ## Overview

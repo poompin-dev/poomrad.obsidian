@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/bird-beak-sign/","dg-note-properties":{"path":["idiopathic"],"system":["GI"],"type":["sign"],"modality":["Fluoro"]}}
+{"path":["idiopathic"],"system":["GI"],"type":["sign"],"modality":["Fluoro"],"dg-publish":true,"permalink":"/70-glossary/gi/esophagus/bird-beak-sign/","dgPassFrontmatter":true,"dg-note-properties":{"path":["idiopathic"],"system":["GI"],"type":["sign"],"modality":["Fluoro"]}}
 ---
 
 Exam word for **true** [[achalasia\|achalasia]]

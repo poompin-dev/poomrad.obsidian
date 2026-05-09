@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/ObGyn/Adnexa/Polycystic ovary syndrome.md","permalink":"/rad/301-systems/ob-gyn/adnexa/polycystic-ovary-syndrome/","tags":["ObGyn"],"dg-note-properties":{"aliases":["PCOS"],"tags":["ObGyn"]}}
+{"aliases":["PCOS"],"tags":["ObGyn"],"dg-publish":true,"dg-path":"Rad/301_Systems/ObGyn/Adnexa/Polycystic ovary syndrome.md","permalink":"/rad/301-systems/ob-gyn/adnexa/polycystic-ovary-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["PCOS"],"tags":["ObGyn"]}}
 ---
 
 ## Diagnostic criteria (Polycystic Ovarian Morphology - PCOM)

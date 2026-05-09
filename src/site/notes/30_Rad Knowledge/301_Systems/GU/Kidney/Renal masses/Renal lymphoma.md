@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal lymphoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-lymphoma/","dg-note-properties":{"path":["neoplasm"],"system":["GU"],"type":["disease"]}}
+{"path":["neoplasm"],"system":["GU"],"type":["disease"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Kidney/Renal masses/Renal lymphoma.md","permalink":"/rad/301-systems/gu/kidney/renal-masses/renal-lymphoma/","dgPassFrontmatter":true,"dg-note-properties":{"path":["neoplasm"],"system":["GU"],"type":["disease"]}}
 ---
 
 Lymphoma is the most common secondary malignant renal neoplasm (usually systemic [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]]).

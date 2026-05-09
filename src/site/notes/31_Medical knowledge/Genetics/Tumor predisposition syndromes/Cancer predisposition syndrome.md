@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/cancer-predisposition-syndrome/","dg-note-properties":{"path":["genetics","neoplasm"],"type":["syndrome","list"]}}
+{"path":["genetics","neoplasm"],"type":["syndrome","list"],"dg-publish":true,"permalink":"/31-medical-knowledge/genetics/tumor-predisposition-syndromes/cancer-predisposition-syndrome/","dgPassFrontmatter":true,"dg-note-properties":{"path":["genetics","neoplasm"],"type":["syndrome","list"]}}
 ---
 
 > [!summary] Mental model

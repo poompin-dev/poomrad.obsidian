@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/insufficiency-fracture/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/atraumatic-fracture/insufficiency-fracture/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Core concept

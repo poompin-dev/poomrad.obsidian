@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Metabolic/Marchiafava-Bignami disease.md","permalink":"/rad/301-systems/neuro/brain/metabolic/marchiafava-bignami-disease/","tags":["neuro"],"dg-note-properties":{"tags":["neuro"]}}
+{"tags":["neuro"],"dg-publish":true,"dg-path":"Rad/301_Systems/Neuro/Brain/Metabolic/Marchiafava-Bignami disease.md","permalink":"/rad/301-systems/neuro/brain/metabolic/marchiafava-bignami-disease/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["neuro"]}}
 ---
 
 ## Key points

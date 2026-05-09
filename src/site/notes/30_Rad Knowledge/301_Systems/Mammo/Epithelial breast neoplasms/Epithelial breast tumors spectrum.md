@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/epithelial-breast-tumors-spectrum/","tags":["breast","pathology","oncology"],"dg-note-properties":{"aliases":["breast epithelial neoplasms"],"tags":["breast","pathology","oncology"]}}
+{"aliases":["breast epithelial neoplasms"],"tags":["breast","pathology","oncology"],"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum.md","permalink":"/rad/301-systems/mammo/epithelial-breast-neoplasms/epithelial-breast-tumors-spectrum/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["breast epithelial neoplasms"],"tags":["breast","pathology","oncology"]}}
 ---
 
 ## Overview and classification

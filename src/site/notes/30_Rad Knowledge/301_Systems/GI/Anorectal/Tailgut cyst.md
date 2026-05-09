@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GI/Anorectal/Tailgut cyst.md","permalink":"/rad/301-systems/gi/anorectal/tailgut-cyst/","tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"],"dg-note-properties":{"aliases":["Retrorectal cystic hamartoma","tailgut remnant cyst","cystic hamartoma of retrorectal space"],"tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"]}}
+{"aliases":["Retrorectal cystic hamartoma","tailgut remnant cyst","cystic hamartoma of retrorectal space"],"tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"],"dg-publish":true,"dg-home":false,"dg-path":"Rad/301_Systems/GI/Anorectal/Tailgut cyst.md","permalink":"/rad/301-systems/gi/anorectal/tailgut-cyst/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Retrorectal cystic hamartoma","tailgut remnant cyst","cystic hamartoma of retrorectal space"],"tags":["pelvis","presacral","congenital","cystic-tumour","retrorectal","multilocular"]}}
 ---
 
 ## Overview

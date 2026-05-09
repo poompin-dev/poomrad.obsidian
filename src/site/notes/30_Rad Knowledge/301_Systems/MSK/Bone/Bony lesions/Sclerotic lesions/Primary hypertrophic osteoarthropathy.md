@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Primary hypertrophic osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","dg-note-properties":{"aliases":["Pachydermoperiostosis"],"path":["genetics","idiopathic"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"]}}
+{"aliases":["Pachydermoperiostosis"],"path":["genetics","idiopathic"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Primary hypertrophic osteoarthropathy.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Pachydermoperiostosis"],"path":["genetics","idiopathic"],"system":["MSK"],"type":["disease"],"modality":["Radiograph"]}}
 ---
 
 ## Demographic

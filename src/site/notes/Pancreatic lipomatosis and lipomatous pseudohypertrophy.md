@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pancreatic-lipomatosis-and-lipomatous-pseudohypertrophy/","tags":["pancreas","SDS","CF"],"dg-note-properties":{"aliases":["Pancreatic lipomatosis","Pancreatic fatty replacement"],"system":["HBP"],"type":["disease"],"tags":["pancreas","SDS","CF"]}}
+{"aliases":["Pancreatic lipomatosis","Pancreatic fatty replacement"],"system":["HBP"],"type":["disease"],"tags":["pancreas","SDS","CF"],"dg-publish":true,"permalink":"/pancreatic-lipomatosis-and-lipomatous-pseudohypertrophy/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Pancreatic lipomatosis","Pancreatic fatty replacement"],"system":["HBP"],"type":["disease"],"tags":["pancreas","SDS","CF"]}}
 ---
 
 > [!info] Key points

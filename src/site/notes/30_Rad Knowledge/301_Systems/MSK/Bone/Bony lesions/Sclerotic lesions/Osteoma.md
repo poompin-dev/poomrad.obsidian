@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoma/","tags":["msk","headneck","Pathology"],"dg-note-properties":{"tags":["msk","headneck","Pathology"]}}
+{"tags":["msk","headneck","Pathology"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/sclerotic-lesions/osteoma/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["msk","headneck","Pathology"]}}
 ---
 
 ## Overview

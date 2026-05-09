@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Brodie's abscess.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","tags":["msk","Infection","mimic"],"dg-note-properties":{"aliases":["subacute osteomyelitis","chronic abscess of bone"],"tags":["msk","Infection","mimic"]}}
+{"aliases":["subacute osteomyelitis","chronic abscess of bone"],"tags":["msk","Infection","mimic"],"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Brodie's abscess.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["subacute osteomyelitis","chronic abscess of bone"],"tags":["msk","Infection","mimic"]}}
 ---
 
 ## Overview

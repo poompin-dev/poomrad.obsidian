@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Mammography Techniques.md","permalink":"/rad/301-systems/mammo/mammography-techniques/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Mammo/Mammography Techniques.md","permalink":"/rad/301-systems/mammo/mammography-techniques/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Basics

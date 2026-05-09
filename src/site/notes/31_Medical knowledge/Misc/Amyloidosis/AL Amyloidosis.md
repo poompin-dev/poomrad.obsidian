@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/misc/amyloidosis/al-amyloidosis/","tags":["haematology","cardiac_imaging"],"dg-note-properties":{"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"tags":["haematology","cardiac_imaging"]}}
+{"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"tags":["haematology","cardiac_imaging"],"dg-publish":true,"permalink":"/31-medical-knowledge/misc/amyloidosis/al-amyloidosis/","dgPassFrontmatter":true,"dg-note-properties":{"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"tags":["haematology","cardiac_imaging"]}}
 ---
 
 > [!INFO] Definition

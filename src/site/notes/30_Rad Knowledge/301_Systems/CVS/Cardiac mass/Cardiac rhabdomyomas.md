@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas.md","permalink":"/rad/301-systems/cvs/cardiac-mass/cardiac-rhabdomyomas/","tags":["TSC"],"dg-note-properties":{"ped":true,"type":["disease"],"system":["CVS"],"tags":["TSC"]}}
+{"ped":true,"type":["disease"],"system":["CVS"],"tags":["TSC"],"dg-publish":true,"dg-path":"Rad/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas.md","permalink":"/rad/301-systems/cvs/cardiac-mass/cardiac-rhabdomyomas/","dgPassFrontmatter":true,"dg-note-properties":{"ped":true,"type":["disease"],"system":["CVS"],"tags":["TSC"]}}
 ---
 
 - Foetal/neonatal intramural or intracavitary benign masses; often multiple; tend to **regress** spontaneously.

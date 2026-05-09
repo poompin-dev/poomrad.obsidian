@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Adrenocortical carcinoma.md","permalink":"/rad/301-systems/gu/adrenal-gland/adrenocortical-carcinoma/","dg-note-properties":{"type":["disease"],"system":["GU"],"path":["neoplasm","genetics"],"aliases":["ACC"]}}
+{"type":["disease"],"system":["GU"],"path":["neoplasm","genetics"],"aliases":["ACC"],"dg-publish":true,"dg-path":"Rad/301_Systems/GU/Adrenal gland/Adrenocortical carcinoma.md","permalink":"/rad/301-systems/gu/adrenal-gland/adrenocortical-carcinoma/","dgPassFrontmatter":true,"dg-note-properties":{"type":["disease"],"system":["GU"],"path":["neoplasm","genetics"],"aliases":["ACC"]}}
 ---
 
 > [!summary] Core idea
