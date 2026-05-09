@@ -119,10 +119,12 @@ article,
 main > header,
 article > header,
 .content > header {
-  margin-bottom: 40px !important;
-  padding-bottom: 40px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
-
+.header-separator {
+  margin-top: 0.4em !important;
+}
 /* Paragraphs */
 main p,
 .markdown-rendered p {
@@ -182,13 +184,6 @@ main h6 {
   color: var(--text-header);
   margin-top: 0.9em !important;
   margin-bottom: 0.25em !important;
-}
-
-/* First H2 after metadata/header should not float too far down */
-main > header + h2,
-main > header + * > h2:first-child,
-.header-separator + h2 {
-  margin-top: 0.4em !important;
 }
 
 /* =========================================
