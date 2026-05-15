@@ -58,6 +58,7 @@ Feeding intolerance, bilious aspirates, abdominal distension, bloody stools, tem
 | Fixed loop        | Same loop now mobile on serial films           | Persistent ≥24-36h or new in different segment |
 | Bowel wall on US  | Perfusion returning on colour Doppler          | Mural thinning, absent perfusion               |
 | Pneumoperitoneum  | Absent throughout                              | Any new free gas = surgery                     |
+
 Typical recovery timeline: PVG clears in hours, pneumatosis in 24-72h, ileus in 3-5 days, feeds restart cautiously about 1 week after pneumatosis clearance.
 
 ---
@@ -70,7 +71,9 @@ Typical recovery timeline: PVG clears in hours, pneumatosis in 24-72h, ileus in 
 | Malrotation with midgut volvulus                 | Bilious vomiting, whirlpool sign, abnormal SMA/SMV relationship                                                                  |
 | Sepsis with ileus                                | Diffuse dilatation, no pneumatosis                                                                                               |
 | Milk protein allergy                             | Bloody stools, well infant                                                                                                       |
+
 See also: [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
+
 ## Management
 - **Bell I-II**: NPO, NG decompression, broad-spectrum IV antibiotics, TPN, serial AXR/US every 6-12h
 - **Bell III / pneumoperitoneum**: surgical consult. Options are **primary peritoneal drainage** (smaller/sicker infants) vs **laparotomy with resection ± stoma**
