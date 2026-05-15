@@ -63,13 +63,14 @@ Typical recovery timeline: PVG clears in hours, pneumatosis in 24-72h, ileus in 
 ---
 ## Differentials
 
-|Entity|Discriminator|
-|---|---|
-|**Spontaneous intestinal perforation (SIP)**|Earlier (<7d), extreme prematurity, indomethacin/postnatal steroids, focal perforation near ileocaecal valve, **no pneumatosis**|
-|Hirschsprung-associated enterocolitis|Older onset, delayed meconium, transition zone on contrast enema|
-|Malrotation with midgut volvulus|Bilious vomiting, whirlpool sign, abnormal SMA/SMV relationship|
-|Sepsis with ileus|Diffuse dilatation, no pneumatosis|
-|Milk protein allergy|Bloody stools, well infant|
+| Entity                                           | Discriminator                                                                                                                    |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| **[[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]] (SIP)** | Earlier (<7d), extreme prematurity, indomethacin/postnatal steroids, focal perforation near ileocaecal valve, **no pneumatosis** |
+| Hirschsprung-associated enterocolitis            | Older onset, delayed meconium, transition zone on contrast enema                                                                 |
+| Malrotation with midgut volvulus                 | Bilious vomiting, whirlpool sign, abnormal SMA/SMV relationship                                                                  |
+| Sepsis with ileus                                | Diffuse dilatation, no pneumatosis                                                                                               |
+| Milk protein allergy                             | Bloody stools, well infant                                                                                                       |
+See also: [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
 ## Management
 - **Bell I-II**: NPO, NG decompression, broad-spectrum IV antibiotics, TPN, serial AXR/US every 6-12h
 - **Bell III / pneumoperitoneum**: surgical consult. Options are **primary peritoneal drainage** (smaller/sicker infants) vs **laparotomy with resection ± stoma**

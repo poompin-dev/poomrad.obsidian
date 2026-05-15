@@ -12,9 +12,9 @@
 
 ___
 ## Recently updated notes
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
-- [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
+- [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Pylorospasm\|Pylorospasm]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum\|Epithelial breast tumors spectrum]]
 
@@ -36,4 +36,4 @@ ___
 
 ___
 ## Disclaimer
-This is a personal knowledge base created by a radiology resident for exam revision purposes. It is a work in progress and intended for educational reference, not as a substitute for official clinical guidelines.
+This is a personal knowledge base created by a radiology resident for exam revision purposes. It is a work in progress and intended for educational reference, not as a substitute for authoritative clinical resource or clinical judgement tool.

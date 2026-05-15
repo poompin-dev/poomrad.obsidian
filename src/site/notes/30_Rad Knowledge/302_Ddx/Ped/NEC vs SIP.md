@@ -17,3 +17,6 @@
 | Abdominal wall    | Erythema                                                 | **Bluish/black discolouration**             |
 | Bloody stools     | Common                                                   | Uncommon                                    |
 | Prognosis         | Worse                                                    | Better                                      |
+## See also
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
