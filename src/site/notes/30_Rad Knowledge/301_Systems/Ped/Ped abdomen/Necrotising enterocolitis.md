@@ -42,6 +42,7 @@ Feeding intolerance, bilious aspirates, abdominal distension, bloody stools, tem
 |**Portal venous gas**|Branching lucencies extending to liver **periphery** (cf. pneumobilia, central)|
 |Featureless gasless abdomen|Ominous; fluid-filled bowel, often pre-perforation|
 |Pneumoperitoneum|Surgical emergency|
+
 **Pneumoperitoneum signs on supine AXR**: Rigler, football, falciform ligament, triangle, lucent liver, cupola.
 ### US
 - More sensitive than AXR for PVG (echogenic foci moving in portal vein) and pneumatosis
@@ -73,7 +74,7 @@ Typical recovery timeline: PVG clears in hours, pneumatosis in 24-72h, ileus in 
 | Milk protein allergy                             | Bloody stools, well infant                                                                                                       |
 
 See also: [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
-
+___
 ## Management
 - **Bell I-II**: NPO, NG decompression, broad-spectrum IV antibiotics, TPN, serial AXR/US every 6-12h
 - **Bell III / pneumoperitoneum**: surgical consult. Options are **primary peritoneal drainage** (smaller/sicker infants) vs **laparotomy with resection ± stoma**
