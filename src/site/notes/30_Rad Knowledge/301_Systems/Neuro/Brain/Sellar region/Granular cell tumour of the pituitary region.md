@@ -6,7 +6,7 @@
 Rare, usually benign **TTF-1–positive** posterior pituitary tumour that commonly presents as a **solid enhancing stalk/suprasellar mass**.
 
 > [!warning]
-> Not the same beast as “Abrikossoff” [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Granular cell tumour\|Granular cell tumour]] (Schwann-cell, tongue/breast/skin). This one is a **posterior pituitary (pituicyte-derived) tumour** and sits in the **stalk/posterior lobe** family with **pituicytoma** and **spindle cell oncocytoma**.
+> Not the same beast as “Abrikossoff” [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Granular cell tumour\|Granular cell tumour]] (Schwann-cell, tongue/breast/skin). This one is a **posterior pituitary (pituicyte-derived) tumour** and sits in the **stalk/posterior lobe** family with **pituicytoma** and **spindle cell oncocytoma**.
 ## Typical clinical clues
 - Symptoms from mass effect: **visual disturbance/headache**; endocrine: **hypopituitarism** ± **mild hyperprolactinaemia (stalk effect)**.
 ## Imaging features

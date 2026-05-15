@@ -71,7 +71,7 @@ Most commonly used abnormal thresholds (infants <3 months):
 
 - **Pyloric muscle thickness**
 	- **> 3 mm** = abnormal / highly suspicious for IHPS  
-	- 2–3 mm = **equivocal** → repeat scan, consider clinical course and [[30_Rad Knowledge/301_Systems/Ped/Pylorospasm\|Pylorospasm]]
+	- 2–3 mm = **equivocal** → repeat scan, consider clinical course and [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Pylorospasm\|Pylorospasm]]
 - **Pyloric canal length**
 	- **≥ 15–16 mm** = abnormal
 	- < 12 mm usually normal; 12–15 mm = grey zone (correlate clinically, repeat)

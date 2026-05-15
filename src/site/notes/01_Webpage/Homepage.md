@@ -12,19 +12,19 @@
 
 ___
 ## Recently updated notes
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
+- [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Pylorospasm\|Pylorospasm]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum\|Epithelial breast tumors spectrum]]
-- [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive breast carcinoma, no special type\|Invasive breast carcinoma, no special type]]
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
-- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
 
 { .block-language-dataview}
 ## New notes
+- [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
+- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
+- [[30_Rad Knowledge/301_Systems/GI/Pancreas/Pancreatic lipomatosis and lipomatous pseudohypertrophy\|Pancreatic lipomatosis and lipomatous pseudohypertrophy]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
-- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Skull base/Basilar invagination\|Basilar invagination]]
-- [[30_Rad Knowledge/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas\|Cardiac rhabdomyomas]]
-- [[30_Rad Knowledge/301_Systems/Neuro/NeuroRad signs/Platybasia\|Platybasia]]
-- [[30_Rad Knowledge/301_Systems/Neuro/Misc/Radiographic lines - Basilar invagination\|Radiographic lines - Basilar invagination]]
 
 { .block-language-dataview}
 ## I am looking for certain...

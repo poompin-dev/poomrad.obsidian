@@ -4,4 +4,4 @@
 
 * **Association:** *BRCA1* carriers, younger patients.
 * **Histology:** High-grade, lymphoplasmacytic infiltrate.
-* **Imaging:** Circumscribed mass (mimics [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]). US may show posterior acoustic enhancement (necrosis/cellularity) rather than shadowing.
+* **Imaging:** Circumscribed mass (mimics [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroadenoma\|Fibroadenoma]]). US may show posterior acoustic enhancement (necrosis/cellularity) rather than shadowing.

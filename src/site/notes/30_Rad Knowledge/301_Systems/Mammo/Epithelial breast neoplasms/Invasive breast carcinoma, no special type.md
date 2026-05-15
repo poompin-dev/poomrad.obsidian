@@ -76,7 +76,7 @@
 ### MRI
 - T1: usually iso- to hypointense relative to fibroglandular tissue.
 - T2: often iso- to hypointense.
-	- Markedly high T2 signal suggests alternatives such as [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Mucinous carcinoma\|mucinous Carcinoma]], cystic/necrotic lesion, or benign lesions such as [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|fibroadenoma]].
+	- Markedly high T2 signal suggests alternatives such as [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Mucinous carcinoma\|mucinous Carcinoma]], cystic/necrotic lesion, or benign lesions such as [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroadenoma\|Fibroadenoma]].
 - DCE MRI:
 	- rapid early enhancement with delayed plateau (type 2) or washout (type 3) kinetics
 - **Rim enhancement**: highly suspicious for malignancy, but not pathognomonic.
@@ -94,10 +94,10 @@
 
 | Mimic                                   | Key discriminator                                                                                 |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial Scar]]                         | Spiculated architectural distortion but often with lucent centre and no definite central mass     |
+| [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Radial scar\|Radial scar]]                         | Spiculated architectural distortion but often with lucent centre and no definite central mass     |
 | Post-surgical scar                      | Correlates with operative site; stable or decreases over time                                     |
 | [[30_Rad Knowledge/301_Systems/Mammo/Fat necrosis (Breast)\|Fat necrosis]] | Oil cyst, rim calcification, fat signal, history of trauma/surgery                                |
-| [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Granular cell tumour\|Granular Cell Tumour]]                | Rare; can mimic carcinoma clinically and radiologically                                           |
+| [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Granular cell tumour\|Granular cell tumour]]                | Rare; can mimic carcinoma clinically and radiologically                                           |
 | [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Invasive lobular carcinoma\|Invasive lobular carcinoma]]          | Often subtle; may show architectural distortion, multifocality, or underestimation on mammography |
 
 ---
@@ -129,4 +129,4 @@ MDT-driven due to multiple factors determined by:
 > - **Spiculated high-density mass** on mammography = carcinoma until proven otherwise.
 > - Suspicious calcifications often reflect associated **DCIS**.
 > - MRI malignant pattern: **rapid enhancement + plateau/washout + low ADC ± rim enhancement**.
-> - Classic exam trap: [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial Scar]] can look spiculated but tends to have a lucent centre and lacks a true central mass.
+> - Classic exam trap: [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Radial scar\|Radial scar]] can look spiculated but tends to have a lucent centre and lacks a true central mass.

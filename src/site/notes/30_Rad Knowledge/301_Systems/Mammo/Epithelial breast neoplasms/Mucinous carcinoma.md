@@ -4,5 +4,5 @@
 
 * **Population:** Elderly women.
 * **Imaging:**
-    * **Mammography:** Circumscribed, low-density mass (can mimic benign cyst/[[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]).
+    * **Mammography:** Circumscribed, low-density mass (can mimic benign cyst/[[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroadenoma\|Fibroadenoma]]).
     * **MRI:** **Very high T2 signal** (due to mucin). Enhances (differentiation from cyst).

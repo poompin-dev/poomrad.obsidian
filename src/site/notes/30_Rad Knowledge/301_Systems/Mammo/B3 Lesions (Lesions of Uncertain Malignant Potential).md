@@ -5,7 +5,7 @@
 ## General concept
 * **Definition**: Breast lesions identified on Core Needle Biopsy (CNB) that are **benign** but have a heterogeneous histology with an increased risk of associated malignancy (DCIS or invasive cancer) in the surrounding tissue ("upgrade rate") or an increased long-term risk of developing breast cancer.
 * **Histological Classification (NHS BSP)**:
-    * **B3a**: Without epithelial atypia (e.g., typical [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|papilloma]], [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial scar]], cellular [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroepithelial lesions\|Fibroepithelial lesions]]).
+    * **B3a**: Without epithelial atypia (e.g., typical [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|papilloma]], [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Radial scar\|Radial scar]], cellular [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroepithelial lesions\|Fibroepithelial lesions]]).
     * **B3b**: With epithelial atypia (e.g., [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]], classic LCIS, FEA).
 
 ---
@@ -33,12 +33,12 @@
 * **[[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|Intraductal papilloma]]**.
 
 ### 5. Radial Scar / CSL
-* See [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial scar]].
+* See [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Radial scar\|Radial scar]].
 * B3a (if no atypia) or B3b (if associated with ADH/FEA).
 * **Management**: Excision required (VAE or surgery).
 
-### 6. [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroepithelial lesions\|Fibroepithelial lesions]] (Cellular)
-* Distinction between **[[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Fibroadenoma\|Fibroadenoma]]** and **Benign [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Phyllodes tumor\|Phyllodes tumor]]** can be difficult on CNB.
+### 6. [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroepithelial lesions\|Fibroepithelial lesions]] (Cellular)
+* Distinction between **[[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Fibroadenoma\|Fibroadenoma]]** and **Benign [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Phyllodes tumor\|Phyllodes tumor]]** can be difficult on CNB.
 * If reported as "Cellular fibroepithelial lesion" or "Phyllodes cannot be excluded":
     * **Management**: Excision (usually surgical with margins for Phyllodes).
 
@@ -50,11 +50,11 @@
 
 1.  **MDT Discussion**: Mandatory. Radiologic-pathologic correlation is critical.
 2.  **Vacuum Assisted Excision (VAE)**:
-    * *First-line* for most B3 lesions ([[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|papilloma]], [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Radial scar\|Radial scar]], FEA, classic LCIS) to obtain larger tissue volume (4g tissue or clear radiologic removal).
+    * *First-line* for most B3 lesions ([[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Intraductal papilloma\|papilloma]], [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Radial scar\|Radial scar]], FEA, classic LCIS) to obtain larger tissue volume (4g tissue or clear radiologic removal).
     * **Therapeutic**: Removes the lesion entirely.
     * **Diagnostic**: Excludes adjacent malignancy.
 3.  **Surgical Excision**:
-    * Indicated for **[[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]]** (standard care), **Pleomorphic LCIS**, **[[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Phyllodes tumor\|Phyllodes tumor]]**, or if VAE is technically not feasible (lesion too posterior/thin breast).
+    * Indicated for **[[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Atypical ductal hyperplasia\|ADH]]** (standard care), **Pleomorphic LCIS**, **[[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Phyllodes tumor\|Phyllodes tumor]]**, or if VAE is technically not feasible (lesion too posterior/thin breast).
     * Indicated if VAE pathology shows upgrade to malignancy.
 4.  **Surveillance**:
     * Only initiated **after** VAE/Surgery confirms no invasive cancer or [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|DCIS]].
@@ -71,7 +71,7 @@
 | **ADH**              | Yes              | **Surgical Excision** (or extensive VAE)                                     |
 | **Classic LCIS**     | Yes              | VAE -> Surveillance                                                          |
 | **Pleomorphic LCIS** | Yes (high grade) | **Surgical Excision** (with margins)                                         |
-| **Cellular FA**      | No               | Excision (Surgery often preferred if [[30_Rad Knowledge/301_Systems/Mammo/Benign solid lesions/Phyllodes tumor\|phyllodes]] concern) |
+| **Cellular FA**      | No               | Excision (Surgery often preferred if [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Phyllodes tumor\|phyllodes]] concern) |
 
 ---
 ## Exam pearls
