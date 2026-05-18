@@ -48,15 +48,6 @@
 - T1 mapping / ECV: elevated native T1, raised ECV reflecting interstitial fibrosis
 - Myocardial crypts: deep blood-filled invaginations, early marker in genotype-positive phenotype-negative carriers
 ---
-## Differentials of increased LV wall thickness
-
-|Mimic|Discriminator|
-|---|---|
-|Athlete's heart|Wall ≤13 mm, normal/large cavity, normal diastolic function, no LGE, regresses with detraining|
-|Hypertensive heart|Concentric, BP history, regresses with control|
-|Cardiac amyloid|Concentric, low ECG voltage, diffuse subendocardial / global LGE, abnormal nulling, very high native T1 and ECV|
-|Anderson-Fabry|**Low native T1**, basal inferolateral mid-wall LGE|
-|Aortic stenosis|Loading explanation present|
 ## Management
 ### Obstructive HCM (LVOT gradient ≥30 mmHg rest or provoked)
 
@@ -78,6 +69,9 @@
 - Cascade screening of first-degree relatives: ECG + echo every 12-18 months in adolescence, every 3-5 years thereafter
 
 ---
+## See also
+- [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
+
 
 > [!tip] Exam pearls
 > 
