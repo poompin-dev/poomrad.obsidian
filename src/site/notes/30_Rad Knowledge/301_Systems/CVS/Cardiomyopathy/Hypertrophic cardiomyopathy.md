@@ -23,9 +23,15 @@
 - Asymptomatic (incidental murmur, ECG abnormality, family screening) → exertional dyspnoea, angina, pre-syncope, syncope, sudden cardiac death
 - Ejection systolic murmur at LLSE, increases with Valsalva / standing (opposite of AS)
 - ECG: LVH with strain, deep TWI (apical HCM: giant negative T waves V4-V6), pathological Q waves
+## Morphological subtypes
+- Asymmetric septal (~70%, most common)
+- Apical (Yamaguchi): ace-of-spades LV cavity, giant negative T waves, more common in East Asian populations
+- Concentric (mimics amyloid / hypertensive heart)
+- Mid-ventricular: predisposes to apical aneurysm
+- Mass-like / focal: can mimic tumour, isointense on all sequences
 
 ---
-## Imaging / investigations
+## Imaging
 
 ### Echocardiography (first-line)
 - Asymmetric septal hypertrophy, septal:posterior wall ratio >1.3
@@ -41,14 +47,6 @@
 - **LGE**: patchy mid-myocardial, in hypertrophied segments, classically at **RV insertion points**; quantified at 6 SD above nulled myocardium
 - T1 mapping / ECV: elevated native T1, raised ECV reflecting interstitial fibrosis
 - Myocardial crypts: deep blood-filled invaginations, early marker in genotype-positive phenotype-negative carriers
-
-### Morphological subtypes
-- Asymmetric septal (~70%, most common)
-- Apical (Yamaguchi): ace-of-spades LV cavity, giant negative T waves, more common in East Asian populations
-- Concentric (mimics amyloid / hypertensive heart)
-- Mid-ventricular: predisposes to apical aneurysm
-- Mass-like / focal: can mimic tumour, isointense on all sequences
-
 ---
 ## Differentials of increased LV wall thickness
 
