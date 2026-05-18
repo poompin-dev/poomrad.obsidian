@@ -62,7 +62,7 @@
 ### Non-obstructive HCM
 - Symptom control; ~10% progress to end-stage with systolic dysfunction → transplant evaluation
 
-### ICD (primary prevention)
+### ICD (primary prevention for SCD)
 - ESC HCM-Risk-SCD score (age, FHx SCD, syncope, max wall thickness, LA diameter, LVOT gradient, NSVT)
 - ACC/AHA: risk-marker approach with higher sensitivity than ESC score
 - CMR modifiers: **LGE ≥15% LV mass, apical aneurysm, LVEF <50%, wall thickness ≥30 mm**
