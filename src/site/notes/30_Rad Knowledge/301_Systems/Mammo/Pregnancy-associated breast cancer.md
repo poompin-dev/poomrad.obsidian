@@ -34,6 +34,6 @@ ___
 - Radiotherapy is deferred until after delivery.  
 - Systemic therapy can be given in 2nd/3rd trimester
 	- No chemo 1st trimester
-	- No trastuzumab or endocrine therapy during pregnancy).  
+	- No trastuzumab or endocrine therapy during pregnancy.  
 - Sentinel node biopsy with Tc-99m alone is increasingly accepted as safe;
 	- Blue dye is relatively contraindicated.

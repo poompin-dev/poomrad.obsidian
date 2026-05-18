@@ -8,9 +8,9 @@ Plasma cell dyscrasia with
 	- Hepatosplenomegaly
 	- Lymphadenopathy
 - Endocrinopathy
-	- Diabetes meliitus
+	- Diabetes mellitus
 	- Amenorrhea
-	- Gynecomastia
+	- Gynaecomastia
 	- Impotence
 	- Hypothyroidism
 - M protein
