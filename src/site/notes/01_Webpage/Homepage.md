@@ -12,19 +12,19 @@
 
 ___
 ## Recently updated notes
+- [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
+- [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
 - [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Pylorospasm\|Pylorospasm]]
-- [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Epithelial breast tumors spectrum\|Epithelial breast tumors spectrum]]
 
 { .block-language-dataview}
 ## New notes
+- [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
+- [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
 - [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
-- [[30_Rad Knowledge/301_Systems/GI/Pancreas/Pancreatic lipomatosis and lipomatous pseudohypertrophy\|Pancreatic lipomatosis and lipomatous pseudohypertrophy]]
-- [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
 
 { .block-language-dataview}
 ## I am looking for certain...
