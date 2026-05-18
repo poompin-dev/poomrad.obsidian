@@ -12,19 +12,19 @@
 
 ___
 ## Recently updated notes
-- [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
-- [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
-- [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Smoldering myeloma\|Smoldering myeloma]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
 
 { .block-language-dataview}
 ## New notes
+- [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
+- [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration in 3.0T MRI\|Physics consideration in 3.0T MRI]]
 - [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
 - [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
 - [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
-- [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
 
 { .block-language-dataview}
 ## I am looking for certain...

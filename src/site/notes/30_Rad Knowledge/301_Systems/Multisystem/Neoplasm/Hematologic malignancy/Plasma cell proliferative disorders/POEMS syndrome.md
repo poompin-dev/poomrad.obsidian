@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/poems-syndrome/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/poems-syndrome/","tags":["MM"],"dg-note-properties":{"type":["disease","nonrad"],"system":["hemeonc"],"tags":["MM"]}}
 ---
 
 Plasma cell dyscrasia with

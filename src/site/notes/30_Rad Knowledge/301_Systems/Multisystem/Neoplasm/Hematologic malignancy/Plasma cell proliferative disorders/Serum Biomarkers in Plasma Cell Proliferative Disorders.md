@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/serum-biomarkers-in-plasma-cell-proliferative-disorders/","tags":["hemato","nonrad"],"dg-note-properties":{"tags":["hemato","nonrad"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/serum-biomarkers-in-plasma-cell-proliferative-disorders/","tags":["MM"],"dg-note-properties":{"type":["nonrad"],"system":["hemeonc"],"tags":["MM"]}}
 ---
 
 ## Overview
@@ -33,12 +33,12 @@
 | **[[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]**                           | High M protein ± abnormal FLC ratio ± BJP                               |
 | **Light Chain Myeloma**                                                                                                   | No M spike, but abnormal FLC ratio and BJP positive                     |
 | **Nonsecretory Myeloma**                                                                                                  | No M protein or BJP; abnormal marrow biopsy                             |
-| **[[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|MGUS]]** | Low M protein (<3 g/dL), no CRAB, normal FLC or mild skew               |
+| **[[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|MGUS]]** | Low M protein (<3 g/dL), no CRAB, normal FLC or mild skew               |
 | **AL Amyloidosis**                                                                                                        | Often subtle M protein, markedly abnormal FLC ratio, low burden on SPEP |
 
 ---
 ## Linked Notes:
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
-- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|Monoclonal gammopathy of uncertain significance (MGUS]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance (MGUS]]
 - [[31_Medical knowledge/Misc/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]

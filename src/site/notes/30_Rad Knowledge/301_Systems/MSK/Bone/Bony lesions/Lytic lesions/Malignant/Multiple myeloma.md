@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["msk","haematology"],"dg-note-properties":{"tags":["msk","haematology"],"aliases":["myeloma"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/rad/301-systems/msk/bone/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","tags":["MM"],"dg-note-properties":{"aliases":["myeloma","MM"],"system":["MSK","hemeonc"],"type":["disease"],"tags":["MM"]}}
 ---
 
 part of [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
@@ -19,7 +19,7 @@ ___
 ## Diagnostic criteria
 Either of
 - bone marrow analysis shows ≥10% clonal bone marrow plasma cells
-- biopsy-proven bone/soft tissue [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Plasmacytoma\|Plasmacytoma]]
+- biopsy-proven bone/soft tissue [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Plasmacytoma\|plasmacytoma]]
 plus
 - myeloma defining event
 	- end-organ damage (CRAB)
@@ -33,9 +33,9 @@ plus
 		- At least one focal lesion ≥5 mm on MRI, involving bone or bone marrow.
 ___
 ## Imaging
-- osteolytic lesions are readily seen in radiographic skeletal survey in 80% of cases.
-- however, radiographic skeletal survey is insensitive to early marrow disease, hence MRI or PET/CT is preferred for early detection.
-- extra-medullary disease is present in 1-2% at the time of presentation
+- Osteolytic lesions are readily seen in radiographic skeletal survey in 80% of cases.
+- However, radiographic skeletal survey is insensitive to early marrow disease, hence MRI or PET/CT is preferred for early detection.
+- Extra-medullary disease is present in 1-2% at the time of presentation
 	- 8% throughout the disease course
 
 ___

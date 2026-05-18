@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/01-webpage/archieves/all-notes/","dg-note-properties":{"type":["house"]}}
 ---
 
-- [[30_Rad Knowledge/303_Physics/MRI/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
+- [[30_Rad Knowledge/303_Physics/MRI/Misc/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Infrahyoid neck/4D parathyroid CTA\|4D parathyroid CTA]]
 - [[30_Rad Knowledge/303_Physics/Safety/Absorbed Dose\|Absorbed Dose]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Adamantinoma\|Adamantinoma]]
@@ -33,6 +33,7 @@
 - [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Breast hamartoma\|Breast hamartoma]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Brodie's abscess\|Brodie's abscess]]
 - [[31_Medical knowledge/Infectious/Bacteria/Brucellosis\|Brucellosis]]
+- [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
 - [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/Cancer predisposition syndrome\|Cancer predisposition syndrome]]
 - [[30_Rad Knowledge/301_Systems/CVS/Cardiac mass/Cardiac rhabdomyomas\|Cardiac rhabdomyomas]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Head and neck/Skull base/Carotid body tumour\|Carotid body tumour]]
@@ -58,6 +59,7 @@
 - [[30_Rad Knowledge/301_Systems/Neuro/Brain/Trauma/Diffuse axonal injury\|Diffuse axonal injury]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis\|Diffuse idiopathic skeletal hyperostosis]]
 - [[30_Rad Knowledge/301_Systems/Chest/Trachea/Diffuse tracheal pathologies\|Diffuse tracheal pathologies]]
+- [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Dixon (chemical-shift fat-water separation)\|Dixon (chemical-shift fat-water separation)]]
 - [[31_Medical knowledge/Genetics/Chromosomal abnormalities/Down syndrome\|Down syndrome]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Ductal carcinoma in situ\|Ductal carcinoma in situ]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteoporosis/DXA scan for osteoporosis\|DXA scan for osteoporosis]]
@@ -127,7 +129,7 @@
 - [[30_Rad Knowledge/301_Systems/GI/GI tract/Ménétrier's disease\|Ménétrier's disease]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick-Madewell Classification]]
-- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance (MGUS)\|Monoclonal gammopathy of uncertain significance (MGUS)]]
+- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Epithelial breast neoplasms/Mucinous carcinoma\|Mucinous carcinoma]]
 - [[31_Medical knowledge/Genetics/Genetic disease/MSK/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
@@ -165,6 +167,7 @@
 - [[31_Medical knowledge/Genetics/Tumor predisposition syndromes/PHACES syndrome\|PHACES syndrome]]
 - [[30_Rad Knowledge/301_Systems/GU/Adrenal gland/Phaeochromocytoma - Paraganglioma\|Phaeochromocytoma - Paraganglioma]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Benign masses/Phyllodes tumor\|Phyllodes tumor]]
+- [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration in 3.0T MRI\|Physics consideration in 3.0T MRI]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Brain/Sellar region/Pituitary adenoma\|Pituitary adenoma]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Brain/Sellar region/Pituitary hyperplasia\|Pituitary hyperplasia]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]

@@ -16,7 +16,7 @@
 - May have **periosteal reaction** or abnormal marrow signal on MRI
 - May see **multiple lesions** (i.e., bone met, myeloma)
 ---
-## Mirel’s Scoring System 
+## Mirel’s scoring system 
 
 Radiographic qualitative evaluation for impending pathological fracture risk
 

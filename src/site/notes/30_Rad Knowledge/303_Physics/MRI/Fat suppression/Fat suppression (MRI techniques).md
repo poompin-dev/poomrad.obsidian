@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques).md","permalink":"/rad/303-physics/mri/fat-suppression/fat-suppression-mri-techniques/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques).md","permalink":"/rad/303-physics/mri/fat-suppression/fat-suppression-mri-techniques/","dg-note-properties":{"type":["physics"],"modality":["MRI"]}}
 ---
 
 - Spectral fat suppression
 - Short TI inversion recovery
-- [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Dixon\|Dixon]]
+- [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Dixon (chemical-shift fat-water separation)\|Dixon (chemical-shift fat-water separation)]]
 ## Cheat sheet
 
 | Features     | Spectral fat suppression                                                                                       | Short TI inversion recovery                                                                                                                                                                                      | Dixon                                                                                            |

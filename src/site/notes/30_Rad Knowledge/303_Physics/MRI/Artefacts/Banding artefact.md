@@ -1,59 +1,59 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Banding artefact.md","permalink":"/rad/303-physics/mri/artefacts/banding-artefact/","tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"],"dg-note-properties":{"aliases":["Banding artifact","Off-resonance banding","bSSFP dark bands"],"tags":["MRI","artefact","bssfp","off-resonance","steady-state","inhomogeneity"]}}
+{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Artefacts/Banding artefact.md","permalink":"/rad/303-physics/mri/artefacts/banding-artefact/","tags":["CMR","artefact","bSSFP"],"dg-note-properties":{"aliases":["Banding artifact","bSSFP dark bands","bSSFP banding"],"type":["physics"],"modality":["MRI"],"tags":["CMR","artefact","bSSFP"]}}
 ---
 
-## Overview
-- Characteristic dark bands seen predominantly in balanced steady-state free precession (bSSFP) sequences (e.g., TrueFISP, FIESTA, balanced FFE)
-- Caused by off-resonance effects leading to phase accumulation and signal nulls
-- Frequency of bands related to repetition time (TR): band spacing ≈ 1/TR
-- More pronounced at higher field strengths (3 T and above) due to increased susceptibility and off-resonance
-- Can significantly degrade image quality in cardiac, abdominal, and musculoskeletal applications
+> [!info] Key points
+> - Dark bands characteristic of **[[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]** sequences from [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]] phase accumulation
+> - **Band spacing ≈ 1/TR** in the off-resonance frequency domain - shorter TR widens the passband
+> - Worse at **3 T** due to greater B0 inhomogeneity and chemical shift
+> - **Diagnostic test:** bands shift with centre frequency adjustment - confirms artefact, not pathology
+> - Mitigation: shorten TR, shim, phase cycling (multi-acquisition SSFP), frequency scouting
+ 
+---
+## Physics & mechanism
+- bSSFP requires the transverse magnetisation to refocus completely between RF pulses (zero net gradient area per TR)
+- Off-resonant spins accumulate a phase offset Δφ = 2π·Δf·TR per TR → When |Δφ| approaches π, signal cancels destructively → **null band** #voodoo
+- The signal profile is therefore periodic in off-resonance frequency, with period **1/TR**
+- Shorter TR → wider passband → bands pushed further out of clinically relevant frequency range
 
-## Causes
-- Magnetic field (B0) inhomogeneity:
-	- Susceptibility effects at air-tissue interfaces (sinuses, lungs, bowel)
-	- Metal implants or surgical clips
-	- Poor shimming
-- Longer TR increases off-resonance sensitivity
-- Local field variations cause destructive phase interference at specific frequencies
+see also: causes of [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance#Causes\|off-resonance]]
 
-## Key radiological manifestations
-- Parallel or curved dark bands across the field of view
-- Bands shift position with changes in RF excitation frequency (centre frequency adjustment)
-- Signal voids periodic in off-resonance frequency domain
-- Typically absent or minimal in spin-echo or standard gradient-echo sequences
-- In multiplanar bSSFP: additional hypointense bands at plane intersections (saturation crossover)
+---
+## Imaging appearance
+- Parallel or curved **dark bands** traversing the field of view
+- Often arc around susceptibility sources (e.g., curving over the heart near the diaphragm or lung)
+- Bands **shift position with centre frequency adjustment** - pathognomonic for off-resonance origin
+- Absent or minimal on spin-echo and spoiled gradient-echo sequences (rules out lesion)
+- Multiplanar bSSFP acquisitions may show additional hypointense lines at plane intersections (**crossover saturation**)
 
 > [!tip] Diagnostic clue
-> Bands that move when centre frequency is adjusted → confirms off-resonance banding rather than pathology or other artefacts.
+> Bands move when centre frequency is adjusted, or disappear on a spoiled GRE repeat → off-resonance banding, not pathology.
+ 
+## Differentials
 
-## Reduction strategies
-- Shorten TR (widens passband, increases band spacing)
-- Improve shimming (local and global)
-- Phase cycling/multiple acquisitions with different RF phase increments → combine images (complex sum, maximum intensity, elliptical signal model)
-- Frequency scouting: acquire quick low-resolution scans at different centre frequencies and select optimal
-- Use non-bSSFP alternatives (e.g., spoiled GRE) when banding unacceptable
-- At 3 T: binomial water-selective excitation or fat-sat pulses can help indirectly
-
-## Differential diagnosis (other band-like artefacts)
-
-| Artefact                           | Key differentiators                                      |
-|------------------------------------|----------------------------------------------------------|
-| Chemical shift (type 2/black boundary) | Thin dark/bright rims at fat-water interfaces only, frequency-encoding direction |
-| Zipper/RF interference             | Narrow herringbone or zipper pattern, often central, history of external RF leak |
-| Susceptibility (severe)            | Blooming distortion around metal/air, not periodic bands |
-| Truncation/Gibbs ringing           | Parallel bright/dark lines at high-contrast edges, not field-wide |
-| Motion (flow-related)              | Ghosting in phase direction, clinical context of pulsation |
-
-> [!warning] Common pitfall
-> Severe banding near air-tissue interfaces (e.g., diaphragm, bowel) mistaken for pathology → always check if bands shift with frequency adjustment or persist across sequences.
-
-## Pearls
-- Banding worsens near end of scan if patient moves (shimming degrades)
-- In cardiac cine: optimal frequency often found by scouting or time-resolved adjustment
-- Modern scanners offer automated banding removal (multi-acquisition composite algorithms)
-- At 1.5 T usually mild; at 3 T often limiting without mitigation
-- Report should note if banding compromises diagnostic confidence and suggest sequence optimisation
-
-> [!note] Reporting tip
-> State "dark banding artefact consistent with off-resonance effects in bSSFP sequence; consider frequency adjustment or alternative sequencing if clinically indicated."
+| Mimic                           | Distinguishing feature                                          |
+| ------------------------------- | --------------------------------------------------------------- |
+| Myocardial infarct / fibrosis   | Persists on LGE and other sequences; matches coronary territory |
+| Cardiac thrombus                | Persists across sequences; T1/T2 signal characteristics         |
+| Pericardial effusion            | T2 bright, present on cine and SE sequences                     |
+| Susceptibility artefact (metal) | Bloom/distortion, not periodic banding                          |
+| [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Truncation artefact\|Truncation artefact]] | Parallel to high-contrast interface; spacing depends on matrix  |
+ 
+---
+## Artefact reduction strategies
+- **Shorten TR** - widen passband (the most effective strategy)
+- **Improve shimming** - local volume shim over region of interest (cardiac shim box, liver shim)
+- **Frequency scouting** - quick low-resolution acquisitions at varying centre frequencies; operator picks the frequency placing bands outside the ROI
+- **Phase cycling / multi-acquisition SSFP** - aka #CISS for neurorad
+- At 3T: water-selective binomial excitation or [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|fat suppression]] reduces fat-water beat contribution to [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]]
+---
+ 
+> [!success] Practical pearls
+> Banding near the diaphragm or great vessels mistaken for myocardial scar, thrombus, or perfusion defect on cardiac bSSFP cine → always cross-check with another sequence or shift the centre frequency.
+ 
+> [!tip] Exam pearls
+> - **Band period = 1/TR** in Hz
+> - Banding is a hallmark of **balanced** SSFP - not seen in spoiled GRE or SE
+> - 1.5T: usually mild and tolerable. 3 T: often limiting without phase cycling
+> - Banding worsens late in long scans (patient motion → shim drift)
+ 
