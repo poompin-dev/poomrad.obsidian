@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/01-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{"type":["house"]}}
 ---
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
@@ -30,10 +30,12 @@ ___
 ## I am looking for certain...
 - [[01_Webpage/Main branches/Topics\|Topics]]
 - [[01_Webpage/Main branches/Differential diagnosis\|Differential diagnosis]]
+- [[01_Webpage/Main branches/This vs That\|This vs That]]
 
 > [!Archive]
 > 👉 [[01_Webpage/Archieves/All notes\|All notes]]
 
 ___
-## Disclaimer
-This is a personal knowledge base created by a radiology resident for exam revision purposes. It is a work in progress and intended for educational reference, not as a substitute for authoritative clinical resource or clinical judgement tool.
+
+> [!warning] Disclaimer
+This is a personal knowledge base created by a radiology trainee for exam revision purposes. It is a work in progress and intended for educational reference, not as a substitute for authoritative clinical resource or clinical judgement tool.
