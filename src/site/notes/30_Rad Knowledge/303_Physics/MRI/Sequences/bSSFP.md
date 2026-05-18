@@ -27,7 +27,7 @@
 ## Clinical applications
 
 ### Cardiac
-- **Workhorse for cine imaging** (SSFP cine): bright blood, sharp myocardium-blood interface
+- **Workhorse for cine imaging** (SSFP cine): "white blood", sharp myocardium-blood interface
 - Functional assessment: EF, wall motion, valve morphology
 - Largely replaced spoiled GRE cine at 1.5 T
 

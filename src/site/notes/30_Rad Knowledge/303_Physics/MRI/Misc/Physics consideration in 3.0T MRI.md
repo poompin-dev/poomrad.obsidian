@@ -24,5 +24,4 @@
 > [!tip] Exam pearls
 > - SNR ∝ B0 (linear), SAR ∝ B0² (quadratic)
 > - T1 lengthening at 3T benefits TOF MRA and ASL
-> - **Failed [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|fat sat]] at 3T** → switch to [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Dixon (chemical-shift fat-water separation)\|Dixon (chemical-shift fat-water separation)]] or STIR rather than fighting the shim
 > - **Dielectric artefact** = almost pathognomonic for 3T body imaging in large/pregnant/ascites patients → solution = multi-transmit RF (parallel transmit)
