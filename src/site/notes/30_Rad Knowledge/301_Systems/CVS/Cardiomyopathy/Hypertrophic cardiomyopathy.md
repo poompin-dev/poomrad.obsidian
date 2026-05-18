@@ -50,7 +50,6 @@
 ---
 ## Management
 ### Obstructive HCM (LVOT gradient ≥30 mmHg rest or provoked)
-
 - First-line: beta-blocker; non-DHP CCB (verapamil) if BB contraindicated
 - Second-line: disopyramide add-on
 - **Mavacamten** (cardiac myosin inhibitor) for symptomatic obstructive HCM refractory to first-line
@@ -60,7 +59,7 @@
 - Avoid: digoxin, nitrates, ACEi, DHP CCB, high-dose diuretics (all worsen obstruction)
 
 ### Non-obstructive HCM
-- Symptom control; ~10% progress to end-stage with systolic dysfunction → transplant evaluation
+- Symptom control for heart failure; ~10% progress to end-stage with systolic dysfunction → transplant evaluation
 
 ### ICD (primary prevention for SCD)
 - ESC HCM-Risk-SCD score (age, FHx SCD, syncope, max wall thickness, LA diameter, LVOT gradient, NSVT)
@@ -80,4 +79,3 @@
 > - Septal thickness as low as 10-15 mm can still cause LVOT obstruction if mitral leaflets are elongated or PM anatomy is abnormal
 > - Anomalous PM insertion directly into AML (no chordae) → **must go to surgery, not alcohol ablation**
 > - Apical HCM is not a benign variant: natural history matches other non-obstructive HCM
-> - Low native T1 → Fabry; high T1 with abnormal myocardial nulling → amyloid; patchy mid-wall LGE in hypertrophied segments → HCM

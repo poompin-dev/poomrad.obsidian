@@ -11,3 +11,9 @@
 | Aortic stenosis                       | Concentric hypertrophy secondary to pressure overload; primary valvular pathology (stenosis) evident on imaging                                                                                                                                  |
 | Cardiac amyloidosis                   | Concentric hypertrophy; low ECG voltage disproportionate to wall thickness; diffuse subendocardial or global LGE; abnormal myocardial nulling (PSIR technique); markedly elevated native T1 and ECV                                              |
 | Anderson-Fabry disease                | Concentric or asymmetric hypertrophy; low native T1 (glycosphingolipid storage); basal inferolateral mid-wall LGE (classic location)                                                                                                             |
+
+
+> [!tip] Exam pearls
+> - Low native T1 → Fabry
+> - high T1 with abnormal myocardial nulling → amyloid
+> - patchy mid-wall LGE in hypertrophied segments → HCM

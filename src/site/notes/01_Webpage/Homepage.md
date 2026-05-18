@@ -12,8 +12,8 @@
 
 ___
 ## Recently updated notes
-- [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
 - [[30_Rad Knowledge/302_Ddx/CVS/Differential of increased LV wall thickness\|Differential of increased LV wall thickness]]
+- [[30_Rad Knowledge/301_Systems/CVS/Cardiomyopathy/Hypertrophic cardiomyopathy\|Hypertrophic cardiomyopathy]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Necrotising enterocolitis\|Necrotising enterocolitis]]
 - [[30_Rad Knowledge/302_Ddx/Ped/NEC vs SIP\|NEC vs SIP]]
 - [[30_Rad Knowledge/301_Systems/Ped/Ped abdomen/Spontaneous intestinal perforation\|Spontaneous intestinal perforation]]
