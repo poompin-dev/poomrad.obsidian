@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymic rebound.md","permalink":"/rad/301-systems/chest/mediastinum/thymic-rebound/","dg-note-properties":{"aliases":["rebound thymic hyperplasia"],"path":["iatrogenic"],"system":["chest"],"type":["variant"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Chest/Mediastinum/Thymic rebound.md","permalink":"/rad/301-systems/chest/mediastinum/thymic-rebound/","tags":["thymus"],"dg-note-properties":{"aliases":["rebound thymic hyperplasia","thymic hyperplasia"],"system":["chest"],"type":["variant","mimic"],"tags":["thymus"]}}
 ---
 
 > [!summary]
-> **Benign thymic regrowth** after systemic stress (classically **post-chemotherapy**) that can mimic **anterior mediastinal relapse**.
+> **Benign thymic regrowth** after systemic stress (classically **post-chemotherapy**) that can mimic **anterior mediastinal disease relapse**.
 
 ## When it happens
 - Commonest in **children and young adults** (can occur in adults)
@@ -20,7 +20,7 @@ ___
 - **No invasion**: no vascular encasement, no destructive features
 - Fat content can be mixed (age dependent)
 ### MRI
-- Chemical shift: **signal drop on opposed-phase** supports **hyperplasia** (microscopic fat)
+- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymus chemical shift MRI\|Chemical shift]]: **signal drop on opposed-phase** supports **hyperplasia** (microscopic fat)
 - DWI: thymus can show **restriction** even when benign, do not overcall on DWI alone
 ### FDG PET/CT
 - **Mild to moderate**, fairly **diffuse** thymic uptake

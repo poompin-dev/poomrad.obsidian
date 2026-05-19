@@ -13,10 +13,10 @@
 ___
 ## Recently updated notes
 - [[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]
+- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|Thymolipoma]]
+- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymic carcinoma\|Thymic carcinoma]]
+- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymic rebound\|Thymic rebound]]
 - [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymoma\|Thymoma]]
-- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymus chemical shift MRI\|Thymus chemical shift MRI]]
-- [[30_Rad Knowledge/301_Systems/Mammo/Pregnancy-associated breast cancer\|Pregnancy-associated breast cancer]]
-- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
 
 { .block-language-dataview}
 ## New notes

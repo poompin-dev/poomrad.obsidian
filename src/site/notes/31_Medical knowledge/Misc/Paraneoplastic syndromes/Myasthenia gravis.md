@@ -11,7 +11,8 @@ In practice, **myasthenia gravis is mainly an “imaging the thymus” disease**
 - **[[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymoma\|Thymoma]]** (anterior mediastinal mass; classic association) 
 - **[[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymic rebound\|Thymic hyperplasia]]**
 ### Uncommon
-- **[[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|Thymolipoma]]**: Fat-containing thymic tumour
+- **[[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|Thymolipoma]]**: fat-containing thymic tumour
+
 ---
 
 > [!warning] Pitfalls
