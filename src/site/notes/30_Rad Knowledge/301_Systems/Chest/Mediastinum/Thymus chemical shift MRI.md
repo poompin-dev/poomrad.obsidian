@@ -37,9 +37,11 @@ $$
 
 t = thymus (or lesion), m = paraspinal muscle
 
-Interpretation:
+**Interpretation:**
 - **Lower CSR** suggests more signal drop (more microscopic fat) and supports hyperplasia.
 - Caveat: CSR can be influenced by **age/body habitus** because muscle fat content varies, so SII is often more robust.
+
+---
 
 > [!warning]
 > Do not be convinced by only the number. If the lesion is **nodular**, **growing**, very **FDG-avid**, or the patient has **new extra-thymic disease**, call it indeterminate even if there is some drop (mimics like **[[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|thymolipoma]]** can also suppress on OP.)
