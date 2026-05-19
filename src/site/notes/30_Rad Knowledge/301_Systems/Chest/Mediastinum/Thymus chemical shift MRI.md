@@ -25,10 +25,9 @@ Interpretation
 - In a large adult study, an SII cutoff around **8.9%** separated hyperplasia from tumours with very high accuracy.
 
 > [!Example] Example
-$\mathrm{SI}_{IP}=130,\ \mathrm{SI}_{OP}=77$
-$$\mathrm{SII}(\%)=\frac{130-77}{130}\times100=40.8\%$$
-I**nterpretation:** convincing for thymic tissue.
-****
+> $\mathrm{SI}_{IP}=130,\ \mathrm{SI}_{OP}=77$
+> $$\mathrm{SII}(\%)=\frac{130-77}{130}\times100=40.8\%$$
+> I**nterpretation:** convincing for thymic tissue.
 
 ### 2. Chemical Shift Ratio (CSR) (muscle-normalised)
 $$
