@@ -12,11 +12,11 @@
 
 ___
 ## Recently updated notes
+- [[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]
+- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymoma\|Thymoma]]
 - [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymus chemical shift MRI\|Thymus chemical shift MRI]]
 - [[30_Rad Knowledge/301_Systems/Mammo/Pregnancy-associated breast cancer\|Pregnancy-associated breast cancer]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
-- [[30_Rad Knowledge/303_Physics/MRI/Misc/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
-- [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
 
 { .block-language-dataview}
 ## New notes
