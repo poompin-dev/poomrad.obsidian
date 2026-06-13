@@ -15,14 +15,14 @@
 - All gradients (slice, phase, frequency) fully rephased within each TR → no net dephasing
 - Signal ∝ **T2/T1** (not pure T2 or T1)
 - Requires **very short TR** (typically < 5 ms) to keep [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]] phase accrual < 180°
-- Phase cycling (alternating RF pulses, 0°/180°) can be used to stabilise steady state
-- Field inhomogeneity → phase accrual > 180° → [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|Banding artefact]]
-	- Mitigate by shorten TR, improve shimming, frequency scouting, phase-cycling (CISS)
+- Field inhomogeneity → phase accrual > 180° → [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|banding artefact]]
+	- Mitigate by shorten TR, improve shimming, frequency scouting
+	- Phase cycling (alternating RF pulses, 0°/180°) can be used to stabilise steady state
 
 ## Signal characteristics
 - **Bright:** fluid, fat, blood (flowing or stationary), CSF
 - **Intermediate:** muscle, solid organs
-- **Flow-insensitive** → blood pool stays bright regardless of velocity (unlike GRE)
+- **Flow-insensitive** → blood pool stays bright regardless of velocity (unlike GRE) → **NO** flow void
 - High SNR-per-time efficiency: fastest sequence with usable soft-tissue contrast
 
 ---
@@ -31,13 +31,11 @@
 ### Cardiac
 - **Workhorse for cine imaging** (SSFP cine): "white blood", sharp myocardium-blood interface
 - Functional assessment: EF, wall motion, valve morphology
-- Largely replaced spoiled GRE cine at 1.5 T
-
+- Largely replaced spoiled GRE cine in 1.5T system
 ### Neuro
 - **CISS / FIESTA-C** (constructive interference in steady state): dual-acquisition variant that removes banding by averaging two phase-cycled acquisitions
 - High-resolution thin-slice imaging of CSF spaces
 	- Cranial nerves, IAC, cisternal anatomy, endolymphatic hydrops, aqueductal stenosis
-
 ### Other
 - Small bowel / MR enterography (bright lumen contrast)
 - **Fetal MRI:** rapid single-shot imaging, motion-robust, bright amniotic fluid
@@ -49,5 +47,4 @@
 > [!important] Pearls
 > - bSSFP signal is correlated with **T2/T1**.
 > - **CISS** = banding-suppressed bSSFP variant via phase cycling; remember it for IAC, cranial nerves, CSF leak.
-> - Blood is bright on bSSFP regardless of flow → cannot use it to assess flow void (unlike spin echo sequences).
 > - Fat is bright → do not mistake fat-containing lesion signal for fluid on a single bSSFP image.
