@@ -30,10 +30,10 @@ No need, but can be supportive
 - Femoral neck fracture
 - Intertrochanteric fracture with spiral subtrochanteric extension
 - Periprosthetic fracture
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]] from tumour, metastasis, infection, Paget disease, fibrous dysplasia, etc
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]] from tumour, metastasis, infection, Paget disease, [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|fibrous dysplasia]], etc
 
 ---
-## Clinical Points
+## Clinical points
 - Dull thigh/groin pain may precede fracture (prodrome)
 - Commonly delayed union or non-union
 - Review and usually stop bisphosphonate (or other antiresorptive) therapy if AFF is diagnosed
@@ -49,7 +49,7 @@ ___
 | **Femoral shaft [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|stress fracture]]** | Shaft (often medial/compressive cortex) | Athletes, overuse                                                                          | Incomplete, variable                                | Medial cortex; No long term history of antiresorptive |
 | **[[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]**           | Any location                            | Primary bone tumour, metastasis, infection                                                 | Any (often destructive without clear fracture line) | Lytic/blastic lesion, mass, abnormal marrow           |
 | **Traumatic Fracture**                | Any femoral region                      | High-energy trauma                                                                         | Comminuted, segmental                               | Clear history of significant trauma                   |
-| **Other Metabolic Bone Disease**      | Variable                                | [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]], [[Paget disease\|Paget disease]], [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] | Variable                                            | Lab/radiology findings of metabolic disease           |
+| **Other Metabolic Bone Disease**      | Variable                                | [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]], [[Paget disease\|Paget disease]], [[Hyperparathyroidism signpost\|hyperparathyroidism]] | Variable                                            | Lab/radiology findings of metabolic disease           |
 
 ---
 ## External link

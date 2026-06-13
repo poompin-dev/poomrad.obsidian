@@ -27,5 +27,5 @@ Bone softening/remodelling disorders
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - Rickets
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]]
-- [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|Hyperparathyroidism]]
+- [[Hyperparathyroidism signpost\|Hyperparathyroidism]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]]

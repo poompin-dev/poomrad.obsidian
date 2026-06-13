@@ -12,7 +12,7 @@
 
 ---
 ## Indications
-- Pre-op localisation in **primary [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] (PHPT)** planned for minimally invasive parathyroidectomy
+- Pre-op localisation in **primary [[Hyperparathyroidism signpost\|hyperparathyroidism]] (PHPT)** planned for minimally invasive parathyroidectomy
 - Non-localising or discordant US/sestamibi
 - **Re-operative cases** (best modality in this setting)
 - Suspected ectopic adenoma

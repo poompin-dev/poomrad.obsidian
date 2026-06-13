@@ -26,7 +26,7 @@
 - Costochondral junctions, distal appendicular uptake
 #### Causes
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]] (most common benign)
-- [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|Hyperparathyroidism]]
+- [[Hyperparathyroidism signpost\|Hyperparathyroidism]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / rickets
 - Hyperthyroidism
 - [[Paget disease\|Paget disease]] (polyostotic)

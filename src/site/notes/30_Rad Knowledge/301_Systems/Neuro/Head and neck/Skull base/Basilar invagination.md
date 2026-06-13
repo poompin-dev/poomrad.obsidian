@@ -19,7 +19,7 @@ Due to bone softening/destruction or chronic instability at the craniocervical j
 - [[Rheumatoid arthritis\|Rheumatoid arthritis]] with pannus
 - [[Paget disease of the bone\|Paget disease of the bone]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / [[Rickets\|Rickets]]
-- [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|Hyperparathyroidism]]
+- [[Hyperparathyroidism signpost\|Hyperparathyroidism]]
 
 
 

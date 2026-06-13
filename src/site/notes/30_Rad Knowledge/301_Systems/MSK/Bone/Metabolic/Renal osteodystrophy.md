@@ -4,7 +4,7 @@
 
 Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]] / [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteoporosis\|Osteoporosis]]  
-- Secondary / tertiary [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] (high bone turnover)  
+- Secondary / tertiary [[Hyperparathyroidism signpost\|hyperparathyroidism]] (high bone turnover)  
 - +/- osteosclerosis and soft-tissue / vascular calcification  
 
 → Characteristically **generalised** bone involvement in a patient with CKD/dialysis.
@@ -22,7 +22,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 
 > [!summary]
 > Think: **generalised bone disease in CKD** with  
-> 1) [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] bone change *plus*
+> 1) [[Hyperparathyroidism signpost\|hyperparathyroidism]] bone change *plus*
 > 2) patchy osteosclerosis and soft-tissue/vascular calcification.
 
 ### Plain radiograph
