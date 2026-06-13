@@ -1,46 +1,56 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/special-fracture/atypical-femoral-fracture/","dg-note-properties":{"type":["disease"],"system":["MSK"],"path":["trauma","iatrogenic"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/rad/301-systems/msk/bone/trauma/special-fracture/atypical-femoral-fracture/","tags":["fracture","osteoporosis"],"dg-note-properties":{"type":["disease"],"system":["MSK"],"path":["trauma","iatrogenic"],"tags":["fracture","osteoporosis"],"aliases":["AFF"]}}
 ---
 
-## Definition
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]] of femoral shaft or subtrochanteric region
-- Strongly associated with long-term [[Bisphosphonates\|Bisphosphonates]] or other potent antiresorptive therapy
-- Diagnostic criteria are according to the **ASBMR task force**
-## Major Criteria (radiographic; typically ≥4 of 5)
-- **Location:** Femur subtrochanteric or diaphyseal (shaft) region
-- **Pattern:** Transverse or short oblique fracture
-- **Trauma:** Occurs with minimal or no trauma
-- **Fracture morphology:** Simple (no/minimal comminution)
-- Complete fractures often have a **medial spike**
-## Minor Criteria (supportive)
-- Cortical thickening/beaking (especially lateral cortex)
-- Periosteal reaction of the lateral cortex
-- Prior prolonged aching pain (prodrome)
-- Bilateral involvement or delayed healing
-- Drug history: **bisphosphonates or other antiresorptives**, chronic steroids, PPIs
+> [!summary] Overview
+> - A stress/insufficiency-type fracture pattern occurring from **just distal to the lesser trochanter to just proximal to the supracondylar flare**, classically associated with long-term [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|antiresorptive therapy]].
+> - Diagnostic criteria are according to the **ASBMR task force**
+
+## Revised ASBMR criteria (2013)
+Update from original first established diagnostic criteria for AFFs in 2010
+### Pre-requisites
+Required location:
+> Femoral diaphysis from **just distal to the lesser trochanter** to **just proximal to the supracondylar flare**.
+### Major criteria
+**≥4 of 5**:
+1. **Minimal or no trauma**, e.g. fall from standing height or less
+2. Fracture line **originates at the lateral cortex** and is **substantially transverse**, although it may become oblique medially
+3. **Complete fracture** extends through both cortices and may have a **medial spike**; **incomplete fracture** involves only the lateral cortex
+4. **Non-comminuted or minimally comminuted**
+5. **Localised periosteal or endosteal thickening of the lateral cortex** at the fracture site — “beaking” or “flaring”
+### Minor criteria
+No need, but can be supportive
+- Generalised cortical thickening of femoral diaphysis
+- Prodromal dull thigh/groin pain (can be unilateral or bilateral)
+- Bilateral complete or incomplete AFFs
+- Delayed healing
+- Comorbidities: vitamin D deficiency, rheumatoid arthritis, hypophosphatasia, etc.
+- Drug exposure: bisphosphonates, denosumab/other antiresorptives, glucocorticoids, proton pump inhibitors
+### Exclusion
+- Femoral neck fracture
+- Intertrochanteric fracture with spiral subtrochanteric extension
+- Periprosthetic fracture
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]] from tumour, metastasis, infection, Paget disease, fibrous dysplasia, etc
+
+---
 ## Clinical Points
 - Dull thigh/groin pain may precede fracture (prodrome)
 - Commonly delayed union or non-union
 - Review and usually stop bisphosphonate (or other antiresorptive) therapy if AFF is diagnosed
-- Early surgical fixation even for incomplete fractures (usually prophylactic for contralateral site)
+- Symptomatic incomplete AFF, painful lesion, visible fracture line, or progression despite conservative management often warrants prophylactic intramedullary fixation. 
+- Always image the contralateral femur.
 
 ___
 ## Differential diagnosis
 
-| Differential                          | Typical Location                        | Clinical Context                             | Fracture Pattern                                    | Key Distinguishing Features                           |
-| ------------------------------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
-| **Osteoporotic Fracture**             | Femoral neck, intertrochanteric         | Elderly, fall/low trauma                     | Comminuted, spiral/oblique                          | Not diaphyseal/subtrochanteric; comminuted            |
-| **Femoral shaft [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]]** | Shaft (often medial/compressive cortex) | Athletes, overuse                            | Incomplete, variable                                | Medial cortex; No long term history of antiresorptive |
-| **[[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]**         | Any location                            | Primary bone tumour, metastasis, infection   | Any (often destructive without clear fracture line) | Lytic/blastic lesion, mass, abnormal marrow           |
-| **Traumatic Fracture**                | Any femoral region                      | High-energy trauma                           | Comminuted, segmental                               | Clear history of significant trauma                   |
-| **Other Metabolic Bone Disease**      | Variable                                | [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]], [[Paget disease\|Paget disease]], [[HPT\|HPT]] | Variable                                            | Lab/radiology findings of metabolic disease           |
+| Differential                          | Typical location                        | Clinical context                                                                           | Fracture pattern                                    | Key distinguishing features                           |
+| ------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------------------- |
+| **Osteoporotic Fracture**             | Femoral neck, intertrochanteric         | Elderly, fall/low trauma                                                                   | Comminuted, spiral/oblique                          | Lack of AFF morphology                                |
+| **Femoral shaft [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Stress fracture\|stress fracture]]** | Shaft (often medial/compressive cortex) | Athletes, overuse                                                                          | Incomplete, variable                                | Medial cortex; No long term history of antiresorptive |
+| **[[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]**           | Any location                            | Primary bone tumour, metastasis, infection                                                 | Any (often destructive without clear fracture line) | Lytic/blastic lesion, mass, abnormal marrow           |
+| **Traumatic Fracture**                | Any femoral region                      | High-energy trauma                                                                         | Comminuted, segmental                               | Clear history of significant trauma                   |
+| **Other Metabolic Bone Disease**      | Variable                                | [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteomalacia\|Osteomalacia]], [[Paget disease\|Paget disease]], [[31_Medical knowledge/Endocrinology/Parathyroid hormone/Hyperparathyroidism signpost\|hyperparathyroidism]] | Variable                                            | Lab/radiology findings of metabolic disease           |
 
 ---
-## Checklist
-- Look for lateral cortical beaking/thickening (may precede fracture)
-- Incomplete (“crack”/stress reaction) or complete fractures
-- Simple, non-comminuted fracture
-- Always check **both femurs** 
-## Caution
-- **Don’t overcall AFF:** Reserve this diagnosis for cases meeting the major criteria, **typically in the setting of long-term bisphosphonate or other antiresorptive therapy.**
-- **Don’t miss a tumour:** If radiological pattern or clinical course is atypical, investigate for underlying lesion.
+## External link
+- https://assets.super.so/5a7c3653-3126-44d3-b6a1-eac6a37f6a1f/files/e1bf515a-3199-45b4-93f5-0e6164826e22/J_of_Bone___Mineral_Res_-_2013_-_Shane_-_Atypical_Subtrochanteric_and_Diaphyseal_Femoral_Fractures__Second_Report_of_a_Task.pdf

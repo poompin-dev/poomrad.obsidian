@@ -12,11 +12,11 @@
 
 ___
 ## Recently updated notes
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
 - [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
-- [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
 
 { .block-language-dataview}
 ## New notes
