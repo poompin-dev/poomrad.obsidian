@@ -15,5 +15,5 @@
 - [[Transient regional osteoporosis of the hip\|Transient regional osteoporosis of the hip]]
 - [[Regional migratory osteoporosis\|Regional migratory osteoporosis]]
 ## See also
-- [[31_Medical knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]
+- [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]

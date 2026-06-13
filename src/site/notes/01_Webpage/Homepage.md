@@ -12,17 +12,17 @@
 
 ___
 ## Recently updated notes
+- [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
-- [[31_Medical knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]
-- [[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]
 
 { .block-language-dataview}
 ## New notes
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
-- [[31_Medical knowledge/Pharmacology/Bisphosphonate\|Bisphosphonate]]
+- [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
 - [[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]
 - [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|Thymolipoma]]
 
