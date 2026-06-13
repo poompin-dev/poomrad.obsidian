@@ -46,4 +46,4 @@
 
 ## External link
 - https://mriquestions.com/true-fispfiesta.html
-- https://radiopaedia.org/articles/steady-state-free-precession-mri-2?utm_source=chatgpt.com
+- https://radiopaedia.org/articles/steady-state-free-precession-mri
