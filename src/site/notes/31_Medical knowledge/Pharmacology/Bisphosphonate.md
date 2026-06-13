@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-medical-knowledge/pharmacology/bisphosphonate/","dg-note-properties":{"aliases":["Bisphosphonates"],"type":["medicine"],"system":["MSK"]}}
+{"dg-publish":true,"permalink":"/31-medical-knowledge/pharmacology/bisphosphonate/","tags":["osteoporosis"],"dg-note-properties":{"aliases":["Bisphosphonates"],"type":["nonrad","Pharmaceutical"],"system":["MSK"],"tags":["osteoporosis"]}}
 ---
 
 

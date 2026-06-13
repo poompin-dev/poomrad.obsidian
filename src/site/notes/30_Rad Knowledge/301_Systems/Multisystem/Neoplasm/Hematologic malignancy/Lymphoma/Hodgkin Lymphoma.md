@@ -1,22 +1,22 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","tags":["Lymphoma","hemato"],"dg-note-properties":{"path":["neoplasm"],"type":["disease"],"aliases":["HL"],"system":["chest"],"tags":["Lymphoma","hemato"]}}
+{"dg-publish":true,"dg-path":"Rad/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/rad/301-systems/multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","tags":["Lymphoma"],"dg-note-properties":{"type":["disease"],"aliases":["HL"],"system":["chest","hemeonc"],"tags":["Lymphoma"]}}
 ---
 
 > [!info] Notice
->  Refer to the **Histopathology** section for subtypes relevancy.
+>  Refer to the **Histopathology** section for subtypes.
 ## Epidemiology
 - 2 age peaks
 	- 3rd decades
 	- Elderly (>50 years)
 - Slight men predominance (except NS subtype which has equal gender predilection)
 ## Clinical and diagnosis
-- Most patients present with cervical chain lymph nodes enlargement.
+- Cervical chain lymph nodes enlargement.
 - **Contiguous** nodal involvement and spread are characteristics.
 	- Infradiaphragmatic disease (≥ stage III) is more likely in the presence of supraclavicular or bilateral neck adenopathy.
-		- Exclusive infradiaphragmatic nodal disease is rare (<10%)
+	- Exclusive infradiaphragmatic nodal disease is rare (<10%)
 - B symptoms are more frequently present than [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].
 - Tissue biopsy is need for diagnosis.
-	- Surgical excision of the entire node is more prefer than CNB for evaluation of LN architecture.
+	- Surgical excision of the entire node is more preferred than CNB for evaluation of LN architecture.
 - Specific laboratory investigations
 	- ESR
 	- LDH
@@ -24,10 +24,10 @@
 Currently using [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
 - Key distinction is **limited** vs **advanced** stage disease
 - Supercede [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
-	- No longer use suffix "X" as "bulky" disease definition depends on lymphoma subtype
+- No longer use suffix "X" as "bulky" disease definition depends on lymphoma subtype
 ### Caveats
 - Splenomegaly and BM uptake on FDG PET/CT may be due to reactive process rather than disease involvement.
-	- If no evidence of BM uptake on FDG PET/CT → BM biopsy is *no* longer required.
+- If no evidence of BM uptake on FDG PET/CT → BM biopsy is *no* longer required.
 ## Prognosis
 Factors that associated with poorer prognosis includes:
 - Older patients.
