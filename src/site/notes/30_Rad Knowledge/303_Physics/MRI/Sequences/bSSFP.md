@@ -1,29 +1,26 @@
 ---
-{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Sequences/bSSFP.md","permalink":"/rad/303-physics/mri/sequences/b-ssfp/","tags":["bSSFP","CISS"],"dg-note-properties":{"aliases":["balanced steady-state free precession"],"type":["physics"],"modality":["MRI"],"tags":["bSSFP","CISS"]}}
+{"dg-publish":true,"dg-path":"Rad/303_Physics/MRI/Sequences/bSSFP.md","permalink":"/rad/303-physics/mri/sequences/b-ssfp/","tags":["bSSFP","CISS","CMR"],"dg-note-properties":{"aliases":["balanced steady-state free precession"],"type":["physics"],"modality":["MRI"],"tags":["bSSFP","CISS","CMR"]}}
 ---
 
 > [!info] Key points
-> - Gradient echo sequence with **balanced gradients on all 3 axes** → all transverse magnetisation refocused each TR
-> - Contrast is **T2/T1 ratio** → bright fluid AND bright fat
-> - Very short TR/TE, high flip angle (~40-70°), high SNR per unit time
+> - Balanced gradient-echo steady-state sequence with high SNR efficiency
+> - Contrast is correlated with **T2/T1 ratio** → bright fluid aka "white blood" technique → CMR cine workhorse
+> - High SNR per unit time → suitable for fast acquisition and cine imaging
 > - **Vendor names:** TrueFISP (Siemens), FIESTA (GE), Balanced FFE (Philips)
-> - Hallmark artefact: **[[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|off-resonance banding]]**, worse at [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration for 3.0T MRI\|higher magnetic field strength]] and long TR
+> - Hallmark artefact: **[[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|off-resonance banding]]**, worse at [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration for 3.0T MRI\|higher magnetic field strength]] and longer TR
 
 ---
 ## Physics
-- Steady-state sequence: both longitudinal AND transverse magnetisation reach equilibrium
-- All gradients (slice, phase, frequency) fully rephased within each TR → no net dephasing
+- Balanced steady-state free precession (**bSSFP**) uses balanced gradients on all 3 axes, so **gradient-induced dephasing is rewound each repetition time (TR)** and residual transverse magnetisation is preserved/refocused near **echo time (TE) ≈ TR/2**.
 - Signal ∝ **T2/T1** (not pure T2 or T1)
-- Requires **very short TR** (typically < 5 ms) to keep [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]] phase accrual < 180°
-- Field inhomogeneity → phase accrual > 180° → [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|banding artefact]]
-	- Mitigate by shorten TR, improve shimming, frequency scouting
-	- Phase cycling (alternating RF pulses, 0°/180°) can be used to stabilise steady state
+- [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|Banding artefact]] occurs when off-resonance phase accrual per TR approaches an odd multiple of 180°; worse with longer TR and higher field strength because [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]] effects are larger.
 
 ## Signal characteristics
 - **Bright:** fluid, fat, blood (flowing or stationary), CSF
 - **Intermediate:** muscle, solid organs
-- **Flow-insensitive** → blood pool stays bright regardless of velocity (unlike GRE) → **NO** flow void
-- High SNR-per-time efficiency: fastest sequence with usable soft-tissue contrast
+- Relatively **flow-insensitive / flow-compensated** → blood pool usually remains bright, especially in cardiac cine
+	- However, very turbulent flow can still cause signal loss or flow artefact.
+- One of the most **SNR** efficient rapid sequences.
 
 ---
 ## Clinical applications
@@ -33,18 +30,20 @@
 - Functional assessment: EF, wall motion, valve morphology
 - Largely replaced spoiled GRE cine in 1.5T system
 ### Neuro
-- **CISS / FIESTA-C** (constructive interference in steady state): dual-acquisition variant that removes banding by averaging two phase-cycled acquisitions
+- Constructive interference in steady state (**CISS**) / FIESTA-C combines two phase-cycled bSSFP acquisitions, shifting the banding pattern between acquisitions and reducing banding artefact.
 - High-resolution thin-slice imaging of CSF spaces
-	- Cranial nerves, IAC, cisternal anatomy, endolymphatic hydrops, aqueductal stenosis
+	- Cranial nerves, IAC, cisternal anatomy, inner ear fluid-space anatomy
 ### Other
 - Small bowel / MR enterography (bright lumen contrast)
-- **Fetal MRI:** rapid single-shot imaging, motion-robust, bright amniotic fluid
-- Non-contrast MRA (NATIVE-SPACE, TrueFISP angio)
+- Fetal MRI: useful rapid sequence, especially for fetal cardiovascular/dynamic imaging and some body applications; routine fetal anatomical imaging more commonly relies on single-shot T2 fast spin echo/HASTE.
+- Non-contrast MRA: NATIVE TrueFISP is bSSFP-based
 - Cardiac shunt and great vessel imaging
 
 ---
 
 > [!important] Pearls
-> - bSSFP signal is correlated with **T2/T1**.
-> - **CISS** = banding-suppressed bSSFP variant via phase cycling; remember it for IAC, cranial nerves, CSF leak.
-> - Fat is bright → do not mistake fat-containing lesion signal for fluid on a single bSSFP image.
+> - Fat is usually bright in bSFFP → do not mistake fat-containing lesion signal for fluid/blood on a single bSSFP image.
+
+## External link
+- https://mriquestions.com/true-fispfiesta.html
+- https://radiopaedia.org/articles/steady-state-free-precession-mri-2?utm_source=chatgpt.com
