@@ -16,7 +16,6 @@
 | B1 / dielectric effect       | RF wavelength approaches body diameter at 3T      | Standing-wave artefact (central signal dropout) in large abdomens, ascites, pregnancy; mitigated by parallel transmit (dual-source RF) and dielectric pads |
 | Parallel imaging performance | Higher SNR reserve                                | Tolerates higher acceleration factors; faster scans                                                                                                        |
 | Gd contrast efficiency       | Higher T1 contrast per unit dose                  | Possibility of reducing Gd dose for equivalent enhancement                                                                                                 |
-| Acoustic noise               | Increases with B0 and gradient performance        | Louder; consider in paeds, hearing-impaired, claustrophobic patients                                                                                       |
 
 ## See also
 - [[30_Rad Knowledge/303_Physics/MRI/Misc/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
