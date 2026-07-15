@@ -26,7 +26,7 @@
     * Signs: Hyperreflexia, Hoffmann's sign, gait disturbance, numbness/dexterity loss in hands.
 * **Trauma risk:**
     * Patients usually present acutely after minor trauma (e.g., a fall).
-    * *Mechanism:* Stiff spine (DISH) + Narrow canal (OPLL) = **[[30_Rad Knowledge/301_Systems/Neuro/Spine/Trauma/Central cord syndrome\|Central cord syndrome]]** or catastrophic cord injury.
+    * *Mechanism:* Stiff spine (DISH) + Narrow canal (OPLL) = **[[30_Rad Knowledge/301_Systems/MSK/Spine/Trauma/Central cord syndrome\|Central cord syndrome]]** or catastrophic cord injury.
 
 ---
 ## Imaging features

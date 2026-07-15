@@ -60,7 +60,7 @@ Progression typically ascends: **Lumbar $\rightarrow$ Thoracic $\rightarrow$ Cer
 ---
 ## Complications
 * **Spinal fractures:**
-    * **[[30_Rad Knowledge/301_Systems/Neuro/Spine/Trauma/Chalk stick fracture\|Chalk stick fracture]]:** Trans-vertebral or trans-discal fractures of the fused spine.
+    * **[[30_Rad Knowledge/301_Systems/MSK/Spine/Trauma/Chalk stick fracture\|Chalk stick fracture]]:** Trans-vertebral or trans-discal fractures of the fused spine.
     * **Location:** Most common at the cervicothoracic or thoracolumbar junctions.
     * **Risk:** Can occur with trivial trauma. High risk of epidural haematoma and cord injury due to the spine acting as a long lever arm.
 * **Atlanto-axial subluxation:** Due to transverse ligament laxity/pannus (similar to RA).
