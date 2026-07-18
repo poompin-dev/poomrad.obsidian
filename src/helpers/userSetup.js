@@ -5,6 +5,26 @@ function userMarkdownSetup(md) {
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
+  eleventyConfig.addFilter("hasMermaid", function(content) {
+    const source = String(content || "");
+    return /(?:^|\n)```mermaid\b/i.test(source) || /<pre\b[^>]*class=["'][^"']*\bmermaid\b/i.test(source);
+  });
+
+  eleventyConfig.addFilter("hasSyntaxHighlightedCode", function(content) {
+    const source = String(content || "");
+    return /(?:^|\n)```(?!base\b|mermaid\b|plantuml\b|transclusion\b|gist\b|ad-)[a-z0-9_-]+\s*(?:\n|$)/i.test(source) || /<code\b[^>]*class=["'][^"']*\blanguage-/i.test(source);
+  });
+
+  eleventyConfig.addFilter("hasBasesBlock", function(content) {
+    const source = String(content || "");
+    return /(?:^|\n)```base\b/i.test(source) || /class=["'][^"']*\bobsidian-bases-views\b/i.test(source);
+  });
+
+  eleventyConfig.addFilter("hasCallouts", function(content) {
+    const source = String(content || "");
+    return /\[![^\]]+\]/.test(source) || /(?:^|\n)```ad-/i.test(source) || /class=["'][^"']*\bcallout\b/i.test(source);
+  });
+
   eleventyConfig.addFilter("absoluteUrl", function(path, baseUrl) {
     const base = String(baseUrl || "").replace(/\/+$/, "");
     const pathname = `/${String(path || "").replace(/^\/+/, "")}`;

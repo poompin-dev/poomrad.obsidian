@@ -1,10 +1,44 @@
-<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', init, false);
     document.addEventListener('DOMContentLoaded', setCorrectShortcut, false);
 
     // Preview content cache
     const previewCache = new Map();
+    let searchInitializationPromise = null;
+
+    function loadFlexSearchLibrary() {
+        if (typeof FlexSearch !== 'undefined') return Promise.resolve();
+
+        return new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js';
+            script.async = true;
+            script.onload = resolve;
+            script.onerror = () => reject(new Error('Unable to load the search library'));
+            document.head.appendChild(script);
+        });
+    }
+
+    function ensureSearchReady() {
+        if (window.index && window.docs) return Promise.resolve();
+        if (searchInitializationPromise) return searchInitializationPromise;
+
+        searchInitializationPromise = Promise.all([
+            loadFlexSearchLibrary(),
+            fetch('/searchIndex.json?v={{meta.buildDate|isoDate}}').then(response => {
+                if (!response.ok) throw new Error('Unable to load the search index');
+                return response.json();
+            })
+        ]).then(([, docs]) => {
+            window.docs = docs;
+            window.index = createIndex(docs);
+        }).catch(error => {
+            searchInitializationPromise = null;
+            throw error;
+        });
+
+        return searchInitializationPromise;
+    }
 
     let previouslyFocusedElement = null;
 
@@ -19,6 +53,15 @@
         document.querySelectorAll('[aria-controls="globalsearch"]').forEach(button => button.setAttribute('aria-expanded', 'true'));
         searchInput.setAttribute('aria-expanded', 'true');
         searchInput.focus();
+
+        const searchResults = document.getElementById('search-results');
+        if (!window.index) searchResults.innerHTML = loadingSvg;
+        ensureSearchReady().then(() => {
+            if (searchInput.value.trim()) search();
+            else searchResults.innerHTML = `<p class="search-status" role="status"><i>{{ meta.uiStrings.searchNotStarted }}</i></p>`;
+        }).catch(() => {
+            searchResults.innerHTML = '<p class="search-status" role="status">Search could not load. Please close it and try again.</p>';
+        });
     }
 
     window.closeSearch = function () {
@@ -45,9 +88,10 @@
     window.toggleTagSearch = function (evt) {
         const term = evt.textContent;
         if (term) {
+            const searchWasOpen = document.getElementById('globalsearch').classList.contains('active');
             document.getElementById('term').value = term.trim();
             window.openSearch();
-            window.search();
+            if (searchWasOpen) ensureSearchReady().then(search);
         }
     }
 
@@ -306,13 +350,7 @@
 
     // ===== Initialization =====
 
-    async function init() {
-        // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v={{meta.buildDate|isoDate}}').then(r => r.json());
-        const index = createIndex(docs);
-        window.docs = docs;
-        window.index = index;
-
+    function init() {
         // Keyboard shortcuts
         document.addEventListener('keydown', (e) => {
             if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
@@ -395,9 +433,8 @@
 
         const params = new URL(location.href).searchParams;
         if (params.get('q')) {
-            field.setAttribute('value', params.get('q'));
+            field.value = params.get('q');
             openSearch();
-            search();
         }
     }
 
@@ -418,6 +455,16 @@
             hidePreview();
             if (searchLayout) searchLayout.classList.add('no-preview');
             return;
+        }
+
+        if (!window.index || !window.docs) {
+            resultsDiv.innerHTML = loadingSvg;
+            try {
+                await ensureSearchReady();
+            } catch {
+                resultsDiv.innerHTML = '<p class="search-status" role="status">Search could not load. Please try again.</p>';
+                return;
+            }
         }
 
         window.lastSearch = searchQuery;

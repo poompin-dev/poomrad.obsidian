@@ -74,7 +74,10 @@
     {% for imp in dynamics.index.footer %}
       {% include imp %}
     {% endfor %}
-    {%include "components/lucideIcons.njk"%}
-    {%include "components/basesScript.njk"%}
+    {% set contentHasCallouts = content | hasCallouts %}
+    {% if contentHasCallouts or settings.dgShowFileTree === true or settings.dgShowLocalGraph === true or settings.dgShowBacklinks === true %}
+      {%include "components/lucideIcons.njk"%}
+    {% endif %}
+    {% if content | hasBasesBlock %}{%include "components/basesScript.njk"%}{% endif %}
     </body>
   </html>
