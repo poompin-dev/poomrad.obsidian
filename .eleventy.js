@@ -49,8 +49,8 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 }
 
 function getAnchorLink(filePath, linkTitle) {
-  const { attributes, innerHTML } = getAnchorAttributes(filePath, linkTitle);
-  return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</a>`;
+  const { attributes, innerHTML, element = "a" } = getAnchorAttributes(filePath, linkTitle);
+  return `<${element} ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</${element}>`;
 }
 
 function getAnchorAttributes(filePath, linkTitle) {
@@ -94,10 +94,10 @@ function getAnchorAttributes(filePath, linkTitle) {
 
   if (deadLink) {
     return {
+      element: "span",
       attributes: {
         "class": "internal-link is-unresolved",
-        "href": "/404",
-        "target": "",
+        "aria-disabled": "true",
       },
       innerHTML: title,
     }
@@ -377,7 +377,7 @@ module.exports = function(eleventyConfig) {
     return (
       str &&
       str.replace(tagRegex, function(match, precede, tag) {
-        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+        return `${precede}<button type="button" class="tag tag-search" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</button>`;
       })
     );
   });
@@ -439,6 +439,10 @@ module.exports = function(eleventyConfig) {
       const notePath = dataViewJsLink.getAttribute("data-href");
       const title = dataViewJsLink.innerHTML;
       const { attributes, innerHTML } = getAnchorAttributes(notePath, title);
+      if (!attributes.href) {
+        dataViewJsLink.removeAttribute("href");
+        dataViewJsLink.removeAttribute("target");
+      }
       for (const key in attributes) {
         dataViewJsLink.setAttribute(key, attributes[key]);
       }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+    <title>{{ meta.siteName }} — Radiology revision notes</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
       {% include imp %}
@@ -31,9 +31,9 @@
           <div class="header-tags">
             {% for tag in tags %}
               {% if tag != 'gardenEntry' and tag !='note' %}
-                <a class="tag" onclick="toggleTagSearch(this)">
+                <button type="button" class="tag tag-search" onclick="toggleTagSearch(this)">
                   #{{tag}}
-                </a>
+                </button>
               {% endif %}
             {% endfor %}
           </div>
