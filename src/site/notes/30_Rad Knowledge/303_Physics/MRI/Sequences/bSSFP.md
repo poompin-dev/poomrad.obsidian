@@ -14,8 +14,9 @@
 | Vendors    | Siemens  | GE     | Philips           | Canon     |
 | ---------- | -------- | ------ | ----------------- | --------- |
 | Trade name | TrueFISP | FIESTA | Balanced FFE/bFFE | True SSFP |
-All these = Balanced steady-state free precession (bSSFP). A type of coherent steady state gradient-echo sequence.
 
+All these = Balanced steady-state free precession (bSSFP). A type of coherent steady state gradient-echo sequence.
+___
 ## Physics
 - **bSSFP** uses balanced gradients on all 3 axes to balance gradient-induced dephasing which normally occurs in gradient sequences.
 - The residual transverse magnetisation is preserved and contributes to subsequent echoes, establishing a **steady-state**.
