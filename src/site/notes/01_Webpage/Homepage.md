@@ -12,11 +12,11 @@
 
 ___
 ## Recently updated notes
+- [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
+- [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|Fat suppression (MRI techniques)]]
+- [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|Banding artefact]]
 - [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration for 3.0T MRI\|Physics consideration for 3.0T MRI]]
 - [[30_Rad Knowledge/303_Physics/MRI/Misc/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]
-- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]
 
 { .block-language-dataview}
 ## New notes

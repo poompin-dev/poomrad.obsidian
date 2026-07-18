@@ -144,7 +144,7 @@
 - [[30_Rad Knowledge/301_Systems/Mammo/Breast MRI/Non-Mass Enhancement (NME) - Breast MRI\|Non-Mass Enhancement (NME) - Breast MRI]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma\|Non-ossifying fibroma]]
 - [[30_Rad Knowledge/301_Systems/Neuro/Brain/Normal pressure hydrocephalus\|Normal pressure hydrocephalus]]
-- [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|Off-resonance]]
+- [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance effect\|Off-resonance effect]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Ossification of posterior longitudinal ligament\|Ossification of posterior longitudinal ligament]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Osteoblastoma\|Osteoblastoma]]
 - [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]

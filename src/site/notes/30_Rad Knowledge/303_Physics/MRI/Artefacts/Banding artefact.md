@@ -3,7 +3,7 @@
 ---
 
 > [!info] Key points
-> - Dark bands characteristic of **[[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]** sequences from [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]] phase accumulation
+> - Dark bands characteristic of **[[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]** sequences from [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance effect\|Off-resonance effect]] phase accumulation
 > - **Band spacing ≈ 1/TR** in the off-resonance frequency domain - shorter TR widens the passband
 > - Worse at **3 T** due to greater B0 inhomogeneity and chemical shift
 > - **Diagnostic test:** bands shift with centre frequency adjustment - confirms artefact, not pathology
@@ -16,7 +16,7 @@
 - The signal profile is therefore periodic in off-resonance frequency, with period **1/TR**
 - Shorter TR → wider passband → bands pushed further out of clinically relevant frequency range
 
-see also: causes of [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance#Causes\|off-resonance]]
+see also: causes of [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance effect#Causes\|off-resonance]]
 
 ---
 ## Imaging appearance
@@ -45,7 +45,7 @@ see also: causes of [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance#C
 - **Improve shimming** - local volume shim over region of interest (cardiac shim box, liver shim)
 - **Frequency scouting** - quick low-resolution acquisitions at varying centre frequencies; operator picks the frequency placing bands outside the ROI
 - **Phase cycling / multi-acquisition SSFP** - aka #CISS for neurorad
-- At 3T: water-selective binomial excitation or [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|fat suppression]] reduces fat-water beat contribution to [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance\|off-resonance]]
+- At 3T: water-selective binomial excitation or [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|fat suppression]] reduces fat-water beat contribution to [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Off-resonance effect\|Off-resonance effect]]
 ---
  
 > [!success] Practical pearls
