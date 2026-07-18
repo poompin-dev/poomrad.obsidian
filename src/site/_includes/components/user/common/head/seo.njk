@@ -1,0 +1,13 @@
+{% if title %}{% set pageTitle = title %}{% else %}{% set pageTitle = page.fileSlug %}{% endif %}
+{% if page.url == "/" %}{% set fullTitle = meta.siteName + " — Radiology revision notes" %}{% else %}{% set fullTitle = pageTitle + " | " + meta.siteName %}{% endif %}
+{% if metatags and metatags.description %}{% set description = metatags.description %}{% else %}{% set description = content | seoDescription(pageTitle, meta.siteName) %}{% endif %}
+{% set canonicalUrl = page.url | absoluteUrl(meta.siteBaseUrl) %}
+
+{% if not metatags or not metatags.description %}<meta name="description" content="{{ description | escape }}">{% endif %}
+<link rel="canonical" href="{{ canonicalUrl }}">
+{% if not metatags or not metatags["og:title"] %}<meta property="og:title" content="{{ fullTitle | escape }}">{% endif %}
+{% if not metatags or not metatags["og:description"] %}<meta property="og:description" content="{{ description | escape }}">{% endif %}
+{% if not metatags or not metatags["og:url"] %}<meta property="og:url" content="{{ canonicalUrl }}">{% endif %}
+{% if not metatags or not metatags["og:type"] %}<meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">{% endif %}
+<meta property="og:site_name" content="{{ meta.siteName | escape }}">
+<meta name="twitter:card" content="summary">

@@ -189,14 +189,14 @@ function formatCellValue(value, column, row) {
 				if (title) {
 					return `<a href="${escapeHtml(item)}" class="internal-link">${escapeHtml(String(title))}</a>`;
 				}
-				// Unresolved link — render as dead link
+				// Unresolved link — keep the label visible without sending readers to 404
 				const slug = item.replace(/^\/|\/$/g, "").split("/").pop() || item;
-				return `<a href="/404" class="internal-link is-unresolved">${escapeHtml(decodeURIComponent(slug))}</a>`;
+				return `<span class="internal-link is-unresolved" aria-disabled="true">${escapeHtml(decodeURIComponent(slug))}</span>`;
 			}
 			if (typeof item === "string" && !item.startsWith("/") && item.includes("/")) {
-				// Non-URL path with slashes (e.g. raw wikilink stem like "04 - PERMANENT/Note Name") — dead link
+				// Non-URL path with slashes (e.g. raw wikilink stem like "04 - PERMANENT/Note Name") — unresolved text
 				const slug = item.split("/").pop().replace(/\.md$/, "") || item;
-				return `<a href="/404" class="internal-link is-unresolved">${escapeHtml(slug)}</a>`;
+				return `<span class="internal-link is-unresolved" aria-disabled="true">${escapeHtml(slug)}</span>`;
 			}
 			return escapeHtml(String(item));
 		}).join(", ");

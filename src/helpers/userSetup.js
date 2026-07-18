@@ -5,6 +5,62 @@ function userMarkdownSetup(md) {
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
+  eleventyConfig.addFilter("absoluteUrl", function(path, baseUrl) {
+    const base = String(baseUrl || "").replace(/\/+$/, "");
+    const pathname = `/${String(path || "").replace(/^\/+/, "")}`;
+    return `${base}${pathname}`;
+  });
+
+  eleventyConfig.addFilter("seoDescription", function(content, title, siteName) {
+    const entities = {
+      "&amp;": "&",
+      "&lt;": "<",
+      "&gt;": ">",
+      "&quot;": '"',
+      "&#39;": "'",
+      "&nbsp;": " ",
+    };
+    const cleanedContent = String(content || "")
+      .replace(/^---[\s\S]*?---\s*/, "")
+      .replace(/```[\s\S]*?```/g, " ")
+      .replace(/!\[([^\]]*)\]\([^)]*\)/g, " ")
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/\[![^\]]+\]\s*/g, "")
+      .replace(/\[\[([^\]]+)\]\]/g, (_, link) => {
+        const parts = link.split("|");
+        const label = parts.length > 1 ? parts[parts.length - 1] : parts[0].split("/").pop();
+        return label.replace(/\\\|/g, "|").split("#")[0];
+      })
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&(amp|lt|gt|quot|#39|nbsp);/gi, (entity) => entities[entity.toLowerCase()] || " ")
+      .replace(/^\s{0,3}#{1,6}\s+/gm, "")
+      .replace(/^\s*(?:[-*+]\s+|>\s?)/gm, "")
+      .replace(/^\s*\{[^}]+\}\s*$/gm, "")
+      .replace(/[*_~`]+/g, "");
+
+    const paragraphs = cleanedContent
+      .split(/\n\s*\n/)
+      .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
+      .filter((paragraph) => paragraph && paragraph !== "___" && paragraph !== "---");
+
+    let text = "";
+    for (const paragraph of paragraphs) {
+      if (text.length >= 50 && /[.!?]$/.test(text)) break;
+      text = `${text} ${paragraph}`.trim();
+      if (text.length >= 160) break;
+    }
+
+    if (!text) {
+      text = `Radiology revision notes on ${title || "this topic"} from ${siteName || "SFRad"}, a personal educational knowledge base.`;
+    }
+
+    if (text.length > 160) {
+      text = `${text.slice(0, 157).replace(/\s+\S*$/, "")}...`;
+    }
+    return text;
+  });
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;
