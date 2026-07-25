@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-    <title>{{ meta.siteName }} — Radiology revision notes</title>
+    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
       {% include imp %}
@@ -31,9 +31,9 @@
           <div class="header-tags">
             {% for tag in tags %}
               {% if tag != 'gardenEntry' and tag !='note' %}
-                <button type="button" class="tag tag-search" onclick="toggleTagSearch(this)">
+                <a class="tag" onclick="toggleTagSearch(this)">
                   #{{tag}}
-                </button>
+                </a>
               {% endif %}
             {% endfor %}
           </div>
@@ -74,10 +74,7 @@
     {% for imp in dynamics.index.footer %}
       {% include imp %}
     {% endfor %}
-    {% set contentHasCallouts = content | hasCallouts %}
-    {% if contentHasCallouts or settings.dgShowFileTree === true or settings.dgShowLocalGraph === true or settings.dgShowBacklinks === true %}
-      {%include "components/lucideIcons.njk"%}
-    {% endif %}
-    {% if content | hasBasesBlock %}{%include "components/basesScript.njk"%}{% endif %}
+    {%include "components/lucideIcons.njk"%}
+    {%include "components/basesScript.njk"%}
     </body>
   </html>
