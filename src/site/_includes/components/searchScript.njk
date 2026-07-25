@@ -1,97 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', init, false);
     document.addEventListener('DOMContentLoaded', setCorrectShortcut, false);
 
     // Preview content cache
     const previewCache = new Map();
-    let searchInitializationPromise = null;
-
-    function loadFlexSearchLibrary() {
-        if (typeof FlexSearch !== 'undefined') return Promise.resolve();
-
-        return new Promise((resolve, reject) => {
-            const script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js';
-            script.async = true;
-            script.onload = resolve;
-            script.onerror = () => reject(new Error('Unable to load the search library'));
-            document.head.appendChild(script);
-        });
-    }
-
-    function ensureSearchReady() {
-        if (window.index && window.docs) return Promise.resolve();
-        if (searchInitializationPromise) return searchInitializationPromise;
-
-        searchInitializationPromise = Promise.all([
-            loadFlexSearchLibrary(),
-            fetch('/searchIndex.json?v={{meta.buildDate|isoDate}}').then(response => {
-                if (!response.ok) throw new Error('Unable to load the search index');
-                return response.json();
-            })
-        ]).then(([, docs]) => {
-            window.docs = docs;
-            window.index = createIndex(docs);
-        }).catch(error => {
-            searchInitializationPromise = null;
-            throw error;
-        });
-
-        return searchInitializationPromise;
-    }
-
-    let previouslyFocusedElement = null;
-
-    window.openSearch = function () {
-        const searchContainer = document.getElementById('globalsearch');
-        const searchInput = document.getElementById('term');
-        if (!searchContainer || searchContainer.classList.contains('active')) return;
-
-        previouslyFocusedElement = document.activeElement;
-        searchContainer.classList.add('active');
-        searchContainer.setAttribute('aria-hidden', 'false');
-        document.querySelectorAll('[aria-controls="globalsearch"]').forEach(button => button.setAttribute('aria-expanded', 'true'));
-        searchInput.setAttribute('aria-expanded', 'true');
-        searchInput.focus();
-
-        const searchResults = document.getElementById('search-results');
-        if (!window.index) searchResults.innerHTML = loadingSvg;
-        ensureSearchReady().then(() => {
-            if (searchInput.value.trim()) search();
-            else searchResults.innerHTML = `<p class="search-status" role="status"><i>{{ meta.uiStrings.searchNotStarted }}</i></p>`;
-        }).catch(() => {
-            searchResults.innerHTML = '<p class="search-status" role="status">Search could not load. Please close it and try again.</p>';
-        });
-    }
-
-    window.closeSearch = function () {
-        const searchContainer = document.getElementById('globalsearch');
-        const searchInput = document.getElementById('term');
-        if (!searchContainer || !searchContainer.classList.contains('active')) return;
-
-        searchContainer.classList.remove('active');
-        searchContainer.setAttribute('aria-hidden', 'true');
-        document.querySelectorAll('[aria-controls="globalsearch"]').forEach(button => button.setAttribute('aria-expanded', 'false'));
-        searchInput.setAttribute('aria-expanded', 'false');
-        searchInput.removeAttribute('aria-activedescendant');
-        if (previouslyFocusedElement && document.contains(previouslyFocusedElement)) {
-            previouslyFocusedElement.focus();
-        }
-    }
 
     window.toggleSearch = function () {
         const searchContainer = document.getElementById('globalsearch');
-        if (searchContainer.classList.contains('active')) closeSearch();
-        else openSearch();
+        if (searchContainer.classList.contains('active')) {
+            searchContainer.classList.remove('active');
+        } else {
+            searchContainer.classList.add('active');
+            document.getElementById('term').focus();
+        }
     }
 
     window.toggleTagSearch = function (evt) {
         const term = evt.textContent;
         if (term) {
-            const searchWasOpen = document.getElementById('globalsearch').classList.contains('active');
             document.getElementById('term').value = term.trim();
-            window.openSearch();
-            if (searchWasOpen) ensureSearchReady().then(search);
+            window.toggleSearch();
+            window.search();
         }
     }
 
@@ -264,15 +194,10 @@
         if (!previewPanel || !previewContent) return;
 
         // Update active state on results
-        document.querySelectorAll('.searchresult').forEach(el => {
-            el.classList.remove('active');
-            el.setAttribute('aria-selected', 'false');
-        });
+        document.querySelectorAll('.searchresult').forEach(el => el.classList.remove('active'));
         const activeResult = document.querySelector(`.searchresult[data-index="${index}"]`);
         if (activeResult) {
             activeResult.classList.add('active');
-            activeResult.setAttribute('aria-selected', 'true');
-            document.getElementById('term').setAttribute('aria-activedescendant', activeResult.id);
         }
 
         // Show loading state in preview
@@ -285,7 +210,7 @@
 
         const tagsHTML = result.tags && result.tags.length > 0
             ? `<div class="preview-tags">${result.tags.map(tag =>
-                `<button type="button" class="tag tag-search" onclick="toggleTagSearch(this)">#${tag}</button>`).join('')}</div>`
+                `<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${tag}</a>`).join('')}</div>`
             : '';
 
         previewContent.innerHTML = `
@@ -350,7 +275,13 @@
 
     // ===== Initialization =====
 
-    function init() {
+    async function init() {
+        // Fetch search index (browser caches based on query param)
+        const docs = await fetch('/searchIndex.json?v={{meta.buildDate|isoDate}}').then(r => r.json());
+        const index = createIndex(docs);
+        window.docs = docs;
+        window.index = index;
+
         // Keyboard shortcuts
         document.addEventListener('keydown', (e) => {
             if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
@@ -358,23 +289,11 @@
                 toggleSearch();
             }
             if (e.key === 'Escape') {
-                closeSearch();
+                document.getElementById('globalsearch').classList.remove('active');
             }
 
             // Navigate search results with arrow keys
             if (document.getElementById('globalsearch').classList.contains('active')) {
-                if (e.key === 'Tab') {
-                    const focusable = Array.from(document.querySelectorAll('#globalsearch button:not([disabled]), #globalsearch input:not([disabled]), #globalsearch a[href]'));
-                    const first = focusable[0];
-                    const last = focusable[focusable.length - 1];
-                    if (e.shiftKey && document.activeElement === first) {
-                        e.preventDefault();
-                        last.focus();
-                    } else if (!e.shiftKey && document.activeElement === last) {
-                        e.preventDefault();
-                        first.focus();
-                    }
-                }
                 if (e.key === 'ArrowDown') {
                     e.preventDefault();
                     navigateResults(1);
@@ -414,12 +333,8 @@
                 if (newIndex >= results.length) newIndex = 0;
             }
 
-            results.forEach(el => {
-                el.classList.remove('active');
-                el.setAttribute('aria-selected', 'false');
-            });
+            results.forEach(el => el.classList.remove('active'));
             results[newIndex].classList.add('active');
-            results[newIndex].setAttribute('aria-selected', 'true');
             results[newIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
             // Sync preview with selection
@@ -428,13 +343,18 @@
 
         const debouncedSearch = debounce(search, 200, false);
         window.field = document.querySelector('#term');
-        field.addEventListener('input', debouncedSearch);
+        field.addEventListener('keydown', (e) => {
+            if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Enter') {
+                debouncedSearch();
+            }
+        });
         window.resultsDiv = document.querySelector('#search-results');
 
         const params = new URL(location.href).searchParams;
         if (params.get('q')) {
-            field.value = params.get('q');
-            openSearch();
+            field.setAttribute('value', params.get('q'));
+            toggleSearch();
+            search();
         }
     }
 
@@ -450,21 +370,10 @@
         const searchLayout = document.getElementById('search-layout');
 
         if (!searchQuery) {
-            resultsDiv.innerHTML = `<p class="search-status" role="status"><i>{{ meta.uiStrings.searchNotStarted }}</i></p>`;
-            field.removeAttribute('aria-activedescendant');
+            resultsDiv.innerHTML = `<span><i>{{ meta.uiStrings.searchNotStarted }}</i></span>`;
             hidePreview();
             if (searchLayout) searchLayout.classList.add('no-preview');
             return;
-        }
-
-        if (!window.index || !window.docs) {
-            resultsDiv.innerHTML = loadingSvg;
-            try {
-                await ensureSearchReady();
-            } catch {
-                resultsDiv.innerHTML = '<p class="search-status" role="status">Search could not load. Please try again.</p>';
-                return;
-            }
         }
 
         window.lastSearch = searchQuery;
@@ -479,7 +388,7 @@
         if (!results.length) {
             if (searchLayout) searchLayout.classList.add('no-preview');
             resultsDiv.innerHTML = `
-                <div class="no-results" role="status">
+                <div class="no-results">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="11" cy="11" r="8"></circle>
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -505,18 +414,15 @@
                 : '';
 
             resultsHTML += `
-                <a class="searchresult${index === 0 ? ' active' : ''}"
-                     id="search-result-${index}"
-                     href="${r.url}"
-                     role="option"
-                     aria-selected="${index === 0 ? 'true' : 'false'}"
+                <div class="searchresult${index === 0 ? ' active' : ''}"
                      data-index="${index}"
                      data-url="${r.url}"
-                     onmouseenter="showPreview(${index})">
+                     onmouseenter="showPreview(${index})"
+                     onclick="window.location.href='${r.url}'">
                     <span class="result-title">${highlightedTitle}</span>
                     ${tagsHTML}
                     <div class="result-excerpt">${highlightedExcerpt}</div>
-                </a>
+                </div>
             `;
         });
 

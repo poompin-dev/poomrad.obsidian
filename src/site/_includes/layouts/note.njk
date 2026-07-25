@@ -4,7 +4,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %} | {{ meta.siteName }}</title>
+    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
       {% include imp %}
@@ -36,9 +36,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             <div class="header-tags">
               {% for tag in tags %}
                 {% if tag != 'gardenEntry' and tag !='note' %}
-                  <button type="button" class="tag tag-search" onclick="toggleTagSearch(this)">
+                  <a class="tag" onclick="toggleTagSearch(this)">
                     #{{tag}}
-                  </button>
+                  </a>
                 {% endif %}
               {% endfor %}
             </div>
@@ -84,22 +84,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {%include "components/linkPreview.njk"%}
     {% endif %}
     {% include "components/references.njk" %}
-    {% if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated %}
-      {% include "components/timestamps.njk" %}
-    {% endif %}
+    {% include "components/timestamps.njk" %}
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
-    {% set contentHasCallouts = content | hasCallouts %}
-    {% if contentHasCallouts or settings.dgShowFileTree === true or settings.dgShowLocalGraph === true or settings.dgShowBacklinks === true or meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated %}
-      {%include "components/lucideIcons.njk"%}
-    {% endif %}
+    {%include "components/lucideIcons.njk"%}
     {% if contentClasses and "canvas-page" in contentClasses %}
       {%include "components/canvasScript.njk"%}
     {% endif %}
-    {% if content | hasBasesBlock %}{% include "components/basesScript.njk" %}{% endif %}
+    {% include "components/basesScript.njk" %}
   </body>
 </html>

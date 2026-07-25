@@ -6,7 +6,6 @@ module.exports = async (data) => {
   if (baseUrl && !baseUrl.startsWith("http")) {
     baseUrl = "https://" + baseUrl;
   }
-  baseUrl = baseUrl.replace(/\/+$/, "");
   let themeStyle = globSync("src/site/styles/_theme.*.css")[0] || "";
 
   // Check for logo file (supports multiple image formats)
