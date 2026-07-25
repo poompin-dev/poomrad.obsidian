@@ -33,7 +33,7 @@ Often **asymptomatic**; when symptomatic, usually in **young–middle-aged adult
 - Best current test to **demonstrate duct ectasia**.
 - **“Paintbrush”** or **“Swiss cheese”** appearance from contrast-filled, dilated collecting ducts in the medulla.
 - Can show **medullary nephrocalcinosis** and associated stones.
-- See also: **[[70_Glossary/White pyramid sign (kidney)\|White pyramid sign (kidney)]]**.
+- See also: **[[White pyramid sign (kidney)\|White pyramid sign (kidney)]]**.
 ### Ultrasound
 - May show **hyperechoic medullary pyramids**, with or without visible [[30_Rad Knowledge/301_Systems/GU/Kidney/Renal calcification/Medullary nephrocalcinosis\|Medullary nephrocalcinosis]].
 - Kidneys typically **normal in size and contour**.

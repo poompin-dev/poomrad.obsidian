@@ -12,19 +12,19 @@
 
 ___
 ## Recently updated notes
-- [[30_Rad Knowledge/303_Physics/MRI/Sequences/bSSFP\|bSSFP]]
-- [[30_Rad Knowledge/303_Physics/MRI/Fat suppression/Fat suppression (MRI techniques)\|Fat suppression (MRI techniques)]]
-- [[30_Rad Knowledge/303_Physics/MRI/Artefacts/Banding artefact\|Banding artefact]]
-- [[30_Rad Knowledge/303_Physics/MRI/Misc/Physics consideration for 3.0T MRI\|Physics consideration for 3.0T MRI]]
-- [[30_Rad Knowledge/303_Physics/MRI/Misc/1.5T vs 3.0T MRI\|1.5T vs 3.0T MRI]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Thyroid acropachy\|Thyroid acropachy]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Insight/List of sclerotic bony conditions\|List of sclerotic bony conditions]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Primary hypertrophic osteoarthropathy\|Primary hypertrophic osteoarthropathy]]
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Secondary hypertrophic osteoarthropathy\|Secondary hypertrophic osteoarthropathy]]
+- [[30_Rad Knowledge/301_Systems/Ped/Pediatric neoplasm/Medulloblastoma\|Medulloblastoma]]
 
 { .block-language-dataview}
 ## New notes
+- [[30_Rad Knowledge/301_Systems/MSK/Bone/Bony lesions/Sclerotic lesions/Thyroid acropachy\|Thyroid acropachy]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 - [[30_Rad Knowledge/301_Systems/Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
 - [[31_Medical knowledge/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
 - [[31_Medical knowledge/Misc/Paraneoplastic syndromes/Myasthenia gravis\|Myasthenia gravis]]
-- [[30_Rad Knowledge/301_Systems/Chest/Mediastinum/Thymolipoma\|Thymolipoma]]
 
 { .block-language-dataview}
 ## I am looking for certain...

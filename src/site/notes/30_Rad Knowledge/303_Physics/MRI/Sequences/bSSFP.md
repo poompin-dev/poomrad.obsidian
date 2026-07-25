@@ -54,7 +54,8 @@ However, accelerated or turbulent flow may nevertheless cause focal signal loss.
 Single-shot fast spin echo (**SSFSE**) is the principal workhorse for routine fetal MRI. bSSFP provides complementary rapid imaging of fetal thoracoabdominal and cardiovascular anatomy.
 ### Other applications
 - MR enterography
-- NATIVE TrueFISP (an inversion-prepared, inflow-based non-contrast MRA technique using a bSSFP readout).
+- NATIVE TrueFISP
+  an inversion-prepared, inflow-based non-contrast MRA technique using a bSSFP readout
 
 ---
 
