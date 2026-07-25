@@ -25,6 +25,15 @@ function userEleventySetup(eleventyConfig) {
     return /\[![^\]]+\]/.test(source) || /(?:^|\n)```ad-/i.test(source) || /class=["'][^"']*\bcallout\b/i.test(source);
   });
 
+  eleventyConfig.addFilter("excludeWebpageNotes", function(items) {
+    return (items || []).filter((item) => {
+      const inputPath = String(
+        item?.inputPath || item?.page?.inputPath || item?.filePathStem || ""
+      ).replace(/\\/g, "/");
+      return !/(?:^|\/)01_Webpage(?:\/|$)/i.test(inputPath);
+    });
+  });
+
   eleventyConfig.addFilter("absoluteUrl", function(path, baseUrl) {
     const base = String(baseUrl || "").replace(/\/+$/, "");
     const pathname = `/${String(path || "").replace(/^\/+/, "")}`;
