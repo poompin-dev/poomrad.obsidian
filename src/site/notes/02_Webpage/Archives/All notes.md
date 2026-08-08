@@ -58,7 +58,7 @@ Every published note, alphabetically.
 - [[30_MSK/Bones/Insight/List of sclerotic bony conditions\|List of sclerotic bony conditions]]
 - [[30_MSK/Bones/Insight/Lodwick classification (original)\|Lodwick classification (original)]]
 - [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]
+- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]
 - [[30_MSK/Soft tissue/Malformation/Macrodystrophia lipomatosa\|Macrodystrophia lipomatosa]]
 - [[30_MSK/Bones/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
 - [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick-Madewell Classification]]

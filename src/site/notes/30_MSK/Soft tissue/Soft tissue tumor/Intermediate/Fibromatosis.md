@@ -33,7 +33,7 @@ ___
 - **Soft-tissue sarcoma**: tends to be more heterogeneous, necrosis/haemorrhage, more destructive; metastasis risk
 - **Nodular fasciitis**: rapid growth, often more oedematous/high T2; self-limited; clinical history helps
 - **[[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]] / low-grade fibromyxoid sarcoma**: imaging overlap → biopsy if atypical/growing
-- **GIST/[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]** (intra-abdominal mass): location and enhancement pattern; desmoid often wraps/encases rather than obstructs early
+- **GIST/[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]** (intra-abdominal mass): location and enhancement pattern; desmoid often wraps/encases rather than obstructs early
 ## Pearls
 - **Key behaviour**: no metastases but **high recurrence**, can be morbid by encasement
 - **Association**: **FAP/Gardner (APC)** → mesenteric desmoids (think post-op trigger)

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/al-amyloidosis/","dg-note-properties":{"type":["disease"],"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"status":"working"}}
 ---
 
-> [!INFO] Definition
+> [!info] Definition
 > A systematic protein misfolding disorder characterised by the extracellular deposition of insoluble, monoclonal immunoglobulin light chain fibrils (produced by a clonal plasma cell population) leading to progressive organ dysfunction.
 
 ---
@@ -85,7 +85,7 @@ ___
     * Usually asymmetric septal hypertrophy; LGE occurs at RV insertion points, not diffuse subendocardial.
 3.  **Sarcoidosis:**
     * Patchy LGE, often involves septum/lateral wall; nodal calcification different pattern.
-4.  **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]]:**
+4.  **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]:**
     * For nodular lung/GI disease.
 
 ---

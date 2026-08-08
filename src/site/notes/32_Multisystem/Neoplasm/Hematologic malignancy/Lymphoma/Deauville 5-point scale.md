@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Nuc"],"status":"working"}}
 ---
 
-Visual score comparing residual FDG uptake in [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma signpost]] sites to two reference tissues: mediastinal blood pool and liver.
+Visual score comparing residual FDG uptake in [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] sites to two reference tissues: mediastinal blood pool and liver.
 
 ## Reference regions
 - **Mediastinum:** blood pool (typically ascending aorta)

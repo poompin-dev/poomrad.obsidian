@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
-- [[30_MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
-- [[30_MSK/Bones/Bone marrow/Bone marrow composition\|Bone marrow composition]]
-- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|Aneurysmal bone cyst]]
-- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]
-- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Enchondroma\|Enchondroma]]
+- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
+- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale\|Deauville 5-point scale]]
+- [[32_Multisystem/Misc/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
+- [[30_MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis\|Fibromatosis]]
+- [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
 
 { .block-language-dataview}
 

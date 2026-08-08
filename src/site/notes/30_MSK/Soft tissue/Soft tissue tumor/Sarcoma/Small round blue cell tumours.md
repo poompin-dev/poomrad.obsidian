@@ -34,7 +34,7 @@
   - Site: **kidney**.
   - Imaging: large intrarenal mass with claw sign; calcification less common than neuroblastoma.
 
-- **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|Lymphoma]]**
+- **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]**
   - Any age, but SRBCT look especially in kids/teens.
   - Site: nodes, abdominal mass, bone.
   - Imaging: homogeneous soft-tissue mass, tends to **encase rather than invade** vessels; often multi-station nodal disease.

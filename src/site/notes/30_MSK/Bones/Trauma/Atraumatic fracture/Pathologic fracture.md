@@ -7,7 +7,7 @@
 - Occurs with **minimal or no trauma**.
 ## Etiologies
 - [[30_MSK/Bones/Bone metastasis\|Bone metastasis]]
-- **Primary bone tumours** (e.g., [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]], [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma signpost\|lymphoma]])
+- **Primary bone tumours** (e.g., [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]], [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|lymphoma]])
 - **Infection** ([[osteomyelitis\|osteomyelitis]])
 - **Metabolic bone disease** (e.g., [[Paget disease of the bone\|Paget disease of the bone]], [[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]])
 ## Imaging features
