@@ -38,13 +38,17 @@
 
 ---
 
-## I am looking for certain...
+## Browse
 
-- [[02_Webpage/Main branches/Topics\|Topics]]
+### By subject
+
+- [[02_Webpage/Main branches/Browse by subject\|Browse by subject]]
+
+### By kind
+
 - [[02_Webpage/Main branches/Differential diagnosis\|Differential diagnosis]]
 - [[02_Webpage/Main branches/Signs and eponyms\|Signs and eponyms]]
 - [[02_Webpage/Main branches/Classifications\|Classifications]]
-- [[02_Webpage/Main branches/Physics notes\|Physics notes]]
 
 > [!info] Archive
 > 👉 [[02_Webpage/Archives/All notes\|All notes]]

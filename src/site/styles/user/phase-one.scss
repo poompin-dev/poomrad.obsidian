@@ -85,7 +85,7 @@ a.external-link {
 }
 
 .search-container {
-  z-index: 10000;
+  z-index: 10010;
 }
 
 .search-close {
@@ -122,6 +122,194 @@ a.searchresult {
   text-decoration: none;
 }
 
+/* Curated left navigation. The Digital Garden filetree shell supplies the
+   desktop rail and mobile drawer; this replaces the raw vault folder tree. */
+.filetree-home-link,
+.filetree-navbar-home {
+  color: var(--text-normal);
+  text-decoration: none;
+}
+
+.navbar {
+  box-sizing: border-box;
+}
+
+.filetree-home-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.filetree-navbar-home {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.filetree-navigation {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0.25rem 0 1.5rem;
+  scrollbar-width: thin;
+}
+
+.site-navigation {
+  display: grid;
+  gap: 0.65rem;
+  font-size: 0.96rem;
+}
+
+.site-nav-section,
+.site-nav-group {
+  margin: 0;
+}
+
+.site-nav-section > summary,
+.site-nav-group > summary {
+  position: relative;
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 0.45rem 2rem 0.45rem 0.55rem;
+  border-radius: 6px;
+  color: var(--text-normal);
+  cursor: pointer;
+  font-weight: 650;
+  line-height: 1.25;
+  list-style: none;
+}
+
+.site-nav-section > summary {
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 1rem;
+}
+
+.site-nav-group > summary {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+}
+
+.site-nav-section > summary::-webkit-details-marker,
+.site-nav-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav-section > summary::after,
+.site-nav-group > summary::after {
+  content: "";
+  position: absolute;
+  right: 0.75rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 140ms ease;
+}
+
+.site-nav-section:not([open]) > summary::after,
+.site-nav-group:not([open]) > summary::after {
+  transform: rotate(-45deg);
+}
+
+.site-nav-section > summary:hover,
+.site-nav-group > summary:hover,
+.site-nav-link:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal) !important;
+}
+
+.site-nav-children {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.25rem 0 0.15rem 0.55rem;
+}
+
+.site-nav-group .site-nav-children {
+  margin-left: 0.4rem;
+  padding-left: 0.65rem;
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+.site-nav-link {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 0.4rem 0.55rem;
+  border-radius: 6px;
+  color: var(--text-muted) !important;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.site-nav-link-root {
+  color: var(--text-normal) !important;
+  font-weight: 600;
+}
+
+.site-nav-muted {
+  margin-left: 0.25rem;
+  color: var(--text-faint);
+}
+
+.site-nav-section > summary:focus-visible,
+.site-nav-group > summary:focus-visible,
+.site-nav-link:focus-visible,
+.navigation-toggle:focus-visible,
+.nav-drawer-close:focus-visible {
+  outline: 3px solid #8acbf0;
+  outline-offset: 2px;
+}
+
+.navigation-toggle,
+.nav-drawer-close {
+  display: inline-flex;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-normal);
+  cursor: pointer;
+}
+
+.navigation-toggle:hover,
+.nav-drawer-close:hover {
+  background: var(--background-modifier-hover);
+}
+
+.filetree-mobile-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-drawer-enter,
+.nav-drawer-leave {
+  transition: transform 180ms ease;
+}
+
+.nav-drawer-enter-start,
+.nav-drawer-leave-end {
+  transform: translateX(-100%);
+}
+
+.nav-drawer-enter-end,
+.nav-drawer-leave-start {
+  transform: translateX(0);
+}
+
+@media (min-width: 1000px) {
+  .filetree-mobile-actions {
+    display: none !important;
+  }
+}
+
 @media (max-width: 800px) {
   .navbar .site-title {
     font-size: var(--dg-navbar-title-size-mobile);
@@ -137,5 +325,62 @@ a.searchresult {
 
   .search-box {
     max-height: calc(100vh - 24px);
+  }
+}
+
+@media (max-width: 999px) {
+  html.nav-drawer-open {
+    overflow: hidden;
+  }
+
+  .filetree-wrapper {
+    z-index: 10001;
+    width: min(86vw, 340px);
+    min-width: 0;
+    max-width: 340px;
+    justify-content: flex-start;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.35);
+  }
+
+  .filetree-sidebar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 14px 20px;
+  }
+
+  .fullpage-overlay {
+    position: fixed;
+    z-index: 10000;
+  }
+
+  .filetree-navbar .navbar-inner {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .filetree-navbar .site-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  body:not(.no-filetree) .content {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: min(var(--dg-content-max-width), 100%);
+    margin-top: calc(var(--dg-navbar-height) + 40px) !important;
+  }
+
+  .site-nav-link {
+    min-height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-drawer-enter,
+  .nav-drawer-leave,
+  .site-nav-section > summary::after,
+  .site-nav-group > summary::after {
+    transition: none;
   }
 }
