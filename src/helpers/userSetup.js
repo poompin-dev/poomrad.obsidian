@@ -30,7 +30,7 @@ function userEleventySetup(eleventyConfig) {
       const inputPath = String(
         item?.inputPath || item?.page?.inputPath || item?.filePathStem || ""
       ).replace(/\\/g, "/");
-      return !/(?:^|\/)01_Webpage(?:\/|$)/i.test(inputPath);
+      return !/(?:^|\/)02_Webpage(?:\/|$)/i.test(inputPath);
     });
   });
 
