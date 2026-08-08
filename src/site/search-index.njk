@@ -7,6 +7,7 @@ eleventyExcludeFromCollections: true
 		"title": {% if post.data.title %}{{post.data.title | jsonify | safe }}{% else %}{{post.fileSlug | jsonify | safe }}{% endif %},
 		"date":"{{ post.date }}",
 		"url":"{{ post.url }}",
+		"aliases": {% if post.data["dg-note-properties"] and post.data["dg-note-properties"].aliases %}{{ post.data["dg-note-properties"].aliases | jsonify | safe }}{% elif post.data.aliases %}{{ post.data.aliases | jsonify | safe }}{% else %}[]{% endif %},
 		"content": {{ post.templateContent | link | stripForSearch | jsonify | safe }},
 		"tags": [{{post.templateContent | link | searchableTags | safe }} {% if post.data.tags %}{% for tag in post.data.tags %}"{{tag|validJson}}"{% if not loop.last %},{% endif %}{% endfor %}{% endif %}]
 }{% if not loop.last %},{% endif %}

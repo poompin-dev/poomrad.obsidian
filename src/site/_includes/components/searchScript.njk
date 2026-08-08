@@ -339,11 +339,15 @@
             index: [
                 { field: "content", tokenize: "reverse", encode: encoder },
                 { field: "title", tokenize: "forward", encode: encoder },
+                { field: "aliases", tokenize: "forward", encode: encoder },
                 { field: "tags", tokenize: "forward", encode: encoder }
             ]
         });
         posts.forEach((p, idx) => {
-            contentIndex.add({ id: idx, title: p.title, content: p.content, tags: p.tags });
+            const aliases = Array.isArray(p.aliases)
+                ? p.aliases.filter(alias => typeof alias === "string").join(" ")
+                : (typeof p.aliases === "string" ? p.aliases : "");
+            contentIndex.add({ id: idx, title: p.title, aliases, content: p.content, tags: p.tags });
         });
         return contentIndex;
     }
@@ -545,6 +549,7 @@
             ? index.search(searchQuery.substring(1), [{ field: "tags" }])
             : index.search(searchQuery, [
                 { field: "title", limit: 5 },
+                { field: "aliases", limit: 5 },
                 { field: "content", limit: 10 }
             ]);
 
@@ -556,6 +561,7 @@
 
         const allIds = new Set([
             ...getByField("title"),
+            ...getByField("aliases"),
             ...getByField("content"),
             ...getByField("tags")
         ]);
