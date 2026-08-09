@@ -1,7 +1,7 @@
 <div
-  x-data="{ isDesktop: window.innerWidth >= 1000, showFilesMobile: false }"
+  x-data="{ isDesktop: window.innerWidth >= 1200 || (window.innerWidth >= 1000 && window.innerWidth > window.innerHeight), showFilesMobile: false }"
   x-init="$watch('showFilesMobile', value => document.documentElement.classList.toggle('nav-drawer-open', value))"
-  x-on:resize.window="isDesktop = window.innerWidth >= 1000; if (isDesktop) showFilesMobile = false"
+  x-on:resize.window="isDesktop = window.innerWidth >= 1200 || (window.innerWidth >= 1000 && window.innerWidth > window.innerHeight); if (isDesktop) showFilesMobile = false"
   x-on:keydown.escape.window="showFilesMobile = false"
 >
   <div x-show.important="!isDesktop" style="display: none;">
