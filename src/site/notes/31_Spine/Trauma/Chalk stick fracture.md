@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/trauma/chalk-stick-fracture/","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Carrot stick fracture","Ankylosed spine fracture","Transdiscal fracture"],"status":"working"}}
+{"dg-publish":true,"permalink":"/31-spine/trauma/chalk-stick-fracture/","updated":"2026-02-03T08:48:10.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Carrot stick fracture","Ankylosed spine fracture","Transdiscal fracture"],"status":"working"}}
 ---
 
 ## Overview
@@ -53,13 +53,13 @@
 ---
 ## High-yield exam pearls
 
-> [!DANGER] The "Discitis" Mimic
+> [!danger] The "Discitis" Mimic
 > In a patient with AS, if you see a single level of severe endplate destruction and sclerosis:
 > * **Check for trauma history.**
 > * It is likely an **Andersson Lesion** (chronic non-union of a fracture) rather than infection.
 > * *Differentiation:* Infection usually involves a soft tissue abscess; Andersson lesions do not.
 
-> [!WARNING] The "Back Pain" Trap
+> [!warning] The "Back Pain" Trap
 > Never send an AS/DISH patient home with just an X-ray after a fall.
 > * X-rays miss these fractures > 50% of the time.
 > * **Low threshold for CT is the standard of care.**

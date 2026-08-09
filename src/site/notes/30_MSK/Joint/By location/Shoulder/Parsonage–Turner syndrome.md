@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/shoulder/parsonage-turner-syndrome/","dg-note-properties":{"type":["disease"],"region":["shoulder"],"aetiology":["autoimmune"],"modality":["MRI"],"aliases":["PTS"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/by-location/shoulder/parsonage-turner-syndrome/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["shoulder"],"aetiology":["autoimmune"],"modality":["MRI"],"aliases":["PTS"],"status":"working"}}
 ---
 
 
@@ -61,10 +61,10 @@
   - Scapular winging (medial border prominence)
 - **Axillary nerve involvement**
   - Deltoid ± teres minor denervation
-- Often **multiple nerves together**, giving a “crazy” pattern that does not respect simple root or peripheral nerve maps.
+- Often **multiple nerves together**, giving a "crazy" pattern that does not respect simple root or peripheral nerve maps.
 
 ---
-## Imaging
+## Imaging features
 
 ### MRI shoulder / brachial plexus
 
@@ -102,9 +102,9 @@
 	- Helps differentiate from single-nerve entrapment or pure root radiculopathy.
 
 ---
-## Differentials
+## Differential diagnosis
 
-> [!warning] Don’t miss these
+> [!warning] Don't miss these
 > - **C5–C6 cervical radiculopathy**
 > - **Rotator cuff tear**  
 > - **[[30_MSK/Joint/By location/Shoulder/Quadrilateral space syndrome\|Quadrilateral space syndrome]]**  

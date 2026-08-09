@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/pharmacology/anti-resorptive-drugs/","dg-note-properties":{"type":["concept"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/pharmacology/anti-resorptive-drugs/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["concept"],"status":"working"}}
 ---
 
 > [!summary] Keypoint

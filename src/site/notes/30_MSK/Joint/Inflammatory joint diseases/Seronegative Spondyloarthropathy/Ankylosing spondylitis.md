@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["AS","Ankylosing spondylosis"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","updated":"2026-08-09T02:31:27.993+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["AS","Ankylosing spondylosis"],"status":"working"}}
 ---
 
 ## Overview
-**Ankylosing spondylitis (AS)** is the prototype of seronegative [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spondyloarthropathy\|spondyloarthropathies]]. It is a chronic, progressive inflammatory disorder primarily affecting the axial skeleton and sacroiliac joints.
+**Ankylosing spondylitis (AS)** is the prototype of seronegative [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spondyloarthritis\|spondyloarthropathies]]. It is a chronic, progressive inflammatory disorder primarily affecting the axial skeleton and sacroiliac joints.
 * **Epidemiology:** Young adults (onset 15–35 years). M:F ratio approx 3:1 (radiographic disease); approaches 1:1 in non-radiographic axial SpA.
 * **Genetics:** Strong association with **HLA-B27** (>90% in Caucasians; slightly lower in Asian populations but typically >85%).
 * **Pathology:** Enthesitis (inflammation at tendon/ligament insertion) $\rightarrow$ Osteitis $\rightarrow$ Sclerosis/Erosions $\rightarrow$ Ossification (Ankylosis).
@@ -20,10 +20,10 @@
 4.  **A**ortic regurgitation / Aortitis. Due to inflammation of the aortic root/valve ring.
 5.  **A**myloidosis. Secondary (AA type); a rare cause of renal failure in long-standing disease.
 
-> [!NOTE] Clinical presentation benchmarks
+> [!note] Clinical presentation benchmarks
 > * **Inflammatory back pain:** Insidious onset, duration >3 months, improves with exercise, *no* improvement with rest, night pain (second half of night).
 > * **Chest expansion:** Pathological if <2.5 cm (measured at 4th intercostal space).
-> * **Schober’s test:** Pathological if lumbar flexion increases <5 cm (modified Schober's).
+> * **Schober's test:** Pathological if lumbar flexion increases <5 cm (modified Schober's).
 
 ---
 ## Imaging features
@@ -77,7 +77,7 @@ Progression typically ascends: **Lumbar $\rightarrow$ Thoracic $\rightarrow$ Cer
 | **Facet joints**   | Fused                         | Normal                                             | Usually normal                           |
 | **HLA-B27**        | >90%                          | Normal population %                                | 50–70%                                   |
 
-> [!WARNING] Exam trap: Osteitis condensans ilii
+> [!warning] Exam trap: Osteitis condensans ilii
 > Do not confuse **Osteitis condensans ilii (OCI)** with Sacroiliitis.
 > * **OCI:** Triangular sclerosis on the iliac side only. **No** erosions. **No** joint space narrowing. Associated with multiparity.
 > * **AS:** Sclerosis + Erosions + Narrowing.

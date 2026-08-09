@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/renal-osteodystrophy/","dg-note-properties":{"type":["disease"],"aetiology":["endocrine","metabolic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/renal-osteodystrophy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["endocrine","metabolic"],"status":"working"}}
 ---
 
 Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
@@ -33,7 +33,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - Looser zones / insufficiency fractures (esp. femoral neck, pubic rami, ribs)
 
 #### Skull
-- **“Salt-and-pepper” skull**  
+- **"Salt-and-pepper" skull**  
   - Coarse, granular appearance from trabecular resorption & patchy sclerosis  
   - Loss of normal sharp inner/outer table definition
 
@@ -48,7 +48,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - **Rugger-jersey spine**:
 	- Sclerosis of vertebral endplates with relatively lucent central portion
 	- Symmetric, multiple levels
-- Vertebral osteopenia ± biconcave “codfish” vertebrae
+- Vertebral osteopenia ± biconcave "codfish" vertebrae
 
 #### Pelvis / hips
 - Mixed picture:
@@ -57,7 +57,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - Brown tumours in pelvis, ribs
 
 #### Soft tissues
-- **Vascular calcification** (medial calcification, “pipe-stem” arteries)
+- **Vascular calcification** (medial calcification, "pipe-stem" arteries)
 - **Periarticular / soft-tissue calcifications**, possibly **tumoral calcinosis**:
 	- Lobulated, amorphous periarticular calcified masses (often around hips, shoulders, elbows)
 
@@ -111,7 +111,7 @@ Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:
 - Common in real life: features of both high- and low-turnover in the same patient.
 
 ---
-## Key differentials
+## Differential diagnosis
 
 | Feature              | Paget disease                              | Renal osteodystrophy                         |
 |---------------------|---------------------------------------------|----------------------------------------------|

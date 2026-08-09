@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/modified-lodwick-madewell-classification/","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/modified-lodwick-madewell-classification/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
 ---
 
 ## Concepts (update from previous edition)
-Integrates static margin + dynamic changes + “invisible”/occult category so temporal evolution and radiographically occult disease matter.
+Integrates static margin + dynamic changes + "invisible"/occult category so temporal evolution and radiographically occult disease matter.
 
 ___
-## Summary table 
+## Summary table
 Use this only to categorise lesion margin/aggressiveness. Patient age and lesion location are still KINGS for differential diagnosis.
 
 | Type   | Description                                                                                 | Possible entities                                                   | Classic lesions                                                            |
@@ -29,6 +29,6 @@ ___
 	- IC → 2 (geographic, ill-defined)
 	- II, III → 3B (moth-eaten/permeative)
 	- add 3A, 3C (new concepts)
-- Always **compare with old images**—look for margin change or endosteal scalloping.
+- Always **compare with old images** → look for margin change or endosteal scalloping.
 	- **Change over time (3A):** Key red flag for malignancy, even if original margin was geographic.
 - **3C (occult):** Remember that radiograph-negative does NOT mean benign → Flag for possible marrow infiltrative disease (e.g., myeloma, metastasis).

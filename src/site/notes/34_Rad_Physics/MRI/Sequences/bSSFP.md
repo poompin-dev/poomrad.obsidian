@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/sequences/b-ssfp/","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["balanced steady-state free precession"],"status":"working"}}
+{"dg-publish":true,"permalink":"/34-rad-physics/mri/sequences/b-ssfp/","updated":"2026-07-31T23:16:46.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["balanced steady-state free precession"],"status":"working"}}
 ---
 
 > [!info] Key points

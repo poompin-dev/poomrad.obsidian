@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/chondrosarcoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/chondrosarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Overview
@@ -30,7 +30,7 @@
 
 
 ---
-## Imaging Features
+## Imaging features
 ### X-ray / CT
 - **Lytic lesion with chondroid matrix**:
   - **Rings and arcs**
@@ -47,7 +47,7 @@
   - Cortical breach or soft tissue mass
   - Intramedullary size >5 cm favors malignancy
 ---
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                                      | Key Differences                                   |
 | ---------------------------------------------- | ------------------------------------------------- |

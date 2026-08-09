@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/smouldering-myeloma/","dg-note-properties":{"type":["disease","concept"],"aetiology":["neoplasm"],"status":"stub"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/smouldering-myeloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease","concept"],"aetiology":["neoplasm"],"status":"stub"}}
 ---
 
 Part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]]

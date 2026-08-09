@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"modality":["Radiograph","Nuc"],"aliases":["Pachydermoperiostosis","Primary HOA","Touraine-Solente-Golé syndrome"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"modality":["Radiograph","Nuc"],"aliases":["Pachydermoperiostosis","Primary HOA","Touraine-Solente-Golé syndrome"],"status":"working"}}
 ---
 
 > [!summary]
@@ -40,7 +40,7 @@
 
 ---
 
-## Imaging
+## Imaging features
 
 ### Radiograph
 
@@ -57,7 +57,7 @@
 - Axial skeletal involvement is uncommon
 
 > [!tip]
-> **Epiphyseal extension favours primary HOA over secondary HOA**, but it is not sufficient by itself—clinical exclusion of a secondary cause remains essential.
+> **Epiphyseal extension favours primary HOA over secondary HOA**, but it is not sufficient by itself: clinical exclusion of a secondary cause remains essential.
 
 ### Bone scintigraphy
 

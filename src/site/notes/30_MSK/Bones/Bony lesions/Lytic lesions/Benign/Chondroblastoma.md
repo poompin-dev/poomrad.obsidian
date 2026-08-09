@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/chondroblastoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/chondroblastoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 The **most common chondroid tumour at the epiphysis**, especially in skeletally immature patients.
@@ -7,7 +7,7 @@ The **most common chondroid tumour at the epiphysis**, especially in skeletally 
 - Rare overall, but relatively common among epiphyseal lesions
 - Age: 10–25 years
 - Male > Female (2–3:1)
-## Common Locations
+## Common locations
 - Epiphysis or apophysis of long bones:
 	- Proximal tibia
 	- Proximal femur
@@ -20,7 +20,7 @@ The **most common chondroid tumour at the epiphysis**, especially in skeletally 
 - Multinucleated giant cells may be present
 - Immunohistochemistry: S100 positive, DOG1 negative
 ___
-## Radiological Features
+## Imaging features
 ### Radiograph / CT
 - Eccentric epiphyseal lytic lesion
 - Well-defined margin with sclerotic rim

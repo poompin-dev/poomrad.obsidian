@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","dg-note-properties":{"type":["disease"],"aliases":["Unicameral Bone Cyst","SBC"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","updated":"2026-03-24T17:30:08.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Unicameral Bone Cyst","SBC"],"status":"working"}}
 ---
 
 ## Overview
@@ -11,14 +11,14 @@
 - Male > Female (2–3:1)
 - Common sites: **proximal humerus** and **proximal femur** (metaphysis)
 ## Pathophysiology
-- Etiology unclear — theories include venous obstruction or fluid accumulation
+- Etiology unclear: theories include venous obstruction or fluid accumulation
 - Lined by fibrous membrane, filled with serous fluid
 - Often migrates from metaphysis toward diaphysis with skeletal growth
-## Clinical Features
+## Clinical features
 - Often **asymptomatic**
 - May present with **mild pain** or **pathologic fracture**
 ___
-## Imaging Features
+## Imaging features
 ### X-ray
 - **Centrally located**, **well-defined, lytic lesion** in metaphysis
 - **No matrix calcification**
@@ -34,7 +34,7 @@ ___
 - **T2**: High signal (fluid)
 - No solid enhancement; mild rim enhancement possible
 ___
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                     | Distinguishing Features                                          |
 | ----------------------------- | ---------------------------------------------------------------- |

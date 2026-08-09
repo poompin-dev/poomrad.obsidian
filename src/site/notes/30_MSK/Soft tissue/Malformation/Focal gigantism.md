@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/malformation/focal-gigantism/","dg-note-properties":{"type":["ddx","hub"],"aetiology":["malformation"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/soft-tissue/malformation/focal-gigantism/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["ddx","hub"],"aetiology":["malformation"],"ped":true,"status":"working"}}
 ---
 
 ## Core idea

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/atraumatic-fracture/","dg-note-properties":{"type":["hub"],"aetiology":["trauma"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/atraumatic-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub"],"aetiology":["trauma"],"status":"working"}}
 ---
 
 It is a clinical/history-based term describing fractures with **no clearly identifiable discrete or memorable traumatic event**. This distinction helps guide the initial differential diagnosis.

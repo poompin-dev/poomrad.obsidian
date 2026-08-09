@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["HL"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["HL"],"status":"working"}}
 ---
 
 > [!info] Notice

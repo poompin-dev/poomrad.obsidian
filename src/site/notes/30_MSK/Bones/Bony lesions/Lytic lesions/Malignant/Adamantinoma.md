@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/adamantinoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["Classic adamantinoma","Differentiated adamantinoma","OFD-like adamantinoma"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/adamantinoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["Classic adamantinoma","Differentiated adamantinoma","OFD-like adamantinoma"],"status":"working"}}
 ---
 
 ## Overview
@@ -21,11 +21,11 @@
 
 ### Radiographs / CT (First-Line)
 - Eccentric, elongated, multilobulated lytic lesion in anterior tibial cortex/diaphysis
-- Classic “soap-bubble” or multilocular appearance with thin septa
+- Classic "soap-bubble" or multilocular appearance with thin septa
 - Geographic, often sclerotic margins
 - Cortical expansion and thinning
 - Anterior bowing of tibia common
-- Satellite/multifocal cortical lesions (“string of beads”)
+- Satellite/multifocal cortical lesions ("string of beads")
 - Periosteal reaction variable (laminated or solid)
 - Soft-tissue mass rare but indicates aggression
 - CT: excellent for cortical detail, satellite foci, subtle breakthrough
@@ -43,7 +43,7 @@
 - Tc-99m MDP: moderate–intense uptake
 - FDG-PET: variable, generally low-grade avidity
 
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                  | Key Differentiators                                      |
 |----------------------------|----------------------------------------------------------|
@@ -54,7 +54,7 @@
 | Aneurysmal bone cyst       | Expansile, fluid–fluid levels, metaphyseal               |
 | Metastatic carcinoma       | Older patients, known primary                            |
 
-## Imaging Approach
+## Imaging approach
 - Start with AP/lateral radiographs of entire tibia
 - CT for cortical/satellite detail if radiographs suggestive
 - MRI whole tibia (knee to ankle) with contrast:
@@ -74,4 +74,4 @@
 - Classic > OFD-like in intramedullary and soft-tissue involvement
 - Imaging cannot reliably separate OFD-like from classic → biopsy mandatory (CK status)
 - Report should flag need for IHC correlation in appropriate clinical/imaging context
-- Exam buzzwords: “eccentric lucent lesion anterior tibial cortex”, “soap-bubble”, “cytokeratin-positive bone tumour”
+- Exam buzzwords: "eccentric lucent lesion anterior tibial cortex", "soap-bubble", "cytokeratin-positive bone tumour"

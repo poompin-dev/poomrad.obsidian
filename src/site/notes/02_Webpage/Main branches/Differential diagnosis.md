@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/differential-diagnosis/","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"permalink":"/02-webpage/main-branches/differential-diagnosis/","updated":"2026-08-09T00:23:35.130+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Differential lists built around a finding.

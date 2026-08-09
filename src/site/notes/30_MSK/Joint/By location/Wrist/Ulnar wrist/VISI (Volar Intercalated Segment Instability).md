@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/wrist/ulnar-wrist/visi-volar-intercalated-segment-instability/","dg-note-properties":{"type":["disease"],"region":["wrist"],"aetiology":["trauma"],"aliases":["VISI","VISI deformity"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/by-location/wrist/ulnar-wrist/visi-volar-intercalated-segment-instability/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["wrist"],"aetiology":["trauma"],"aliases":["VISI","VISI deformity"],"status":"working"}}
 ---
 
 ## Definition
@@ -20,7 +20,7 @@
 - **Often seen in asymptomatic individuals** with hyperlaxity → can be a **normal variant**
 - Clinical correlation is essential before labelling it pathologic
 ___
-## Imaging Findings
+## Imaging features
 - **Lunate tilted volarly** on lateral wrist view
 	- **Scapholunate angle < 30°** (normal = 30–60°)
 - No widening of SL interval

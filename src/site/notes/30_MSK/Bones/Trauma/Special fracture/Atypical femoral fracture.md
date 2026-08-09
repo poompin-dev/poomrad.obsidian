@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/special-fracture/atypical-femoral-fracture/","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/trauma/special-fracture/atypical-femoral-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
 ---
 
 > [!summary] Overview
@@ -17,7 +17,7 @@ Required location:
 2. Fracture line **originates at the lateral cortex** and is **substantially transverse**, although it may become oblique medially
 3. **Complete fracture** extends through both cortices and may have a **medial spike**; **incomplete fracture** involves only the lateral cortex
 4. **Non-comminuted or minimally comminuted**
-5. **Localised periosteal or endosteal thickening of the lateral cortex** at the fracture site — “beaking” or “flaring”
+5. **Localised periosteal or endosteal thickening of the lateral cortex** at the fracture site: "beaking" or "flaring"
 ### Minor criteria
 No need, but can be supportive
 - Generalised cortical thickening of femoral diaphysis

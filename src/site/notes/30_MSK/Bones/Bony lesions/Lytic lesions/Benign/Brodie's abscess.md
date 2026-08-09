@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","dg-note-properties":{"type":["disease"],"aliases":["subacute osteomyelitis","chronic abscess of bone"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["subacute osteomyelitis","chronic abscess of bone"],"status":"working"}}
 ---
 
 ## Overview
@@ -62,16 +62,16 @@
 ---
 ## High-yield exam pearls
 
-> [!TIP] The "penumbra sign" physics
+> [!tip] The "penumbra sign" physics
 > On unenhanced T1-weighted images, the granulation tissue lining a Brodie's abscess appears slightly **hyperintense** relative to the central pus and the surrounding muscle.
 > * **Why?** High protein content and paramagnetic effects in the granulation tissue.
 > * **Utility:** Helps distinguish Brodie's from a cystic tumour (which usually has a dark wall on T1).
 
-> [!WARNING] The Thai Board context
+> [!warning] The Thai Board context
 > In Thailand, a "Brodie's abscess" appearance is frequently **TB**.
 > * If the patient has no systemic symptoms and a "cold" presentation, or if the sclerotic rim is thin/absent despite a lytic cavity, suggest **acid-fast bacilli (AFB) stain/PCR** in the biopsy recommendation.
 
-> [!NOTE] The night pain trap
+> [!note] The night pain trap
 > Both Brodie's abscess and [[30_MSK/Bones/Bony lesions/Sclerotic lesions/Osteoid osteoma\|Osteoid osteoma]] cause night pain.
 > * **Osteoid osteoma:** Pain is prostaglandin-mediated $\rightarrow$ relieved by NSAIDs.
 > * **Brodie's:** Pain is pressure-mediated (throbbing) $\rightarrow$ variable relief with NSAIDs.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/leontiasis-ossea/","dg-note-properties":{"type":["sign","hub"],"status":"working"}}
+{"dg-publish":true,"permalink":"/38-glossary/leontiasis-ossea/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["sign","hub"],"status":"working"}}
 ---
 
 ## Definition
@@ -11,7 +11,7 @@
 - **Ossea:** bony  
 - → **"Lion-like bone condition"**
 ---
-## Radiologic Features
+## Imaging features
 - Marked **bony expansion** of:
 	- Frontal bone
 	- Maxilla
@@ -34,14 +34,14 @@
 | Acromegaly                       | Coarsening of facial bones; not true leontiasis but may mimic      |
 
 ---
-## Clinical Relevance
+## Clinical relevance
 - May result in:
 	- Visual loss (optic canal narrowing)
 	- Sinus obstruction
 	- Hearing impairment
 - Often requires **multidisciplinary evaluation**: radiology, ENT, neurosurgery, endocrinology
 ---
-## Exam Tips
-- “Lion-like facies + ground-glass craniofacial bones” → think **polyostotic fibrous dysplasia**
-- “Older adult + skull thickening + hearing loss” → think **Paget’s disease**
+## Exam tips
+- "Lion-like facies + ground-glass craniofacial bones" → think **polyostotic fibrous dysplasia**
+- "Older adult + skull thickening + hearing loss" → think **Paget's disease**
 - Link to **GNAS mutation** in McCune-Albright if endocrine signs present

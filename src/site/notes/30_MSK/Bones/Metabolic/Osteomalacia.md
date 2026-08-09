@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteomalacia/","dg-note-properties":{"type":["disease"],"aetiology":["metabolic","endocrine","genetics","neoplasm","iatrogenic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteomalacia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["metabolic","endocrine","genetics","neoplasm","iatrogenic"],"status":"working"}}
 ---
 
 ## Aetiology
@@ -33,7 +33,7 @@
 	- Abnormal Vit D / PTH.
 
 ---
-## Imaging
+## Imaging features
 
 > [!summary]
 > Main imaging pattern = **generalised osteopenia** + **Looser zones** ± deformity.  
@@ -45,10 +45,10 @@
 - **Diffuse osteopenia**:
 	- Thinned cortices
 	- Coarser, sparse trabeculae
-- Bones may appear “washed out”
+- Bones may appear "washed out"
 - Deformities in long-standing cases:
 	- Bowing of long bones
-	- Biconcave “codfish” vertebrae
+	- Biconcave "codfish" vertebrae
 	- Pelvic deformity (e.g. protrusio acetabuli)
 
 #### Looser zones (pseudofractures) – key sign
@@ -68,7 +68,7 @@
 
 #### Spine
 - Generalised vertebral osteopenia
-- Biconcave “codfish” vertebrae (endplate concavity)
+- Biconcave "codfish" vertebrae (endplate concavity)
 - Insufficiency fractures (wedge/compression) in severe disease.
 
 #### Pelvis and lower limbs
@@ -108,7 +108,7 @@
 - Very sensitive to detect number and distribution of pseudofractures.
 
 ---
-## Key differentials
+## Differential diagnosis
 
 ### Osteomalacia vs osteoporosis
 

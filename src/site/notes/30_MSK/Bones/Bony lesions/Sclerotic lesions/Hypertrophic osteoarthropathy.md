@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","dg-note-properties":{"type":["disease","hub"],"modality":["Radiograph","Nuc"],"aliases":["HOA"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease","hub"],"modality":["Radiograph","Nuc"],"aliases":["HOA"],"status":"working"}}
 ---
 
 > [!summary]
-> **Clinical–radiologic syndrome** characterised by **digital clubbing, periostosis of tubular bones, and arthralgia / joint effusions**. The syndrome may be incomplete. First classify true HOA as **primary or secondary**, then distinguish it from close mimics—especially [[30_MSK/Bones/Bony lesions/Sclerotic lesions/Thyroid acropachy\|thyroid acropachy]].
+> **Clinical–radiologic syndrome** characterised by **digital clubbing, periostosis of tubular bones, and arthralgia / joint effusions**. The syndrome may be incomplete. First classify true HOA as **primary or secondary**, then distinguish it from close mimics, especially [[30_MSK/Bones/Bony lesions/Sclerotic lesions/Thyroid acropachy\|thyroid acropachy]].
 
 ---
 
@@ -83,7 +83,7 @@
 	- Graves ophthalmopathy and dermopathy → thyroid acropachy
 	- Childhood / adolescent onset with pachydermia → primary HOA
 	- New adult-onset clubbing, bone pain, or periostosis → secondary HOA
-4. In a new adult presentation, **search for a secondary cause—especially intrathoracic malignancy—before diagnosing primary HOA**.
+4. In a new adult presentation, **search for a secondary cause, especially intrathoracic malignancy, before diagnosing primary HOA**.
 
 ---
 ## Other causes of multifocal periostosis

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/","dg-note-properties":{"type":["hub","concept"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","concept"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Hallmark

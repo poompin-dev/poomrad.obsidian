@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/trauma/sciwora/","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"status":"working"}}
+{"dg-publish":true,"permalink":"/31-spine/trauma/sciwora/","updated":"2026-02-03T15:51:35.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"status":"working"}}
 ---
 
 ## Definition
@@ -20,7 +20,7 @@ These are biology and physical factors that predispose children to SCIWORA.
     * Uncalcified synchondroses.
 3. **Mechanism of injury:** usually hyperextension or distraction. The spinal column transiently subluxes, compresses/stretches the cord, and recoils to a normal alignment.
 
-> [!NOTE] Examination pearl
+> [!note] Examination pearl
 > A child with a neurological deficit and "normal" CT c-spine **must** undergo MRI to exclude SCIWORA. Do not clear the spine based on CT alone in the presence of neurology (NICE NG41 / RCR guidelines).
 ## Clinical presentation
 * **History:** High-energy trauma (RTA, fall from height) or sports injury.
@@ -28,7 +28,7 @@ These are biology and physical factors that predispose children to SCIWORA.
 * **Delayed onset:** Neurological deficits may be delayed (hours to days) in up to 25–50% of cases ('lucid interval').
 
 ___
-## Imaging findings
+## Imaging features
 ### Plain radiograph & CT
 * **Findings:** By definition, **normal**.
 * **Role:** To exclude fractures, permanent subluxation, or bony malalignment.
@@ -42,7 +42,7 @@ MRI is required to assess cord integrity and ligamentous injury.
     3.  **Ligamentous injury:** Disruption of ALL, PLL, or ligamentum flavum (T2 hyperintense signal).
     4.  **Normal MRI:** True SCIWONA (prognostically better).
 
-> [!WARNING] Prognostic indicator
+> [!warning] Prognostic indicator
 > **Haemorrhage** within the cord represents a significantly worse prognosis than **oedema** alone.
 > * **Oedema (T2 bright):** often reversible; incomplete injury.
 > * **Haemorrhage (T2 dark/blooming):** usually irreversible; complete injury.

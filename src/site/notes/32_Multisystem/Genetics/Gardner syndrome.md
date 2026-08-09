@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/genetics/gardner-syndrome/","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/genetics/gardner-syndrome/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"status":"working"}}
 ---
 
 Familial adenomatous polyposis (FAP) variant.

@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/pathologic-fracture/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/pathologic-fracture/","updated":"2026-08-09T00:46:55.715+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Definition
-- Fracture through bone weakened by **pre-existing pathology** (usually tumour—primary or metastatic, infection, metabolic disease).
+- Fracture through bone weakened by **pre-existing pathology** (usually tumour: primary or metastatic, infection, metabolic disease).
 - Occurs with **minimal or no trauma**.
 ## Etiologies
 - [[30_MSK/Bones/Bone metastasis\|Bone metastasis]]
@@ -16,7 +16,7 @@
 - May have **periosteal reaction** or abnormal marrow signal on MRI
 - May see **multiple lesions** (i.e., bone met, myeloma)
 ---
-## Mirel’s scoring system 
+## Mirel's scoring system
 
 Radiographic qualitative evaluation for impending pathological fracture risk
 

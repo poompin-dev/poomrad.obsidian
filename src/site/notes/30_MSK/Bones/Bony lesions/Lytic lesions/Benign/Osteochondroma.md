@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/osteochondroma/","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/osteochondroma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
@@ -13,7 +13,7 @@
 - Stops growing after **skeletal maturity**
 - Male > Female
 - Multiple lesions → think **MHE (autosomal dominant)**
-## Common Locations
+## Common locations
 - **Metaphysis** of long bones, especially around the knee:
 	- Distal femur
 	- Proximal tibia
@@ -31,7 +31,7 @@
 	   - Cap thickness **>2 cm**
 	   - Cortical irregularity or soft tissue mass
 ---
-## Imaging Features
+## Imaging features
 ### X-ray / CT
 - **Exophytic lesion** projecting away from nearby joint
 - Continuous **cortex and medullary canal** with parent bone
@@ -56,7 +56,7 @@ All of these lack **cortex and medullary continuity** with the parent bone.
 | Parosteal osteosarcoma                                    | Attached to cortex but no medullary continuity; often metaphyseal                                                     |
 | Osteoma                                                   | Dense, ivory-like, craniofacial bones only                                                                            |
 | Periosteal chondroma                                      | Juxtacortical, but scallops cortex and lacks medullary continuity                                                     |
-| Nora’s lesion (BPOP)                                      | Exophytic but no medullary continuity, more irregular and recurrent                                                   |
+| Nora's lesion (BPOP)                                      | Exophytic but no medullary continuity, more irregular and recurrent                                                   |
 | **Trevor disease**<br>(Dysplasia epiphysealis hemimelica) | - Epiphyseal osteochondroma-like cartilage tumour<br>- Growing from epiphysis **toward** the joint; usually ankle/knee |
 ## Management
 - **No treatment** needed if asymptomatic and benign-appearing

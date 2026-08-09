@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/monoclonal-gammopathy-of-uncertain-significance/","dg-note-properties":{"type":["disease","concept"],"aetiology":["neoplasm"],"aliases":["MGUS"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/monoclonal-gammopathy-of-uncertain-significance/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease","concept"],"aetiology":["neoplasm"],"aliases":["MGUS"],"status":"working"}}
 ---
 
 Part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]]

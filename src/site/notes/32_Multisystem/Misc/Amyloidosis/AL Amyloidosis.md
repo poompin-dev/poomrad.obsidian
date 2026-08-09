@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/al-amyloidosis/","dg-note-properties":{"type":["disease"],"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/al-amyloidosis/","updated":"2026-08-09T00:46:55.722+07:00","dg-note-properties":{"type":["disease"],"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"status":"working"}}
 ---
 
 > [!info] Definition
@@ -24,7 +24,7 @@
 * **Neurological:** Peripheral neuropathy, autonomic dysfunction.
 
 ---
-## Imaging findings
+## Imaging features
 ### Cardiac (high yield)
 Cardiac involvement carries the worst prognosis.
 * **Echocardiography:**

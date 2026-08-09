@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/infantile-cortical-hyperostosis/","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"modality":["Radiograph"],"ped":true,"aliases":["Caffey disease","Caffey–Silverman disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/infantile-cortical-hyperostosis/","updated":"2026-01-11T19:07:25.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"modality":["Radiograph"],"ped":true,"aliases":["Caffey disease","Caffey–Silverman disease"],"status":"working"}}
 ---
 
 
@@ -27,7 +27,7 @@
 > [!warning] Clinical trap
 > Can be mislabelled as **osteomyelitis** or **non-accidental injury**, leading to unnecessary IV antibiotics, extensive septic workup, or even social/legal issues.
 
-## Imaging
+## Imaging features
 
 ### Distribution
   - Mandible (classic site)
@@ -52,7 +52,7 @@
 
 > [!tip] Radiologist job
 > - Recognise the pattern (age + mandibular/diaphyseal hyperostosis).
-> - Use the word **“compatible with infantile cortical hyperostosis (Caffey disease)”**.
+> - Use the word **"compatible with infantile cortical hyperostosis (Caffey disease)"**.
 > - Explicitly comment that imaging **does not suggest osteomyelitis or non-accidental injury** if that is a concern.
 
 ## Differential diagnosis

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/infection/tuberculous-arthritis/","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"stub"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/infection/tuberculous-arthritis/","updated":"2026-02-04T08:33:30.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"stub"}}
 ---
 
 ## Phemister's triad

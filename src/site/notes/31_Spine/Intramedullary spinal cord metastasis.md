@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/intramedullary-spinal-cord-metastasis/","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"aliases":["ISCM"],"status":"working"}}
+{"dg-publish":true,"permalink":"/31-spine/intramedullary-spinal-cord-metastasis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"aliases":["ISCM"],"status":"working"}}
 ---
 
 Metastatic deposit within the spinal cord parenchyma causing acute/subacute myelopathy; uncommon but high-stakes because treatment is time-sensitive.
@@ -18,7 +18,7 @@ ___
 	- [[Flame sign\|Flame sign]]: ill-defined tapering enhancement at superior/inferior margin
 - Look for accompanying leptomeningeal disease or other spine/brain metastases
 ___
-## Top differentials
+## Differential diagnosis
 - Ependymoma: 
 	- Central, smoother expansion
 	- May have cyst/syrinx

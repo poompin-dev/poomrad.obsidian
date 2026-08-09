@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/genetics/multiple-hereditary-exostoses/","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"ped":true,"aliases":["MHE","Osteochondromatosis"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/genetics/multiple-hereditary-exostoses/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"ped":true,"aliases":["MHE","Osteochondromatosis"],"status":"working"}}
 ---
 
 **Genetic disorder**: multiple [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]s throughout the skeleton
 - **Autosomal dominant** (EXT1/EXT2 genes)`
-## Clinical Features
+## Clinical features
 - Presents in **childhood** (often before age 10)
 - Progressive, with **increasing number/size of exostoses** until skeletal maturity
 - May cause **limb length discrepancy, bowing, joint deformity**
@@ -20,13 +20,13 @@
 - **Bursitis** (overlying prominent lesions)
 - **[[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]** (rare)
 ___
-## Imaging
-- **Multiple bony outgrowths**—continuity of cortex and medullary cavity with parent bone
+## Imaging features
+- **Multiple bony outgrowths**: continuity of cortex and medullary cavity with parent bone
 - **Cartilage cap** (best seen on MRI):
     - Thick cap (>1.5–2 cm in adult) = risk of malignant change
 - **Deformity**: bowing, limb shortening, valgus/varus angulation
 ___
 ## Pearls
 - **New pain or rapid growth in MHE = [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]] until proven otherwise**
-- Deformities can be severe—refer to ortho early for surveillance
+- Deformities can be severe → refer to ortho early for surveillance
 - Family screening is important

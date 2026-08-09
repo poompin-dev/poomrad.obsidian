@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/sapho-syndrome/","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/sapho-syndrome/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"status":"working"}}
 ---
 
 The acronym SAPHO represent the major findings of

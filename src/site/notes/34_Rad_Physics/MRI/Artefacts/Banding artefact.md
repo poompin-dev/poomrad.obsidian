@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/artefacts/banding-artefact/","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Banding artifact","bSSFP dark bands","bSSFP banding"],"status":"working"}}
+{"dg-publish":true,"permalink":"/34-rad-physics/mri/artefacts/banding-artefact/","updated":"2026-07-18T16:55:41.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Banding artefact","bSSFP dark bands","bSSFP banding"],"status":"working"}}
 ---
 
 > [!info] Key points
@@ -29,7 +29,7 @@ see also: causes of [[34_Rad_Physics/MRI/Artefacts/Off-resonance effect#Causes\|
 > [!tip] Diagnostic clue
 > Bands move when centre frequency is adjusted, or disappear on a spoiled GRE repeat → off-resonance banding, not pathology.
  
-## Differentials
+## Differential diagnosis
 
 | Mimic                           | Distinguishing feature                                          |
 | ------------------------------- | --------------------------------------------------------------- |

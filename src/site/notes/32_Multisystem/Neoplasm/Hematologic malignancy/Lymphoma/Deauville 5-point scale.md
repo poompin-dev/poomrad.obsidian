@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Nuc"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/deauville-5-point-scale/","updated":"2026-08-09T00:46:55.724+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Nuc"],"status":"working"}}
 ---
 
 Visual score comparing residual FDG uptake in [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] sites to two reference tissues: mediastinal blood pool and liver.
@@ -19,7 +19,7 @@ Visual score comparing residual FDG uptake in [[32_Multisystem/Neoplasm/Hematolo
 > - DS 1-3 usually = complete metabolic response (CMR)
 > - DS 4-5 = residual active disease.
 > 
-> Caveat: “positive/negative” cut depends on context (interim vs end-of-treatment, histology, trial protocol).
+> Caveat: "positive/negative" cut depends on context (interim vs end-of-treatment, histology, trial protocol).
 ## Pitfalls and traps
 - Inflammation/infection, post-biopsy, radiotherapy change.
 - Thymic rebound (young), brown fat, muscle activity.

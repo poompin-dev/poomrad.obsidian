@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/secondary-hypertrophic-osteoarthropathy/","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Secondary HOA","Hypertrophic pulmonary osteoarthropathy","HPOA","Pierre Marie-Bamberger syndrome"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/secondary-hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Secondary HOA","Hypertrophic pulmonary osteoarthropathy","HPOA","Pierre Marie-Bamberger syndrome"],"status":"working"}}
 ---
 
 > [!summary]
@@ -57,7 +57,7 @@
 
 ---
 
-## Imaging
+## Imaging features
 
 ### Radiograph
 

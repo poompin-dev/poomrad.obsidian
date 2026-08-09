@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/myxopapillary-ependymoma/","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/31-spine/myxopapillary-ependymoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"ped":true,"status":"working"}}
 ---
 
 
@@ -15,7 +15,7 @@ ____
 ## Imaging - MRI
 
 > [!info] Typical spinal MRI pattern
-> - Central intradural extramedullary mass, “**sausage-shaped**” along filum.
+> - Central intradural extramedullary mass, "**sausage-shaped**" along filum.
 > - May span **multiple vertebral levels**.
 > - Often causes **expansion** of canal + posterior vertebral body scalloping.
 
@@ -25,17 +25,17 @@ ____
 		- patchy T1-bright mucin/haemorrhage.
 	- T2: hyperintense, heterogeneous; cysts/septa possible.
 		- Hypointensity at tumour margin = haemosiderin
-	- GRE/SWI: peripheral low-signal **“cap sign”** (haemosiderin).
+	- GRE/SWI: peripheral low-signal **"cap sign"** (haemosiderin).
 - **Post-contrast**
 	- Strong, often homogeneous enhancement ± small cystic areas.
 - **Secondary features**
 	- Canal widening, remodelling/scalloping.
 	- **Drop metastases** along neuraxis in more aggressive/relapsed cases.
-## Key differentials
-Think “central filum vs eccentric nerve root”
+## Differential diagnosis
+Think "central filum vs eccentric nerve root"
 - **Conventional conus ependymoma**: intramedullary, cord expansion, less clearly extramedullary.
 - **Schwannoma / neurofibroma**: usually **eccentric**, dumb-bell through foramen, ± target sign, less typical cap sign.
-- **Filum paraganglioma (cauda equina neuroendocrine tumour*)**: similar level but **very vascular** – flow voids + “salt-and-pepper” appearance.
+- **Filum paraganglioma (cauda equina neuroendocrine tumour*)**: similar level but **very vascular** – flow voids + "salt-and-pepper" appearance.
 - **Meningioma (lumbar rare)**: dural-based, dural tail, older female, thoracic > lumbar.
 - **Intradural metastases**
 

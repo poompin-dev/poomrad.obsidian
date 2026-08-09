@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","updated":"2026-02-02T09:34:49.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 ## Overview
@@ -60,11 +60,11 @@
 ---
 ## High-yield exam pearls
 
-> [!WARNING] The Thai Board rule
+> [!warning] The Thai Board rule
 > In the Thai exams, if you see a lytic lesion that looks like a tumour (e.g., [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|GCT]] or metastasis) but the clinical history is "chronic pain" or "mild swelling" without severe systemic signs:
 > **TB is the top differential.**
 > * *Keyword to look for:* "Cold abscess" (soft tissue mass without acute inflammation/erythema).
 
-> [!NOTE] Transphyseal spread
+> [!note] Transphyseal spread
 > Unlike pyogenic osteomyelitis, which is often halted by the physis in children (due to avascular cartilage), **TB can cross the growth plate**.
 > * If a lesion involves both the metaphysis and epiphysis in a child, think **TB** (or rarer entities like infantile osteomyelitis).
