@@ -39,4 +39,4 @@ ___
 	- 8% throughout the disease course
 
 ___
-See also: [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
+See also: [[Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]

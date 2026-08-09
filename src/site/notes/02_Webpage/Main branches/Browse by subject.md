@@ -129,7 +129,6 @@ Browse published notes by clinical subject.
 ### Osteoarthritis and infection
 
 - [[30_MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
-- [[30_MSK/Joint/Infection/Tuberculous arthritis\|Tuberculous arthritis]]
 
 { .block-language-dataview}
 
@@ -167,7 +166,7 @@ Browse published notes by clinical subject.
 - [[32_Multisystem/Misc/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
 - [[32_Multisystem/Misc/Amyloidosis/Amyloidosis\|Amyloidosis]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
-- [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
+- [[32_Multisystem/Pharmacology/Antiresorptive drugs\|Antiresorptive drugs]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Deauville 5-point scale\|Deauville 5-point scale]]
 - [[32_Multisystem/Genetics/Gardner syndrome\|Gardner syndrome]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
@@ -179,8 +178,5 @@ Browse published notes by clinical subject.
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|Non-Hodgkin Lymphoma]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
-- [[32_Multisystem/Genetics/Proteus syndrome\|Proteus syndrome]]
-- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
-- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
 
 { .block-language-dataview}

@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/msk/bones/trauma/special-fracture/atypical-femoral-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/msk/bones/trauma/special-fracture/atypical-femoral-fracture/","updated":"2026-08-09T20:50:56.631+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
 ---
 
 > [!summary] Overview
-> - A stress/insufficiency-type fracture pattern occurring from **just distal to the lesser trochanter to just proximal to the supracondylar flare**, classically associated with long-term [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|antiresorptive therapy]].
+> - A stress/insufficiency-type fracture pattern occurring from **just distal to the lesser trochanter to just proximal to the supracondylar flare**, classically associated with long-term [[32_Multisystem/Pharmacology/Antiresorptive drugs\|antiresorptive therapy]].
 > - Diagnostic criteria are according to the **ASBMR task force**
 
 ## Revised ASBMR criteria (2013)

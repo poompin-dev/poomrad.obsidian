@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","updated":"2026-08-09T20:50:56.629+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
 ---
 
 ## Pathology
@@ -66,7 +66,7 @@
 | **Osteofibrous dysplasia**         | Anterior tibia, cortical-based, Cytokeratin -ve           |
 ## Management
 - **Observe** if asymptomatic
-- **[[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]** for pain control (polyostotic)
+- **[[32_Multisystem/Pharmacology/Antiresorptive drugs\|Antiresorptive drugs]]** for pain control (polyostotic)
 - **Surgery** for fracture or deformity
 - *Avoid radiation* (sarcoma risk ↑; same as [[Paget disease\|Paget disease]])
 ---

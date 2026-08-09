@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Osteoporosis/Osteoporosis signpost.md","permalink":"/msk/bones/metabolic/osteoporosis/osteoporosis-signpost/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub"],"aetiology":["metabolic"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Osteoporosis/Osteoporosis signpost.md","permalink":"/msk/bones/metabolic/osteoporosis/osteoporosis-signpost/","updated":"2026-08-09T20:50:56.627+07:00","dg-note-properties":{"type":["hub"],"aetiology":["metabolic"],"status":"working"}}
 ---
 
 ## Basics
@@ -15,5 +15,5 @@
 - [[Transient regional osteoporosis of the hip\|Transient regional osteoporosis of the hip]]
 - [[Regional migratory osteoporosis\|Regional migratory osteoporosis]]
 ## See also
-- [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
+- [[32_Multisystem/Pharmacology/Antiresorptive drugs\|Antiresorptive drugs]]
 - [[30_MSK/Bones/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]

@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
+- [[30_MSK/Bones/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
+- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 - [[32_Multisystem/Genetics/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
 - [[30_MSK/Misc. MSK/Terminology/Enthesitis\|Enthesitis]]
-- [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
-- [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
 
 { .block-language-dataview}
 
@@ -28,11 +28,11 @@
 
 ## New notes
 
+- [[30_MSK/Bones/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
+- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 - [[30_MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
 - [[30_MSK/Bones/Bony lesions/Sclerotic lesions/Thyroid acropachy\|Thyroid acropachy]]
 - [[32_Multisystem/Genetics/Gardner syndrome\|Gardner syndrome]]
-- [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
-- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 
 { .block-language-dataview}
 
