@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Fragility fracture.md","permalink":"/msk/bones/trauma/special-fracture/fragility-fracture/","updated":"2026-08-09T02:17:26.584+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Fragility fracture.md","permalink":"/msk/bones/trauma/special-fracture/fragility-fracture/","updated":"2026-08-09T13:49:50.199+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"solid","reviewed":"2026-08-09"}}
 ---
 
 > [!summary]
