@@ -357,6 +357,11 @@ main.content > .content-header {
 
 @media (min-width: 1200px),
   (min-width: 1000px) and (orientation: landscape) {
+  body.markdown-preview-view.markdown-rendered {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+  }
+
   .filetree-mobile-actions {
     display: none !important;
   }
