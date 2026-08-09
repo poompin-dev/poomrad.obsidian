@@ -149,6 +149,19 @@ main li,
   margin-bottom: 0 !important;
 }
 
+/* Keep nested lists readable without sacrificing most of a phone-width line. */
+@media (max-width: 600px) {
+  main.content ul,
+  main.content ol {
+    padding-inline-start: 0;
+  }
+
+  main.content ul > li,
+  main.content ol > li {
+    margin-inline-start: 1.25rem;
+  }
+}
+
 /* Headings */
 main h1 {
   font-size: 2.3em !important;
@@ -455,5 +468,4 @@ button {
   -webkit-appearance: none;
   appearance: none;
 }
-
 

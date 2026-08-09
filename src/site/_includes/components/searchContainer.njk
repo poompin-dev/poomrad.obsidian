@@ -1,10 +1,12 @@
 <div class="search-container" id="globalsearch" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="search-dialog-title" onclick="closeSearch()">
     <div class="search-box" onclick="event.stopPropagation()">
         <h2 class="sr-only" id="search-dialog-title">Search notes</h2>
-        <button type="button" class="search-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
         <div class="search-header">
             <label class="sr-only" for="term">Search SFRad notes</label>
             <input type="search" id="term" placeholder="{{ meta.uiStrings.searchPlaceholder }}" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false">
+            <button type="button" class="search-close align-icon" onclick="closeSearch()" aria-label="Close search">
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+            </button>
         </div>
 
         <div class="search-layout no-preview" id="search-layout">
