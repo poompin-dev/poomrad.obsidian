@@ -144,7 +144,8 @@ main.content > .content-header {
   border: 1px solid var(--background-modifier-border);
   border-radius: 8px;
   background: var(--background-secondary);
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .note-toc > summary {
@@ -181,20 +182,67 @@ main.content > .content-header {
   display: none !important;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   .note-toc-inline {
     display: none;
   }
 
+  .note-page-layout {
+    --sfrad-reading-column: 800px;
+    --sfrad-toc-column: 220px;
+    --sfrad-column-gap: 32px;
+    --sfrad-note-layout-width: calc(
+      var(--sfrad-reading-column) +
+      var(--sfrad-column-gap) +
+      var(--sfrad-toc-column)
+    );
+    display: grid;
+    grid-template-columns: var(--sfrad-reading-column) var(--sfrad-toc-column);
+    column-gap: var(--sfrad-column-gap);
+    align-items: stretch;
+    width: var(--sfrad-note-layout-width);
+  }
+
+  body:not(.no-filetree) .note-page-layout {
+    --sfrad-navigation-column: calc(var(--dg-filetree-width) + 40px);
+    margin-left: calc(
+      var(--sfrad-navigation-column) +
+      (
+        100vw -
+        var(--sfrad-navigation-column) -
+        var(--sfrad-note-layout-width)
+      ) / 2
+    );
+    margin-right: 0;
+  }
+
+  body.no-filetree .note-page-layout {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .note-page-layout > main.content:not(.canvas-page) {
+    grid-row: 1;
+    grid-column: 1;
+    width: var(--sfrad-reading-column) !important;
+    max-width: var(--sfrad-reading-column) !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
   .note-page-layout > aside.note-toc-rail {
     display: block !important;
-    position: absolute !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    left: calc(50% + 480px) !important;
-    width: 220px !important;
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    grid-row: 1;
+    grid-column: 2;
+    align-self: stretch !important;
+    width: var(--sfrad-toc-column) !important;
     min-width: 0 !important;
     max-width: none !important;
+    max-height: none !important;
     height: auto !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -206,7 +254,7 @@ main.content > .content-header {
     position: sticky;
     top: 100px;
     z-index: 10;
-    width: 220px;
+    width: 100%;
     max-height: calc(100vh - 140px);
     margin: 0;
     overflow-y: auto;
@@ -450,26 +498,36 @@ main.content > .content-header {
     padding-top: 20px;
   }
 
-  body:not(.no-filetree) main.content:not(.canvas-page) {
-    --dg-content-balance-shift: clamp(
-      0px,
-      calc((100vw - 1200px) * 0.24),
-      64px
+  body:not(.no-filetree) > main.content:not(.canvas-page),
+  body:not(.no-filetree) .note-page-layout > main.content:not(.canvas-page) {
+    --sfrad-navigation-column: calc(var(--dg-filetree-width) + 40px);
+    --sfrad-content-column: min(
+      800px,
+      calc(100vw - var(--sfrad-navigation-column) - 48px)
     );
     box-sizing: border-box;
-    width: min(800px, calc(100vw - var(--dg-filetree-width) - 40px)) !important;
-    max-width: min(
-      800px,
-      calc(100vw - var(--dg-filetree-width) - 40px)
-    ) !important;
-    margin-left: max(
-      calc(var(--dg-filetree-width) + 20px),
-      calc(
-        (100vw - 800px) / 2 + var(--dg-content-balance-shift)
-      )
+    width: var(--sfrad-content-column) !important;
+    max-width: var(--sfrad-content-column) !important;
+    margin-left: calc(
+      var(--sfrad-navigation-column) +
+      (
+        100vw -
+        var(--sfrad-navigation-column) -
+        var(--sfrad-content-column)
+      ) / 2
     ) !important;
     margin-right: auto !important;
     transform: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  body:not(.no-filetree) .note-page-layout > main.content:not(.canvas-page),
+  body.no-filetree .note-page-layout > main.content:not(.canvas-page) {
+    width: var(--sfrad-reading-column) !important;
+    max-width: var(--sfrad-reading-column) !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 }
 
