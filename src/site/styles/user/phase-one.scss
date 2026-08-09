@@ -177,11 +177,25 @@ main.content > .content-header {
   text-align: center;
 }
 
+.filetree-home-link .site-logo {
+  width: min(100%, 180px);
+  height: auto;
+  max-height: 46px;
+  margin: 0.4rem auto 0.65rem;
+}
+
 .filetree-navbar-home {
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
+}
+
+.filetree-navbar .navbar-inner .filetree-navbar-home .site-logo {
+  width: auto;
+  height: 30px;
+  max-width: 140px;
+  margin: 0;
 }
 
 .filetree-navigation {
