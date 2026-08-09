@@ -565,7 +565,15 @@ main.content > .content-header {
 
 @media (min-width: 1401px) {
   .filetree-wrapper {
+    width: calc(var(--dg-filetree-width) + 40px);
+    min-width: calc(var(--dg-filetree-width) + 40px);
     max-width: calc(var(--dg-filetree-width) + 40px);
+    justify-content: flex-start;
+  }
+
+  .filetree-sidebar {
+    box-sizing: border-box;
+    width: 100%;
   }
 }
 
