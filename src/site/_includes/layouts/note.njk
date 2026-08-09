@@ -26,11 +26,19 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {%include "components/searchContainer.njk"%}
     {% endif %}
 
+    {% set h2TocHtml = content | h2Toc(page.inputPath) %}
+    {% if h2TocHtml %}<div class="note-page-layout">{% endif %}
     <main class="content cm-s-obsidian print {{contentClasses}}">
       {% set reviewedAt = reviewed | lastReviewedAt(updated, noteProps, page.inputPath) %}
       <header class="content-header note-header">
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
+        {% endif %}
+        {% if h2TocHtml %}
+          <details class="note-toc note-toc-inline">
+            <summary>Contents</summary>
+            {{ h2TocHtml | safe }}
+          </details>
         {% endif %}
         <div class="header-meta">
           {% if settings.dgShowTags === true and tags %}
@@ -76,6 +84,13 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
     </main>
+    {% if h2TocHtml %}
+      <aside class="note-toc-rail" aria-label="Contents">
+        <nav class="note-toc note-toc-sidebar" aria-label="On this page">
+          {{ h2TocHtml | safe }}
+        </nav>
+      </aside>
+    </div>{% endif %}
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true or dynamics.sidebar.top.length > 0 or dynamics.sidebar.bottom.length > 0%}
       {%include "components/sidebar.njk"%}

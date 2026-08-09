@@ -1,3 +1,5 @@
+const { parse } = require("node-html-parser");
+
 function userMarkdownSetup(md) {
   // The md parameter stands for the markdown-it instance used throughout the site generator.
   // Feel free to add any plugin you want here instead of /.eleventy.js
@@ -23,6 +25,30 @@ function userEleventySetup(eleventyConfig) {
   eleventyConfig.addFilter("hasCallouts", function(content) {
     const source = String(content || "");
     return /\[![^\]]+\]/.test(source) || /(?:^|\n)```ad-/i.test(source) || /class=["'][^"']*\bcallout\b/i.test(source);
+  });
+
+  eleventyConfig.addFilter("h2Toc", function(content, inputPath) {
+    const sourcePath = String(inputPath || "").replace(/\\/g, "/");
+    const isContentNote = /(?:^|\/)src\/site\/notes\/3[0-9]_[^/]+(?:\/|$)/i.test(sourcePath);
+    if (!isContentNote) return "";
+
+    const source = String(content || "");
+    const headings = parse(source).querySelectorAll("h2[id]").map((heading) => ({
+      id: heading.getAttribute("id"),
+      label: heading.text.replace(/\s+/g, " ").trim(),
+    }));
+    const escapeHtml = (value) => value
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+
+    if (headings.length < 4) return "";
+
+    return `<ol>${headings.map(({ id, label }) =>
+      `<li><a href="#${escapeHtml(id)}">${escapeHtml(label)}</a></li>`
+    ).join("")}</ol>`;
   });
 
   eleventyConfig.addFilter("excludeWebpageNotes", function(items) {
