@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/fat-suppression/dixon-chemical-shift-fat-water-separation/","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Dixon"],"status":"working"}}
+{"dg-publish":true,"permalink":"/34-rad-physics/mri/fat-suppression/dixon-chemical-shift-fat-water-separation/","updated":"2026-07-31T23:16:46.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Dixon"],"status":"working"}}
 ---
 
 > [!info] Key points

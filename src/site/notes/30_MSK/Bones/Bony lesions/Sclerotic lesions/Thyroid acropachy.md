@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/thyroid-acropachy/","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Graves acropachy"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/thyroid-acropachy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Graves acropachy"],"status":"working"}}
 ---
 
 > [!summary]
@@ -39,7 +39,7 @@
 
 ---
 
-## Imaging
+## Imaging features
 
 ### Radiograph
 - Best demonstrated in the **hands and feet**

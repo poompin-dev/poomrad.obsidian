@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bone-marrow/bone-marrow-composition/","dg-note-properties":{"type":["anatomy"],"modality":["MRI"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bone-marrow/bone-marrow-composition/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["anatomy"],"modality":["MRI"],"status":"working"}}
 ---
 
 

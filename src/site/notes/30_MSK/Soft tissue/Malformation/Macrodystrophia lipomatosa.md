@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/malformation/macrodystrophia-lipomatosa/","dg-note-properties":{"type":["disease"],"aetiology":["malformation","genetics"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/soft-tissue/malformation/macrodystrophia-lipomatosa/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation","genetics"],"ped":true,"status":"working"}}
 ---
 
 Rare, **congenital, non-hereditary [[30_MSK/Soft tissue/Malformation/Focal gigantism\|localised gigantism]]** due to **disproportionate fibrofatty overgrowth** of soft tissues ± bone, typically along a **nerve territory** (e.g. median nerve in hand, plantar nerves in foot). Often presents as macrodactyly.
@@ -36,17 +36,17 @@ Rare, **congenital, non-hereditary [[30_MSK/Soft tissue/Malformation/Focal gigan
 - Bone:
 	- Enlarged size, normal marrow signal.
 - If associated **fibrolipomatous hamartoma of nerve**:
-	- **“Coaxial cable / spaghetti”** appearance of enlarged nerve with fat interdigitating between fascicles.
+	- **"Coaxial cable / spaghetti"** appearance of enlarged nerve with fat interdigitating between fascicles.
 
 CT is rarely needed but shows hypertrophic bone + low attenuation fat proliferation.
 
 ---
-## Differentials
+## Differential diagnosis
 
 | Entity                         | Key differences                                                                                                     |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | [[32_Multisystem/Genetics/Proteus syndrome\|Proteus syndrome]]           | Asymmetric overgrowth + dysregulated bone, vascular malformations, cerebriform plantar naevi, systemic features.     |
 | [[30_MSK/Soft tissue/Malformation/Klippel-Trénaunay Syndrome\|Klippel-Trénaunay Syndrome]] | Limb overgrowth + **port-wine stain + venous/lymphatic malformations**, not pure fat overgrowth in nerve territory. |
-| Plexiform neurofibroma         | “Bag of worms” soft tissue mass, not predominantly fat; NF1 stigmata.                                               |
+| Plexiform neurofibroma         | "Bag of worms" soft tissue mass, not predominantly fat; NF1 stigmata.                                               |
 | Haemangioma / AVM              | Vascular channels, flow voids, phleboliths; not uniform fatty bulk.                                                 |
 | Isolated lipomatosis           | Diffuse fat overgrowth but lacks **nerve-territory pattern** and bony hypertrophy.                                  |

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["NHL"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["NHL"],"status":"working"}}
 ---
 
 A heterogeneous group of lymphoid malignancies (B-cell >> T/NK cell) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.
@@ -15,7 +15,7 @@ ___
 - Tends to **encase vessels/structures** rather than invade early (helpful vs many carcinomas).
 ### Extranodal
 Common and high-yield sites. Parenchymal involvement without nodal disease **can** happens.
-- **GI**: segmental wall thickening/mass; small bowel may show “aneurysmal” dilatation; perforation risk (esp. after treatment).
+- **GI**: segmental wall thickening/mass; small bowel may show "aneurysmal" dilatation; perforation risk (esp. after treatment).
 - **Spleen/liver**: diffuse enlargement ± focal lesions.
 - **Kidney**: multiple bilateral hypoenhancing masses or diffuse infiltration; often with retroperitoneal nodes.
 - **Bone marrow**: focal/diffuse infiltration (MRI/DWI helpful).
@@ -25,4 +25,4 @@ Common and high-yield sites. Parenchymal involvement without nodal disease **can
 - Residual mass ≠ active disease → metabolic assessment helps.
 
 > [!notice] Reminder
- “NHL” isn’t one disease: **subtype/grade changes imaging behaviour and management**.
+ "NHL" isn't one disease: **subtype/grade changes imaging behaviour and management**.

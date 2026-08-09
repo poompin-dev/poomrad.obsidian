@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/fat-suppression/fat-suppression-mri-techniques/","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
+{"dg-publish":true,"permalink":"/34-rad-physics/mri/fat-suppression/fat-suppression-mri-techniques/","updated":"2026-07-18T16:55:41.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
 ---
 
 - Spectral fat suppression

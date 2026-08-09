@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/intermediate/fibromatosis/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/intermediate/fibromatosis/","updated":"2026-08-09T00:46:55.717+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
-Benign (non-metastasising) **fibroblastic/myofibroblastic proliferation** that behaves like a “bad neighbour”: **infiltrative + locally aggressive + high local recurrence**.
+Benign (non-metastasising) **fibroblastic/myofibroblastic proliferation** that behaves like a "bad neighbour": **infiltrative + locally aggressive + high local recurrence**.
 ___
 ## Imaging features
 ### General pattern
@@ -19,17 +19,16 @@ ___
 - T2: **variable** (cellular = higher T2; collagenous = lower T2)
 - Classic: **band-like low-signal strands** (collagen) on T2
 - Enhancement: usually moderate–avid, often heterogeneous
-- “**Fascial tail**” / aponeurotic extension can be seen (not exclusive)
+- "**Fascial tail**" / aponeurotic extension can be seen (not exclusive)
 
 ## Main subtypes
-- **Desmoid-type (deep fibromatosis)**: abdominal wall, mesentery, extra-abdominal (shoulder girdle, thigh, pelvic muscles)![[Desmoid-type fibromatosis_1.png\|Desmoid-type fibromatosis_1.png]]
+- **Desmoid-type (deep fibromatosis)**: abdominal wall, mesentery, extra-abdominal (shoulder girdle, thigh, pelvic muscles)
 - **Palmar fibromatosis (Dupuytren)**: palmar aponeurosis → nodules/cords, finger flexion contracture
-  ![[Palmar fibromatosis_1.png\|450]]
-- **Plantar fibromatosis (Ledderhose)**: medial plantar fascia nodules![[Plantar fibromatosis_1.png\|Plantar fibromatosis_1.png]]
+- **Plantar fibromatosis (Ledderhose)**: medial plantar fascia nodules
 - (Less exam-relevant but common): infantile/juvenile variants exist
 
-## Top differentials
-- **Fibrosis/scar**: usually non-masslike architectural distortion; stable/contractile; less “fascial tail” mass behaviour
+## Differential diagnosis
+- **Fibrosis/scar**: usually non-masslike architectural distortion; stable/contractile; less "fascial tail" mass behaviour
 - **Soft-tissue sarcoma**: tends to be more heterogeneous, necrosis/haemorrhage, more destructive; metastasis risk
 - **Nodular fasciitis**: rapid growth, often more oedematous/high T2; self-limited; clinical history helps
 - **[[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]] / low-grade fibromyxoid sarcoma**: imaging overlap → biopsy if atypical/growing

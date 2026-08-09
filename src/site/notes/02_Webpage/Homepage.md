@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/homepage/","tags":["gardenEntry"],"dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"permalink":"/02-webpage/homepage/","tags":["gardenEntry"],"updated":"2026-08-09T02:33:36.342+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale\|Deauville 5-point scale]]
-- [[32_Multisystem/Misc/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
-- [[30_MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis\|Fibromatosis]]
-- [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
+- [[30_MSK/Misc. MSK/Terminology/Enthesitis\|Enthesitis]]
+- [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
+- [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
+- [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spine Lesions in Spondyloarthropathy (SpA)\|Spine Lesions in Spondyloarthropathy (SpA)]]
+- [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 
 { .block-language-dataview}
 

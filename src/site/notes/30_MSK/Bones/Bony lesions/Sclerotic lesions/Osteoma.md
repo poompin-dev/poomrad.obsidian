@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoma/","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 ## Overview
@@ -57,11 +57,11 @@
 ---
 ## High-yield exam pearls
 
-> [!TIP] Inner vs Outer table
+> [!tip] Inner vs Outer table
 > * **Osteoma:** Arises from the **outer table** of the skull (grows outward).
 > * **Meningioma / Hyperostosis frontalis:** Affects the **inner table** (grows inward or thickens inward).
 
-> [!WARNING] The "blocked sinus"
+> [!warning] The "blocked sinus"
 > In the viva, if shown a frontal sinus osteoma, **do not stop** at the diagnosis.
 > * **Look for:** Opacification of the sinus behind it (Mucocele/Sinusitis).
 > * **Mention:** "I would check the posterior table for breach to exclude intracranial communication."

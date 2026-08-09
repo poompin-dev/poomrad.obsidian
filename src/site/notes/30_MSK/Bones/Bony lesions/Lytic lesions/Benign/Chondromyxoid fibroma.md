@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","dg-note-properties":{"type":["disease"],"aliases":["CMF"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","updated":"2026-02-16T20:36:14.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["CMF"],"status":"working"}}
 ---
 
 ## Key points
@@ -43,7 +43,7 @@ Lobules of spindle/stellate cells in a **myxoid stroma** separated by cellular b
 - Bone scan: intense radiotracer uptake (hot spot)
 
 ---
-## Differentials
+## Differential diagnosis
 
 |Lesion|Key distinguishing features|
 |---|---|

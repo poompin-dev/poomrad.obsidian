@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/amyloidosis/","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/amyloidosis/","updated":"2026-01-11T19:07:41.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 
@@ -13,10 +13,10 @@
 - **Amyloidosis** = group of diseases due to **amyloid deposition** in one or multiple organs.
 - Key shared features:
   - **Congo red positive** with **apple-green birefringence** under polarised light.
-  - **Extracellular, amorphous, eosinophilic** deposits on H&E (“waxy”, “hyaline”).
+  - **Extracellular, amorphous, eosinophilic** deposits on H&E ("waxy", "hyaline").
   - Binds **serum amyloid P component** and glycosaminoglycans, which stabilise fibrils.
 
-> [!Buzzword]
+> [!buzzword]
 > "Congo red positivity with apple-green birefringence"
 
 ---
@@ -78,7 +78,7 @@
 - H&E: **amorphous, eosinophilic, hyaline** deposits in vessel walls, basement membranes, interstitium.
 - Organ-specific patterns:
 	- Kidney: glomerular mesangium, capillary walls, arterioles, interstitium.
-	- Heart: interstitial, perimyocytic deposits → “rubbery” myocardium.
+	- Heart: interstitial, perimyocytic deposits → "rubbery" myocardium.
 	- Liver: space of Disse, vascular walls.
 ### Special stains
 - **Congo red**: salmon-pink deposits in transmitted light, **apple-green birefringence** under polarised light (gold-standard description).
@@ -130,14 +130,14 @@
 - Symmetrical sensorimotor neuropathy, autonomic failure (orthostatic hypotension, GI dysmotility, impotence).
 - MSK/nerve-related manifestations:
 	- **Carpal tunnel syndrome** (median nerve compression).
-	- “Shoulder–pad” sign from periarticular soft-tissue deposits (classically AL).
+	- "Shoulder–pad" sign from periarticular soft-tissue deposits (classically AL).
 
 ### 4. Liver & spleen involvement
 - Clinical:
 	- Hepatomegaly ± cholestatic LFTs.
 	- Splenomegaly; rarely functional asplenia/hypersplenism.
 - Pathology:
-	- “Sago spleen” (white pulp nodular deposits) vs “lardaceous spleen” (diffuse red pulp).
+	- "Sago spleen" (white pulp nodular deposits) vs "lardaceous spleen" (diffuse red pulp).
 - Imaging:
 	- **US/CT/MRI**: enlarged, smooth liver ± splenomegaly; usually non-specific.
 
@@ -197,4 +197,4 @@
 	- **Dialysis-related**: optimise dialysis (high-flux membranes), consider renal transplant.
 
 > [!warning]
-> For systemic amyloidosis, **typing precedes chemo**: never assume “AL” and start myeloma-style treatment without proving a monoclonal process.
+> For systemic amyloidosis, **typing precedes chemo**: never assume "AL" and start myeloma-style treatment without proving a monoclonal process.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/classifications/","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"permalink":"/02-webpage/main-branches/classifications/","updated":"2026-08-09T00:23:40.543+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Classification, staging, grading and criteria sets.

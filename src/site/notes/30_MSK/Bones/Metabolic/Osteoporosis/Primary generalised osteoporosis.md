@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/primary-generalised-osteoporosis/","dg-note-properties":{"type":["disease"],"aetiology":["metabolic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/primary-generalised-osteoporosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["metabolic"],"status":"working"}}
 ---
 
 The most prevalent metabolic bone disease and a leading cause of [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]] / [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]] → fractures of the proximal femur have a major impact on the quality of life of both patients and caregivers.
@@ -29,14 +29,14 @@ The most prevalent metabolic bone disease and a leading cause of [[30_MSK/Bones/
 - For technical details and diagnostic criteria → see [[30_MSK/Bones/Metabolic/Osteoporosis/DXA scan for osteoporosis\|DXA scan for osteoporosis]].
 - Various other methods to measure bone mineral density are being investigated but are not standard practice.
 
-## Radiological findings
+## Imaging features
 - Changes predominate in the **axial skeleton** and **proximal portions of long bones** of the appendicular skeleton.
 - **Expansion of the medullary cavity** at the expense of cortical thickness due to greater increase in endosteal diameter than periosteal diameter.
 - Reduction of trabecular bone (some trabeculae are thinned, others lost) → accentuation/unmasking of remaining trabecular patterns:
     - **Vertebral bodies:** accentuated vertical striations (can simulate the appearance of a vertebral haemangioma)
         - Due to preferential resorption of the horizontal trabeculae.
-    - **Proximal femur:** more prominent Ward’s triangle; basis of the [[Singh index\|Singh index]].
-- Linear or band-like sclerosis oriented perpendicular to the long axis of long bones in periarticular regions = **“reinforcement lines” / “bone bars”**
+    - **Proximal femur:** more prominent Ward's triangle; basis of the [[Singh index\|Singh index]].
+- Linear or band-like sclerosis oriented perpendicular to the long axis of long bones in periarticular regions = **"reinforcement lines" / "bone bars"**
     - Due to remodelling of trabecular bone.
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]] typical sites by frequency:
     - [[Vertebral insufficiency fracture\|Vertebral insufficiency fracture]]

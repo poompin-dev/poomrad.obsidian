@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/shoulder/quadrilateral-space-syndrome/","dg-note-properties":{"type":["disease"],"region":["shoulder"],"modality":["MRI"],"aliases":["QSS"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/by-location/shoulder/quadrilateral-space-syndrome/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["shoulder"],"modality":["MRI"],"aliases":["QSS"],"status":"working"}}
 ---
 
 
@@ -41,13 +41,13 @@
 ### Signs
 - Weakness of shoulder abduction/external rotation (often subtle)
 - Atrophy of **teres minor** (± deltoid)
-- Sensory change over **“regimental badge”** area (axillary nerve territory) – variable
+- Sensory change over **"regimental badge"** area (axillary nerve territory) – variable
 - ± Vascular findings if PCHA involved:
 	- Positional loss of radial pulse
 	- Arm fatigue, coolness, rarely distal emboli
 
 ---
-## Imaging
+## Imaging features
 
 ### Radiograph
 - Often **normal**

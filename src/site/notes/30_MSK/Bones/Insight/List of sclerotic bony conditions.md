@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/list-of-sclerotic-bony-conditions/","dg-note-properties":{"type":["ddx"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/list-of-sclerotic-bony-conditions/","updated":"2026-07-25T22:09:08.000+07:00","dg-note-properties":{"type":["ddx"],"status":"working"}}
 ---
 
 ## Focal

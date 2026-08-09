@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoid-osteoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoid-osteoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
@@ -10,7 +10,7 @@
 - Age: Mostly **adolescents and young adults** (10–30 years)
 - Male > Female (~2–3:1)
 - ~10–12% of all benign bone tumours
-## Clinical Features
+## Clinical features
 - **Nocturnal pain**, **dramatically relieved by NSAIDs**
 - Localised tenderness
 - In **intra-articular lesions**:
@@ -19,7 +19,7 @@
 - In **spinal lesions**:
 	- May cause **painful scoliosis** (convexity pointed away from the lesion: pain side = growth side)
 	- Lumbar > cervical > thoracic
-## Common Locations
+## Common locations
 
 | Type                                | Sites                                    |
 | ----------------------------------- | ---------------------------------------- |
@@ -31,7 +31,7 @@
 - Surrounded by **vascular stroma**
 - Peripheral reactive bone formation
 ---
-## Imaging Features
+## Imaging features
 ### X-ray
 - Small **radiolucent nidus (<1.5 cm)** with variable central mineralisation
 - Surrounded by **dense reactive sclerosis** (especially in cortical lesions)
@@ -51,7 +51,7 @@
 - **Double-density sign**: intense focal uptake in nidus with surrounding less intense zone
 - Useful for localising **clinically occult lesions**
 ---
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                     | Key Differences                                                |
 | ----------------------------- | -------------------------------------------------------------- |
@@ -71,8 +71,8 @@
 ---
 ## FRCR / Thai Board Exam Tips
 - Buzzwords:
-	- **“Young male + night pain + relieved by NSAIDs”**
-	- **“Lucent nidus with surrounding sclerosis”**
+	- **"Young male + night pain + relieved by NSAIDs"**
+	- **"Lucent nidus with surrounding sclerosis"**
 - Intra-articular and spinal variants may lack classic features → high clinical suspicion needed
 - Nidus <1.5 cm = osteoid osteoma  
   Nidus >2 cm = think **osteoblastoma**

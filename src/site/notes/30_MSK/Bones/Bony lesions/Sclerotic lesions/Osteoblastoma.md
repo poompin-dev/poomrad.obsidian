@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoblastoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoblastoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
@@ -15,7 +15,7 @@
 		- Long bones of lower extremities (femur, tibia)
 - **Pain:** Dull, less nocturnal, **less NSAID-responsive** than osteoid osteoma
 ___
-## Imaging
+## Imaging features
 **General**
 - Expansile, lytic lesion; may have central nidus and surrounding sclerosis
 - Can have **cortical breach**, **soft tissue extension**, and **aggressive appearance**

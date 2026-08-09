@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/enchondroma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/enchondroma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Overview
@@ -14,11 +14,11 @@
 - Arises from **residual cartilage rests** in the medullary cavity
 - Composed of **hyaline cartilage**
 - May show calcification and endosteal scalloping over time
-## Clinical Features
+## Clinical features
 - Usually **asymptomatic**
 - May present with **pain** if associated with fracture or malignant transformation
 ___
-## Imaging Features
+## Imaging features
 ### X-ray
 - **Well-defined, lytic lesion** with **chondroid matrix calcification** ("rings and arcs")
 - May cause **endosteal scalloping**, especially if >50% of cortical thickness
@@ -32,7 +32,7 @@ ___
 - May see **internal septations**, lobulation
 - Evaluate for features suggesting malignancy
 ___
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                        | Key Features                                                                               |
 | -------------------------------- | ------------------------------------------------------------------------------------------ |

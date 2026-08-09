@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"status":"working"}}
 ---
 
 Most widely used **histologic grading system** for **adult-type soft tissue sarcomas** in Europe (and many MDTs globally).  
@@ -29,7 +29,7 @@ Used for **prognosis, treatment planning, and AJCC staging**.
 | **6–8**            | Grade 3      |
 
 ---
-## Clinical Relevance
+## Clinical relevance
 - **Grade 3**:  
 	- High risk of **metastasis** (classically lung) and poorer overall survival.  
 - **Grade is an independent prognostic factor**, often more important than size alone.
@@ -45,5 +45,5 @@ FNCLCC grading is **not usually used / not very helpful** for:
 - **GIST** → use NIH/AFIP-type **risk stratification** (size, mitoses, site, rupture).
 - **Rhabdomyosarcoma (paediatric)** → own paediatric risk systems (histologic subtype + stage).
 - **[[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]] / PNET and other [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|small round blue cell tumours]]** → generally treated as **high-grade by definition**.
-- Some “special” sarcomas where grading adds little:
+- Some "special" sarcomas where grading adds little:
 	- **Angiosarcoma**, clear cell sarcoma, alveolar soft part sarcoma, epithelioid sarcoma, etc.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/andersson-lesion/","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["Spinal pseudoarthrosis"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/andersson-lesion/","updated":"2026-02-04T08:34:40.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["Spinal pseudoarthrosis"],"status":"working"}}
 ---
 
 ## Overview
@@ -57,13 +57,13 @@
 ---
 ## High-yield exam pearls
 
-> [!TIP] The "vacuum" rule
+> [!tip] The "vacuum" rule
 > If you see a destructive disc lesion in an AS patient:
 > **Look for gas (vacuum phenomenon) on CT.**
 > * **Gas = Andersson lesion** (Mechanical).
 > * **Fluid/Pus = Infection** (Biological).
 
-> [!WARNING] The Thai Board trap
+> [!warning] The Thai Board trap
 > In Thailand, TB spine is very common. An AS patient *can* get TB.
 > * Do not diagnose Andersson lesion solely on X-ray.
 > * If there is **soft tissue abscess formation** on MRI, it is **TB/Infection** until proven otherwise, even if they have AS. Andersson lesions generally do not form drainable abscesses.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["GCT"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["GCT"],"status":"working"}}
 ---
 
 ## Overview
@@ -10,14 +10,14 @@
 - Age: **20–40 years** (skeletally mature) but older age can also be seen (may be due to late presentation?)
 - Slight female predominance
 - Accounts for ~5% of primary bone tumours (relatively common)
-## Common Locations
+## Common locations
 - **Epiphysis** or **metaphyseal-epiphyseal** junction of long bones
 	- Very rare before physeal closure - in an open physis, an [[30_MSK/Bones/Insight/Epiphyseal bone lesions\|epiphyseal lesion]] is [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]] until proven otherwise.
 - Most common sites:
 	- **Knee**: distal femur > proximal tibia
 	- **Distal radius** (tends to recur more, functionally more aggressive)
 	- **Sacrum** (axial variant): often difficult or impossible to resect en bloc
-## Clinical Features
+## Clinical features
 - Local pain and swelling
 - Limited joint mobility (due to juxta-articular location)
 - Possible [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
@@ -28,7 +28,7 @@
 - Most conventional giant cell tumours harbour an H3F3A mutation (G34W), which helps distinguish them from other giant-cell–rich lesions.
 - May show areas of haemorrhage, necrosis, or cystic change
 ---
-## Imaging Features
+## Imaging features
 ### Radiograph
 - **Eccentric, expansile, lytic lesion**
 - Can extend to **subchondral bone** (epiphyseal involvement is classic)
@@ -47,7 +47,7 @@
 - More detailed evaluation of cortical destruction and internal trabeculae
 - Helpful for surgical planning
 ---
-## Differential Diagnosis
+## Differential diagnosis
 Practically, well-defined non-sclerotic rim osteolytic lesion with "3E" features (epiphyseal involvement, eccentric, expansile) without matrix mineralisation in skeletally mature patient is very suggestive of giant cell tumour.
 
 But nevertheless, let's provide some possible differential for completeness.
@@ -74,6 +74,6 @@ ___
 ---
 ## Practical pearls
 - **Absence of matrix calcification** and **non-sclerotic margin** are key clues.
-- May show **fluid-fluid levels** — but don't call it [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]] or telangiectatic [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]] purely on that.
+- May show **fluid-fluid levels**, but don't call it [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]] or telangiectatic [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]] purely on that.
 - Always distinguish from **[[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]** (younger age, skeletally immature) and **brown tumour** (check hyperparathyroid labs).
-- If it’s epiphyseal, skeletally mature, non-sclerotic, no matrix, ‘3E’ (epiphyseal, eccentric, expansile) → **giant cell tumour until proven otherwise**.
+- If it's epiphyseal, skeletally mature, non-sclerotic, no matrix, '3E' (epiphyseal, eccentric, expansile) → **giant cell tumour until proven otherwise**.

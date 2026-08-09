@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
@@ -9,12 +9,12 @@
 - Age: Most commonly affects **children and adolescents**, typically **10–20 years**
 - Slight male predominance
 - Painful mass is common; may have systemic features (fever, anaemia, leukocytosis)
-## Common Locations
+## Common locations
 - **Diaphysis** or **metadiaphysis** of long bones
 	- Femur, tibia, humerus
 - Also affects **pelvis**, **ribs**, and **flat bones**
 - Can originate in **soft tissue** (extraskeletal Ewing sarcoma)
-## Imaging Features
+## Imaging features
 **Disproportionately large soft-tissue mass** compared with the amount of cortical destruction
 ### X-ray / CT
 - **Aggressive permeative or moth-eaten lytic lesion**
@@ -35,7 +35,7 @@
 	- **Soft tissue involvement**
 	- **Neurovascular encasement**
 ___
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                           | Key Differences                                                                                                         |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -59,14 +59,14 @@ ___
 	- Pelvic site → can look **more sclerotic/mixed** and can be bulky at presentation
 	- Large tumour volume
 	- Poor response to chemotherapy
-## Staging Workup
+## Staging workup
 - **MRI of local site**
 - **Chest CT** (lung metastasis).
 - **Bone scan or FDG-PET/CT** (metastatic survey).
 - **Bone marrow biopsy**: may be performed (protocol-dependent), especially if concern for marrow disease.
 ___
-## Exam Tips
+## Exam tips
 - Classic stem: **10–20y** with **deep bone pain ± fever**, **diaphyseal/metadiaphyseal** long-bone (or **pelvis/rib**) lesion + **large soft-tissue mass**.  
-- Radiograph buzz: **permeative/moth-eaten lysis**, **wide zone of transition**, **lamellated (“onion-skin”) periosteal reaction** ± **Codman triangle**; **no osteoid/chondroid matrix**.  
+- Radiograph buzz: **permeative/moth-eaten lysis**, **wide zone of transition**, **lamellated ("onion-skin") periosteal reaction** ± **Codman triangle**; **no osteoid/chondroid matrix**.  
 - Path confirm line: **t(11;22)** → **EWSR1–FLI1**; IHC typically **diffuse membranous CD99+** (supportive, not specific).  
 - Curveball: **extraskeletal Ewing** = **soft-tissue mass** in a teen with the **same fusion**; treat as Ewing family tumour, not a random sarcoma.

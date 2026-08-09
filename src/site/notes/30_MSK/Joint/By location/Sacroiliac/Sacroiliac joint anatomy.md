@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/sacroiliac/sacroiliac-joint-anatomy/","dg-note-properties":{"type":["anatomy"],"region":["pelvis"],"aliases":["SI joint"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/joint/by-location/sacroiliac/sacroiliac-joint-anatomy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["anatomy"],"region":["pelvis"],"aliases":["SI joint"],"status":"working"}}
 ---
 
 ## Structural composition

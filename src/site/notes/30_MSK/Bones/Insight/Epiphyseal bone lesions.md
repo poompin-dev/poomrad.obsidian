@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/epiphyseal-bone-lesions/","dg-note-properties":{"type":["hub","ddx"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/epiphyseal-bone-lesions/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","ddx"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
@@ -30,10 +30,10 @@
 	- Rarely GCT or others
 ---
 ## Pearls
-_If it’s in the epiphysis, think of:_
+_If it's in the epiphysis, think of:_
 - Well-defined lytic lesion in epiphysis (<20y; skeletally immature) → **Chondroblastoma**
 - Lytic, eccentric, (young adult; skeletally mature) → **GCT**
 - Malignant, older young adult (20-40y) → **Clear cell chondrosarcoma**
 - Fever/systemic, fuzzy border → **Osteomyelitis** (brodie's abscess)
 
-> “**Epiphysis = VIP filter**. Metaphysis/diaphysis = everyone’s invited, use other features.”
+> "**Epiphysis = VIP filter**. Metaphysis/diaphysis = everyone's invited, use other features."

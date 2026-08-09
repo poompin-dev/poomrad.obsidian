@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/osteonecrosis/osteonecrosis/","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"aliases":["Avascular necrosis",true,"AVN"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/osteonecrosis/osteonecrosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"aliases":["Avascular necrosis",true,"AVN"],"status":"working"}}
 ---
 
 ## Pathophysiology

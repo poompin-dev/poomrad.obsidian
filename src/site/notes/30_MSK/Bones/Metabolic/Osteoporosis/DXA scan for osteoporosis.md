@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/dxa-scan-for-osteoporosis/","dg-note-properties":{"type":["concept"],"aetiology":["metabolic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/dxa-scan-for-osteoporosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["concept"],"aetiology":["metabolic"],"status":"working"}}
 ---
 
 Currently the **standardised method** for screening for and diagnosing **generalised osteoporosis**.
@@ -25,7 +25,7 @@ Since these criteria were developed for **primary generalised osteoporosis**, th
 
 For **younger patients** (often with **secondary generalised osteoporosis**), the **Z-score** (deviation from normal BMD compared with the same race, sex, and **age**) is used instead.
 
-- **Z-score < −2.0** is reported as **“below the expected range for age”**, but this alone is **not** a formal diagnosis of osteoporosis and must be interpreted in clinical context.
+- **Z-score < −2.0** is reported as **"below the expected range for age"**, but this alone is **not** a formal diagnosis of osteoporosis and must be interpreted in clinical context.
 
 ---
 ## Where to measure?

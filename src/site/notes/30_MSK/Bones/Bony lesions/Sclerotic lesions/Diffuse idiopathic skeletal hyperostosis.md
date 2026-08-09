@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","dg-note-properties":{"type":["disease"],"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","updated":"2026-02-03T08:33:20.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"status":"working"}}
 ---
 
 ## Overview
@@ -65,18 +65,18 @@
 ---
 ## High-yield exam pearls
 
-> [!TIP] The "aorta shield" effect
+> [!tip] The "aorta shield" effect
 > DISH is strictly **right-sided** in the thoracic spine.
 > * If you see flowing ossification on the **left side** of the thoracic spine, look for:
 >     1.  **Situs inversus** (check the gastric bubble/heart).
 >     2.  **[[Psoriatic arthritis\|Psoriatic arthritis]]** or **[[Reactive arthritis\|Reactive arthritis]]** (bulky paramarginal syndesmophytes can be asymmetric, but usually look different).
 
-> [!WARNING] The trauma trap
+> [!warning] The trauma trap
 > A fracture in a DISH spine is often **trans-discal** (through the calcified disc space).
 > * It can be subtle on X-ray.
 > * **Clinical rule:** DISH + Minor Trauma + Pain = **CT Spine** (don't stop at X-ray).
 
-> [!NOTE] DISH vs AS
+> [!note] DISH vs AS
 > The most common viva question regarding DISH is distinguishing it from [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]].
 > * **Look at the SI joints.**
 > * If the SI joints are open and visible $\rightarrow$ **DISH**.

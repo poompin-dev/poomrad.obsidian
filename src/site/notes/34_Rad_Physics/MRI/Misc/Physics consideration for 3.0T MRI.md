@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/misc/physics-consideration-for-3-0-t-mri/","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
+{"dg-publish":true,"permalink":"/34-rad-physics/mri/misc/physics-consideration-for-3-0-t-mri/","updated":"2026-06-14T08:40:05.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
 ---
 
 

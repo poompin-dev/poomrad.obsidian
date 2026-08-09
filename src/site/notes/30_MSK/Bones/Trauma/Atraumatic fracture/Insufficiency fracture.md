@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/insufficiency-fracture/","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/insufficiency-fracture/","updated":"2026-08-09T02:31:27.991+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"working"}}
 ---
 
 ## Core concept
 Fracture due to **normal physiological load on abnormally weakened bone**, i.e. a subtype of [[30_MSK/Bones/Trauma/Atraumatic fracture/Stress fracture\|Stress fracture]] occurring in **abnormal bone**.
 
 > [!summary]
-> Think: **elderly / metabolic bone disease + “no proper trauma” + pelvis / sacrum / tibial plateau** → call it **insufficiency fracture** until proven otherwise.
+> Think: **elderly / metabolic bone disease + "no proper trauma" + pelvis / sacrum / tibial plateau** → call it **insufficiency fracture** until proven otherwise.
 ## Aetiology / risk factors
 Bone is structurally weakened by:
 - **Generalised**:
 	- Generalised **[[30_MSK/Bones/Metabolic/Osteoporosis/Osteoporosis\|osteoporosis]]**
 	- **[[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]]**, vitamin D deficiency
-	- Chronic inflammatory joint disease (e.g. **RA**, [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spondyloarthropathy\|seronegative arthropathies]])
+	- Chronic inflammatory joint disease (e.g. **RA**, [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spondyloarthritis\|seronegative arthropathies]])
 	- **[[30_MSK/Bones/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]]**
 	- **[[Paget disease\|Paget disease]]** (late phase, structurally weak bone)
 - **Local**:
@@ -88,8 +88,8 @@ Classic sites (especially exam fodder):
 ### Nuclear medicine (bone scan)
 - **Intense focal uptake** at fracture site(s)
 - **Sacral insufficiency fractures**:
-	- Classic **“Honda sign”** / **H-sign**: bilateral vertical uptake in sacral ala + horizontal component across sacrum.
-	- Can be incomplete or absent; absence doesn’t exclude the diagnosis.
+	- Classic **"Honda sign"** / **H-sign**: bilateral vertical uptake in sacral ala + horizontal component across sacrum.
+	- Can be incomplete or absent; absence doesn't exclude the diagnosis.
 
 ---
 ## Key differentials by location

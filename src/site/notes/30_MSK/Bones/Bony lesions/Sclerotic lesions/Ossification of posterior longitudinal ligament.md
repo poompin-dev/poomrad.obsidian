@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["OPLL"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","updated":"2026-02-03T08:52:22.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["OPLL"],"status":"working"}}
 ---
 
 ## Overview
@@ -75,11 +75,11 @@
 ---
 ## High-yield exam pearls
 
-> [!WARNING] The trauma context
+> [!warning] The trauma context
 > If an elderly Asian male presents with central cord syndrome (arm weakness > leg weakness) after a minor hyperextension injury:
 > **OPLL is the prime suspect.**
 > * *Action:* CT Cervical spine is mandatory (MRI alone might miss the calcification vs soft disc).
 
-> [!TIP] OPLL vs Calcified Disc
+> [!tip] OPLL vs Calcified Disc
 > * **OPLL:** Broad-based, tracks *behind* the vertebral bodies.
 > * **Calcified Disc:** Focal, centred at the *disc space*.

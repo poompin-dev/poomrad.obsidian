@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/osteoporosis/","dg-note-properties":{"type":["disease"],"aetiology":["metabolic"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/osteoporosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["metabolic"],"status":"working"}}
 ---
 
 ## Overview
-- In popular usage, **“osteoporosis” usually refers to [[30_MSK/Bones/Metabolic/Osteoporosis/Primary generalised osteoporosis\|Primary generalised osteoporosis]]** (postmenopausal / senile), although strictly it also includes [[secondary generalised osteoporosis\|secondary generalised osteoporosis]].
+- In popular usage, **"osteoporosis" usually refers to [[30_MSK/Bones/Metabolic/Osteoporosis/Primary generalised osteoporosis\|Primary generalised osteoporosis]]** (postmenopausal / senile), although strictly it also includes [[secondary generalised osteoporosis\|secondary generalised osteoporosis]].
 - Formally, osteoporosis is characterised by **reduced bone mass and microarchitectural deterioration**, leading to increased bone fragility and fracture risk.
 	- The distinction from [[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]] is that osteoporosis has **normal mineralisation of the bone matrix** (reduced quantity of normally mineralised bone), whereas osteomalacia has defective mineralisation.
 - On imaging, it **radiographically presents as [[30_MSK/Bones/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]** once bone mineral loss reaches roughly **30–50%**:
     - Plain radiograph/CT can only detect **late or severe** changes.
-    - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]] has a broad differential → we **should not report “osteoporosis” from plain radiograph alone** without clinical/DXA correlation.
+    - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]] has a broad differential → we **should not report "osteoporosis" from plain radiograph alone** without clinical/DXA correlation.
 ## Classification
 - **Generalised**
     - [[30_MSK/Bones/Metabolic/Osteoporosis/Primary generalised osteoporosis\|Primary generalised osteoporosis]]

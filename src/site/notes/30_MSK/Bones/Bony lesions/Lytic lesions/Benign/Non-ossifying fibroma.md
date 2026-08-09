@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["NOF","Fibroxanthoma","FCD","Fibrous cortical defect","Metaphyseal cortical defect"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/non-ossifying-fibroma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["NOF","Fibroxanthoma","FCD","Fibrous cortical defect","Metaphyseal cortical defect"],"status":"working"}}
 ---
 
 ## Overview
@@ -70,11 +70,11 @@ ___
 ---
 ## High-yield exam pearls
 
-> [!TIP] The T2 signal trap
+> [!tip] The T2 signal trap
 > Do not be alarmed if an NOF enhances or has high T2 signal (immature phase).
 > **Always look at the plain film first.**
 > If it looks like an NOF on X-ray, it is an NOF. MRI often confuses the picture by making it look "active".
 
-> [!NOTE] Migration rule
+> [!note] Migration rule
 > NOFs start at the physis. If you see a lesion that looks like an NOF but is touching the articular surface (epiphyseal), it is **not** an NOF.
 > *Think:* **[[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]** or **Infection**.

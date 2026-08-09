@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/bone-tumours-behaviour-spectrum/","dg-note-properties":{"type":["concept"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/bone-tumours-behaviour-spectrum/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["concept"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Core Insight
 - **Bone tumours** have a relatively **clear distinction** between benign and malignant based on radiology, age, and location.
 - Imaging + clinical features usually > 80% diagnostic confidence **before biopsy**.
-## Key Points
+## Key points
 - **Histology ≈ Imaging ≈ Behaviour**
 - Use: **Age**, **location**, **matrix**, **periosteal reaction**, **growth pattern**
 - [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick classification]] : For aggressiveness of lytic lesions.

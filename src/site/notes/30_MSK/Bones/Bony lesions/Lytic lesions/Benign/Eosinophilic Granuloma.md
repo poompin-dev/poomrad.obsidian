@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"status":"working"}}
 ---
 
 ## Overview
@@ -19,7 +19,7 @@
     - Hand-Schüller-Christian: skull lesions, diabetes insipidus, exophthalmos
 - Disseminated LCH (Letterer-Siwe): poor prognosis
 ---
-## Imaging Features
+## Imaging features
 ### X-ray
 Well-defined lytic lesion
 - Possible sequestrum or periosteal reaction
@@ -41,7 +41,7 @@ Well-defined lytic lesion
 - Increased uptake
 - Useful in detecting multifocal lesions
 ---
-## Differentials
+## Differential diagnosis
 
 ### Vertebra plana (MELT)
 

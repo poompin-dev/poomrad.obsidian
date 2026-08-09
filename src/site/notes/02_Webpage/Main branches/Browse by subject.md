@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/browse-by-subject/","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"permalink":"/02-webpage/main-branches/browse-by-subject/","updated":"2026-08-09T02:34:18.235+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Browse published notes by clinical subject. Counts update automatically as the garden grows.
@@ -65,6 +65,7 @@ Browse published notes by clinical subject. Counts update automatically as the g
 
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Atraumatic fracture\|Atraumatic fracture]]
 - [[30_MSK/Bones/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
+- [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
 - [[30_MSK/Bones/Osteonecrosis/Osteonecrosis\|Osteonecrosis]]
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]
@@ -98,11 +99,13 @@ Browse published notes by clinical subject. Counts update automatically as the g
 
 #### Knee
 
-*No published notes yet.*
+
+{ .block-language-dataview}
 
 #### Ankle
 
-*No published notes yet.*
+
+{ .block-language-dataview}
 
 #### Sacroiliac joint
 
@@ -112,12 +115,14 @@ Browse published notes by clinical subject. Counts update automatically as the g
 
 #### Elbow
 
-*No published notes yet.*
+
+{ .block-language-dataview}
 
 ### Inflammatory
 
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Andersson lesion\|Andersson lesion]]
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
+- [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spine Lesions in Spondyloarthropathy (SpA)\|Spine Lesions in Spondyloarthropathy (SpA)]]
 
 { .block-language-dataview}
 
@@ -130,7 +135,8 @@ Browse published notes by clinical subject. Counts update automatically as the g
 
 ### Approach and classification
 
-*No published notes yet.*
+
+{ .block-language-dataview}
 
 ---
 ## Soft tissue

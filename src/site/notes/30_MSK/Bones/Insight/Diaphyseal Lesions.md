@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/diaphyseal-lesions/","dg-note-properties":{"type":["ddx"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/diaphyseal-lesions/","updated":"2026-01-11T19:06:26.000+07:00","dg-note-properties":{"type":["ddx"],"status":"working"}}
 ---
 
 ## Overview
 - **Diaphysis = shaft of long bone, less "special" than epiphysis but still a useful clue**
 - Most bone tumours can occur here, but some have a **predilection for diaphysis**
 - Metaphyseal lesions can grow into the diaphysis in skeletally immature patients (open physis)
-- Location alone rarely diagnostic—use age, margin, matrix, and periosteal reaction
+- Location alone rarely diagnostic → use age, margin, matrix, and periosteal reaction
 ---
 ## Classic Diaphyseal Lesions
 

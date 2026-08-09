@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
 ---
 
 ## Pathology
@@ -13,7 +13,7 @@
 - **Monostotic:** discovered in teens–20s, **often incidental**
 - **Polyostotic:** earlier onset, more severe
 - No sex predilection (monostotic); **female bias** in syndromic forms
-## Common Locations
+## Common locations
 
 | Type               | Sites                                                |
 | ------------------ | ---------------------------------------------------- |
@@ -30,7 +30,7 @@
 | **Mazabraud syndrome**       | - Polyostotic + [[intramuscular myxomas\|intramuscular myxomas]]<br>- Middle age women<br>- ↑ risk malignant transformation |
 ## Complications
 - **[[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]** (esp. femoral neck)
-- **Deformity** (e.g. “[[38_Glossary/Shepherd's crook deformity\|Shepherd’s crook]]” of proximal femur)
+- **Deformity** (e.g. "[[38_Glossary/Shepherd's crook deformity\|Shepherd's crook]]" of proximal femur)
 - **Malignant transformation** (rare; ↑ risk with polyostotic disease, prior radiation)
 	- Usually → [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]], [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]
 ## Histology
@@ -38,7 +38,7 @@
 - **No** osteoblastic rimming
 - Classic: "alphabet soup"/"Chinese characters"
 ---
-## Imaging Features
+## Imaging features
 ### X-ray
 - **Ground-glass/hazy** matrix (hallmark)
 - **Intramedullary**, expansile lesion, thinned cortex
@@ -55,7 +55,7 @@
 - **Increased uptake** (can mimic metastasis in polyostotic)
 - Useful for mapping disease extent
 ---
-## Differential Diagnosis
+## Differential diagnosis
 
 | Diagnosis                          | Key Differences                                           |
 | ---------------------------------- | --------------------------------------------------------- |
@@ -70,8 +70,8 @@
 - **Surgery** for fracture or deformity
 - *Avoid radiation* (sarcoma risk ↑; same as [[Paget disease\|Paget disease]])
 ---
-## Exam Tips
-- [[39_Cheat Sheets/Buzzword MSK rad\|Buzzword MSK rad]]: “Ground-glass matrix”, “Rind sign”, “Shepherd’s crook deformity”
+## Exam tips
+- [[39_Cheat Sheets/Buzzword MSK rad\|Buzzword MSK rad]]: "Ground-glass matrix", "Rind sign", "Shepherd's crook deformity"
 - Craniofacial ± endocrine/café-au-lait = **McCune-Albright**
 - Malignant transformation is **rare** but *high-yield exam trap*
 - Bone scan may show **more extensive involvement** than X-ray

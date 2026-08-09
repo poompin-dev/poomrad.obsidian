@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/osteosarcoma/","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/osteosarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 ## Epidemiology
@@ -11,7 +11,7 @@ Most common **primary malignant bone tumour** **of childhood/adolescence** (in a
 - Genetic association:
 	- Li-Fraumeni
 	- RB mutation
-## Common Locations
+## Common locations
 - **Metaphysis of long bones**
 	- **Distal femur** > **proximal tibia** > **proximal humerus**
 - Secondary osteosarcoma: often axial skeleton (pelvis, spine) or diaphyseal; arises in [[Paget disease\|Paget disease]], irradiated bone, [[30_MSK/Bones/Osteonecrosis/Osteonecrosis\|infarcts]]; usually older adults and worse prognosis.
@@ -30,7 +30,7 @@ Most common **primary malignant bone tumour** **of childhood/adolescence** (in a
 	- **Periosteal**
 		- Intermediate grade, **diaphyseal** surface lesion with **chondroid** matrix and perpendicular spicules.
 ___
-## Imaging Features
+## Imaging features
 Regarding conventional type.
 ### X-ray / CT
 - **Aggressive, mixed lytic and sclerotic lesion**
@@ -55,7 +55,7 @@ ___
 
 | Diagnosis                    | Key Differences                                                                                                                                                                                      |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]]            | Diaphyseal or metadiaphyseal, permeative pattern, large soft-tissue mass, lamellated (“onion-skin”) periosteal reaction, usually **no osteoid matrix**. Systemic symptoms more common.               |
+| [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]]            | Diaphyseal or metadiaphyseal, permeative pattern, large soft-tissue mass, lamellated ("onion-skin") periosteal reaction, usually **no osteoid matrix**. Systemic symptoms more common.               |
 | Osteomyelitis                | Systemic symptoms, **sequestrum, sinus tracts**. However, imaging can be very similar (aggressive periosteal reaction + soft tissue swelling), so clinical picture and marrow signal pattern matter. |
 ## Management
 - Limb-sparing surgery preferred over amputation when possible
@@ -75,5 +75,5 @@ ___
 ## Exam Points
 - Most common malignant bone tumour in children/adolescents
 - Classic features: **metaphyseal lesion** with **sunburst periosteal reaction** and **osteoid matrix**
-- Most common site of metastasis: **lungs**, often with **calcified “cannonball” metastases**.
+- Most common site of metastasis: **lungs**, often with **calcified "cannonball" metastases**.
 - Telangiectatic osteosarcoma mimics ABC → always consider in aggressive lesions with fluid levels

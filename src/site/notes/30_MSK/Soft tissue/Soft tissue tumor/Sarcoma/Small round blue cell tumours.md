@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/small-round-blue-cell-tumours/","dg-note-properties":{"type":["hub","ddx"],"aetiology":["neoplasm"],"ped":true,"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/small-round-blue-cell-tumours/","updated":"2026-08-09T00:46:55.719+07:00","dg-note-properties":{"type":["hub","ddx"],"aetiology":["neoplasm"],"ped":true,"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"status":"working"}}
 ---
 
 ## Concept
-- **Pattern**, not a diagnosis: malignant tumours composed of **small, round, dark “blue” cells** with scant cytoplasm and high N:C ratio.
+- **Pattern**, not a diagnosis: malignant tumours composed of **small, round, dark "blue" cells** with scant cytoplasm and high N:C ratio.
 - Strongly associated with **paediatric / young adult** malignancies.
 - On H&E alone they look similar → need **immunohistochemistry + molecular** to subtype.
-- Think **“SRBCT club”** and then narrow by **age + site + imaging behaviour**.
+- Think **"SRBCT club"** and then narrow by **age + site + imaging behaviour**.
 
 > [!Mental summary]
-> SRBCT = “this looks like a primitive paediatric malignancy”; final label depends on **where it is** and **what markers/genetics show**.
+> SRBCT = "this looks like a primitive paediatric malignancy"; final label depends on **where it is** and **what markers/genetics show**.
 
 ---
 ## Main SRBCT Entities
@@ -50,10 +50,10 @@
   - Imaging: hyperdense posterior fossa mass, often restricting diffusion.
 
 ---
-## How to Use “SRBCT” in Exams
+## How to Use "SRBCT" in Exams
 
 > [!tip]
-> When you see “small round blue cell tumour”, **don’t freeze** – immediately anchor:
+> When you see "small round blue cell tumour", **don't freeze** – immediately anchor:
 > - **Age** (infant, child, teen, young adult)
 > - **Primary site**
 > - **Bone vs soft tissue vs organ vs CNS**

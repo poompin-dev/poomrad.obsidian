@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","dg-note-properties":{"type":["disease"],"aliases":["Telangiectatic OS"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Telangiectatic OS"],"status":"working"}}
 ---
 
 ## Overview
@@ -58,7 +58,7 @@
 ---
 ## High-yield exam pearls
 
-> [!DANGER] The Board exam trap
+> [!danger] The Board exam trap
 > If an exam case shows **fluid-fluid levels** in a metaphyseal lesion of a teenager:
 > 1.  Do **not** jump to ABC immediately.
 > 2.  Look for a **soft tissue mass** or **cortical destruction**.
@@ -66,5 +66,5 @@
 >
 > *If the question asks for the next step:* "Biopsy of the solid component" or "Staging MRI" is preferred over "Curettage".
 
-> [!NOTE] Pathological fracture
+> [!note] Pathological fracture
 > Pathological fractures are more common in telangiectatic osteosarcoma than conventional osteosarcoma due to the extensive lytic destruction.

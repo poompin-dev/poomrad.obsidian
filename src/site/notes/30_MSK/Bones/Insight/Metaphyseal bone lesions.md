@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/metaphyseal-bone-lesions/","dg-note-properties":{"type":["ddx"],"aliases":["Metaphyseal tumours","Metaphyseal bone tumours"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/insight/metaphyseal-bone-lesions/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["ddx"],"aliases":["Metaphyseal tumours","Metaphyseal bone tumours"],"status":"working"}}
 ---
 
 ## Physiological basis
@@ -31,14 +31,14 @@
 ---
 ## High-yield exam pearls
 
-> [!NOTE] The "fluid-level" trap
+> [!note] The "fluid-level" trap
 > Fluid-fluid levels are **not** specific for ABC.
 > **DDx:**
 > 1.  [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst\|ABC]] (primary)
 > 2.  **[[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Telangiectatic osteosarcoma\|Telangiectatic osteosarcoma]]** (must biopsy viable tissue, not fluid)
 > 3.  [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|GCT]] (secondary ABC formation)
 
-> [!TIP] "Do not touch" lesions
+> [!tip] "Do not touch" lesions
 > If a metaphyseal lesion is:
 > * Eccentric
 > * Cortically based
@@ -47,7 +47,7 @@
 >
 > It is almost certainly a **[[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Non-ossifying fibroma\|NOF]]**. Do not biopsy.
 
-> [!WARNING] Infection mimicry
+> [!warning] Infection mimicry
 > In the Thai Board exam, a solitary metaphyseal lytic lesion with a sclerotic rim in a child is **[[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Brodie's abscess\|Brodie's abscess]]** until proven otherwise.
 > * Look for a **serpiginous tract** extending toward the physis.
 

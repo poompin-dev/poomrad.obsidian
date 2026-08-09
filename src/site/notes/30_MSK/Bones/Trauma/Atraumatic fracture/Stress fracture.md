@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/stress-fracture/","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"aliases":["Fatigue fracture"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/stress-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"aliases":["Fatigue fracture"],"status":"working"}}
 ---
 
 ## Overview
@@ -45,7 +45,7 @@ ___
 | Vertebral body                        |                                              |                                      |
 
 ---
-## Imaging approach #PracitcalPoints 
+## Imaging approach
 1. Clinical suspicion (pain with activity, overuse history, point tenderness)
 2. **X-ray** (first-line)
 	- Often normal early
@@ -62,7 +62,7 @@ ___
 - Image _contralateral_ limb for subtle/uncertain cases (especially navicular, femoral neck).
 - **CT**: for surgical planning, occult cortical detail, or if MRI non-diagnostic
 ____
-## Differential diagnosis #ddx 
+## Differential diagnosis
 
 | Dx                      | Classic Patient         | Imaging Features                                                 | Key Clues / Differentiators       |
 | ----------------------- | ----------------------- | ---------------------------------------------------------------- | --------------------------------- |
@@ -70,7 +70,7 @@ ____
 | **Periostitis**         | Runners, repetitive use | Periosteal elevation, no fracture line                           | Fusiform thickening, no fx        |
 | **[[30_MSK/Bones/Bony lesions/Sclerotic lesions/Osteoid osteoma\|Osteoid osteoma]]** | Young, night pain       | Lucent nidus, reactive sclerosis                                 | NSAID relief, classic x-ray       |
 | **Osteomyelitis**       | Sickle cell, diabetics  | Lytic lesion, periosteal reaction, marrow oedema                  | Systemic symptoms, infection labs |
-## Red flag symptoms #PracitcalPoints 
+## Red flag symptoms
 - Persistent pain at rest or at night (not relieved by rest)
 - Pain that increases despite decreased activity/off-loading
 - Localised swelling, warmth, or erythema

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/exostosis/","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/38-glossary/exostosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 
@@ -11,6 +11,6 @@ General descriptive term for any entity with bony outgrowth.
 - Cartilage cap (especially on MRI)
 ## Other types of exostoses
 - **Subungual exostosis**: beneath toenail/fingernail, often reactive
-- **Traumatic exostosis**: e.g. surfer’s ear (external auditory canal)
+- **Traumatic exostosis**: e.g. surfer's ear (external auditory canal)
 - **Turret exostosis**: post-traumatic bone spur
 - **Reactive exostosis**: at insertion sites (chronic traction)

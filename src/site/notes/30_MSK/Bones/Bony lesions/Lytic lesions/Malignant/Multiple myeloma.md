@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","dg-note-properties":{"type":["disease"],"aliases":["myeloma","MM"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["myeloma","MM"],"status":"working"}}
 ---
 
 part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
@@ -32,7 +32,7 @@ plus
 		- **FLC ratio ≥100 or ≤0.01** **+** clonal plasma cells ≥10%
 		- At least one focal lesion ≥5 mm on MRI, involving bone or bone marrow.
 ___
-## Imaging
+## Imaging features
 - Osteolytic lesions are readily seen in radiographic skeletal survey in 80% of cases.
 - However, radiographic skeletal survey is insensitive to early marrow disease, hence MRI or PET/CT is preferred for early detection.
 - Extra-medullary disease is present in 1-2% at the time of presentation

@@ -1,13 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/plasmacytoma/","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/plasmacytoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 Part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]
-## Definition  
+## Definition
 A **localised collection of neoplastic monoclonal plasma cells** without systemic features of [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
 
 ---
-## Subtypes  
+## Subtypes
 ### 1. Solitary bone plasmacytoma (SBP)  
 - Most commonly affects axial skeleton (vertebrae, ribs, skull, pelvis).  
 - Often presents with **bone pain** or pathological fracture. 
@@ -26,13 +26,13 @@ A **localised collection of neoplastic monoclonal plasma cells** without systemi
 - Often termed **multiple solitary plasmacytomas (MSP)**  
 - High risk of progression to MM → requires close follow-up
 ---
-## Management  
+## Management
 - **Radiotherapy** is mainstay (high radiosensitivity)  
-- Surgery only for diagnostic biopsy or mechanical stabilisation (see [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture#Mirel’s Scoring System\|Mirel's scoreing system]])  
+- Surgery only for diagnostic biopsy or mechanical stabilisation (see [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture#Mirel's Scoring System\|Mirel's scoreing system]])  
 - Systemic therapy only if progression to MM
 
 ---
-## Prognosis  
+## Prognosis
 - ~50–60% progress to MM within 10 years  
 	- Risk higher in SBP than EMP  
 - Lifelong follow-up: **SPEP**, **FLC**, and imaging

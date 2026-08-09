@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bone-marrow/bone-marrow-conversion/","dg-note-properties":{"type":["concept"],"status":"working"}}
+{"dg-publish":true,"permalink":"/30-msk/bones/bone-marrow/bone-marrow-conversion/","updated":"2026-01-11T19:08:10.000+07:00","dg-note-properties":{"type":["concept"],"status":"working"}}
 ---
 
 At birth, all bone marrow are predominantly red marrow → conversion from red marrow to yellow marrow occurs shortly after birth and progress throughout life. Adult pattern of bone marrow is typically reached around the age of 25 years.
