@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/browse-by-subject/","updated":"2026-08-09T02:34:18.235+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"permalink":"/02-webpage/main-branches/browse-by-subject/","updated":"2026-08-09T09:55:16.449+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Browse published notes by clinical subject. Counts update automatically as the garden grows.
@@ -184,8 +184,3 @@ Browse published notes by clinical subject. Counts update automatically as the g
 - [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
 
 { .block-language-dataview}
-
----
-## Physics
-
-[[02_Webpage/Main branches/Physics notes\|Open physics notes]]
