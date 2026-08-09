@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Multisystem/Genetics/Multiple hereditary exostoses.md","permalink":"/multisystem/genetics/multiple-hereditary-exostoses/","updated":"2026-08-09T10:27:47.248+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"aliases":["MHE","hereditary multiple osteochondromas","MHO"],"status":"solid","reviewed":"2026-08-09","ped":true}}
+{"dg-publish":true,"dg-path":"Multisystem/Genetics/Multiple hereditary exostoses.md","permalink":"/multisystem/genetics/multiple-hereditary-exostoses/","updated":"2026-08-09T21:54:07.367+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"aliases":["MHE","hereditary multiple osteochondromas","MHO"],"status":"solid","reviewed":"2026-08-09","ped":true}}
 ---
 
 > [!summary]
@@ -45,7 +45,7 @@
 > New pain or growth after skeletal maturity warrants targeted MRI and referral to a bone-tumour service when imaging is suspicious.
 
 ---
-## Sources
-- Wuyts W, Schmale GA, Chansky HA, Raskind WH. Hereditary Multiple Osteochondromas. GeneReviews. Updated 2026: https://www.ncbi.nlm.nih.gov/books/NBK1235/
-- Bernard SA, Murphey MD, Flemming DJ, Kransdorf MJ. Improved differentiation of benign osteochondromas from secondary chondrosarcomas with standardized measurement of cartilage cap at CT and MR imaging. Radiology. 2010;255:857–865. doi:10.1148/radiol.10082120
-- Czajka CM, DiCaprio MR. What is the proportion of patients with multiple hereditary exostoses who undergo malignant degeneration? Clinical Orthopaedics and Related Research. 2015;473:2355–2361. doi:10.1007/s11999-015-4134-z
+## References
+- Hereditary multiple osteochondromas, GeneReviews 2026: https://www.ncbi.nlm.nih.gov/books/NBK1235/
+- Cartilage-cap measurement at CT and MRI, Radiology 2010: https://doi.org/10.1148/radiol.10082120
+- Malignant transformation risk in multiple hereditary exostoses, Clinical Orthopaedics and Related Research 2015: https://doi.org/10.1007/s11999-015-4134-z

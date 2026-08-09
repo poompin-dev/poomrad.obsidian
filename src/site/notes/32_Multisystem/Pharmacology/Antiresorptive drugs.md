@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Multisystem/Pharmacology/Antiresorptive drugs.md","permalink":"/multisystem/pharmacology/antiresorptive-drugs/","updated":"2026-08-09T21:33:48.460+07:00","dg-note-properties":{"type":["hub","concept"],"status":"solid"}}
+{"dg-publish":true,"dg-path":"Multisystem/Pharmacology/Antiresorptive drugs.md","permalink":"/multisystem/pharmacology/antiresorptive-drugs/","updated":"2026-08-09T22:02:15.069+07:00","dg-note-properties":{"type":["hub","concept"],"status":"solid","reviewed":"2026-08-09"}}
 ---
 
 > [!summary]
@@ -78,10 +78,10 @@ Raloxifene, oestrogen and calcitonin also reduce bone resorption; this note focu
 
 ---
 ## References
-- ASBMR atypical femoral fracture task-force report: https://pubmed.ncbi.nlm.nih.gov/23712442/
+- ASBMR atypical femoral fracture task-force report, 2014: https://pubmed.ncbi.nlm.nih.gov/23712442/
 - AAOMS MRONJ position paper, 2022 update: https://pubmed.ncbi.nlm.nih.gov/35300956/
-- Cyclical pamidronate and metaphyseal modelling: https://pubmed.ncbi.nlm.nih.gov/16491284/
+- Cyclical pamidronate and metaphyseal modelling, 2006: https://pubmed.ncbi.nlm.nih.gov/16491284/
 - Denosumab response in giant cell tumour, radiologic-pathologic correlation, Skeletal Radiology 2024: https://pubmed.ncbi.nlm.nih.gov/37515643/
-- Denosumab-treated giant cell tumour imaging and recurrence review: https://pmc.ncbi.nlm.nih.gov/articles/PMC7360539/
-- Preoperative denosumab and local recurrence meta-analysis: https://doi.org/10.1186/s12891-020-03294-2
-- Bisphosphonate-related vertebral sclerosis in children: https://pubmed.ncbi.nlm.nih.gov/1609087/
+- Denosumab-treated giant cell tumour imaging and recurrence review, 2020: https://pmc.ncbi.nlm.nih.gov/articles/PMC7360539/
+- Preoperative denosumab and local recurrence meta-analysis, 2020: https://doi.org/10.1186/s12891-020-03294-2
+- Bisphosphonate-related vertebral sclerosis in children, 1992: https://pubmed.ncbi.nlm.nih.gov/1609087/

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Joint/Infection/Spina ventosa.md","permalink":"/msk/joint/infection/spina-ventosa/","updated":"2026-08-08T23:52:58.763+07:00","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"solid","aliases":["Tuberculous dactylitis"],"ped":true}}
+{"dg-publish":true,"dg-path":"MSK/Joint/Infection/Spina ventosa.md","permalink":"/msk/joint/infection/spina-ventosa/","updated":"2026-08-09T21:54:07.410+07:00","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"solid","aliases":["Tuberculous dactylitis"],"ped":true,"reviewed":"2026-08-09"}}
 ---
 
 
@@ -34,3 +34,9 @@ Fusiform or ballooned expansion of a metacarpal, metatarsal or phalanx with inte
 | Pyogenic, fungal or non-tuberculous mycobacterial osteomyelitis | Imaging overlap is substantial; pyogenic infection is usually more acute and inflammatory.                             |
 | [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Enchondroma\|Enchondroma]]                                                 | Central expansile lucency without inflammatory soft tissue disease, sinus or abscess unless complicated by fracture.   |
 | Sarcoid dactylitis                                              | Usually lacy or lattice-like phalangeal osteolysis in established multisystem sarcoidosis.                             |
+
+---
+## References
+- Classic imaging findings of childhood tuberculosis, Pediatric Radiology 2023: https://doi.org/10.1007/s00247-023-05648-z
+- Tuberculous dactylitis diagnostic review, European Journal of Clinical Microbiology & Infectious Diseases 2011: https://pubmed.ncbi.nlm.nih.gov/21491177/
+- Musculoskeletal tuberculosis imaging review, British Journal of Radiology 2024: https://doi.org/10.1093/bjr/tqad019

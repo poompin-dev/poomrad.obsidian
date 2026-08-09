@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Fragility fracture.md","permalink":"/msk/bones/trauma/special-fracture/fragility-fracture/","updated":"2026-08-09T13:49:50.199+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"solid","reviewed":"2026-08-09"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Fragility fracture.md","permalink":"/msk/bones/trauma/special-fracture/fragility-fracture/","updated":"2026-08-09T21:54:07.325+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"solid","reviewed":"2026-08-09"}}
 ---
 
 > [!summary]
@@ -27,9 +27,8 @@
 - For persistent clinical suspicion of hip fracture after negative radiographs, **MRI without contrast or CT without contrast** is appropriate.
 
 ---
-## Sources
-
-- World Health Organization. Fragility fractures. 2024: https://www.who.int/news-room/fact-sheets/detail/fragility-fractures
-- LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporosis International. 2022;33:2049–2102. doi:10.1007/s00198-021-05900-y
-- American College of Radiology. ACR Appropriateness Criteria: Acute Hip Pain. Revised 2024: https://acsearch.acr.org/docs/3082587/narrative
-- Royal College of Radiologists. Radiological guidance for the recognition and reporting of osteoporotic vertebral fragility fractures. 2021: https://www.rcr.ac.uk/media/afhpampu/rcr-publications_radiological-guidance-for-the-recognition-and-reporting-of-osteoporotic-vertebral-fragility-fractures-vffs-_may-2021.pdf
+## References
+- WHO fragility fractures fact sheet, 2024: https://www.who.int/news-room/fact-sheets/detail/fragility-fractures
+- Osteoporosis prevention and treatment clinician's guide, Osteoporosis International 2022: https://doi.org/10.1007/s00198-021-05900-y
+- ACR Appropriateness Criteria for acute hip pain, 2024: https://acsearch.acr.org/docs/3082587/narrative
+- RCR guidance on recognising and reporting osteoporotic vertebral fragility fractures, 2021: https://www.rcr.ac.uk/media/afhpampu/rcr-publications_radiological-guidance-for-the-recognition-and-reporting-of-osteoporotic-vertebral-fragility-fractures-vffs-_may-2021.pdf
