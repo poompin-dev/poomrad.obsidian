@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Webpage/Main branches/Browse by subject.md","permalink":"/webpage/main-branches/browse-by-subject/","updated":"2026-08-09T09:55:16.449+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"dg-path":"Webpage/Main branches/Browse by subject.md","permalink":"/webpage/main-branches/browse-by-subject/","updated":"2026-08-09T13:48:36.672+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
-Browse published notes by clinical subject. Counts update automatically as the garden grows.
+Browse published notes by clinical subject.
 
 ---
 ## Bone
