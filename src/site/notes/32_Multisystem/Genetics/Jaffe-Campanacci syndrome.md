@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/genetics/jaffe-campanacci-syndrome/","updated":"2026-02-02T09:14:54.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Genetics/Jaffe-Campanacci syndrome.md","permalink":"/multisystem/genetics/jaffe-campanacci-syndrome/","updated":"2026-02-02T09:14:54.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"status":"working"}}
 ---
 
 ## Triad

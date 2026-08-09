@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/renal-osteodystrophy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["endocrine","metabolic"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Renal osteodystrophy.md","permalink":"/msk/bones/metabolic/renal-osteodystrophy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["endocrine","metabolic"],"status":"working"}}
 ---
 
 Chronic kidney disease–related **metabolic bone disease** with a *mixture* of:

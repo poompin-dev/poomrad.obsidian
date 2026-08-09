@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["NHL"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma.md","permalink":"/multisystem/neoplasm/haematologic-malignancy/lymphoma/non-hodgkin-lymphoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["NHL"],"status":"working"}}
 ---
 
 A heterogeneous group of lymphoid malignancies (B-cell >> T/NK cell) that presents as **nodal and/or extranodal** disease; imaging pattern reflects **aggressive vs indolent** biology.
 ## Big buckets
 - **Aggressive (high-grade)**: rapidly enlarging, bulky masses; may have necrosis (esp. very high-grade or post-treatment).
-	- Examples: DLBCL, [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Burkitt lymphoma\|Burkitt lymphoma]], Lymphoblastic lymphoma
+	- Examples: DLBCL, [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Burkitt lymphoma\|Burkitt lymphoma]], Lymphoblastic lymphoma
 - **Indolent (low-grade)**: slow growing lymphadenopathy, organomegaly; aggressive transformation can occur in long standing cases.
 	- Examples: Follicular lymphoma, Marginal zone lymphoma
 ___

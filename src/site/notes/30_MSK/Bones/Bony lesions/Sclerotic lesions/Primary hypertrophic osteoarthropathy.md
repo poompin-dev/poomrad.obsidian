@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"modality":["Radiograph","Nuc"],"aliases":["Pachydermoperiostosis","Primary HOA","Touraine-Solente-Golé syndrome"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Primary hypertrophic osteoarthropathy.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/primary-hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics"],"modality":["Radiograph","Nuc"],"aliases":["Pachydermoperiostosis","Primary HOA","Touraine-Solente-Golé syndrome"],"status":"working"}}
 ---
 
 > [!summary]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/homepage/","tags":["gardenEntry"],"updated":"2026-08-09T02:33:36.342+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"dg-path":"Webpage/Homepage.md","permalink":"/webpage/homepage/","tags":["gardenEntry"],"updated":"2026-08-09T02:33:36.342+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 **Exam-ready radiology notes, cross-linked for fast recall.**
@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
-- [[30_MSK/Misc. MSK/Terminology/Enthesitis\|Enthesitis]]
+- [[32_Multisystem/Genetics/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
+- [[30_MSK/Misc. MSK/Terminology/Enthesitis\|Enthesitis]]
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spine Lesions in Spondyloarthropathy (SpA)\|Spine Lesions in Spondyloarthropathy (SpA)]]
-- [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 
 { .block-language-dataview}
 
@@ -32,7 +32,7 @@
 - [[30_MSK/Bones/Bony lesions/Sclerotic lesions/Thyroid acropachy\|Thyroid acropachy]]
 - [[32_Multisystem/Genetics/Gardner syndrome\|Gardner syndrome]]
 - [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 
 { .block-language-dataview}
 

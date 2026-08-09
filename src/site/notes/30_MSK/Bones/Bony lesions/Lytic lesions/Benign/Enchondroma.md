@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/enchondroma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Enchondroma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/enchondroma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Overview

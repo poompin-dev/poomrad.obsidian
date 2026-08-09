@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["myeloma","MM"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/malignant/multiple-myeloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["myeloma","MM"],"status":"working"}}
 ---
 
-part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
+part of [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
 ## Clinical
 - most common manifesting symptoms are:
 	- Fatigue (often from normocytic normochromic anaemia due to marrow infiltration)
@@ -39,4 +39,4 @@ ___
 	- 8% throughout the disease course
 
 ___
-See also: [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
+See also: [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]

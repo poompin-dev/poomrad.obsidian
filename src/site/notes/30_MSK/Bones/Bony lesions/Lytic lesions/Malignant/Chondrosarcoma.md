@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/chondrosarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/malignant/chondrosarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Overview
@@ -25,7 +25,7 @@
 | **Conventional**     | Most common                                                                                  |
 | **Clear cell**       | Epiphyseal, younger adults, low-grade                                                        |
 | **Dedifferentiated** | High-grade, aggressive                                                                       |
-| **Mesenchymal**      | Rare, [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|small round cell]] component                                    |
+| **Mesenchymal**      | Rare, [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|small round cell]] component                                    |
 | **Secondary**        | From [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]] or [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Enchondroma\|Enchondroma]]; transformation risk increases with size and pain |
 
 

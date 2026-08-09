@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/small-round-blue-cell-tumours/","updated":"2026-08-09T00:46:55.719+07:00","dg-note-properties":{"type":["hub","ddx"],"aetiology":["neoplasm"],"ped":true,"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours.md","permalink":"/msk/soft-tissue/soft-tissue-tumour/sarcoma/small-round-blue-cell-tumours/","updated":"2026-08-09T00:46:55.719+07:00","dg-note-properties":{"type":["hub","ddx"],"aetiology":["neoplasm"],"ped":true,"aliases":["SRBCT","SRBCTs","Small round blue cell tumour"],"status":"working"}}
 ---
 
 ## Concept
@@ -21,7 +21,7 @@
 
 - **[[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]] / PNET**
   - Age: child / teen.
-  - Site: **diaphyseal long bones, pelvis, ribs**, chest wall ([[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Askin\|Askin]]).
+  - Site: **diaphyseal long bones, pelvis, ribs**, chest wall ([[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Askin\|Askin]]).
   - Imaging: aggressive permeative bone lesion, onion-skin periosteal reaction, large soft-tissue component.
 
 - **Rhabdomyosarcoma (alveolar/embryonal)**
@@ -34,7 +34,7 @@
   - Site: **kidney**.
   - Imaging: large intrarenal mass with claw sign; calcification less common than neuroblastoma.
 
-- **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]**
+- **[[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]**
   - Any age, but SRBCT look especially in kids/teens.
   - Site: nodes, abdominal mass, bone.
   - Imaging: homogeneous soft-tissue mass, tends to **encase rather than invade** vessels; often multi-station nodal disease.

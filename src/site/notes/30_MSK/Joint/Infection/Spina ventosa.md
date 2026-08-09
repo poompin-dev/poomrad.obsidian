@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/infection/spina-ventosa/","updated":"2026-08-08T23:52:58.763+07:00","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"solid","aliases":["Tuberculous dactylitis"],"ped":true}}
+{"dg-publish":true,"dg-path":"MSK/Joint/Infection/Spina ventosa.md","permalink":"/msk/joint/infection/spina-ventosa/","updated":"2026-08-08T23:52:58.763+07:00","dg-note-properties":{"type":["disease"],"aetiology":["infection"],"status":"solid","aliases":["Tuberculous dactylitis"],"ped":true}}
 ---
 
 

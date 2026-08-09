@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","concept"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders.md","permalink":"/multisystem/neoplasm/haematologic-malignancy/plasma-cell-proliferative-disorders/plasma-cell-proliferative-disorders/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","concept"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Hallmark
@@ -14,10 +14,10 @@
 - monoclonal protein deposition → renal, neurologic, or systemic disease
 ## Major entities
 - [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance (MGUS)]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance (MGUS)]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
 - [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Plasmacytoma\|Plasmacytoma]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
 - Primary (AL) amyloidosis
 ## Etiology
 Underlying cause remains unclear. Potential contributing factors:

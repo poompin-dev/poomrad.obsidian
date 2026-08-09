@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/spine-lesions-in-spondyloarthropathy-sp-a/","updated":"2026-08-09T02:24:58.806+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spine Lesions in Spondyloarthropathy (SpA).md","permalink":"/msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/spine-lesions-in-spondyloarthropathy-sp-a/","updated":"2026-08-09T02:24:58.806+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"status":"working"}}
 ---
 
 ## Romanus Lesion

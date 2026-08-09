@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/osteonecrosis/osteonecrosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"aliases":["Avascular necrosis",true,"AVN"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Osteonecrosis/Osteonecrosis.md","permalink":"/msk/bones/osteonecrosis/osteonecrosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"aliases":["Avascular necrosis",true,"AVN"],"status":"working"}}
 ---
 
 ## Pathophysiology
@@ -82,7 +82,7 @@ Acute physical disruption of blood supply
 	- Benign cystic change
 		- Endosteal scalloping without cortical breach
 		- No associated soft tissue mass
-	- Malignant transformation ([[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]], [[UPS\|UPS]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]])
+	- Malignant transformation ([[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Fibrosarcoma\|Fibrosarcoma]], [[UPS\|UPS]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]])
 		- Very rare unpreventable complication with abysmal prognosis
 		- Ddx with benign cystic change due to same location
 		- Features suggestive of malignancy include a soft tissue mass, aggressive periosteal reaction, and cortical/osseous destruction

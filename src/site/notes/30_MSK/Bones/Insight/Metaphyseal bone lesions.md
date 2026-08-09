@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/metaphyseal-bone-lesions/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["ddx"],"aliases":["Metaphyseal tumours","Metaphyseal bone tumours"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Insight/Metaphyseal bone lesions.md","permalink":"/msk/bones/insight/metaphyseal-bone-lesions/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["ddx"],"aliases":["Metaphyseal tumours","Metaphyseal bone tumours"],"status":"working"}}
 ---
 
 ## Physiological basis

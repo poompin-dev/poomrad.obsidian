@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/artefacts/off-resonance-effect/","updated":"2026-05-18T19:12:40.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Rad_Physics/MRI/Artefacts/Off-resonance effect.md","permalink":"/rad-physics/mri/artefacts/off-resonance-effect/","updated":"2026-05-18T19:12:40.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"status":"working"}}
 ---
 
 > [!info] Key points

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/amyloidosis/","updated":"2026-01-11T19:07:41.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Misc/Amyloidosis/Amyloidosis.md","permalink":"/multisystem/misc/amyloidosis/amyloidosis/","updated":"2026-01-11T19:07:41.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 

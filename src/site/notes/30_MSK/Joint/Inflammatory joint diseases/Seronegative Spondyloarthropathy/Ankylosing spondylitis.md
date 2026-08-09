@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","updated":"2026-08-09T02:31:27.993+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["AS","Ankylosing spondylosis"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis.md","permalink":"/msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/ankylosing-spondylitis/","updated":"2026-08-09T02:31:27.993+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["AS","Ankylosing spondylosis"],"status":"working"}}
 ---
 
 ## Overview

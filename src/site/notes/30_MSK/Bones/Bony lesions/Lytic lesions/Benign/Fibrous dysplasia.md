@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/fibrous-dysplasia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation"],"ped":true,"aliases":["FD"],"status":"working"}}
 ---
 
 ## Pathology
@@ -32,7 +32,7 @@
 - **[[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]]** (esp. femoral neck)
 - **Deformity** (e.g. "[[38_Glossary/Shepherd's crook deformity\|Shepherd's crook]]" of proximal femur)
 - **Malignant transformation** (rare; ↑ risk with polyostotic disease, prior radiation)
-	- Usually → [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]], [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]
+	- Usually → [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]], [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Fibrosarcoma\|Fibrosarcoma]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]
 ## Histology
 - **Irregular woven bone trabeculae** in bland **fibrous stroma**
 - **No** osteoblastic rimming

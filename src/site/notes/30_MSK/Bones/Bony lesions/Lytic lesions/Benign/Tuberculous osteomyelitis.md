@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","updated":"2026-02-02T09:34:49.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Tuberculous osteomyelitis.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/tuberculous-osteomyelitis/","updated":"2026-02-02T09:34:49.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 ## Overview

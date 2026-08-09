@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/wrist/ulnar-wrist/visi-volar-intercalated-segment-instability/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["wrist"],"aetiology":["trauma"],"aliases":["VISI","VISI deformity"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Joint/By location/Wrist/Ulnar wrist/VISI (Volar Intercalated Segment Instability).md","permalink":"/msk/joint/by-location/wrist/ulnar-wrist/visi-volar-intercalated-segment-instability/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["wrist"],"aetiology":["trauma"],"aliases":["VISI","VISI deformity"],"status":"working"}}
 ---
 
 ## Definition

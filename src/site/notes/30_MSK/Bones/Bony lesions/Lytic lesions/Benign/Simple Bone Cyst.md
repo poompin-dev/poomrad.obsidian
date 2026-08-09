@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","updated":"2026-03-24T17:30:08.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Unicameral Bone Cyst","SBC"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Simple Bone Cyst.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/simple-bone-cyst/","updated":"2026-03-24T17:30:08.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Unicameral Bone Cyst","SBC"],"status":"working"}}
 ---
 
 ## Overview

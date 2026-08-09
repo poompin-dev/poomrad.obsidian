@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/exostosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Glossary/Exostosis.md","permalink":"/glossary/exostosis/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 

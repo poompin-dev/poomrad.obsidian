@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/signs-and-eponyms/","updated":"2026-08-09T00:23:39.632+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"dg-path":"Webpage/Main branches/Signs and eponyms.md","permalink":"/webpage/main-branches/signs-and-eponyms/","updated":"2026-08-09T00:23:39.632+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Named radiological signs and eponymous findings.

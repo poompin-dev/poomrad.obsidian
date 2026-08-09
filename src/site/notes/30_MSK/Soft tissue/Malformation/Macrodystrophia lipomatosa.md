@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/malformation/macrodystrophia-lipomatosa/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation","genetics"],"ped":true,"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Soft tissue/Malformation/Macrodystrophia lipomatosa.md","permalink":"/msk/soft-tissue/malformation/macrodystrophia-lipomatosa/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["malformation","genetics"],"ped":true,"status":"working"}}
 ---
 
 Rare, **congenital, non-hereditary [[30_MSK/Soft tissue/Malformation/Focal gigantism\|localised gigantism]]** due to **disproportionate fibrofatty overgrowth** of soft tissues ± bone, typically along a **nerve territory** (e.g. median nerve in hand, plantar nerves in foot). Often presents as macrodactyly.

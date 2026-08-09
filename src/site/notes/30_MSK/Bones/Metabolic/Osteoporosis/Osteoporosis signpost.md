@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/osteoporosis-signpost/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub"],"aetiology":["metabolic"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Osteoporosis/Osteoporosis signpost.md","permalink":"/msk/bones/metabolic/osteoporosis/osteoporosis-signpost/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub"],"aetiology":["metabolic"],"status":"working"}}
 ---
 
 ## Basics

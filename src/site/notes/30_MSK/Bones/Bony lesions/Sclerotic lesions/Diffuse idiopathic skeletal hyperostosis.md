@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","updated":"2026-02-03T08:33:20.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Diffuse idiopathic skeletal hyperostosis.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/diffuse-idiopathic-skeletal-hyperostosis/","updated":"2026-02-03T08:33:20.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["DISH","Forestier's disease","Senile ankylosing hyperostosis"],"status":"working"}}
 ---
 
 ## Overview

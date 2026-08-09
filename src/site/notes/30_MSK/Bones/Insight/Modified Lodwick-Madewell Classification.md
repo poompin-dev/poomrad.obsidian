@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/modified-lodwick-madewell-classification/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Insight/Modified Lodwick-Madewell Classification.md","permalink":"/msk/bones/insight/modified-lodwick-madewell-classification/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
 ---
 
 ## Concepts (update from previous edition)
@@ -15,7 +15,7 @@ Use this only to categorise lesion margin/aggressiveness. Patient age and lesion
 | **1B** | Well-defined, geographic, sharp margin, **no sclerotic rim**                                | Usually benign but can be locally aggresive                         | [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|GCT]], [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondroblastoma\|Chondroblastoma]]                             |
 | **2**  | Geographic, **ill-defined margin** (partial/circumferential)                                | Worrisome for low-grade malignancy or active infection/inflammation | LCH, Low-grade [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Chondrosarcoma\|Chondrosarcoma]]                                          |
 | **3A** | Any lesion that shows **newly ill-defined margins** or **progressive endosteal scalloping** | Dynamic process, increasing aggression                              | Secondary chondrosarcoma arising from enchondroma                          |
-| **3B** | **Moth-eaten/permeative**                                                                   | Highly aggressive: [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]], infection               | [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]], Lymphoma, Osteosarcoma, Osteomyelitis                   |
+| **3B** | **Moth-eaten/permeative**                                                                   | Highly aggressive: [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]], infection               | [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]], Lymphoma, Osteosarcoma, Osteomyelitis                   |
 | **3C** | **Radiographically occult**                                                                 | Seen only on MRI/CT; can be malignant                               | Early [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]], Leukaemia, Early mets                 |
 
 ___

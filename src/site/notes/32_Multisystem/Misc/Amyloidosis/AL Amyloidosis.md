@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/misc/amyloidosis/al-amyloidosis/","updated":"2026-08-09T00:46:55.722+07:00","dg-note-properties":{"type":["disease"],"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Misc/Amyloidosis/AL Amyloidosis.md","permalink":"/multisystem/misc/amyloidosis/al-amyloidosis/","updated":"2026-08-09T00:46:55.722+07:00","dg-note-properties":{"type":["disease"],"aliases":["Immunoglobulin light chain amyloidosis","Primary amyloidosis"],"status":"working"}}
 ---
 
 > [!info] Definition
@@ -85,7 +85,7 @@ ___
     * Usually asymmetric septal hypertrophy; LGE occurs at RV insertion points, not diffuse subendocardial.
 3.  **Sarcoidosis:**
     * Patchy LGE, often involves septum/lateral wall; nodal calcification different pattern.
-4.  **[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]:**
+4.  **[[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]:**
     * For nodular lung/GI disease.
 
 ---

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/mri/artefacts/banding-artefact/","updated":"2026-07-18T16:55:41.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Banding artefact","bSSFP dark bands","bSSFP banding"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Rad_Physics/MRI/Artefacts/Banding artefact.md","permalink":"/rad-physics/mri/artefacts/banding-artefact/","updated":"2026-07-18T16:55:41.000+07:00","dg-note-properties":{"type":["physics"],"modality":["MRI"],"aliases":["Banding artefact","bSSFP dark bands","bSSFP banding"],"status":"working"}}
 ---
 
 > [!info] Key points

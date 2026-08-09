@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Soft tissue/Soft tissue tumour/Sarcoma/FNCLCC grading of soft tissue sarcomas.md","permalink":"/msk/soft-tissue/soft-tissue-tumour/sarcoma/fnclcc-grading-of-soft-tissue-sarcomas/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"aliases":["FNCLCC grading","Fédération Nationale des Centres de Lutte Contre le Cancer"],"status":"working"}}
 ---
 
 Most widely used **histologic grading system** for **adult-type soft tissue sarcomas** in Europe (and many MDTs globally).  
 Used for **prognosis, treatment planning, and AJCC staging**.
 
 > Practical rule: **mainly for adult, non–paediatric small round blue cell STS**.  
-> Not normally applied to paediatric [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|SRBCT]]s (Ewing, alveolar RMS, DSRCT) or some special entities.
+> Not normally applied to paediatric [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|SRBCT]]s (Ewing, alveolar RMS, DSRCT) or some special entities.
 
 ---
 ## FNCLCC grading components
@@ -44,6 +44,6 @@ FNCLCC grading is **not usually used / not very helpful** for:
 
 - **GIST** → use NIH/AFIP-type **risk stratification** (size, mitoses, site, rupture).
 - **Rhabdomyosarcoma (paediatric)** → own paediatric risk systems (histologic subtype + stage).
-- **[[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]] / PNET and other [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|small round blue cell tumours]]** → generally treated as **high-grade by definition**.
+- **[[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma\|Ewing sarcoma]] / PNET and other [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|small round blue cell tumours]]** → generally treated as **high-grade by definition**.
 - Some "special" sarcomas where grading adds little:
 	- **Angiosarcoma**, clear cell sarcoma, alveolar soft part sarcoma, epithelioid sarcoma, etc.

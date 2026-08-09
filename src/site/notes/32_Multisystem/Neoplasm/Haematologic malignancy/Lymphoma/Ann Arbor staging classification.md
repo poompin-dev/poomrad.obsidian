@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/ann-arbor-staging-classification/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification.md","permalink":"/multisystem/neoplasm/haematologic-malignancy/lymphoma/ann-arbor-staging-classification/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
-Anatomic staging system for lymphoma based on **nodal distribution vs extranodal spread**; originally designed for [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|HL]] and many [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].
+Anatomic staging system for lymphoma based on **nodal distribution vs extranodal spread**; originally designed for [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Hodgkin Lymphoma\|HL]] and many [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].
 
 ## Stages
 - **Stage I**

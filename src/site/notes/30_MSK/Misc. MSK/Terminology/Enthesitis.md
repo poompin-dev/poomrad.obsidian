@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/misc-msk/terminology/enthesitis/","updated":"2026-08-09T02:31:27.993+07:00","dg-note-properties":{"type":["disease"],"aliases":["Enthesopathy"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Misc. MSK/Terminology/Enthesitis.md","permalink":"/msk/misc-msk/terminology/enthesitis/","updated":"2026-08-09T02:31:27.993+07:00","dg-note-properties":{"type":["disease"],"aliases":["Enthesopathy"],"status":"working"}}
 ---
 
 ## Terminology

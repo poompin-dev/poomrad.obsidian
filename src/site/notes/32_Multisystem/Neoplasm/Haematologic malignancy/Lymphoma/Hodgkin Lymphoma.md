@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/neoplasm/hematologic-malignancy/lymphoma/hodgkin-lymphoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["HL"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Hodgkin Lymphoma.md","permalink":"/multisystem/neoplasm/haematologic-malignancy/lymphoma/hodgkin-lymphoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["HL"],"status":"working"}}
 ---
 
 > [!info] Notice
@@ -14,16 +14,16 @@
 - **Contiguous** nodal involvement and spread are characteristics.
 	- Infradiaphragmatic disease (≥ stage III) is more likely in the presence of supraclavicular or bilateral neck adenopathy.
 	- Exclusive infradiaphragmatic nodal disease is rare (<10%)
-- B symptoms are more frequently present than [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].
+- B symptoms are more frequently present than [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|NHL]].
 - Tissue biopsy is need for diagnosis.
 	- Surgical excision of the entire node is more preferred than CNB for evaluation of LN architecture.
 - Specific laboratory investigations
 	- ESR
 	- LDH
 ## Staging
-Currently using [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
+Currently using [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
 - Key distinction is **limited** vs **advanced** stage disease
-- Supercede [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
+- Supercede [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 - No longer use suffix "X" as "bulky" disease definition depends on lymphoma subtype
 ### Caveats
 - Splenomegaly and BM uptake on FDG PET/CT may be due to reactive process rather than disease involvement.

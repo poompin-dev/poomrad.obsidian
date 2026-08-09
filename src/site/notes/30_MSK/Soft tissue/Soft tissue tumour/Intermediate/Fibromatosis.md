@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/soft-tissue/soft-tissue-tumor/intermediate/fibromatosis/","updated":"2026-08-09T00:46:55.717+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Soft tissue/Soft tissue tumour/Intermediate/Fibromatosis.md","permalink":"/msk/soft-tissue/soft-tissue-tumour/intermediate/fibromatosis/","updated":"2026-08-09T00:46:55.717+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 Benign (non-metastasising) **fibroblastic/myofibroblastic proliferation** that behaves like a "bad neighbour": **infiltrative + locally aggressive + high local recurrence**.
@@ -31,8 +31,8 @@ ___
 - **Fibrosis/scar**: usually non-masslike architectural distortion; stable/contractile; less "fascial tail" mass behaviour
 - **Soft-tissue sarcoma**: tends to be more heterogeneous, necrosis/haemorrhage, more destructive; metastasis risk
 - **Nodular fasciitis**: rapid growth, often more oedematous/high T2; self-limited; clinical history helps
-- **[[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]] / low-grade fibromyxoid sarcoma**: imaging overlap → biopsy if atypical/growing
-- **GIST/[[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]** (intra-abdominal mass): location and enhancement pattern; desmoid often wraps/encases rather than obstructs early
+- **[[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Fibrosarcoma\|Fibrosarcoma]] / low-grade fibromyxoid sarcoma**: imaging overlap → biopsy if atypical/growing
+- **GIST/[[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]** (intra-abdominal mass): location and enhancement pattern; desmoid often wraps/encases rather than obstructs early
 ## Pearls
 - **Key behaviour**: no metastases but **high recurrence**, can be morbid by encasement
 - **Association**: **FAP/Gardner (APC)** → mesenteric desmoids (think post-op trigger)

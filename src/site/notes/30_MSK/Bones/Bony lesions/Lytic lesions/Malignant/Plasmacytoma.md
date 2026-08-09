@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/plasmacytoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Malignant/Plasmacytoma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/malignant/plasmacytoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
-Part of [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]
+Part of [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|plasma cell proliferative disorders]][[Pathology/Plasma cell proliferative disorders\|Pathology/Plasma cell proliferative disorders]]
 ## Definition
 A **localised collection of neoplastic monoclonal plasma cells** without systemic features of [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|Multiple myeloma]]
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/aneurysmal-bone-cyst/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["ABC"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Aneurysmal bone cyst.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/aneurysmal-bone-cyst/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["ABC"],"status":"working"}}
 ---
 
 ## Pathogenesis:

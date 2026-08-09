@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/by-location/hip/subchondral-insufficiency-fracture-of-the-femoral-head/","updated":"2026-01-11T19:04:37.000+07:00","dg-note-properties":{"type":["disease"],"region":["hip"],"aliases":["SIFFH"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Joint/By location/Hip/Subchondral insufficiency fracture of the femoral head.md","permalink":"/msk/joint/by-location/hip/subchondral-insufficiency-fracture-of-the-femoral-head/","updated":"2026-01-11T19:04:37.000+07:00","dg-note-properties":{"type":["disease"],"region":["hip"],"aliases":["SIFFH"],"status":"working"}}
 ---
 
 ## Overview

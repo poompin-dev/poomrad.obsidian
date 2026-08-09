@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/insufficiency-fracture/","updated":"2026-08-09T02:31:27.991+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture.md","permalink":"/msk/bones/trauma/atraumatic-fracture/insufficiency-fracture/","updated":"2026-08-09T02:31:27.991+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"status":"working"}}
 ---
 
 ## Core concept

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/diaphyseal-lesions/","updated":"2026-01-11T19:06:26.000+07:00","dg-note-properties":{"type":["ddx"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Insight/Diaphyseal Lesions.md","permalink":"/msk/bones/insight/diaphyseal-lesions/","updated":"2026-01-11T19:06:26.000+07:00","dg-note-properties":{"type":["ddx"],"status":"working"}}
 ---
 
 ## Overview

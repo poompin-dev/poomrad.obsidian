@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteoporosis/osteopenia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["concept","ddx"],"aetiology":["metabolic"],"modality":["Radiograph","CT"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Osteoporosis/Osteopenia.md","permalink":"/msk/bones/metabolic/osteoporosis/osteopenia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["concept","ddx"],"aetiology":["metabolic"],"modality":["Radiograph","CT"],"status":"working"}}
 ---
 
 ## Overview
