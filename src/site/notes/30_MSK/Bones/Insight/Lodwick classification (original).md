@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/lodwick-classification-original/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Insight/Lodwick classification (original).md","permalink":"/msk/bones/insight/lodwick-classification-original/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"modality":["Radiograph"],"status":"working"}}
 ---
 
 Grading growth/aggressiveness of _lytic_ lesions on radiograph according to border pattern.

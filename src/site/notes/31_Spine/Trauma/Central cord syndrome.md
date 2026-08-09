@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/trauma/central-cord-syndrome/","updated":"2026-02-03T15:58:32.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["CCS","Acute traumatic central cord syndrome"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Spine/Trauma/Central cord syndrome.md","permalink":"/spine/trauma/central-cord-syndrome/","updated":"2026-02-03T15:58:32.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["CCS","Acute traumatic central cord syndrome"],"status":"working"}}
 ---
 
 > [!summary] Summary

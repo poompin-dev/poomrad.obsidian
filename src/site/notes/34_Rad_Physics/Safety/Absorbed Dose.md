@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/34-rad-physics/safety/absorbed-dose/","updated":"2026-01-11T19:03:59.000+07:00","dg-note-properties":{"type":["concept"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Rad_Physics/Safety/Absorbed Dose.md","permalink":"/rad-physics/safety/absorbed-dose/","updated":"2026-01-11T19:03:59.000+07:00","dg-note-properties":{"type":["concept"],"status":"working"}}
 ---
 
 ## Definition:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/physics-notes/","updated":"2026-08-09T00:23:37.398+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"dg-path":"Webpage/Main branches/Physics notes.md","permalink":"/webpage/main-branches/physics-notes/","updated":"2026-08-09T00:23:37.398+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 MR, CT and radiography physics: sequences, artefacts, and the parameters that change the image.

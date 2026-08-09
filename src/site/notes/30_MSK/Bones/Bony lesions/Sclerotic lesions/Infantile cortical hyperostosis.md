@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/infantile-cortical-hyperostosis/","updated":"2026-01-11T19:07:25.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"modality":["Radiograph"],"ped":true,"aliases":["Caffey disease","Caffey–Silverman disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Infantile cortical hyperostosis.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/infantile-cortical-hyperostosis/","updated":"2026-01-11T19:07:25.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["idiopathic"],"modality":["Radiograph"],"ped":true,"aliases":["Caffey disease","Caffey–Silverman disease"],"status":"working"}}
 ---
 
 

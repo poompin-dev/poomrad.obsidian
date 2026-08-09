@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/metabolic/osteomalacia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["metabolic","endocrine","genetics","neoplasm","iatrogenic"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Metabolic/Osteomalacia.md","permalink":"/msk/bones/metabolic/osteomalacia/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["metabolic","endocrine","genetics","neoplasm","iatrogenic"],"status":"working"}}
 ---
 
 ## Aetiology

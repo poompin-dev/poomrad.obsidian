@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["subacute osteomyelitis","chronic abscess of bone"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Brodie's abscess.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/brodie-s-abscess/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["subacute osteomyelitis","chronic abscess of bone"],"status":"working"}}
 ---
 
 ## Overview

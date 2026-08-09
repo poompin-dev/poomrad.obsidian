@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/special-fracture/atypical-femoral-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Special fracture/Atypical femoral fracture.md","permalink":"/msk/bones/trauma/special-fracture/atypical-femoral-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma","iatrogenic"],"aliases":["AFF"],"status":"working"}}
 ---
 
 > [!summary] Overview

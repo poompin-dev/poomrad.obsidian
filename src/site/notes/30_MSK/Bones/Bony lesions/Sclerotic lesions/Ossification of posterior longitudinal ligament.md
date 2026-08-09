@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","updated":"2026-02-03T08:52:22.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["OPLL"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Ossification of posterior longitudinal ligament.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/ossification-of-posterior-longitudinal-ligament/","updated":"2026-02-03T08:52:22.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["OPLL"],"status":"working"}}
 ---
 
 ## Overview

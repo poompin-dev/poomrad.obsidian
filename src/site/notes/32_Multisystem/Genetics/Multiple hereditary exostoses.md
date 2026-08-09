@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/32-multisystem/genetics/multiple-hereditary-exostoses/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"ped":true,"aliases":["MHE","Osteochondromatosis"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Multisystem/Genetics/Multiple hereditary exostoses.md","permalink":"/multisystem/genetics/multiple-hereditary-exostoses/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["genetics","malformation"],"ped":true,"aliases":["MHE","Osteochondromatosis"],"status":"working"}}
 ---
 
 **Genetic disorder**: multiple [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Osteochondroma\|Osteochondroma]]s throughout the skeleton

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/trauma/sciwora/","updated":"2026-02-03T15:51:35.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Spine/Trauma/SCIWORA.md","permalink":"/spine/trauma/sciwora/","updated":"2026-02-03T15:51:35.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Spinal cord injury without radiographic abnormality","SCIWONA"],"status":"working"}}
 ---
 
 ## Definition

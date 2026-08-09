@@ -1,0 +1,40 @@
+---
+{"dg-publish":true,"dg-path":"MSK/Soft tissue/Soft tissue tumour/Intermediate/Fibromatosis.md","permalink":"/msk/soft-tissue/soft-tissue-tumour/intermediate/fibromatosis/","updated":"2026-08-09T00:46:55.717+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+---
+
+Benign (non-metastasising) **fibroblastic/myofibroblastic proliferation** that behaves like a "bad neighbour": **infiltrative + locally aggressive + high local recurrence**.
+___
+## Imaging features
+### General pattern
+- **Mass-forming** soft-tissue lesion, often along **fascia/aponeuroses**
+- **Encases** structures more than it destroys; may cause distortion/tethering
+### Ultrasound
+- Hypoechoic, solid, often ill-defined; variable vascularity
+- "Clean" posterior acoustic shadowing
+### CT
+- Soft-tissue attenuation mass, variable margins
+- Intra-abdominal desmoid may **encase mesenteric vessels/bowel** without frank invasion
+### MRI
+- T1: low–intermediate
+- T2: **variable** (cellular = higher T2; collagenous = lower T2)
+- Classic: **band-like low-signal strands** (collagen) on T2
+- Enhancement: usually moderate–avid, often heterogeneous
+- "**Fascial tail**" / aponeurotic extension can be seen (not exclusive)
+
+## Main subtypes
+- **Desmoid-type (deep fibromatosis)**: abdominal wall, mesentery, extra-abdominal (shoulder girdle, thigh, pelvic muscles)
+- **Palmar fibromatosis (Dupuytren)**: palmar aponeurosis → nodules/cords, finger flexion contracture
+- **Plantar fibromatosis (Ledderhose)**: medial plantar fascia nodules
+- (Less exam-relevant but common): infantile/juvenile variants exist
+
+## Differential diagnosis
+- **Fibrosis/scar**: usually non-masslike architectural distortion; stable/contractile; less "fascial tail" mass behaviour
+- **Soft-tissue sarcoma**: tends to be more heterogeneous, necrosis/haemorrhage, more destructive; metastasis risk
+- **Nodular fasciitis**: rapid growth, often more oedematous/high T2; self-limited; clinical history helps
+- **[[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Fibrosarcoma\|Fibrosarcoma]] / low-grade fibromyxoid sarcoma**: imaging overlap → biopsy if atypical/growing
+- **GIST/[[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]** (intra-abdominal mass): location and enhancement pattern; desmoid often wraps/encases rather than obstructs early
+## Pearls
+- **Key behaviour**: no metastases but **high recurrence**, can be morbid by encasement
+- **Association**: **FAP/Gardner (APC)** → mesenteric desmoids (think post-op trigger)
+- **MRI clue**: **low-signal collagen bands** within a variable T2 mass
+- Interval growth vs stability (many are observed or treated non-operatively depending on site/symptoms)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Telangiectatic OS"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Malignant/Telangiectatic osteosarcoma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/malignant/telangiectatic-osteosarcoma/","updated":"2026-03-31T06:52:01.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["Telangiectatic OS"],"status":"working"}}
 ---
 
 ## Overview

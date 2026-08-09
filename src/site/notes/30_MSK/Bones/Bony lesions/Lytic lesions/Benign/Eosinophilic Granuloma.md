@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Eosinophilic Granuloma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/eosinophilic-granuloma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"aliases":["Langerhans cell histiocytosis","LCH","EG","Eosinophilic granuloma"],"status":"working"}}
 ---
 
 ## Overview

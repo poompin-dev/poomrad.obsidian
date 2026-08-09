@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/pathologic-fracture/","updated":"2026-08-09T00:46:55.715+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture.md","permalink":"/msk/bones/trauma/atraumatic-fracture/pathologic-fracture/","updated":"2026-08-09T00:46:55.715+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"status":"working"}}
 ---
 
 ## Definition
@@ -7,7 +7,7 @@
 - Occurs with **minimal or no trauma**.
 ## Etiologies
 - [[30_MSK/Bones/Bone metastasis\|Bone metastasis]]
-- **Primary bone tumours** (e.g., [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]], [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|lymphoma]])
+- **Primary bone tumours** (e.g., [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Multiple myeloma\|myeloma]], [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|lymphoma]])
 - **Infection** ([[osteomyelitis\|osteomyelitis]])
 - **Metabolic bone disease** (e.g., [[Paget disease of the bone\|Paget disease of the bone]], [[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]])
 ## Imaging features

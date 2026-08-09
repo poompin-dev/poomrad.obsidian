@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","updated":"2026-02-16T20:36:14.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["CMF"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Chondromyxoid fibroma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/chondromyxoid-fibroma/","updated":"2026-02-16T20:36:14.000+07:00","dg-note-properties":{"type":["disease"],"aliases":["CMF"],"status":"working"}}
 ---
 
 ## Key points

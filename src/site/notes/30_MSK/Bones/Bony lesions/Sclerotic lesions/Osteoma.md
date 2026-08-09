@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/osteoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Osteoma.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/osteoma/","updated":"2026-07-31T23:07:15.000+07:00","dg-note-properties":{"type":["disease"],"status":"working"}}
 ---
 
 ## Overview

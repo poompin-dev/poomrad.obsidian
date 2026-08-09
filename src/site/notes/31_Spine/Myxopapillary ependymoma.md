@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/myxopapillary-ependymoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"ped":true,"status":"working"}}
+{"dg-publish":true,"dg-path":"Spine/Myxopapillary ependymoma.md","permalink":"/spine/myxopapillary-ependymoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["neoplasm"],"modality":["MRI"],"ped":true,"status":"working"}}
 ---
 
 

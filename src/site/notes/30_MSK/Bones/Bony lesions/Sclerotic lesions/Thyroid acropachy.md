@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/sclerotic-lesions/thyroid-acropachy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Graves acropachy"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Thyroid acropachy.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/thyroid-acropachy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"modality":["Radiograph","Nuc"],"aliases":["Graves acropachy"],"status":"working"}}
 ---
 
 > [!summary]

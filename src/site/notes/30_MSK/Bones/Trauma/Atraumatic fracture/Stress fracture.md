@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/trauma/atraumatic-fracture/stress-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"aliases":["Fatigue fracture"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Trauma/Atraumatic fracture/Stress fracture.md","permalink":"/msk/bones/trauma/atraumatic-fracture/stress-fracture/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["trauma"],"aliases":["Fatigue fracture"],"status":"working"}}
 ---
 
 ## Overview

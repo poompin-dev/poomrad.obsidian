@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/insight/epiphyseal-bone-lesions/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","ddx"],"ped":true,"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Insight/Epiphyseal bone lesions.md","permalink":"/msk/bones/insight/epiphyseal-bone-lesions/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["hub","ddx"],"ped":true,"status":"working"}}
 ---
 
 ## Overview

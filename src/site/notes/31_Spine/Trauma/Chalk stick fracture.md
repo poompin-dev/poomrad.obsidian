@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/31-spine/trauma/chalk-stick-fracture/","updated":"2026-02-03T08:48:10.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Carrot stick fracture","Ankylosed spine fracture","Transdiscal fracture"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Spine/Trauma/Chalk stick fracture.md","permalink":"/spine/trauma/chalk-stick-fracture/","updated":"2026-02-03T08:48:10.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aetiology":["trauma"],"aliases":["Carrot stick fracture","Ankylosed spine fracture","Transdiscal fracture"],"status":"working"}}
 ---
 
 ## Overview

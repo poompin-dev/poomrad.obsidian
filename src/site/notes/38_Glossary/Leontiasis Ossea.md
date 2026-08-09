@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/leontiasis-ossea/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["sign","hub"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Glossary/Leontiasis Ossea.md","permalink":"/glossary/leontiasis-ossea/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["sign","hub"],"status":"working"}}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/andersson-lesion/","updated":"2026-02-04T08:34:40.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["Spinal pseudoarthrosis"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Andersson lesion.md","permalink":"/msk/joint/inflammatory-joint-diseases/seronegative-spondyloarthropathy/andersson-lesion/","updated":"2026-02-04T08:34:40.000+07:00","dg-note-properties":{"type":["disease"],"region":["spine"],"aliases":["Spinal pseudoarthrosis"],"status":"working"}}
 ---
 
 ## Overview

@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/30-msk/bones/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Malignant/Ewing sarcoma.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/malignant/ewing-sarcoma/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"ped":true,"status":"working"}}
 ---
 
 ## Overview
-- **High grade malignant** [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|small round blue cell tumour]] of bone and soft tissue
+- **High grade malignant** [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|small round blue cell tumour]] of bone and soft tissue
 - Second most common **primary bone malignancy in children and adolescents** (after [[30_MSK/Bones/Bony lesions/Lytic lesions/Malignant/Osteosarcoma\|Osteosarcoma]])
 - Characterised by **t(11;22)(q24;q12)** → **EWSR1–FLI1** (most common).
 - Age: Most commonly affects **children and adolescents**, typically **10–20 years**

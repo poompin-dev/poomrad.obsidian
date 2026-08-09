@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/rind-sign/","updated":"2026-08-09T01:35:03.716+07:00","dg-note-properties":{"type":["sign"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Glossary/Rind sign.md","permalink":"/glossary/rind-sign/","updated":"2026-08-09T01:35:03.716+07:00","dg-note-properties":{"type":["sign"],"status":"working"}}
 ---
 
 > [!summary] Definition

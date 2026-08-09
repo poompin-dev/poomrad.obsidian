@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/38-glossary/double-stripe-sign/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["sign"],"modality":["Nuc"],"aliases":["Tramline sign","Parallel track sign"],"status":"working"}}
+{"dg-publish":true,"dg-path":"Glossary/Double stripe sign.md","permalink":"/glossary/double-stripe-sign/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["sign"],"modality":["Nuc"],"aliases":["Tramline sign","Parallel track sign"],"status":"working"}}
 ---
 
 **Diffuse, symmetrical increased uptake** along metadiaphysial cortex of long bones, usually bilateral tibias.

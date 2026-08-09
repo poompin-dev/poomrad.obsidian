@@ -1,0 +1,19 @@
+---
+{"dg-publish":true,"dg-path":"Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lugano staging classification (2014).md","permalink":"/multisystem/neoplasm/haematologic-malignancy/lymphoma/lugano-staging-classification-2014/","updated":"2026-08-09T00:46:55.725+07:00","dg-note-properties":{"type":["classification"],"aetiology":["neoplasm"],"aliases":["Lugano staging"],"status":"working"}}
+---
+
+Modern [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]] staging that **keeps [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor anatomic stages]]** but formally integrates **FDG PET-CT** for FDG-avid lymphomas and standardises terminology.
+
+## Key updates
+- **PET-CT is incorporated into standard staging** for **FDG-avid** lymphomas; **CT** is used for non-/variably FDG-avid histologies.
+- Ann Arbor-style anatomic description still used, but **A/B suffix is kept only for [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Hodgkin Lymphoma\|HL]]**.
+- "**X bulky**" is **not necessary** in Lugano; instead **report the largest tumour diameter** (and describe mass effect/complications).
+- **Bone marrow biopsy**: if PET-CT is done, it's **not routinely indicated for HL**, and often can be avoided in **most DLBCL**.
+## Practical grouping
+Many protocols simplify to 
+- **limited** (I–II non-bulky)
+- **Advanced** (III–IV)
+- Stage II bulky may be handled variably depending on histology/prognostic factors.
+## "E" suffix nuances
+- Lugano still uses E suffix for **limited extra-nodal disease** e.g. **IE** and **IIE**.
+- **E does not apply to stage III** nodal disease as it is not relevant to patients with advanced-stage disease.

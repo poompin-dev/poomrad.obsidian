@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-webpage/main-branches/browse-by-subject/","updated":"2026-08-09T09:55:16.449+07:00","dg-note-properties":{"type":["house"]}}
+{"dg-publish":true,"dg-path":"Webpage/Main branches/Browse by subject.md","permalink":"/webpage/main-branches/browse-by-subject/","updated":"2026-08-09T09:55:16.449+07:00","dg-note-properties":{"type":["house"]}}
 ---
 
 Browse published notes by clinical subject. Counts update automatically as the garden grows.
@@ -141,12 +141,12 @@ Browse published notes by clinical subject. Counts update automatically as the g
 ---
 ## Soft tissue
 
-- [[30_MSK/Soft tissue/Soft tissue tumor/Intermediate/Fibromatosis\|Fibromatosis]]
-- [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Fibrosarcoma\|Fibrosarcoma]]
-- [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/FNCLCC grading of soft tissue sarcomas\|FNCLCC grading of soft tissue sarcomas]]
+- [[30_MSK/Soft tissue/Soft tissue tumour/Intermediate/Fibromatosis\|Fibromatosis]]
+- [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Fibrosarcoma\|Fibrosarcoma]]
+- [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/FNCLCC grading of soft tissue sarcomas\|FNCLCC grading of soft tissue sarcomas]]
 - [[30_MSK/Soft tissue/Malformation/Focal gigantism\|Focal gigantism]]
 - [[30_MSK/Soft tissue/Malformation/Macrodystrophia lipomatosa\|Macrodystrophia lipomatosa]]
-- [[30_MSK/Soft tissue/Soft tissue tumor/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]]
+- [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]]
 
 { .block-language-dataview}
 
@@ -166,21 +166,21 @@ Browse published notes by clinical subject. Counts update automatically as the g
 
 - [[32_Multisystem/Misc/Amyloidosis/AL Amyloidosis\|AL Amyloidosis]]
 - [[32_Multisystem/Misc/Amyloidosis/Amyloidosis\|Amyloidosis]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Ann Arbor staging classification\|Ann Arbor staging classification]]
 - [[32_Multisystem/Pharmacology/Anti-resorptive drugs\|Anti-resorptive drugs]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Deauville 5-point scale\|Deauville 5-point scale]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Deauville 5-point scale\|Deauville 5-point scale]]
 - [[32_Multisystem/Genetics/Gardner syndrome\|Gardner syndrome]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Hodgkin Lymphoma\|Hodgkin Lymphoma]]
 - [[32_Multisystem/Genetics/Jaffe-Campanacci syndrome\|Jaffe-Campanacci syndrome]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lymphoma\|Lymphoma]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Monoclonal gammopathy of uncertain significance\|Monoclonal gammopathy of uncertain significance]]
 - [[32_Multisystem/Genetics/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|Non-Hodgkin Lymphoma]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Non-Hodgkin Lymphoma\|Non-Hodgkin Lymphoma]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Plasma cell proliferative disorders\|Plasma cell proliferative disorders]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/POEMS syndrome\|POEMS syndrome]]
 - [[32_Multisystem/Genetics/Proteus syndrome\|Proteus syndrome]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
-- [[32_Multisystem/Neoplasm/Hematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Serum Biomarkers in Plasma Cell Proliferative Disorders\|Serum Biomarkers in Plasma Cell Proliferative Disorders]]
+- [[32_Multisystem/Neoplasm/Haematologic malignancy/Plasma cell proliferative disorders/Smouldering myeloma\|Smouldering myeloma]]
 
 { .block-language-dataview}
