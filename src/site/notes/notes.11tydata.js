@@ -1,5 +1,6 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
+const { canonicalizePermalink } = require("../../helpers/urlUtils");
 
 const allSettings = settings.ALL_NOTE_SETTINGS;
 
@@ -15,7 +16,7 @@ module.exports = {
       if (data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
-      return data.permalink || undefined;
+      return canonicalizePermalink(data.permalink) || undefined;
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];

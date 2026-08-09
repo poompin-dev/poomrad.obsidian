@@ -27,6 +27,7 @@ const htmlMinifier = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
+const { canonicalizePermalink } = require("./src/helpers/urlUtils");
 const {
   userMarkdownSetup,
   userEleventySetup,
@@ -77,7 +78,7 @@ function getAnchorAttributes(filePath, linkTitle) {
     const file = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(file, matterOptions);
     if (frontMatter.data.permalink) {
-      permalink = frontMatter.data.permalink;
+      permalink = canonicalizePermalink(frontMatter.data.permalink);
     }
     if (
       frontMatter.data.tags &&

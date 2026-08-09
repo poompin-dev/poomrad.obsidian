@@ -1,8 +1,76 @@
 {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
     "outputDirectory": "dist",
     "installCommand": "npm install",
     "buildCommand": "npm run build",
     "devCommand": "npm run start",
+    "redirects": [
+        {
+            "source": "/30-msk/soft-tissue/soft-tissue-tumor/:path*",
+            "destination": "/msk/soft-tissue/soft-tissue-tumour/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/32-multisystem/neoplasm/hematologic-malignancy/:path*",
+            "destination": "/multisystem/neoplasm/haematologic-malignancy/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/32-multisystem/neoplasm/solid-malignancy/germ-cell-tumors/:path*",
+            "destination": "/multisystem/neoplasm/solid-malignancy/germ-cell-tumours/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/02-webpage/:path*",
+            "destination": "/webpage/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/30-msk/:path*",
+            "destination": "/msk/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/31-spine/:path*",
+            "destination": "/spine/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/32-multisystem/:path*",
+            "destination": "/multisystem/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/34-rad-physics/:path*",
+            "destination": "/rad-physics/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/38-glossary/:path*",
+            "destination": "/glossary/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/39-cheat-sheets/:path*",
+            "destination": "/cheat-sheets/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/msk/soft-tissue/soft-tissue-tumor/:path*",
+            "destination": "/msk/soft-tissue/soft-tissue-tumour/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/multisystem/neoplasm/hematologic-malignancy/:path*",
+            "destination": "/multisystem/neoplasm/haematologic-malignancy/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/multisystem/neoplasm/solid-malignancy/germ-cell-tumors/:path*",
+            "destination": "/multisystem/neoplasm/solid-malignancy/germ-cell-tumours/:path*",
+            "permanent": true
+        }
+    ],
     "routes": [
         { "handle": "filesystem" },
         { "src": "/(.*)", "status": 404, "dest": "/404" }
