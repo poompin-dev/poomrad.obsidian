@@ -27,7 +27,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
 
     <main class="content cm-s-obsidian print {{contentClasses}}">
-      {% set reviewedAt = updated | lastReviewedAt(page.inputPath) %}
+      {% set reviewedAt = reviewed | lastReviewedAt(updated, noteProps, page.inputPath) %}
       <header class="content-header note-header">
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>

@@ -1,31 +1,3 @@
-const { execFileSync } = require("node:child_process");
-
-const lastReviewedCache = new Map();
-
-function getGitLastReviewed(inputPath) {
-  const sourcePath = String(inputPath || "").replace(/^\.\//, "");
-  if (!sourcePath || !sourcePath.includes("src/site/notes/")) return "";
-  if (lastReviewedCache.has(sourcePath)) return lastReviewedCache.get(sourcePath);
-
-  let reviewedAt = "";
-  try {
-    reviewedAt = execFileSync(
-      "git",
-      ["log", "-1", "--format=%cI", "--", sourcePath],
-      {
-        cwd: process.cwd(),
-        encoding: "utf8",
-        stdio: ["ignore", "pipe", "ignore"],
-      },
-    ).trim();
-  } catch {
-    reviewedAt = "";
-  }
-
-  lastReviewedCache.set(sourcePath, reviewedAt);
-  return reviewedAt;
-}
-
 function userMarkdownSetup(md) {
   // The md parameter stands for the markdown-it instance used throughout the site generator.
   // Feel free to add any plugin you want here instead of /.eleventy.js
@@ -119,8 +91,11 @@ function userEleventySetup(eleventyConfig) {
     return text;
   });
 
-  eleventyConfig.addFilter("lastReviewedAt", function(updated, inputPath) {
-    return updated || getGitLastReviewed(inputPath) || process.env.SITE_LAST_REVIEWED_AT || "";
+  eleventyConfig.addFilter("lastReviewedAt", function(reviewed, updated, noteProps, inputPath) {
+    const sourcePath = String(inputPath || "").replace(/\\/g, "/");
+    const isMedicalNote = /(?:^|\/)src\/site\/notes\/3[0-9]_[^/]+(?:\/|$)/i.test(sourcePath);
+    if (!isMedicalNote) return "";
+    return reviewed || noteProps?.reviewed || updated || "";
   });
 
   eleventyConfig.addFilter("reviewDate", function(value) {
