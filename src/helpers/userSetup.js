@@ -1,3 +1,31 @@
+const { execFileSync } = require("node:child_process");
+
+const lastReviewedCache = new Map();
+
+function getGitLastReviewed(inputPath) {
+  const sourcePath = String(inputPath || "").replace(/^\.\//, "");
+  if (!sourcePath || !sourcePath.includes("src/site/notes/")) return "";
+  if (lastReviewedCache.has(sourcePath)) return lastReviewedCache.get(sourcePath);
+
+  let reviewedAt = "";
+  try {
+    reviewedAt = execFileSync(
+      "git",
+      ["log", "-1", "--format=%cI", "--", sourcePath],
+      {
+        cwd: process.cwd(),
+        encoding: "utf8",
+        stdio: ["ignore", "pipe", "ignore"],
+      },
+    ).trim();
+  } catch {
+    reviewedAt = "";
+  }
+
+  lastReviewedCache.set(sourcePath, reviewedAt);
+  return reviewedAt;
+}
+
 function userMarkdownSetup(md) {
   // The md parameter stands for the markdown-it instance used throughout the site generator.
   // Feel free to add any plugin you want here instead of /.eleventy.js
@@ -89,6 +117,22 @@ function userEleventySetup(eleventyConfig) {
       text = `${text.slice(0, 157).replace(/\s+\S*$/, "")}...`;
     }
     return text;
+  });
+
+  eleventyConfig.addFilter("lastReviewedAt", function(updated, inputPath) {
+    return updated || getGitLastReviewed(inputPath) || process.env.SITE_LAST_REVIEWED_AT || "";
+  });
+
+  eleventyConfig.addFilter("reviewDate", function(value) {
+    if (!value) return "";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+    return new Intl.DateTimeFormat("en-GB", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      timeZone: "Asia/Bangkok",
+    }).format(date);
   });
 }
 exports.userMarkdownSetup = userMarkdownSetup;

@@ -122,6 +122,43 @@ a.searchresult {
   text-decoration: none;
 }
 
+body main.content:not(.canvas-page) {
+  padding-bottom: clamp(3.5rem, 7vw, 5rem) !important;
+}
+
+main.content > .content-header {
+  margin: 0 0 clamp(1.5rem, 3vw, 2rem) !important;
+  padding: 0 0 0.9rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.content-header h1 {
+  margin: 0 0 0.45rem;
+  line-height: 1.15;
+}
+
+.content-header .header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.5rem 1rem;
+}
+
+.note-last-reviewed {
+  margin: 0 0 0 auto;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.note-last-reviewed time {
+  color: var(--text-normal);
+}
+
+.content-header + * {
+  margin-top: 0 !important;
+}
+
 /* Curated left navigation. The Digital Garden filetree shell supplies the
    desktop rail and mobile drawer; this replaces the raw vault folder tree. */
 .filetree-home-link,
@@ -392,7 +429,12 @@ a.searchresult {
     box-sizing: border-box;
     width: 100%;
     max-width: min(var(--dg-content-max-width), 100%);
-    margin-top: calc(var(--dg-navbar-height) + 40px) !important;
+    margin-top: 0 !important;
+  }
+
+  .note-last-reviewed {
+    width: 100%;
+    margin-left: 0;
   }
 
   .site-nav-link {
