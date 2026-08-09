@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
+- [[32_Multisystem/Genetics/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Ankylosing spondylitis\|Ankylosing spondylitis]]
 - [[30_MSK/Misc. MSK/Terminology/Enthesitis\|Enthesitis]]
 - [[30_MSK/Bones/Trauma/Atraumatic fracture/Insufficiency fracture\|Insufficiency fracture]]
 - [[30_MSK/Joint/Inflammatory joint diseases/Seronegative Spondyloarthropathy/Spine Lesions in Spondyloarthropathy (SpA)\|Spine Lesions in Spondyloarthropathy (SpA)]]
-- [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
 
 { .block-language-dataview}
 
