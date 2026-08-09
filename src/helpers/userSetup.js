@@ -95,7 +95,7 @@ function userEleventySetup(eleventyConfig) {
     const sourcePath = String(inputPath || "").replace(/\\/g, "/");
     const isMedicalNote = /(?:^|\/)src\/site\/notes\/3[0-9]_[^/]+(?:\/|$)/i.test(sourcePath);
     if (!isMedicalNote) return "";
-    return reviewed || noteProps?.reviewed || updated || "";
+    return reviewed || noteProps?.reviewed || "";
   });
 
   eleventyConfig.addFilter("reviewDate", function(value) {
