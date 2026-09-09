@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
+- [[30_MSK/Bones/Insight/Lodwick classification\|Lodwick classification]]
+- [[30_MSK/Bones/Insight/Bone Tumours-Behaviour Spectrum\|Bone Tumours-Behaviour Spectrum]]
+- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]
+- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|Modified Lodwick-Madewell classification]]
 - [[30_MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
-- [[32_Multisystem/Genetics/Multiple hereditary exostoses\|Multiple hereditary exostoses]]
-- [[30_MSK/Bones/Trauma/Special fracture/Fragility fracture\|Fragility fracture]]
-- [[30_MSK/Bones/Trauma/Special fracture/Atypical femoral fracture\|Atypical femoral fracture]]
-- [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Fibrous dysplasia\|Fibrous dysplasia]]
 
 { .block-language-dataview}
 

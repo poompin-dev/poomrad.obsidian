@@ -52,7 +52,6 @@ Browse published notes by clinical subject.
 ### Metabolic bone
 
 - [[30_MSK/Bones/Metabolic/Osteoporosis/DXA scan for osteoporosis\|DXA scan for osteoporosis]]
-- [[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]]
 - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]
 - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteoporosis\|Osteoporosis]]
 - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteoporosis signpost\|Osteoporosis signpost]]

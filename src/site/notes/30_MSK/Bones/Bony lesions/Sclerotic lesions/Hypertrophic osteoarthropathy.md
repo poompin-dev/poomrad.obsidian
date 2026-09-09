@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Hypertrophic osteoarthropathy.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease","hub"],"modality":["Radiograph","Nuc"],"aliases":["HOA"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Sclerotic lesions/Hypertrophic osteoarthropathy.md","permalink":"/msk/bones/bony-lesions/sclerotic-lesions/hypertrophic-osteoarthropathy/","updated":"2026-09-10T02:00:48.461+07:00","dg-note-properties":{"type":["disease","hub"],"modality":["Radiograph","Nuc"],"aliases":["HOA"],"status":"working","reviewed":"2026-09-10"}}
 ---
 
 > [!summary]

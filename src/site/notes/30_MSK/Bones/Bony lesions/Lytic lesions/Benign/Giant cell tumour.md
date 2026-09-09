@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","updated":"2026-08-03T08:18:51.000+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["GCT"],"status":"working"}}
+{"dg-publish":true,"dg-path":"MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour.md","permalink":"/msk/bones/bony-lesions/lytic-lesions/benign/giant-cell-tumour/","updated":"2026-09-10T02:35:36.369+07:00","dg-note-properties":{"type":["disease"],"aetiology":["neoplasm"],"aliases":["GCT"],"status":"working"}}
 ---
 
 ## Overview
@@ -32,7 +32,7 @@
 ### Radiograph
 - **Eccentric, expansile, lytic lesion**
 - Can extend to **subchondral bone** (epiphyseal involvement is classic)
-- **Non-sclerotic margin**, narrow zone of transition ([[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|modified Lodwick 1B]])
+- **Non-sclerotic margin**, narrow zone of transition ([[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|modified Lodwick 1B]])
 - Periosteal reaction is usually **absent** unless there is a [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]].
 - **No** matrix mineralisation
 - Soft tissue mass suggests more aggressive or recurrent disease.
