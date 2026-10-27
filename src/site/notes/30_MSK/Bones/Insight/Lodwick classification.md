@@ -14,4 +14,4 @@ Grading growth/aggressiveness of **osteolytic** lesions on radiograph according 
 **Non-aggressive:** IA, IB
 **Aggressive:** IC, II, III
 
-There is also a [[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|Modified Lodwick-Madewell classification]] (2016), which added two new concepts, temporal changes (3A) and radiographic occult (3C). It also merges moth-eaten (II) and permeative (III) patterns into one group (3B) and move IC into grade 2 to represent distinct aggressiveness compared to IA, IB.
+There is also a [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick-Madewell classification]] (2016), which added two new concepts, temporal changes (3A) and radiographic occult (3C). It also merges moth-eaten (II) and permeative (III) patterns into one group (3B) and move IC into grade 2 to represent distinct aggressiveness compared to IA, IB.

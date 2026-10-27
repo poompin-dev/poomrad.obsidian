@@ -8,7 +8,7 @@
 ## Key points
 - **Histology ≈ Imaging ≈ Behaviour**
 - Use: **Age**, **location**, **matrix**, **periosteal reaction**, **growth pattern**
-- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|Modified Lodwick classification]] : For aggressiveness of lytic lesions.
+- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick classification]] : For aggressiveness of lytic lesions.
 ## Behaviour Spectrum
 
 | Behaviour             | Example Tumours                                                                                      | Notes                                      |

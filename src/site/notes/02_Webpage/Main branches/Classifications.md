@@ -9,6 +9,6 @@ Classification, staging, grading and criteria sets.
 - [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/FNCLCC grading of soft tissue sarcomas\|FNCLCC grading of soft tissue sarcomas]]
 - [[30_MSK/Bones/Insight/Lodwick classification\|Lodwick classification]]
 - [[32_Multisystem/Neoplasm/Haematologic malignancy/Lymphoma/Lugano staging classification (2014)\|Lugano staging classification (2014)]]
-- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|Modified Lodwick-Madewell classification]]
+- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick-Madewell Classification]]
 
 { .block-language-dataview}

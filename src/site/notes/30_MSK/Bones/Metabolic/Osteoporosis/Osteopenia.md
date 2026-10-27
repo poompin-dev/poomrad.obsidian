@@ -14,7 +14,7 @@ It is a **preferred descriptive term** to use in reports instead of older or les
 ## Ddx of osteopenia
 - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteoporosis\|Osteoporosis]]
 - [[30_MSK/Bones/Metabolic/Osteomalacia\|Osteomalacia]]
-- [[Rickets\|Rickets]]
+- [[00_Inbox/Rickets\|Rickets]]
 - [[Scurvy\|Scurvy]]
 - [[32_Multisystem/Endocrine/Hyperparathyroidism\|Hyperparathyroidism]]
 - [[30_MSK/Bones/Metabolic/Renal osteodystrophy\|Renal osteodystrophy]]

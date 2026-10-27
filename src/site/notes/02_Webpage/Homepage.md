@@ -16,11 +16,11 @@
 
 ## Recently updated notes
 
+- [[34_Rad_Physics/Nuclear imaging/Superscan\|Superscan]]
 - [[30_MSK/Bones/Insight/Lodwick classification\|Lodwick classification]]
 - [[30_MSK/Bones/Insight/Bone Tumours-Behaviour Spectrum\|Bone Tumours-Behaviour Spectrum]]
 - [[30_MSK/Bones/Bony lesions/Lytic lesions/Benign/Giant cell tumour\|Giant cell tumour]]
-- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|Modified Lodwick-Madewell classification]]
-- [[30_MSK/Joint/Infection/Spina ventosa\|Spina ventosa]]
+- [[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|Modified Lodwick-Madewell Classification]]
 
 { .block-language-dataview}
 

@@ -32,7 +32,7 @@
 ### Radiograph
 - **Eccentric, expansile, lytic lesion**
 - Can extend to **subchondral bone** (epiphyseal involvement is classic)
-- **Non-sclerotic margin**, narrow zone of transition ([[30_MSK/Bones/Insight/Modified Lodwick-Madewell classification\|modified Lodwick 1B]])
+- **Non-sclerotic margin**, narrow zone of transition ([[30_MSK/Bones/Insight/Modified Lodwick-Madewell Classification\|modified Lodwick 1B]])
 - Periosteal reaction is usually **absent** unless there is a [[30_MSK/Bones/Trauma/Atraumatic fracture/Pathologic fracture\|Pathologic fracture]].
 - **No** matrix mineralisation
 - Soft tissue mass suggests more aggressive or recurrent disease.

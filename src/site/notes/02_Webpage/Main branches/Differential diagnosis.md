@@ -11,5 +11,6 @@ Differential lists built around a finding.
 - [[30_MSK/Bones/Insight/Metaphyseal bone lesions\|Metaphyseal bone lesions]]
 - [[30_MSK/Bones/Metabolic/Osteoporosis/Osteopenia\|Osteopenia]]
 - [[30_MSK/Soft tissue/Soft tissue tumour/Sarcoma/Small round blue cell tumours\|Small round blue cell tumours]]
+- [[34_Rad_Physics/Nuclear imaging/Superscan\|Superscan]]
 
 { .block-language-dataview}
