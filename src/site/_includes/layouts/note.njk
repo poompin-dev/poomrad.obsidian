@@ -2,10 +2,12 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="{{ meta.mainLanguage }}">
+<html lang="{{ meta.mainLanguage }}" style="color-scheme: only {{ meta.baseTheme }}">
   <head>
-    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %} | {{ meta.siteName }}</title>
+    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
+    {% set slotName = "common.head" %}{% include "components/pluginSlot.njk" %}
+    {% set slotName = "notes.head" %}{% include "components/pluginSlot.njk" %}
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}
@@ -15,54 +17,31 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
-    
-    {% if settings.dgShowFileTree !== true %}
-      {%include "components/navbar.njk"%}
-    {%else%}
-      {%include "components/filetree.njk"%}
-    {% endif %}
 
-    {% if settings.dgEnableSearch === true %}
-      {%include "components/searchContainer.njk"%}
-    {% endif %}
+    {% set regionName = "navigation" %}
+    {% set regionFallback = "components/navbar.njk" %}
+    {% include "components/pluginRegion.njk" %}
 
-    {% set h2TocHtml = content | h2Toc(page.inputPath) %}
-    {% if h2TocHtml %}<div class="note-page-layout">{% endif %}
     <main class="content cm-s-obsidian print {{contentClasses}}">
-      {% set reviewedAt = reviewed | lastReviewedAt(updated, noteProps, page.inputPath) %}
-      <header class="content-header note-header">
+      <header>
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
-        {% endif %}
-        {% if h2TocHtml %}
-          <details class="note-toc note-toc-inline">
-            <summary>Contents</summary>
-            {{ h2TocHtml | safe }}
-          </details>
         {% endif %}
         <div class="header-meta">
           {% if settings.dgShowTags === true and tags %}
             <div class="header-tags">
               {% for tag in tags %}
                 {% if tag != 'gardenEntry' and tag !='note' %}
-                  <button type="button" class="tag tag-search" onclick="toggleTagSearch(this)">
+                  <a class="tag">
                     #{{tag}}
-                  </button>
+                  </a>
                 {% endif %}
               {% endfor %}
             </div>
           {% endif %}
-          {%- if meta.timestampSettings.showCreated -%}
-          <div class="timestamps">
-            {%- if meta.timestampSettings.showCreated and created -%}
-            <div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
-            {%- endif -%}
-          </div>
-          {%- endif -%}
-          {% if reviewedAt %}
-            <p class="note-last-reviewed">Last reviewed: <time datetime="{{ reviewedAt }}">{{ reviewedAt | reviewDate }}</time></p>
-          {% endif %}
         </div>
+      {% set slotName = "common.header" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "notes.header" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.header %}
         {% include imp %}
       {% endfor %}
@@ -70,13 +49,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       </header>
+      {% set slotName = "common.beforeContent" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "notes.beforeContent" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | taggify | link | safe}}
+      {{ content | hideDataview | taggify | link | resolveMdLinks | safe}}
+      {% set slotName = "common.afterContent" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "notes.afterContent" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -84,38 +67,26 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
     </main>
-    {% if h2TocHtml %}
-      <aside class="note-toc-rail" aria-label="Contents">
-        <nav class="note-toc note-toc-sidebar" aria-label="On this page">
-          {{ h2TocHtml | safe }}
-        </nav>
-      </aside>
-    </div>{% endif %}
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true or dynamics.sidebar.top.length > 0 or dynamics.sidebar.bottom.length > 0%}
+    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true or dynamics.sidebar.top.length > 0 or dynamics.sidebar.bottom.length > 0 or plugins.slots["sidebar.top"] or plugins.slots["sidebar.bottom"] %}
       {%include "components/sidebar.njk"%}
     {% endif %}
+    {% include "components/floatingActions.njk" %}
 
-    {% if settings.dgLinkPreview === true %}
-      {%include "components/linkPreview.njk"%}
-    {% endif %}
     {% include "components/references.njk" %}
-    {% if meta.timestampSettings.showCreated %}
-      {% include "components/timestamps.njk" %}
-    {% endif %}
+    {% set slotName = "common.footer" %}{% include "components/pluginSlot.njk" %}
+    {% set slotName = "notes.footer" %}{% include "components/pluginSlot.njk" %}
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
-    {% set contentHasCallouts = content | hasCallouts %}
-    {% if contentHasCallouts or settings.dgShowFileTree === true or settings.dgShowLocalGraph === true or settings.dgShowBacklinks === true or meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated %}
-      {%include "components/lucideIcons.njk"%}
-    {% endif %}
+    {%include "components/lucideIcons.njk"%}
     {% if contentClasses and "canvas-page" in contentClasses %}
       {%include "components/canvasScript.njk"%}
     {% endif %}
-    {% if content | hasBasesBlock %}{% include "components/basesScript.njk" %}{% endif %}
+    {% include "components/basesScript.njk" %}
+    {% include "components/excalidrawScript.njk" %}
   </body>
 </html>
