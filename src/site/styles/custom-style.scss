@@ -9,6 +9,11 @@
   --font-editorial: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
+  --font-default: var(--font-editorial) !important;
+  --font-interface: var(--font-editorial) !important;
+  --font-interface-theme: var(--font-editorial) !important;
+  --font-text-theme: var(--font-editorial) !important;
+  --font-monospace: var(--font-mono) !important;
   --font-text: var(--font-editorial) !important;
   --font-heading: var(--font-editorial) !important;
   --font-body: var(--font-editorial) !important;
