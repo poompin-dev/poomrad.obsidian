@@ -307,6 +307,20 @@ main.content .callout-content > :last-child {
   margin-block-end: 0 !important;
 }
 
+main.content .callout[data-callout="summary"] {
+  padding: 20px 24px !important;
+}
+
+/* Match the title's icon column (26px) and gap (8px). */
+main.content .callout[data-callout="summary"] .callout-content {
+  padding-inline-start: 34px;
+}
+
+/* The renderer inserts a blank paragraph before a callout list. */
+main.content .callout[data-callout="warning"] .callout-content > p:first-child:has(+ ul) {
+  margin-block-end: 0 !important;
+}
+
 /* Info / note */
 .callout[data-callout="info"],
 .callout[data-callout="note"] {
